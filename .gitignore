@@ -1,0 +1,11 @@
+# GitSync auto-generated .gitignore
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+node_modules/
+__pycache__/
+dist/
+build/
+.env
+.env.local
