@@ -19,12 +19,39 @@ from typing import Optional
 from zoneinfo import ZoneInfo
 
 import discord
-from discord import app_commands
+try:
+    from discord import app_commands
+except ImportError:
+    class _DummyAppCommands:
+        class Choice:
+            def __init__(self, name: str, value: Any):
+                self.name = name
+                self.value = value
+
+        class AppCommandError(Exception):
+            pass
+
+        class CheckFailure(Exception):
+            pass
+
+        @staticmethod
+        def describe(**kwargs):
+            return lambda func: func
+
+        @staticmethod
+        def choices(**kwargs):
+            return lambda func: func
+
+    app_commands = _DummyAppCommands()  # type: ignore
 from discord.ext import commands
+
+if not hasattr(commands, "hybrid_command"):
+    commands.hybrid_command = commands.command  # type: ignore[attr-defined]
 
 log = logging.getLogger("timetable_bot.timetable")
 
 DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "schedule.json"
+CONFIG_FILE = DATA_FILE.parent / "config.json"
 DEFAULT_TZ_NAME = "Asia/Kolkata"
 IST = timezone(timedelta(hours=5, minutes=30), "IST")  # fallback if tzdata is missing
 
@@ -66,10 +93,19 @@ KIND_ICONS = {
     "lecture": "📖",
     "tutorial": "✏️",
     "lab": "🧪",
-    "practical": "🧪",
+    "practical": "🔬",
     "seminar": "🎤",
     "workshop": "🛠️",
+    "project": "💻",
 }
+
+
+def make_progress_bar(pct: float, length: int = 10) -> str:
+    """Generate a clean visual progress bar: e.g. ▰▰▰▰▱▱▱▱▱▱ 40%"""
+    pct = max(0.0, min(1.0, pct))
+    filled = int(round(pct * length))
+    bar = "▰" * filled + "▱" * (length - filled)
+    return f"`{bar}` **{int(pct * 100)}%**"
 
 _SLOT_RE = re.compile(
     r"^\s*(?P<start>\d{1,2}:\d{2})\s*(?:-|–|—|to)\s*(?P<end>\d{1,2}:\d{2})\s*$",
@@ -127,6 +163,30 @@ def _raw_sort_key(raw: object) -> time:
         return time.max
 
 
+def parse_batches(text: str) -> list[str]:
+    """Parse comma/slash separated batch numbers or names. Defaults to ['ALL']."""
+    if not text or text.strip().upper() in ("ALL", "*", "ANY"):
+        return ["ALL"]
+    cleaned = re.sub(r"(?i)\bbatch\s*", "", text)
+    parts = [p.strip().upper() for p in re.split(r"[,/&]+", cleaned) if p.strip()]
+    return sorted(set(parts)) if parts else ["ALL"]
+
+
+def batches_overlap(b1: tuple[str, ...] | list[str], b2: tuple[str, ...] | list[str]) -> bool:
+    """Check if two batch collections share any batches or if either applies to ALL."""
+    if "ALL" in b1 or "ALL" in b2:
+        return True
+    return bool(set(b1) & set(b2))
+
+
+def slot_matches_batch(slot: "Slot", query_batch: Optional[str]) -> bool:
+    """Check if a slot matches the requested batch."""
+    if not query_batch or query_batch.strip().upper() in ("ALL", "*", "ANY"):
+        return True
+    qb = query_batch.strip().upper()
+    return "ALL" in slot.batches or qb in slot.batches
+
+
 # --------------------------------------------------------------------------- #
 # Slot model
 # --------------------------------------------------------------------------- #
@@ -140,6 +200,7 @@ class Slot:
     room: str = ""
     faculty: str = ""
     label: str = ""
+    batches: tuple[str, ...] = ("ALL",)
 
     @property
     def is_free(self) -> bool:
@@ -156,6 +217,16 @@ class Slot:
     @property
     def title(self) -> str:
         return (self.label or "Free period") if self.is_free else self.subject
+
+    @property
+    def batch_str(self) -> str:
+        if not self.batches or "ALL" in self.batches:
+            return "ALL"
+        return ", ".join(self.batches)
+
+    @property
+    def is_all_batches(self) -> bool:
+        return not self.batches or "ALL" in self.batches
 
     @classmethod
     def from_dict(cls, raw: object) -> "Slot":
@@ -174,6 +245,17 @@ class Slot:
         subject = str(raw.get("subject", "")).strip()
         if category == "class" and not subject:
             raise ValueError("class slots need a subject")
+
+        raw_batches = raw.get("batches")
+        if raw_batches is None:
+            raw_batches = raw.get("batch")
+        if isinstance(raw_batches, str):
+            batches = tuple(parse_batches(raw_batches))
+        elif isinstance(raw_batches, (list, tuple)):
+            batches = tuple(str(b).strip().upper() for b in raw_batches if str(b).strip()) or ("ALL",)
+        else:
+            batches = ("ALL",)
+
         return cls(
             start=start,
             end=end,
@@ -183,105 +265,264 @@ class Slot:
             room=str(raw.get("room", "")).strip(),
             faculty=str(raw.get("faculty", "")).strip(),
             label=str(raw.get("label", "")).strip(),
+            batches=batches,
         )
 
-    def block(self, *, quote: bool = True, ongoing: bool = False) -> str:
-        """Render the slot as Discord markdown. Free periods are muted subtext."""
+    def block(self, *, quote: bool = True, ongoing: bool = False, show_batch: bool = True) -> str:
+        """Render the slot as modern Discord markdown with headers and badges."""
         if self.is_free:
-            here = "  ·  *you are here*" if ongoing else ""
-            return f"-# ▫️ {self.span}  ·  {self.title.capitalize()}{here}"
+            icon = "🍱" if "lunch" in self.title.lower() else "☕"
+            here = "  ·  🟢 **CURRENT BREAK**" if ongoing else ""
+            batch_tag = f"  ·  👥 Batch {self.batch_str}" if (show_batch and not self.is_all_batches) else ""
+            return f"-# {icon} **`{self.span}`**  ·  *{self.title.upper()}*{batch_tag}{here}"
+
         icon = KIND_ICONS.get(self.kind.lower(), "📚")
-        kind = f"  ·  `{self.kind}`" if self.kind else ""
-        badge = "   🟢 **ONGOING**" if ongoing else ""
-        lines = [f"⏰ **{self.span}**{badge}", f"{icon} **{self.subject}**{kind}"]
+        badge = "  🟢 **ONGOING NOW**" if ongoing else ""
+        kind_str = f" `[{self.kind}]`" if self.kind else ""
+        batch_badge = f" `[Batch {self.batch_str}]`" if (show_batch and not self.is_all_batches) else ""
+
+        header = f"### {icon} `{self.span}` • {self.subject}{kind_str}{batch_badge}{badge}"
+        meta: list[str] = []
         if self.room:
-            lines.append(f"📍 {self.room}")
+            meta.append(f"📍 Room: **{self.room}**")
         if self.faculty:
-            lines.append(f"🎓 {self.faculty}")
-        return "\n".join(f"> {line}" for line in lines) if quote else "\n".join(lines)
+            meta.append(f"👨‍🏫 Faculty: **{self.faculty}**")
+        if show_batch and not self.is_all_batches:
+            meta.append(f"👥 Batch: **{self.batch_str}**")
+
+        if meta:
+            prefix = "> " if quote else ""
+            return f"{header}\n{prefix}{'   •   '.join(meta)}"
+        return header
 
 
 # --------------------------------------------------------------------------- #
 # Embed builders
 # --------------------------------------------------------------------------- #
-def error_embed(message: str, title: str = "⚠️ Something's off") -> discord.Embed:
+def error_embed(message: str, title: str = "⚠️ Timetable Error") -> discord.Embed:
     return discord.Embed(title=title, description=message, color=COLOR_ERROR)
 
 
-def _next_class_day(days: dict[str, list[Slot]], key: str) -> Optional[tuple[str, Slot]]:
-    """First class on the next day (after ``key``) that has any classes."""
+def _next_class_day(
+    days: dict[str, list[Slot]], key: str, query_batch: Optional[str] = None
+) -> Optional[tuple[str, Slot]]:
+    """First class on the next day (after ``key``) matching the optional batch."""
     idx = DAY_KEYS.index(key)
     for step in range(1, 8):
         nxt = DAY_KEYS[(idx + step) % 7]
         for slot in days.get(nxt, []):
-            if not slot.is_free:
+            if not slot.is_free and slot_matches_batch(slot, query_batch):
                 return nxt, slot
     return None
 
 
-def _empty_day_embed(key: str, days: dict[str, list[Slot]], now: datetime) -> discord.Embed:
+def _empty_day_embed(
+    key: str,
+    days: dict[str, list[Slot]],
+    now: datetime,
+    *,
+    highlight_now: bool = False,
+    query_batch: Optional[str] = None,
+) -> discord.Embed:
     name = DAY_NAMES[key]
-    if key in ("sat", "sun"):
+    is_weekend = key in ("sat", "sun")
+
+    batch_tag = f" (Batch {query_batch.upper()})" if query_batch else ""
+    if highlight_now:
+        title = f"📅 Today's Timetable — {name} ({now:%d %b}){batch_tag}"
+    else:
+        title = f"📅 {name}'s Timetable{batch_tag}"
+
+    if is_weekend:
         embed = discord.Embed(
-            title=f"🎉 {name} — no classes",
-            description="It's the weekend. Rest, recharge, maybe touch some grass. 🌿",
+            title=title,
+            description=(
+                f"> 🌴 **Weekend Break — {name}**\n"
+                "> No lectures or labs scheduled today.\n"
+                "> Time to relax, recharge, and enjoy your time off! 🌿"
+            ),
             color=COLOR_SUCCESS,
+            timestamp=now,
         )
     else:
+        b_note = f" for **Batch {query_batch.upper()}**" if query_batch else f" for **{name}**"
         embed = discord.Embed(
-            title=f"📭 {name} — nothing scheduled",
-            description="There are no classes in the timetable for this day.",
-            color=COLOR_MUTED,
+            title=title,
+            description=(
+                f"> 📭 **No classes scheduled{b_note}.**\n"
+                "> You have a free day! ✨\n\n"
+                f"-# 💡 *Need to add classes? Use `/setclass {key} <time> <subject>`.*"
+            ),
+            color=COLOR_PRIMARY,
+            timestamp=now,
         )
-    upcoming = _next_class_day(days, key)
+    embed.set_author(name="Timetable Bot")
+
+    upcoming = _next_class_day(days, key, query_batch=query_batch)
     if upcoming:
         nkey, slot = upcoming
+        icon = KIND_ICONS.get(slot.kind.lower(), "📖")
+        kind_str = f" `[{slot.kind}]`" if slot.kind else ""
+        room_str = f" in `{slot.room}`" if slot.room else ""
+        batch_info = f" (Batch {slot.batch_str})" if not slot.is_all_batches else ""
         embed.add_field(
-            name="⏭️ Next classes",
-            value=f"**{DAY_NAMES[nkey]}** — first up: {slot.subject} at `{slot.start:%H:%M}`",
+            name="ℹ️ Next In Schedule",
+            value=(
+                f"Your next scheduled class is on **{DAY_NAMES[nkey]}** at `{slot.span}`:\n"
+                f"> {icon} **{slot.subject}**{kind_str}{batch_info}{room_str}"
+            ),
             inline=False,
         )
-    embed.set_footer(text=f"Times in {now.tzname() or 'local time'}")
+
+    embed.set_footer(text=f"Timezone: {now.tzname() or 'Local'} • Tip: Use /week to view all days")
     return embed
 
 
 def build_day_embed(
-    key: str, days: dict[str, list[Slot]], now: datetime, *, highlight_now: bool
+    key: str,
+    days: dict[str, list[Slot]],
+    now: datetime,
+    *,
+    highlight_now: bool,
+    query_batch: Optional[str] = None,
 ) -> discord.Embed:
-    slots = days.get(key, [])
+    all_slots = days.get(key, [])
+    slots = [s for s in all_slots if slot_matches_batch(s, query_batch)]
     classes = [s for s in slots if not s.is_free]
     if not classes:
-        return _empty_day_embed(key, days, now)
+        return _empty_day_embed(key, days, now, highlight_now=highlight_now, query_batch=query_batch)
 
     t = now.time()
+    any_ongoing = highlight_now and any(s.start <= t < s.end and not s.is_free for s in classes)
+
     blocks = [
-        slot.block(ongoing=highlight_now and slot.start <= t < slot.end) for slot in slots
+        slot.block(
+            ongoing=highlight_now and slot.start <= t < slot.end,
+            show_batch=(query_batch is None),
+        )
+        for slot in slots
     ]
     total = sum(s.minutes for s in classes)
     noun = "class" if len(classes) == 1 else "classes"
+    batch_summary = f"   •   👥 **Batch {query_batch.upper()}**" if query_batch else ""
     summary = (
-        f"🗓️ **{len(classes)} {noun}**  ·  ⏳ {_fmt_minutes(total)} of teaching  ·  "
-        f"🕗 {classes[0].start:%H:%M} → {classes[-1].end:%H:%M}"
+        f"> 📊 **{len(classes)} {noun}**   •   ⏳ **{_fmt_minutes(total)} teaching**   •   "
+        f"⏰ **{classes[0].start:%H:%M} → {classes[-1].end:%H:%M}**{batch_summary}"
     )
     description = summary + "\n\n" + "\n\n".join(blocks)
     if len(description) > 4000:
         description = description[:3990] + "\n…"
 
-    suffix = " — Today" if highlight_now else ""
+    batch_tag = f" (Batch {query_batch.upper()})" if query_batch else ""
+    title = (
+        f"📅 Today's Timetable — {DAY_NAMES[key]} ({now:%d %b}){batch_tag}"
+        if highlight_now
+        else f"📅 {DAY_NAMES[key]}'s Timetable{batch_tag}"
+    )
     embed = discord.Embed(
-        title=f"📅 {DAY_NAMES[key]}{suffix}",
+        title=title,
         description=description,
+        color=COLOR_SUCCESS if any_ongoing else COLOR_PRIMARY,
+        timestamp=now,
+    )
+    embed.set_author(name="Timetable Bot")
+    embed.set_footer(text=f"Timezone: {now.tzname() or 'Local'} • Tip: Run /next for live status")
+    return embed
+
+
+def build_week_embed(
+    days: dict[str, list[Slot]], now: datetime, query_batch: Optional[str] = None
+) -> discord.Embed:
+    today_key = DAY_KEYS[now.weekday()]
+    total_classes = 0
+    total_minutes = 0
+
+    batch_title = f" (Batch {query_batch.upper()})" if query_batch else ""
+    embed = discord.Embed(
+        title=f"🗓️ Weekly Timetable Overview{batch_title}",
         color=COLOR_PRIMARY,
         timestamp=now,
     )
-    embed.set_author(name="Class Timetable")
-    embed.set_footer(text=f"Times in {now.tzname() or 'local time'}")
+    embed.set_author(name="Timetable Bot")
+
+    for key in DAY_KEYS[:5]:  # Mon - Fri
+        day_name = DAY_NAMES[key]
+        slots = [s for s in days.get(key, []) if slot_matches_batch(s, query_batch)]
+        classes = [s for s in slots if not s.is_free]
+        total_classes += len(classes)
+        total_minutes += sum(s.minutes for s in classes)
+
+        is_today = key == today_key
+        indicator = "🟢 " if is_today else "▫️ "
+        field_name = f"{indicator}{day_name}" + (" (Today)" if is_today else "")
+
+        if not classes:
+            embed.add_field(
+                name=field_name,
+                value="-# *No classes scheduled*",
+                inline=False,
+            )
+        else:
+            lines = []
+            for c in classes:
+                icon = KIND_ICONS.get(c.kind.lower(), "📖")
+                kind_str = f" `[{c.kind}]`" if c.kind else ""
+                batch_str = f" `[Batch {c.batch_str}]`" if (query_batch is None and not c.is_all_batches) else ""
+                room_str = f" • `{c.room}`" if c.room else ""
+                lines.append(f"{icon} `{c.start:%H:%M} – {c.end:%H:%M}` **{c.subject}**{kind_str}{batch_str}{room_str}")
+            header = f"`{len(classes)} classes • {classes[0].start:%H:%M} → {classes[-1].end:%H:%M}`"
+            embed.add_field(
+                name=f"{field_name} — {header}",
+                value="\n".join(lines),
+                inline=False,
+            )
+
+    # Check weekend slots if any
+    for key in ("sat", "sun"):
+        weekend_classes = [s for s in days.get(key, []) if not s.is_free and slot_matches_batch(s, query_batch)]
+        if weekend_classes:
+            day_name = DAY_NAMES[key]
+            total_classes += len(weekend_classes)
+            total_minutes += sum(s.minutes for s in weekend_classes)
+            lines = [
+                f"{KIND_ICONS.get(c.kind.lower(), '📖')} `{c.start:%H:%M} – {c.end:%H:%M}` **{c.subject}**"
+                for c in weekend_classes
+            ]
+            embed.add_field(
+                name=f"📅 **{day_name}** — `{len(weekend_classes)} classes`",
+                value="\n".join(lines),
+                inline=False,
+            )
+
+    noun = "class" if total_classes == 1 else "classes"
+    batch_desc = f" for **Batch {query_batch.upper()}**" if query_batch else ""
+    embed.description = f"> 📊 **{total_classes} {noun}** this week{batch_desc}   •   ⏳ **{_fmt_minutes(total_minutes)} total teaching time**"
+    embed.set_footer(text=f"Timezone: {now.tzname() or 'Local'} • Tip: Use /timetable [day] for detailed view")
     return embed
 
 
 # --------------------------------------------------------------------------- #
 # Cog
 # --------------------------------------------------------------------------- #
+def _detect_android_timezone() -> Optional[str]:
+    """Detect Android system timezone on Termux via getprop."""
+    try:
+        import subprocess
+
+        res = subprocess.run(
+            ["getprop", "persist.sys.timezone"],
+            capture_output=True,
+            text=True,
+            timeout=1,
+        )
+        tz = res.stdout.strip()
+        if tz:
+            return tz
+    except Exception:
+        pass
+    return None
+
+
 class TimetableCog(commands.Cog):
     """Show the timetable and what's happening now / next."""
 
@@ -292,12 +533,29 @@ class TimetableCog(commands.Cog):
 
     # ----- time ------------------------------------------------------------ #
     def _tz(self) -> tzinfo:
-        name = str(getattr(self.bot, "config", {}).get("timezone", DEFAULT_TZ_NAME))
+        name = (
+            os.environ.get("TIMEZONE")
+            or os.environ.get("TZ")
+            or str(getattr(self.bot, "config", {}).get("timezone") or "")
+        ).strip()
+
+        if not name:
+            android_tz = _detect_android_timezone()
+            name = android_tz if android_tz else DEFAULT_TZ_NAME
+
         try:
             return ZoneInfo(name)
         except (KeyError, ValueError, OSError):
+            if name.upper() in ("IST", "ASIA/KOLKATA", "ASIA/CALCUTTA"):
+                return IST
+            try:
+                local_tz = datetime.now().astimezone().tzinfo
+                if local_tz is not None:
+                    return local_tz
+            except Exception:
+                pass
             if not self._tz_warned:
-                log.warning("Timezone %r unavailable (is tzdata installed?). Using IST.", name)
+                log.warning("Timezone %r unavailable (install tzdata via pip). Using IST.", name)
                 self._tz_warned = True
             return IST
 
@@ -356,11 +614,49 @@ class TimetableCog(commands.Cog):
             parsed[key].sort(key=lambda s: s.start)
         return parsed
 
+    # ----- user batch preferences ------------------------------------------ #
+    def get_user_batch(self, user_id: str) -> Optional[str]:
+        try:
+            if CONFIG_FILE.is_file():
+                conf = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
+                batches = conf.get("user_batches", {})
+                val = batches.get(str(user_id))
+                return str(val).strip().upper() if val else None
+        except Exception:
+            pass
+        return None
+
+    def set_user_batch(self, user_id: str, batch: Optional[str]) -> None:
+        try:
+            conf: dict[str, Any] = {}
+            if CONFIG_FILE.is_file():
+                with contextlib.suppress(Exception):
+                    conf = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
+            batches = conf.setdefault("user_batches", {})
+            if batch is None:
+                batches.pop(str(user_id), None)
+            else:
+                batches[str(user_id)] = batch.strip().upper()
+
+            fd, tmp = tempfile.mkstemp(dir=CONFIG_FILE.parent, prefix=".config-", suffix=".tmp")
+            with os.fdopen(fd, "w", encoding="utf-8") as fh:
+                json.dump(conf, fh, indent=2, ensure_ascii=False)
+                fh.write("\n")
+            os.replace(tmp, CONFIG_FILE)
+        except Exception as exc:
+            log.error("Failed to save user batch: %s", exc)
+
     # ----- editing API (used by the admin cog) ----------------------------- #
     async def set_slot(
-        self, day: str, time_slot: str, subject: str, room: str = "", faculty: str = ""
+        self,
+        day: str,
+        time_slot: str,
+        subject: str,
+        batch: str = "ALL",
+        room: str = "",
+        faculty: str = "",
     ) -> tuple[str, Slot]:
-        """Insert or replace (same start time) a slot. Returns ('added'|'updated', slot)."""
+        """Insert or replace a slot for specific batch(es). Returns ('added'|'updated', slot)."""
         key = resolve_day(day)
         if key is None:
             raise ScheduleError(f"`{day}` isn't a valid day. Use mon, tue, wed, thu, fri, sat or sun.")
@@ -380,7 +676,12 @@ class TimetableCog(commands.Cog):
         if len(subject) > 100 or len(room) > 50 or len(faculty) > 80:
             raise ScheduleError("Subject (100), room (50) or faculty (80) is too long.")
 
-        entry: dict[str, str] = {"start": f"{start:%H:%M}", "end": f"{end:%H:%M}"}
+        parsed_batches = parse_batches(batch)
+        entry: dict[str, Any] = {
+            "start": f"{start:%H:%M}",
+            "end": f"{end:%H:%M}",
+            "batches": parsed_batches,
+        }
         if subject.lower() in _FREE_WORDS:
             label = "FREE PERIOD" if subject.lower() in ("free", "free period") else subject
             entry.update(category="free", label=label)
@@ -402,22 +703,36 @@ class TimetableCog(commands.Cog):
                 except ValueError:
                     kept.append(raw)  # leave hand-edited oddities untouched
                     continue
-                if existing.start == new_slot.start:
+
+                same_time = existing.start == new_slot.start and existing.end == new_slot.end
+                time_overlap = existing.start < new_slot.end and new_slot.start < existing.end
+                same_batches = set(existing.batches) == set(new_slot.batches)
+                overlap_batch = batches_overlap(existing.batches, new_slot.batches)
+
+                # Same start time and same batch target -> update
+                if existing.start == new_slot.start and same_batches:
                     action = "updated"
                     continue
-                if existing.start < new_slot.end and new_slot.start < existing.end:
+
+                # Time overlap with batch collision
+                if time_overlap and overlap_batch:
+                    overlap_info = f"Batch {existing.batch_str}" if not existing.is_all_batches else "All Batches"
                     raise ScheduleError(
-                        f"That overlaps **{existing.title}** (`{existing.span}`). "
-                        "Remove it first with `delclass`."
+                        f"That overlaps **{existing.title}** (`{existing.span}`) for **{overlap_info}**.\n"
+                        f"Different batches can share the time slot, but {overlap_info} already has a class.\n"
+                        "Remove it first with `delclass` if you want to replace it."
                     )
                 kept.append(raw)
+
             kept.append(entry)
-            kept.sort(key=_raw_sort_key)
+            kept.sort(key=lambda r: (_raw_sort_key(r), str(r.get("batches", ""))))
             data[key] = kept
             self.write_raw(data)
         return action, new_slot
 
-    async def delete_slot(self, day: str, start_text: str) -> Slot:
+    async def delete_slot(
+        self, day: str, start_text: str, batch: Optional[str] = None
+    ) -> Slot:
         key = resolve_day(day)
         if key is None:
             raise ScheduleError(f"`{day}` isn't a valid day. Use mon, tue, wed, thu, fri, sat or sun.")
@@ -426,31 +741,44 @@ class TimetableCog(commands.Cog):
         except ValueError:
             raise ScheduleError("Give the slot's start time as `HH:MM`, e.g. `09:30`.") from None
 
+        target_batch = batch.strip().upper() if batch else None
+
         async with self.lock:
             data = self.read_raw()
-            kept: list = []
-            removed: Optional[Slot] = None
-            for raw in data.setdefault(key, []):
+            day_slots = data.setdefault(key, [])
+            matching: list[tuple[int, Slot]] = []
+
+            for idx, raw in enumerate(day_slots):
                 try:
-                    existing = Slot.from_dict(raw)
+                    s = Slot.from_dict(raw)
+                    if s.start == start:
+                        if target_batch is None or target_batch in s.batches or target_batch == "ALL":
+                            matching.append((idx, s))
                 except ValueError:
-                    kept.append(raw)
                     continue
-                if removed is None and existing.start == start:
-                    removed = existing
-                    continue
-                kept.append(raw)
-            if removed is None:
-                raise ScheduleError(f"No slot starts at `{start:%H:%M}` on {DAY_NAMES[key]}.")
-            data[key] = kept
+
+            if not matching:
+                b_info = f" for Batch {target_batch}" if target_batch else ""
+                raise ScheduleError(f"No slot starts at `{start:%H:%M}`{b_info} on {DAY_NAMES[key]}.")
+
+            if len(matching) > 1 and target_batch is None:
+                details = ", ".join(f"`{s.title}` (Batch {s.batch_str})" for _, s in matching)
+                raise ScheduleError(
+                    f"Multiple slots start at `{start:%H:%M}` on {DAY_NAMES[key]}:\n{details}\n"
+                    f"Please specify the batch to remove, e.g. `delclass {day} {start:%H:%M} batch:1`"
+                )
+
+            del_idx, removed_slot = matching[0]
+            del day_slots[del_idx]
             self.write_raw(data)
-        return removed
+        return removed_slot
 
     # ----- embeds ---------------------------------------------------------- #
-    def _status_embed(self, now: datetime) -> discord.Embed:
+    def _status_embed(self, now: datetime, query_batch: Optional[str] = None) -> discord.Embed:
         days = self.read_all()
         key = DAY_KEYS[now.weekday()]
-        today = days[key]
+        all_today = days[key]
+        today = [s for s in all_today if slot_matches_batch(s, query_batch)]
         t = now.time()
         tz = now.tzinfo
 
@@ -461,6 +789,8 @@ class TimetableCog(commands.Cog):
             for slot in days[DAY_KEYS[d.weekday()]]:
                 if slot.is_free or (offset == 0 and slot.start <= t):
                     continue
+                if not slot_matches_batch(slot, query_batch):
+                    continue
                 upcoming = (offset, d, slot)
                 break
             if upcoming:
@@ -469,38 +799,68 @@ class TimetableCog(commands.Cog):
         def ts(d: date, at: time) -> int:
             return int(datetime.combine(d, at, tzinfo=tz).timestamp())
 
+        batch_str = f"   •   👥 **Batch {query_batch.upper()}**" if query_batch else ""
         embed = discord.Embed(
-            title="🧭 Class Status",
-            description=f"It's **{now:%A, %H:%M}** right now.",
+            title="🧭 Live Class Status",
+            description=f"📅 **{now:%A, %d %B}**   •   ⏰ **{now:%H:%M} {now.tzname() or ''}**{batch_str}",
             color=COLOR_PRIMARY,
             timestamp=now,
         )
+        embed.set_author(name="Timetable Bot")
+
         if current is not None:
             end_ts = ts(now.date(), current.end)
+            now_m = _minutes(t)
+            start_m = _minutes(current.start)
+            end_m = _minutes(current.end)
+            dur = max(1, end_m - start_m)
+            elapsed = max(0, min(dur, now_m - start_m))
+            pct = elapsed / dur
+            progress_str = make_progress_bar(pct)
+
             if current.is_free:
-                embed.color = COLOR_MUTED
+                embed.color = COLOR_WARN
+                icon = "🍱" if "lunch" in current.title.lower() else "☕"
                 embed.add_field(
-                    name=f"☕ {current.title.capitalize()}",
-                    value=f"Ends <t:{end_ts}:R> (<t:{end_ts}:t>)",
+                    name=f"{icon} Current Break · In Progress",
+                    value=(
+                        f"### {current.title}\n"
+                        f"> ⏰ **`{current.span}`** • Ends <t:{end_ts}:R> (<t:{end_ts}:t>)\n"
+                        f"> 📊 Progress: {progress_str}"
+                    ),
                     inline=False,
                 )
             else:
                 embed.color = COLOR_SUCCESS
+                icon = KIND_ICONS.get(current.kind.lower(), "📖")
+                kind_str = f" `[{current.kind}]`" if current.kind else ""
+                batch_tag = f" `[Batch {current.batch_str}]`" if (query_batch is None and not current.is_all_batches) else ""
+                details = [f"⏰ **`{current.span}`** • Ends <t:{end_ts}:R> (<t:{end_ts}:t>)"]
+                if current.room:
+                    details.append(f"📍 Room: **{current.room}**")
+                if current.faculty:
+                    details.append(f"👨‍🏫 Faculty: **{current.faculty}**")
+                if query_batch is None and not current.is_all_batches:
+                    details.append(f"👥 Batch: **{current.batch_str}**")
+                details.append(f"📊 Progress: {progress_str}")
+
+                detail_text = "\n> ".join(details)
                 embed.add_field(
-                    name="🟢 Ongoing now",
-                    value=f"{current.block(quote=False)}\n⏳ Ends <t:{end_ts}:R> (<t:{end_ts}:t>)",
+                    name="🟢 Happening Right Now",
+                    value=f"### {icon} {current.subject}{kind_str}{batch_tag}\n> {detail_text}",
                     inline=False,
                 )
         else:
             if not today:
-                note = "No classes are scheduled today."
+                b_note = f" for Batch {query_batch.upper()}" if query_batch else ""
+                note = f"📭 No classes are scheduled{b_note} on the timetable today."
             elif t >= today[-1].end:
-                note = "Classes are done for today. 🎉"
+                note = "🎉 **All classes for today are done!** Have a wonderful evening."
             elif t < today[0].start:
-                note = "Your day hasn't started yet."
+                note = f"🌅 **Day hasn't started yet.** First class begins at `{today[0].start:%H:%M}`."
             else:
-                note = "You're between slots right now."
-            embed.add_field(name="💤 Nothing on right now", value=note, inline=False)
+                note = "☕ **Break time.** You're between scheduled slots right now."
+            embed.add_field(name="💤 Current Status", value=f"> {note}", inline=False)
 
         if upcoming is not None:
             offset, d, slot = upcoming
@@ -512,29 +872,48 @@ class TimetableCog(commands.Cog):
                 else f"{DAY_NAMES[DAY_KEYS[d.weekday()]]}, {d:%d %b}"
             )
             start_ts = ts(d, slot.start)
+            icon = KIND_ICONS.get(slot.kind.lower(), "📖")
+            kind_str = f" `[{slot.kind}]`" if slot.kind else ""
+            batch_tag = f" `[Batch {slot.batch_str}]`" if (query_batch is None and not slot.is_all_batches) else ""
+
+            details = [f"⏰ **`{slot.span}`** • Starts <t:{start_ts}:R> (<t:{start_ts}:t>)"]
+            if slot.room:
+                details.append(f"📍 Room: **{slot.room}**")
+            if slot.faculty:
+                details.append(f"👨‍🏫 Faculty: **{slot.faculty}**")
+            if query_batch is None and not slot.is_all_batches:
+                details.append(f"👥 Batch: **{slot.batch_str}**")
+
+            detail_text = "\n> ".join(details)
             embed.add_field(
-                name=f"⏭️ Up next · {when}",
-                value=f"{slot.block(quote=False)}\n🚀 Starts <t:{start_ts}:R> (<t:{start_ts}:t>)",
+                name=f"⏭️ Up Next • {when}",
+                value=f"### {icon} {slot.subject}{kind_str}{batch_tag}\n> {detail_text}",
                 inline=False,
             )
         else:
             embed.add_field(
-                name="⏭️ Up next",
-                value="No upcoming classes found in your schedule.",
+                name="⏭️ Up Next",
+                value="> No more classes found in your timetable schedule.",
                 inline=False,
             )
-        embed.set_footer(text=f"Times in {now.tzname() or 'local time'}")
+
+        embed.set_footer(text=f"Timezone: {now.tzname() or 'Local'} • Tip: Run /timetable for full day")
         return embed
 
     # ----- commands -------------------------------------------------------- #
     @commands.hybrid_command(
         name="timetable",
         aliases=["tt", "day"],
-        description="Show your class timetable for a day (defaults to today).",
+        description="Show your class timetable for a day and optional batch.",
     )
-    @app_commands.describe(day="mon–sun, 'today' or 'tomorrow'. Leave empty for today.")
+    @app_commands.describe(
+        day="mon–sun, 'today' or 'tomorrow'. Leave empty for today.",
+        batch="Optional batch filter (e.g. 1, 2). If omitted, uses your saved batch or all.",
+    )
     @app_commands.choices(day=[app_commands.Choice(name=n, value=v) for n, v in DAY_CHOICES])
-    async def timetable(self, ctx: commands.Context, day: Optional[str] = None) -> None:
+    async def timetable(
+        self, ctx: commands.Context, day: Optional[str] = None, batch: Optional[str] = None
+    ) -> None:
         now = self._now()
         today_key = DAY_KEYS[now.weekday()]
         if day is None or not day.strip():
@@ -550,7 +929,11 @@ class TimetableCog(commands.Cog):
                     ephemeral=True,
                 )
                 return
-        embed = build_day_embed(key, self.read_all(), now, highlight_now=(key == today_key))
+
+        effective_batch = (batch.strip().upper() if batch else None) or self.get_user_batch(str(ctx.author.id))
+        embed = build_day_embed(
+            key, self.read_all(), now, highlight_now=(key == today_key), query_batch=effective_batch
+        )
         await ctx.send(embed=embed)
 
     @commands.hybrid_command(
@@ -558,8 +941,67 @@ class TimetableCog(commands.Cog):
         aliases=["now", "upnext"],
         description="See what class is on right now and what's coming up next.",
     )
-    async def next_class(self, ctx: commands.Context) -> None:
-        await ctx.send(embed=self._status_embed(self._now()))
+    @app_commands.describe(batch="Optional batch filter (e.g. 1, 2). If omitted, uses your saved batch.")
+    async def next_class(self, ctx: commands.Context, batch: Optional[str] = None) -> None:
+        effective_batch = (batch.strip().upper() if batch else None) or self.get_user_batch(str(ctx.author.id))
+        await ctx.send(embed=self._status_embed(self._now(), query_batch=effective_batch))
+
+    @commands.hybrid_command(
+        name="week",
+        aliases=["weekly", "schedule"],
+        description="Show a weekly overview of all your classes.",
+    )
+    @app_commands.describe(batch="Optional batch filter (e.g. 1, 2). If omitted, uses your saved batch.")
+    async def weekly_schedule(self, ctx: commands.Context, batch: Optional[str] = None) -> None:
+        effective_batch = (batch.strip().upper() if batch else None) or self.get_user_batch(str(ctx.author.id))
+        embed = build_week_embed(self.read_all(), self._now(), query_batch=effective_batch)
+        await ctx.send(embed=embed)
+
+    @commands.hybrid_command(
+        name="mybatch",
+        aliases=["setbatch"],
+        description="Set, check, or clear your default batch preference.",
+    )
+    @app_commands.describe(batch="Your batch number (e.g. 1, 2) or 'clear' to reset")
+    async def mybatch(self, ctx: commands.Context, batch: Optional[str] = None) -> None:
+        user_id = str(ctx.author.id)
+        if batch is None:
+            current = self.get_user_batch(user_id)
+            if current:
+                embed = discord.Embed(
+                    title="👥 Saved Batch Preference",
+                    description=f"Your default batch is set to **Batch {current}**.\nTimetable commands automatically show your batch.",
+                    color=COLOR_PRIMARY,
+                )
+                embed.set_footer(text="To change: /mybatch <new_batch>  •  To reset: /mybatch clear")
+            else:
+                embed = discord.Embed(
+                    title="👥 No Default Batch Set",
+                    description="You haven't set a default batch yet. The bot shows all batches.\nTo set one, run `/mybatch <number>` (e.g. `/mybatch 1`).",
+                    color=COLOR_PRIMARY,
+                )
+            await ctx.send(embed=embed, ephemeral=True)
+            return
+
+        clean = batch.strip().upper()
+        if clean in ("CLEAR", "NONE", "RESET", "REMOVE"):
+            self.set_user_batch(user_id, None)
+            embed = discord.Embed(
+                title="✅ Batch Preference Cleared",
+                description="Your default batch has been cleared. You will now see all batches.",
+                color=COLOR_SUCCESS,
+            )
+            await ctx.send(embed=embed, ephemeral=True)
+            return
+
+        self.set_user_batch(user_id, clean)
+        embed = discord.Embed(
+            title="✅ Batch Preference Saved",
+            description=f"Your default batch is now set to **Batch {clean}**! 🎓\n`/timetable`, `/next`, and `/week` will show your batch automatically.",
+            color=COLOR_SUCCESS,
+        )
+        embed.set_footer(text="Tip: You can always view other batches anytime: /timetable batch:2")
+        await ctx.send(embed=embed, ephemeral=True)
 
 
 async def setup(bot: commands.Bot) -> None:

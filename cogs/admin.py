@@ -5,8 +5,36 @@ import logging
 from typing import Optional
 
 import discord
-from discord import app_commands
+try:
+    from discord import app_commands
+except ImportError:
+    class _DummyAppCommands:
+        class Choice:
+            def __init__(self, name: str, value: Any):
+                self.name = name
+                self.value = value
+
+        class AppCommandError(Exception):
+            pass
+
+        class CheckFailure(Exception):
+            pass
+
+        @staticmethod
+        def describe(**kwargs):
+            return lambda func: func
+
+        @staticmethod
+        def choices(**kwargs):
+            return lambda func: func
+
+    app_commands = _DummyAppCommands()  # type: ignore
 from discord.ext import commands
+
+if not hasattr(commands, "hybrid_command"):
+    commands.hybrid_command = commands.command  # type: ignore[attr-defined]
+
+from cogs.timetable import DAY_NAMES, resolve_day
 
 log = logging.getLogger("timetable_bot.admin")
 
@@ -98,6 +126,7 @@ class AdminCog(commands.Cog):
         day="Day of the week",
         time_slot="e.g. 09:30-10:30 (24-hour)",
         subject='e.g. "Applied Physics (Lecture)" — or FREE / LUNCH for a break',
+        batch='Batch number(s), e.g. "1" or "1, 2" or "ALL" (default: ALL)',
         room="Room, e.g. 8105-BL8-FF (optional for free slots)",
         faculty="Faculty name (optional for free slots)",
     )
@@ -108,6 +137,7 @@ class AdminCog(commands.Cog):
         day: str,
         time_slot: str,
         subject: str,
+        batch: str = "ALL",
         room: str = "",
         faculty: str = "",
     ) -> None:
@@ -115,36 +145,77 @@ class AdminCog(commands.Cog):
         if tt is None:
             await ctx.send(
                 embed=discord.Embed(
-                    title="⚠️ Timetable cog isn't loaded",
-                    description="Load it with the reload command: `reload cogs.timetable`.",
+                    title="⚠️ Extension Error",
+                    description="The `cogs.timetable` module is not currently loaded.\nRun `reload cogs.timetable` to load it.",
                     color=COLOR_ERROR,
                 ),
                 ephemeral=True,
             )
             return
 
-        action, slot = await tt.set_slot(day, time_slot, subject, room, faculty)
+        action, slot = await tt.set_slot(day, time_slot, subject, batch, room, faculty)
+        key = resolve_day(day) or day
+        day_display = DAY_NAMES.get(key, day.title())
+
         embed = discord.Embed(
-            title=f"✅ Slot {action}",
-            description=slot.block(),
+            title=f"✅ Class Slot {action.capitalize()}",
+            description=f"The schedule for **{day_display}** has been updated.",
             color=COLOR_SUCCESS,
         )
-        embed.set_footer(text="Saved to data/schedule.json — live immediately.")
+        embed.set_author(name="Timetable Admin")
+        embed.add_field(name="📅 Day", value=f"**{day_display}**", inline=True)
+        embed.add_field(name="⏰ Time", value=f"`{slot.span}`", inline=True)
+        embed.add_field(
+            name="👥 Batch",
+            value=f"**Batch {slot.batch_str}**" if not slot.is_all_batches else "*All Batches*",
+            inline=True,
+        )
+        if slot.is_free:
+            embed.add_field(name="☕ Type", value=f"*{slot.title}*", inline=True)
+        else:
+            kind_str = f" `[{slot.kind}]`" if slot.kind else ""
+            embed.add_field(name="📚 Subject", value=f"**{slot.subject}**{kind_str}", inline=True)
+            if slot.room:
+                embed.add_field(name="📍 Room", value=f"`{slot.room}`", inline=True)
+            if slot.faculty:
+                embed.add_field(name="👨‍🏫 Faculty", value=f"**{slot.faculty}**", inline=True)
+
+        embed.set_footer(text="Saved to data/schedule.json • Live immediately")
         await ctx.send(embed=embed)
 
     @commands.hybrid_command(
-        name="delclass", description="Remove a slot by its start time. Owner only."
+        name="delclass", description="Remove a slot by start time and optional batch. Owner only."
     )
     @commands.is_owner()
-    @app_commands.describe(day="Day of the week", start="Start time of the slot, e.g. 09:30")
+    @app_commands.describe(
+        day="Day of the week",
+        start="Start time of the slot, e.g. 09:30",
+        batch="Batch filter (e.g. 1) if multiple batches have a class at this time",
+    )
     @app_commands.choices(day=DAY_CHOICES)
-    async def delclass(self, ctx: commands.Context, day: str, start: str) -> None:
+    async def delclass(
+        self, ctx: commands.Context, day: str, start: str, batch: Optional[str] = None
+    ) -> None:
         tt = self._timetable()
         if tt is None:
             await ctx.send("The timetable cog isn't loaded.", ephemeral=True)
             return
-        slot = await tt.delete_slot(day, start)
-        embed = discord.Embed(title="🗑️ Slot removed", description=slot.block(), color=COLOR_WARN)
+        slot = await tt.delete_slot(day, start, batch)
+        key = resolve_day(day) or day
+        day_display = DAY_NAMES.get(key, day.title())
+
+        embed = discord.Embed(
+            title="🗑️ Class Slot Removed",
+            description=f"Slot removed from **{day_display}**'s timetable.",
+            color=COLOR_WARN,
+        )
+        embed.set_author(name="Timetable Admin")
+        embed.add_field(name="📅 Day", value=f"**{day_display}**", inline=True)
+        embed.add_field(name="⏰ Time", value=f"`{slot.span}`", inline=True)
+        embed.add_field(name="📚 Subject", value=f"**{slot.title}**", inline=True)
+        if not slot.is_all_batches:
+            embed.add_field(name="👥 Batch", value=f"**Batch {slot.batch_str}**", inline=True)
+        embed.set_footer(text="Updated data/schedule.json")
         await ctx.send(embed=embed)
 
     # ----- prefix & slash sync --------------------------------------------- #
@@ -158,15 +229,22 @@ class AdminCog(commands.Cog):
             await self.bot.change_prefix(prefix)  # type: ignore[attr-defined]
         except ValueError as exc:
             await ctx.send(
-                embed=discord.Embed(title="⚠️ Invalid prefix", description=str(exc), color=COLOR_ERROR),
+                embed=discord.Embed(title="⚠️ Invalid Prefix", description=str(exc), color=COLOR_ERROR),
                 ephemeral=True,
             )
             return
         embed = discord.Embed(
-            title="✅ Prefix updated",
-            description=f"Commands now start with `{prefix}` (or @mention me).\nSaved to `data/config.json`.",
+            title="⚙️ Prefix Updated",
+            description=f"Bot command prefix is now set to `{prefix}`",
             color=COLOR_SUCCESS,
         )
+        embed.set_author(name="Timetable Admin")
+        embed.add_field(
+            name="💡 Try It Out",
+            value=f"`{prefix}timetable` — Today's timetable\n`{prefix}next` — What's on right now\n`{prefix}week` — Full weekly schedule",
+            inline=False,
+        )
+        embed.set_footer(text="Saved to data/config.json")
         await ctx.send(embed=embed)
 
     @commands.hybrid_command(
@@ -179,14 +257,22 @@ class AdminCog(commands.Cog):
             synced = await self.bot.tree.sync()
         except discord.HTTPException as exc:
             log.exception("Slash sync failed")
-            await ctx.send(f"❌ Sync failed: {exc.status} {exc.text[:200]}", ephemeral=True)
+            await ctx.send(
+                embed=discord.Embed(
+                    title="❌ Slash Sync Failed",
+                    description=f"`HTTP {exc.status}`: {exc.text[:300]}",
+                    color=COLOR_ERROR,
+                ),
+                ephemeral=True,
+            )
             return
         embed = discord.Embed(
-            title="🔁 Slash commands synced",
-            description=f"**{len(synced)}** command(s) registered globally.\n"
-            "Discord can take a minute to show new ones.",
+            title="⚡ Slash Commands Synced",
+            description=f"Successfully registered **{len(synced)}** slash command(s) globally with Discord.",
             color=COLOR_PRIMARY,
         )
+        embed.set_author(name="Timetable Admin")
+        embed.set_footer(text="Discord may take up to a minute to refresh commands in your client.")
         await ctx.send(embed=embed, ephemeral=True)
 
 

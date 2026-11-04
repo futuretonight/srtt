@@ -24,6 +24,9 @@ from typing import Any
 import discord
 from discord.ext import commands
 
+if not hasattr(commands, "hybrid_command"):
+    commands.hybrid_command = commands.command  # type: ignore[attr-defined]
+
 BASE_DIR = Path(__file__).resolve().parent
 COGS_DIR = BASE_DIR / "cogs"
 CONFIG_FILE = BASE_DIR / "data" / "config.json"
@@ -207,7 +210,8 @@ class TimetableBot(commands.Bot):
             case_insensitive=True,
             strip_after_prefix=True,
         )
-        self.tree.on_error = self.on_app_command_error  # type: ignore[assignment]
+        if hasattr(self, "tree"):
+            self.tree.on_error = self.on_app_command_error  # type: ignore[assignment]
 
     @property
     def prefix(self) -> str:
@@ -231,7 +235,7 @@ class TimetableBot(commands.Bot):
             )
 
     async def setup_hook(self) -> None:
-        if self.config.get("sync_on_start", True):
+        if hasattr(self, "tree") and self.config.get("sync_on_start", True):
             try:
                 synced = await self.tree.sync()
                 log.info("Synced %d slash command(s).", len(synced))
@@ -254,7 +258,9 @@ class TimetableBot(commands.Bot):
 
     @staticmethod
     def _embed(title: str, description: str, color: int = COLOR_ERROR) -> discord.Embed:
-        return discord.Embed(title=title, description=description, color=color)
+        embed = discord.Embed(title=title, description=description, color=color)
+        embed.set_author(name="Timetable Bot")
+        return embed
 
     async def on_command_error(self, ctx: commands.Context, error: commands.CommandError) -> None:
         if isinstance(error, commands.CommandNotFound):
@@ -263,27 +269,29 @@ class TimetableBot(commands.Bot):
         embed: discord.Embed
 
         user_message = getattr(cause, "user_message", None)
+        _AppCheck = getattr(getattr(discord, "app_commands", None), "CheckFailure", ())
         if user_message:
-            embed = self._embed("⚠️ Heads up", user_message, COLOR_WARN)
-        elif isinstance(error, (commands.CheckFailure, discord.app_commands.CheckFailure)):
-            embed = self._embed("🔒 Owner only", "That command is restricted to the bot owner.")
+            embed = self._embed("⚠️ Notice", user_message, COLOR_WARN)
+        elif isinstance(error, (commands.CheckFailure, _AppCheck)):
+            embed = self._embed("🔒 Access Denied", "That command is restricted to the bot owner.", COLOR_ERROR)
         elif isinstance(error, commands.MissingRequiredArgument) and ctx.command:
             usage = f"{ctx.clean_prefix}{ctx.command.qualified_name} {ctx.command.signature}"
             embed = self._embed(
-                "⚠️ Missing argument",
-                f"You forgot **{error.param.name}**.\nUsage: `{usage}`",
+                "⚠️ Missing Parameter",
+                f"You forgot the **`{error.param.name}`** parameter.\n\n> 💡 **Usage:** `{usage}`",
                 COLOR_WARN,
             )
         elif isinstance(error, commands.UserInputError):
-            embed = self._embed("⚠️ Invalid input", str(error)[:500] or "Check your arguments.", COLOR_WARN)
+            embed = self._embed("⚠️ Invalid Input", str(error)[:500] or "Please check your command arguments.", COLOR_WARN)
         elif isinstance(error, commands.CommandOnCooldown):
-            embed = self._embed("⏳ Slow down", f"Try again in {error.retry_after:.1f}s.", COLOR_WARN)
+            embed = self._embed("⏳ Cooldown Active", f"Please wait **{error.retry_after:.1f}s** before trying again.", COLOR_WARN)
         else:
             name = ctx.command.qualified_name if ctx.command else "unknown"
             log.error("Unhandled error in command %s", name, exc_info=cause)
             embed = self._embed(
                 "💥 Something went wrong",
-                f"`{type(cause).__name__}` — it's been logged. The bot is still running.",
+                f"An unexpected `{type(cause).__name__}` occurred.\nIt has been logged to the console.",
+                COLOR_ERROR,
             )
 
         with contextlib.suppress(discord.HTTPException):
@@ -294,7 +302,15 @@ class TimetableBot(commands.Bot):
     ) -> None:
         cause = self._unwrap(error)
         log.error("Unhandled slash-command error", exc_info=cause)
-        embed = self._embed("💥 Something went wrong", f"`{type(cause).__name__}` — it's been logged.")
+        user_message = getattr(cause, "user_message", None)
+        if user_message:
+            embed = self._embed("⚠️ Notice", user_message, COLOR_WARN)
+        else:
+            embed = self._embed(
+                "💥 Something went wrong",
+                f"An error occurred: `{type(cause).__name__}`.\nCheck the terminal for details.",
+                COLOR_ERROR,
+            )
         with contextlib.suppress(discord.HTTPException):
             if interaction.response.is_done():
                 await interaction.followup.send(embed=embed, ephemeral=True)
