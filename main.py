@@ -2,12 +2,11 @@
 """Timetable bot — entry point.
 
 Run:
-    export DISCORD_TOKEN="your-token"
-    python main.py                    # normal start
+    python main.py                    # normal start (prompts for token on first run and saves to .env)
     python main.py --prefix "?"       # set + save a new prefix from the terminal
     python main.py --no-sync          # skip slash-command sync on startup
 
-Settings live in data/config.json (auto-created on first run).
+Settings live in .env (bot token) and data/config.json (prefix, timezone, etc.).
 """
 from __future__ import annotations
 
@@ -28,6 +27,7 @@ from discord.ext import commands
 BASE_DIR = Path(__file__).resolve().parent
 COGS_DIR = BASE_DIR / "cogs"
 CONFIG_FILE = BASE_DIR / "data" / "config.json"
+ENV_FILE = BASE_DIR / ".env"
 
 if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
@@ -43,6 +43,110 @@ DEFAULT_CONFIG: dict[str, Any] = {
 
 COLOR_ERROR = 0xED4245
 COLOR_WARN = 0xFEE75C
+
+
+# --------------------------------------------------------------------------- #
+# Environment & Token Management
+# --------------------------------------------------------------------------- #
+def load_environment() -> None:
+    """Load variables from .env file into os.environ if present."""
+    try:
+        from dotenv import load_dotenv
+
+        load_dotenv(dotenv_path=ENV_FILE)
+        return
+    except ImportError:
+        pass
+
+    # Fallback parser if python-dotenv is not installed
+    if ENV_FILE.is_file():
+        try:
+            for line in ENV_FILE.read_text(encoding="utf-8").splitlines():
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                if "=" in line:
+                    key, _, val = line.partition("=")
+                    key = key.strip()
+                    val = val.strip().strip("'\"")
+                    if key and key not in os.environ:
+                        os.environ[key] = val
+        except Exception as exc:
+            log.warning("Could not read %s: %s", ENV_FILE, exc)
+
+
+def save_token_to_env(token: str) -> None:
+    """Save or update DISCORD_TOKEN in the .env file."""
+    token = token.strip()
+    try:
+        from dotenv import set_key
+
+        if not ENV_FILE.exists():
+            ENV_FILE.touch()
+        set_key(str(ENV_FILE), "DISCORD_TOKEN", token, quote_mode="never")
+        return
+    except ImportError:
+        pass
+
+    # Fallback writer if python-dotenv is not installed
+    lines: list[str] = []
+    found = False
+    if ENV_FILE.is_file():
+        try:
+            lines = ENV_FILE.read_text(encoding="utf-8").splitlines()
+        except OSError:
+            lines = []
+
+    new_lines: list[str] = []
+    for line in lines:
+        trimmed = line.strip()
+        if trimmed.startswith("DISCORD_TOKEN=") or trimmed.startswith("DISCORD_TOKEN "):
+            new_lines.append(f"DISCORD_TOKEN={token}")
+            found = True
+        else:
+            new_lines.append(line)
+
+    if not found:
+        if new_lines and new_lines[-1].strip() != "":
+            new_lines.append("")
+        new_lines.append(f"DISCORD_TOKEN={token}")
+
+    ENV_FILE.write_text("\n".join(new_lines) + "\n", encoding="utf-8")
+
+
+def get_or_prompt_token(config: dict[str, Any]) -> str:
+    """Retrieve the Discord token from environment/.env, or prompt the user to enter it."""
+    load_environment()
+    token = (os.environ.get("DISCORD_TOKEN") or str(config.get("token") or "")).strip()
+    if token:
+        return token
+
+    print("\n" + "=" * 58)
+    print("  Timetable Bot - Setup")
+    print("=" * 58)
+    print("No Discord bot token was found in .env or environment.")
+    print("Please enter or paste your Discord bot token.")
+    print("(It will be saved to .env and used for all future runs)")
+    print("=" * 58 + "\n")
+
+    try:
+        token_input = input("Enter Discord Bot Token: ").strip().strip("\"'")
+    except (KeyboardInterrupt, EOFError):
+        print("\n[!] Setup cancelled.")
+        return ""
+
+    if not token_input:
+        log.critical("No token was entered. Bot cannot start.")
+        return ""
+
+    try:
+        save_token_to_env(token_input)
+        os.environ["DISCORD_TOKEN"] = token_input
+        print(f"\n[+] Token successfully saved to {ENV_FILE.name}!\n")
+    except Exception as exc:
+        log.error("Failed to save token to %s: %s", ENV_FILE, exc)
+
+    return token_input
 
 
 # --------------------------------------------------------------------------- #
@@ -239,9 +343,8 @@ async def amain(args: argparse.Namespace) -> int:
     if args.no_sync:
         config["sync_on_start"] = False
 
-    token = (os.environ.get("DISCORD_TOKEN") or str(config.get("token") or "")).strip()
+    token = get_or_prompt_token(config)
     if not token:
-        log.critical("No token found. Run: export DISCORD_TOKEN='your-token'  (or set it in data/config.json)")
         return 1
 
     discord.VoiceClient.warn_nacl = False  # no voice features, silence the PyNaCl warning
@@ -251,7 +354,7 @@ async def amain(args: argparse.Namespace) -> int:
         try:
             await bot.start(token)
         except discord.LoginFailure:
-            log.critical("Discord rejected the token. Check DISCORD_TOKEN.")
+            log.critical("Discord rejected the token. Please check DISCORD_TOKEN in %s.", ENV_FILE.name)
             return 1
         except discord.PrivilegedIntentsRequired:
             log.critical("Enable 'Message Content Intent' in the Developer Portal → Bot → Privileged Gateway Intents.")
@@ -260,7 +363,12 @@ async def amain(args: argparse.Namespace) -> int:
 
 
 def main() -> None:
+    if hasattr(sys.stdout, "reconfigure"):
+        with contextlib.suppress(Exception):
+            sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+            sys.stderr.reconfigure(encoding="utf-8", errors="replace")
     discord.utils.setup_logging(level=logging.INFO)
+    load_environment()
     args = parse_args()
     try:
         code = asyncio.run(amain(args))
