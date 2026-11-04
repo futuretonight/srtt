@@ -15,7 +15,7 @@ import tempfile
 from dataclasses import dataclass
 from datetime import date, datetime, time, timedelta, timezone, tzinfo
 from pathlib import Path
-from typing import Optional
+from typing import Any, Optional
 from zoneinfo import ZoneInfo
 
 import discord
@@ -48,10 +48,18 @@ from discord.ext import commands
 if not hasattr(commands, "hybrid_command"):
     commands.hybrid_command = commands.command  # type: ignore[attr-defined]
 
+_HAS_UI = False
+try:
+    if hasattr(discord, "ui") and hasattr(discord.ui, "View") and hasattr(discord.ui, "Button"):
+        _HAS_UI = True
+except Exception:
+    _HAS_UI = False
+
 log = logging.getLogger("timetable_bot.timetable")
 
 DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "schedule.json"
 CONFIG_FILE = DATA_FILE.parent / "config.json"
+USERS_FILE = DATA_FILE.parent / "users.json"
 DEFAULT_TZ_NAME = "Asia/Kolkata"
 IST = timezone(timedelta(hours=5, minutes=30), "IST")  # fallback if tzdata is missing
 
@@ -128,6 +136,19 @@ class ScheduleError(Exception):
         return str(self)
 
 
+async def _safe_send(ctx: commands.Context, **kwargs) -> Any:
+    """Send a message, safely dropping unsupported kwargs (e.g. ephemeral) if rejected."""
+    try:
+        return await ctx.send(**kwargs)
+    except TypeError:
+        kwargs.pop("ephemeral", None)
+        try:
+            return await ctx.send(**kwargs)
+        except TypeError:
+            kwargs.pop("view", None)
+            return await ctx.send(**kwargs)
+
+
 def resolve_day(text: str, now: Optional[datetime] = None) -> Optional[str]:
     """Turn 'tue', 'Tuesday', 'today', 'tomorrow'... into a day key (or None)."""
     word = text.strip().lower().rstrip(".")
@@ -185,6 +206,36 @@ def slot_matches_batch(slot: "Slot", query_batch: Optional[str]) -> bool:
         return True
     qb = query_batch.strip().upper()
     return "ALL" in slot.batches or qb in slot.batches
+
+
+# --------------------------------------------------------------------------- #
+# User Profile model
+# --------------------------------------------------------------------------- #
+@dataclass
+class UserProfile:
+    user_id: str
+    batch: str
+    name: str = ""
+    roll_no: str = ""
+    linked_at: str = ""
+
+    @classmethod
+    def from_dict(cls, user_id: str, data: dict[str, Any]) -> "UserProfile":
+        return cls(
+            user_id=str(user_id),
+            batch=str(data.get("batch", "ALL")).strip().upper(),
+            name=str(data.get("name", "")).strip(),
+            roll_no=str(data.get("roll_no", "")).strip(),
+            linked_at=str(data.get("linked_at", "")).strip(),
+        )
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "batch": self.batch,
+            "name": self.name,
+            "roll_no": self.roll_no,
+            "linked_at": self.linked_at,
+        }
 
 
 # --------------------------------------------------------------------------- #
@@ -323,11 +374,12 @@ def _empty_day_embed(
     *,
     highlight_now: bool = False,
     query_batch: Optional[str] = None,
+    user_profile: Optional[UserProfile] = None,
 ) -> discord.Embed:
     name = DAY_NAMES[key]
     is_weekend = key in ("sat", "sun")
 
-    batch_tag = f" (Batch {query_batch.upper()})" if query_batch else ""
+    batch_tag = f" • Batch {query_batch.upper()}" if query_batch else ""
     if highlight_now:
         title = f"📅 Today's Timetable — {name} ({now:%d %b}){batch_tag}"
     else:
@@ -374,7 +426,13 @@ def _empty_day_embed(
             inline=False,
         )
 
-    embed.set_footer(text=f"Timezone: {now.tzname() or 'Local'} • Tip: Use /week to view all days")
+    if user_profile and query_batch == user_profile.batch:
+        footer_text = f"👤 Linked to Batch {user_profile.batch} • Timezone: {now.tzname() or 'Local'} • /profile for details"
+    elif query_batch:
+        footer_text = f"Viewing Batch {query_batch.upper()} • Timezone: {now.tzname() or 'Local'} • Tip: /link <batch>"
+    else:
+        footer_text = f"Showing All Batches • Timezone: {now.tzname() or 'Local'} • Tip: /link <batch> to personalize"
+    embed.set_footer(text=footer_text)
     return embed
 
 
@@ -385,12 +443,15 @@ def build_day_embed(
     *,
     highlight_now: bool,
     query_batch: Optional[str] = None,
+    user_profile: Optional[UserProfile] = None,
 ) -> discord.Embed:
     all_slots = days.get(key, [])
     slots = [s for s in all_slots if slot_matches_batch(s, query_batch)]
     classes = [s for s in slots if not s.is_free]
     if not classes:
-        return _empty_day_embed(key, days, now, highlight_now=highlight_now, query_batch=query_batch)
+        return _empty_day_embed(
+            key, days, now, highlight_now=highlight_now, query_batch=query_batch, user_profile=user_profile
+        )
 
     t = now.time()
     any_ongoing = highlight_now and any(s.start <= t < s.end and not s.is_free for s in classes)
@@ -413,7 +474,7 @@ def build_day_embed(
     if len(description) > 4000:
         description = description[:3990] + "\n…"
 
-    batch_tag = f" (Batch {query_batch.upper()})" if query_batch else ""
+    batch_tag = f" • Batch {query_batch.upper()}" if query_batch else ""
     title = (
         f"📅 Today's Timetable — {DAY_NAMES[key]} ({now:%d %b}){batch_tag}"
         if highlight_now
@@ -426,18 +487,28 @@ def build_day_embed(
         timestamp=now,
     )
     embed.set_author(name="Timetable Bot")
-    embed.set_footer(text=f"Timezone: {now.tzname() or 'Local'} • Tip: Run /next for live status")
+
+    if user_profile and query_batch == user_profile.batch:
+        footer_text = f"👤 Linked to Batch {user_profile.batch} • Timezone: {now.tzname() or 'Local'} • /profile for details"
+    elif query_batch:
+        footer_text = f"Viewing Batch {query_batch.upper()} • Timezone: {now.tzname() or 'Local'} • Tip: /link <batch>"
+    else:
+        footer_text = f"Showing All Batches • Timezone: {now.tzname() or 'Local'} • Tip: /link <batch> to personalize"
+    embed.set_footer(text=footer_text)
     return embed
 
 
 def build_week_embed(
-    days: dict[str, list[Slot]], now: datetime, query_batch: Optional[str] = None
+    days: dict[str, list[Slot]],
+    now: datetime,
+    query_batch: Optional[str] = None,
+    user_profile: Optional[UserProfile] = None,
 ) -> discord.Embed:
     today_key = DAY_KEYS[now.weekday()]
     total_classes = 0
     total_minutes = 0
 
-    batch_title = f" (Batch {query_batch.upper()})" if query_batch else ""
+    batch_title = f" • Batch {query_batch.upper()}" if query_batch else ""
     embed = discord.Embed(
         title=f"🗓️ Weekly Timetable Overview{batch_title}",
         color=COLOR_PRIMARY,
@@ -497,7 +568,14 @@ def build_week_embed(
     noun = "class" if total_classes == 1 else "classes"
     batch_desc = f" for **Batch {query_batch.upper()}**" if query_batch else ""
     embed.description = f"> 📊 **{total_classes} {noun}** this week{batch_desc}   •   ⏳ **{_fmt_minutes(total_minutes)} total teaching time**"
-    embed.set_footer(text=f"Timezone: {now.tzname() or 'Local'} • Tip: Use /timetable [day] for detailed view")
+
+    if user_profile and query_batch == user_profile.batch:
+        footer_text = f"👤 Linked to Batch {user_profile.batch} • Timezone: {now.tzname() or 'Local'} • /timetable for day view"
+    elif query_batch:
+        footer_text = f"Viewing Batch {query_batch.upper()} • Timezone: {now.tzname() or 'Local'} • Tip: /link <batch>"
+    else:
+        footer_text = f"Showing All Batches • Timezone: {now.tzname() or 'Local'} • Tip: /link <batch> to personalize"
+    embed.set_footer(text=footer_text)
     return embed
 
 
@@ -521,6 +599,60 @@ def _detect_android_timezone() -> Optional[str]:
     except Exception:
         pass
     return None
+
+
+if _HAS_UI:
+    class BatchButton(discord.ui.Button):
+        def __init__(self, batch_name: str, cog: "TimetableCog", author_id: int):
+            super().__init__(
+                label=f"Batch {batch_name}",
+                style=discord.ButtonStyle.primary,
+                custom_id=f"tt_batch_{batch_name}_{author_id}",
+            )
+            self.batch_name = batch_name
+            self.cog = cog
+            self.author_id = author_id
+
+        async def callback(self, interaction: discord.Interaction):
+            if interaction.user.id != self.author_id:
+                if hasattr(interaction, "response"):
+                    await interaction.response.send_message(
+                        "❌ This batch selector is for the user who ran the command. Run `/link` to choose yours!",
+                        ephemeral=True,
+                    )
+                return
+            prof = self.cog.set_user_profile(
+                user_id=interaction.user.id,
+                batch=self.batch_name,
+                name=getattr(interaction.user, "display_name", ""),
+            )
+            embed = discord.Embed(
+                title="🎓 Account Linked Successfully!",
+                description=(
+                    f"Successfully linked {interaction.user.mention} to **Batch {prof.batch}**! 🎉\n\n"
+                    "Now whenever you run `/timetable`, `/next`, or `/week`, "
+                    f"the bot will automatically load the timetable for **Batch {prof.batch}**."
+                ),
+                color=COLOR_SUCCESS,
+            )
+            embed.set_author(name="Timetable Bot")
+            embed.add_field(name="👤 Student", value=interaction.user.mention, inline=True)
+            embed.add_field(name="👥 Linked Batch", value=f"**Batch {prof.batch}**", inline=True)
+            embed.set_footer(text=f"Batch {prof.batch} • Run /profile to view your info")
+            if self.view:
+                for child in self.view.children:
+                    setattr(child, "disabled", True)
+                await interaction.response.edit_message(embed=embed, view=self.view)
+            else:
+                await interaction.response.edit_message(embed=embed)
+
+    class BatchSelectView(discord.ui.View):
+        def __init__(self, cog: "TimetableCog", author_id: int, batches: list[str], timeout: float = 60.0):
+            super().__init__(timeout=timeout)
+            for b in batches[:10]:
+                self.add_item(BatchButton(b, cog, author_id))
+else:
+    BatchSelectView = None  # type: ignore[assignment, misc]
 
 
 class TimetableCog(commands.Cog):
@@ -614,37 +746,113 @@ class TimetableCog(commands.Cog):
             parsed[key].sort(key=lambda s: s.start)
         return parsed
 
-    # ----- user batch preferences ------------------------------------------ #
-    def get_user_batch(self, user_id: str) -> Optional[str]:
-        try:
-            if CONFIG_FILE.is_file():
+    # ----- user profiles & batch preferences ---------------------------- #
+    def read_profiles(self) -> dict[str, UserProfile]:
+        """Read all user profiles from users.json, falling back to config.json migration."""
+        profiles: dict[str, UserProfile] = {}
+        if USERS_FILE.is_file():
+            try:
+                raw = json.loads(USERS_FILE.read_text(encoding="utf-8"))
+                if isinstance(raw, dict):
+                    for uid, pdata in raw.items():
+                        if isinstance(pdata, dict):
+                            profiles[str(uid)] = UserProfile.from_dict(uid, pdata)
+            except Exception as exc:
+                log.warning("Could not read users.json: %s", exc)
+
+        # Smooth fallback/migration for existing user_batches in config.json
+        if not profiles and CONFIG_FILE.is_file():
+            try:
                 conf = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
-                batches = conf.get("user_batches", {})
-                val = batches.get(str(user_id))
-                return str(val).strip().upper() if val else None
-        except Exception:
-            pass
-        return None
+                user_batches = conf.get("user_batches", {})
+                if isinstance(user_batches, dict):
+                    for uid, b in user_batches.items():
+                        if str(b).strip():
+                            profiles[str(uid)] = UserProfile(
+                                user_id=str(uid),
+                                batch=str(b).strip().upper(),
+                                linked_at=self._now().isoformat(),
+                            )
+            except Exception:
+                pass
+        return profiles
 
-    def set_user_batch(self, user_id: str, batch: Optional[str]) -> None:
+    def write_profiles(self, profiles: dict[str, UserProfile]) -> None:
+        """Atomically persist user profiles to users.json."""
+        USERS_FILE.parent.mkdir(parents=True, exist_ok=True)
+        raw = {uid: prof.to_dict() for uid, prof in profiles.items()}
+        fd, tmp = tempfile.mkstemp(dir=USERS_FILE.parent, prefix=".users-", suffix=".tmp")
         try:
-            conf: dict[str, Any] = {}
-            if CONFIG_FILE.is_file():
-                with contextlib.suppress(Exception):
-                    conf = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
-            batches = conf.setdefault("user_batches", {})
-            if batch is None:
-                batches.pop(str(user_id), None)
-            else:
-                batches[str(user_id)] = batch.strip().upper()
-
-            fd, tmp = tempfile.mkstemp(dir=CONFIG_FILE.parent, prefix=".config-", suffix=".tmp")
             with os.fdopen(fd, "w", encoding="utf-8") as fh:
-                json.dump(conf, fh, indent=2, ensure_ascii=False)
+                json.dump(raw, fh, indent=2, ensure_ascii=False)
                 fh.write("\n")
-            os.replace(tmp, CONFIG_FILE)
+            os.replace(tmp, USERS_FILE)
         except Exception as exc:
-            log.error("Failed to save user batch: %s", exc)
+            with contextlib.suppress(OSError):
+                os.unlink(tmp)
+            raise ScheduleError(f"I couldn't save user profile ({type(exc).__name__}).") from exc
+
+    def get_user_profile(self, user_id: str | int) -> Optional[UserProfile]:
+        """Get the UserProfile for a user, or None if unlinked."""
+        return self.read_profiles().get(str(user_id))
+
+    def set_user_profile(
+        self,
+        user_id: str | int,
+        batch: str,
+        name: str = "",
+        roll_no: str = "",
+    ) -> UserProfile:
+        """Link or update a user's batch profile."""
+        profiles = self.read_profiles()
+        uid = str(user_id)
+        existing = profiles.get(uid)
+        now_iso = self._now().isoformat()
+        clean_batches = parse_batches(batch)
+        clean_batch = clean_batches[0] if clean_batches else batch.strip().upper()
+        profile = UserProfile(
+            user_id=uid,
+            batch=clean_batch,
+            name=name.strip() or (existing.name if existing else ""),
+            roll_no=roll_no.strip() or (existing.roll_no if existing else ""),
+            linked_at=existing.linked_at if existing and existing.linked_at else now_iso,
+        )
+        profiles[uid] = profile
+        self.write_profiles(profiles)
+        return profile
+
+    def delete_user_profile(self, user_id: str | int) -> bool:
+        """Unlink a user profile. Returns True if removed, False if not found."""
+        profiles = self.read_profiles()
+        uid = str(user_id)
+        if uid in profiles:
+            del profiles[uid]
+            self.write_profiles(profiles)
+            return True
+        return False
+
+    def get_user_batch(self, user_id: str | int) -> Optional[str]:
+        prof = self.get_user_profile(user_id)
+        return prof.batch if prof else None
+
+    def set_user_batch(self, user_id: str | int, batch: Optional[str]) -> None:
+        if batch is None:
+            self.delete_user_profile(user_id)
+        else:
+            self.set_user_profile(user_id, batch)
+
+    def get_known_batches(self) -> list[str]:
+        """Scan schedule slots and linked profiles to discover active batches."""
+        found: set[str] = set()
+        for slots in self.read_all().values():
+            for s in slots:
+                for b in s.batches:
+                    if b and b != "ALL":
+                        found.add(b)
+        for prof in self.read_profiles().values():
+            if prof.batch and prof.batch != "ALL":
+                found.add(prof.batch)
+        return sorted(found) if found else ["1", "2"]
 
     # ----- editing API (used by the admin cog) ----------------------------- #
     async def set_slot(
@@ -774,7 +982,12 @@ class TimetableCog(commands.Cog):
         return removed_slot
 
     # ----- embeds ---------------------------------------------------------- #
-    def _status_embed(self, now: datetime, query_batch: Optional[str] = None) -> discord.Embed:
+    def _status_embed(
+        self,
+        now: datetime,
+        query_batch: Optional[str] = None,
+        user_profile: Optional[UserProfile] = None,
+    ) -> discord.Embed:
         days = self.read_all()
         key = DAY_KEYS[now.weekday()]
         all_today = days[key]
@@ -897,7 +1110,13 @@ class TimetableCog(commands.Cog):
                 inline=False,
             )
 
-        embed.set_footer(text=f"Timezone: {now.tzname() or 'Local'} • Tip: Run /timetable for full day")
+        if user_profile and query_batch == user_profile.batch:
+            footer_text = f"👤 Linked to Batch {user_profile.batch} • Timezone: {now.tzname() or 'Local'} • Run /profile to view"
+        elif query_batch:
+            footer_text = f"Viewing Batch {query_batch.upper()} • Timezone: {now.tzname() or 'Local'} • Tip: /link <batch>"
+        else:
+            footer_text = f"Showing All Batches • Timezone: {now.tzname() or 'Local'} • Tip: /link <batch> to personalize"
+        embed.set_footer(text=footer_text)
         return embed
 
     # ----- commands -------------------------------------------------------- #
@@ -921,7 +1140,8 @@ class TimetableCog(commands.Cog):
         else:
             key = resolve_day(day, now)
             if key is None:
-                await ctx.send(
+                await _safe_send(
+                    ctx,
                     embed=error_embed(
                         f"I don't know the day `{day[:30]}`.\nTry `mon`, `tue`, `wed`, "
                         "`thu`, `fri`, `today` or `tomorrow`."
@@ -930,11 +1150,17 @@ class TimetableCog(commands.Cog):
                 )
                 return
 
-        effective_batch = (batch.strip().upper() if batch else None) or self.get_user_batch(str(ctx.author.id))
+        profile = self.get_user_profile(ctx.author.id)
+        effective_batch = (batch.strip().upper() if batch else None) or (profile.batch if profile else None)
         embed = build_day_embed(
-            key, self.read_all(), now, highlight_now=(key == today_key), query_batch=effective_batch
+            key,
+            self.read_all(),
+            now,
+            highlight_now=(key == today_key),
+            query_batch=effective_batch,
+            user_profile=profile,
         )
-        await ctx.send(embed=embed)
+        await _safe_send(ctx, embed=embed)
 
     @commands.hybrid_command(
         name="next",
@@ -943,8 +1169,12 @@ class TimetableCog(commands.Cog):
     )
     @app_commands.describe(batch="Optional batch filter (e.g. 1, 2). If omitted, uses your saved batch.")
     async def next_class(self, ctx: commands.Context, batch: Optional[str] = None) -> None:
-        effective_batch = (batch.strip().upper() if batch else None) or self.get_user_batch(str(ctx.author.id))
-        await ctx.send(embed=self._status_embed(self._now(), query_batch=effective_batch))
+        profile = self.get_user_profile(ctx.author.id)
+        effective_batch = (batch.strip().upper() if batch else None) or (profile.batch if profile else None)
+        await _safe_send(
+            ctx,
+            embed=self._status_embed(self._now(), query_batch=effective_batch, user_profile=profile),
+        )
 
     @commands.hybrid_command(
         name="week",
@@ -953,55 +1183,213 @@ class TimetableCog(commands.Cog):
     )
     @app_commands.describe(batch="Optional batch filter (e.g. 1, 2). If omitted, uses your saved batch.")
     async def weekly_schedule(self, ctx: commands.Context, batch: Optional[str] = None) -> None:
-        effective_batch = (batch.strip().upper() if batch else None) or self.get_user_batch(str(ctx.author.id))
-        embed = build_week_embed(self.read_all(), self._now(), query_batch=effective_batch)
-        await ctx.send(embed=embed)
+        profile = self.get_user_profile(ctx.author.id)
+        effective_batch = (batch.strip().upper() if batch else None) or (profile.batch if profile else None)
+        embed = build_week_embed(
+            self.read_all(), self._now(), query_batch=effective_batch, user_profile=profile
+        )
+        await _safe_send(ctx, embed=embed)
+
+    @commands.hybrid_command(
+        name="link",
+        aliases=["linkaccount"],
+        description="Link your Discord account to your batch (and optional student info).",
+    )
+    @app_commands.describe(
+        batch="Your batch number or name (e.g. 1, 2, A, B).",
+        name="Optional student name.",
+        roll_no="Optional student roll number / ID.",
+    )
+    async def link_account(
+        self,
+        ctx: commands.Context,
+        batch: Optional[str] = None,
+        name: Optional[str] = None,
+        roll_no: Optional[str] = None,
+    ) -> None:
+        user_id = str(ctx.author.id)
+        if batch is not None and batch.strip():
+            clean_batches = parse_batches(batch)
+            clean_batch = clean_batches[0] if clean_batches else batch.strip().upper()
+            if clean_batch in ("CLEAR", "NONE", "RESET", "REMOVE"):
+                await self.unlink_account(ctx)
+                return
+
+            prof = self.set_user_profile(
+                user_id=user_id,
+                batch=clean_batch,
+                name=name or "",
+                roll_no=roll_no or "",
+            )
+            embed = discord.Embed(
+                title="🎓 Account Linked Successfully!",
+                description=(
+                    f"Successfully linked {ctx.author.mention} to **Batch {prof.batch}**! 🎉\n\n"
+                    "Now whenever you run `/timetable`, `/next`, or `/week`, "
+                    f"the bot will automatically load the timetable for **Batch {prof.batch}**."
+                ),
+                color=COLOR_SUCCESS,
+            )
+            embed.set_author(name="Timetable Bot")
+            embed.add_field(name="👤 Discord User", value=ctx.author.mention, inline=True)
+            embed.add_field(name="👥 Linked Batch", value=f"**Batch {prof.batch}**", inline=True)
+            if prof.name:
+                embed.add_field(name="📝 Name", value=prof.name, inline=True)
+            if prof.roll_no:
+                embed.add_field(name="🆔 Roll / ID", value=f"`{prof.roll_no}`", inline=True)
+            embed.add_field(
+                name="💡 Quick Tips",
+                value=(
+                    f"• Run `/timetable` to view your schedule.\n"
+                    f"• Want to check another batch? Run `/timetable batch:2`.\n"
+                    f"• Run `/profile` to view your profile anytime."
+                ),
+                inline=False,
+            )
+            embed.set_footer(text=f"Batch {prof.batch} • Tip: /profile to check your saved info")
+            await _safe_send(ctx, embed=embed, ephemeral=True)
+            return
+
+        # No batch parameter passed: show interactive picker if UI available, else show guide
+        existing = self.get_user_profile(user_id)
+        batches = self.get_known_batches()
+        batch_list = ", ".join(f"**Batch {b}**" for b in batches) if batches else "None in schedule"
+
+        embed = discord.Embed(
+            title="🔗 Link Your Discord Account",
+            description=(
+                "Link your account to your batch so the bot always serves your personal schedule!\n\n"
+                "### 📌 How to Link\n"
+                "> `/link <batch>` — *e.g.* `/link 1` or `/link 2`\n\n"
+                "### 📝 With Student Info (Optional)\n"
+                '> `/link batch:1 name:"Your Name" roll_no:"21CS042"`\n\n'
+                f"**Available Batches in Schedule:** {batch_list}"
+            ),
+            color=COLOR_PRIMARY,
+        )
+        embed.set_author(name="Timetable Bot")
+        if existing:
+            extra = f" ({existing.name})" if existing.name else ""
+            embed.add_field(
+                name="ℹ️ Current Link",
+                value=f"You are currently linked to **Batch {existing.batch}**{extra}.",
+                inline=False,
+            )
+        embed.set_footer(text="Run /link <batch> or pick your batch below")
+
+        view = None
+        if _HAS_UI and batches and BatchSelectView is not None:
+            view = BatchSelectView(self, ctx.author.id, batches)
+
+        await _safe_send(ctx, embed=embed, view=view, ephemeral=True)
+
+    @commands.hybrid_command(
+        name="unlink",
+        aliases=["unlinkaccount", "clearbatch"],
+        description="Unlink your Discord account from any batch.",
+    )
+    async def unlink_account(self, ctx: commands.Context) -> None:
+        user_id = str(ctx.author.id)
+        removed = self.delete_user_profile(user_id)
+        if removed:
+            embed = discord.Embed(
+                title="🔗 Account Unlinked",
+                description=(
+                    f"Your account ({ctx.author.mention}) has been unlinked.\n"
+                    "The bot will now display timetables for all batches by default.\n\n"
+                    "-# 💡 *You can link again anytime using `/link <batch>`.*"
+                ),
+                color=COLOR_WARN,
+            )
+        else:
+            embed = discord.Embed(
+                title="ℹ️ No Linked Account Found",
+                description=(
+                    f"Your account ({ctx.author.mention}) wasn't linked to any batch.\n"
+                    "Use `/link <batch>` (e.g. `/link 1`) to link your batch!"
+                ),
+                color=COLOR_PRIMARY,
+            )
+        embed.set_author(name="Timetable Bot")
+        await _safe_send(ctx, embed=embed, ephemeral=True)
+
+    @commands.hybrid_command(
+        name="profile",
+        aliases=["me", "myprofile", "whoami"],
+        description="View your linked account profile and today's schedule summary.",
+    )
+    @app_commands.describe(member="Optional: View another member's profile.")
+    async def view_profile(
+        self, ctx: commands.Context, member: Optional[discord.Member] = None
+    ) -> None:
+        target = member or ctx.author
+        prof = self.get_user_profile(target.id)
+        now = self._now()
+        if prof:
+            embed = discord.Embed(
+                title=f"👤 Student Profile — {target.display_name}",
+                description=f"Discord Account: {target.mention}",
+                color=COLOR_PRIMARY,
+                timestamp=now,
+            )
+            embed.set_author(name="Timetable Bot")
+            if hasattr(target, "display_avatar") and target.display_avatar:
+                embed.set_thumbnail(url=target.display_avatar.url)
+            embed.add_field(name="👥 Linked Batch", value=f"**Batch {prof.batch}**", inline=True)
+            if prof.name:
+                embed.add_field(name="📝 Name", value=f"**{prof.name}**", inline=True)
+            if prof.roll_no:
+                embed.add_field(name="🆔 Roll / ID", value=f"`{prof.roll_no}`", inline=True)
+
+            day_key = DAY_KEYS[now.weekday()]
+            slots = [
+                s
+                for s in self.read_all().get(day_key, [])
+                if not s.is_free and slot_matches_batch(s, prof.batch)
+            ]
+            noun = "class" if len(slots) == 1 else "classes"
+            embed.add_field(
+                name=f"📅 Today's Schedule ({DAY_NAMES[day_key]})",
+                value=(
+                    f"> **{len(slots)} {noun}** scheduled for Batch {prof.batch}"
+                    if slots
+                    else "> No classes scheduled today"
+                ),
+                inline=False,
+            )
+            footer_text = f"Linked since {prof.linked_at[:10]}" if prof.linked_at else "Linked"
+            embed.set_footer(text=f"{footer_text} • Run /timetable to view schedule")
+        else:
+            is_self = target.id == ctx.author.id
+            desc = (
+                "You haven't linked your account to a batch yet!\n\n"
+                "Use `/link <batch>` (e.g. `/link 1`) so `/timetable` will automatically "
+                "show your batch's classes without needing any filters."
+                if is_self
+                else f"{target.mention} has not linked their account to a batch yet."
+            )
+            embed = discord.Embed(
+                title="👤 Profile Not Linked",
+                description=desc,
+                color=COLOR_MUTED,
+            )
+            embed.set_author(name="Timetable Bot")
+            if is_self:
+                embed.set_footer(text="Tip: Link in seconds with /link 1")
+        await _safe_send(ctx, embed=embed, ephemeral=True)
 
     @commands.hybrid_command(
         name="mybatch",
         aliases=["setbatch"],
-        description="Set, check, or clear your default batch preference.",
+        description="Check, set, or update your batch preference.",
     )
-    @app_commands.describe(batch="Your batch number (e.g. 1, 2) or 'clear' to reset")
+    @app_commands.describe(batch="Your batch number (e.g. 1, 2) or 'clear' to unlink.")
     async def mybatch(self, ctx: commands.Context, batch: Optional[str] = None) -> None:
-        user_id = str(ctx.author.id)
+        """Alias for /link and /profile for backwards compatibility."""
         if batch is None:
-            current = self.get_user_batch(user_id)
-            if current:
-                embed = discord.Embed(
-                    title="👥 Saved Batch Preference",
-                    description=f"Your default batch is set to **Batch {current}**.\nTimetable commands automatically show your batch.",
-                    color=COLOR_PRIMARY,
-                )
-                embed.set_footer(text="To change: /mybatch <new_batch>  •  To reset: /mybatch clear")
-            else:
-                embed = discord.Embed(
-                    title="👥 No Default Batch Set",
-                    description="You haven't set a default batch yet. The bot shows all batches.\nTo set one, run `/mybatch <number>` (e.g. `/mybatch 1`).",
-                    color=COLOR_PRIMARY,
-                )
-            await ctx.send(embed=embed, ephemeral=True)
-            return
-
-        clean = batch.strip().upper()
-        if clean in ("CLEAR", "NONE", "RESET", "REMOVE"):
-            self.set_user_batch(user_id, None)
-            embed = discord.Embed(
-                title="✅ Batch Preference Cleared",
-                description="Your default batch has been cleared. You will now see all batches.",
-                color=COLOR_SUCCESS,
-            )
-            await ctx.send(embed=embed, ephemeral=True)
-            return
-
-        self.set_user_batch(user_id, clean)
-        embed = discord.Embed(
-            title="✅ Batch Preference Saved",
-            description=f"Your default batch is now set to **Batch {clean}**! 🎓\n`/timetable`, `/next`, and `/week` will show your batch automatically.",
-            color=COLOR_SUCCESS,
-        )
-        embed.set_footer(text="Tip: You can always view other batches anytime: /timetable batch:2")
-        await ctx.send(embed=embed, ephemeral=True)
+            await self.view_profile(ctx)
+        else:
+            await self.link_account(ctx, batch=batch)
 
 
 async def setup(bot: commands.Bot) -> None:

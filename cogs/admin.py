@@ -34,7 +34,7 @@ from discord.ext import commands
 if not hasattr(commands, "hybrid_command"):
     commands.hybrid_command = commands.command  # type: ignore[attr-defined]
 
-from cogs.timetable import DAY_NAMES, resolve_day
+from cogs.timetable import DAY_NAMES, resolve_day, parse_batches
 
 log = logging.getLogger("timetable_bot.admin")
 
@@ -273,6 +273,158 @@ class AdminCog(commands.Cog):
         )
         embed.set_author(name="Timetable Admin")
         embed.set_footer(text="Discord may take up to a minute to refresh commands in your client.")
+        await ctx.send(embed=embed, ephemeral=True)
+
+    # ----- student account management -------------------------------------- #
+    @commands.hybrid_command(
+        name="linkuser",
+        description="Link another server member to a batch. Owner only.",
+    )
+    @commands.is_owner()
+    @app_commands.describe(
+        member="The server member to link",
+        batch="Batch number or name (e.g. 1, 2)",
+        name="Optional student full name",
+        roll_no="Optional student roll number / ID",
+    )
+    async def linkuser(
+        self,
+        ctx: commands.Context,
+        member: discord.Member,
+        batch: str,
+        name: str = "",
+        roll_no: str = "",
+    ) -> None:
+        tt = self._timetable()
+        if tt is None:
+            await ctx.send("The timetable cog is not loaded.", ephemeral=True)
+            return
+
+        clean_batches = parse_batches(batch)
+        clean_batch = clean_batches[0] if clean_batches else batch.strip().upper()
+
+        prof = tt.set_user_profile(
+            user_id=member.id,
+            batch=clean_batch,
+            name=name.strip() or getattr(member, "display_name", ""),
+            roll_no=roll_no.strip(),
+        )
+
+        embed = discord.Embed(
+            title="✅ Student Account Linked",
+            description=f"Successfully linked {member.mention} to **Batch {prof.batch}**.",
+            color=COLOR_SUCCESS,
+        )
+        embed.set_author(name="Timetable Admin")
+        embed.add_field(name="👤 Student", value=member.mention, inline=True)
+        embed.add_field(name="👥 Batch", value=f"**Batch {prof.batch}**", inline=True)
+        if prof.name:
+            embed.add_field(name="📝 Name", value=prof.name, inline=True)
+        if prof.roll_no:
+            embed.add_field(name="🆔 Roll / ID", value=f"`{prof.roll_no}`", inline=True)
+        embed.set_footer(text="Saved to data/users.json • User's /timetable commands will now reflect their batch")
+        await ctx.send(embed=embed, ephemeral=True)
+
+    @commands.hybrid_command(
+        name="unlinkuser",
+        description="Unlink a member's batch profile. Owner only.",
+    )
+    @commands.is_owner()
+    @app_commands.describe(member="The server member to unlink")
+    async def unlinkuser(self, ctx: commands.Context, member: discord.Member) -> None:
+        tt = self._timetable()
+        if tt is None:
+            await ctx.send("The timetable cog is not loaded.", ephemeral=True)
+            return
+        removed = tt.delete_user_profile(member.id)
+        if removed:
+            embed = discord.Embed(
+                title="🗑️ Student Account Unlinked",
+                description=f"Unlinked {member.mention} from their batch.",
+                color=COLOR_WARN,
+            )
+        else:
+            embed = discord.Embed(
+                title="ℹ️ Student Not Linked",
+                description=f"{member.mention} was not linked to any batch.",
+                color=COLOR_PRIMARY,
+            )
+        embed.set_author(name="Timetable Admin")
+        embed.set_footer(text="Updated data/users.json")
+        await ctx.send(embed=embed, ephemeral=True)
+
+    @commands.hybrid_command(
+        name="students",
+        aliases=["batchlist", "roster"],
+        description="List all linked students, optionally filtered by batch. Owner only.",
+    )
+    @commands.is_owner()
+    @app_commands.describe(batch="Optional batch filter (e.g. 1, 2)")
+    async def students(self, ctx: commands.Context, batch: Optional[str] = None) -> None:
+        tt = self._timetable()
+        if tt is None:
+            await ctx.send("The timetable cog is not loaded.", ephemeral=True)
+            return
+        profiles = tt.read_profiles()
+        if not profiles:
+            embed = discord.Embed(
+                title="👥 Registered Students",
+                description="No students are currently linked to any batch.\nUsers can link their accounts using `/link <batch>`.",
+                color=COLOR_MUTED,
+            )
+            embed.set_author(name="Timetable Admin")
+            await ctx.send(embed=embed, ephemeral=True)
+            return
+
+        target_batch = batch.strip().upper() if batch else None
+
+        grouped: dict[str, list] = {}
+        for prof in profiles.values():
+            if target_batch and prof.batch != target_batch:
+                continue
+            grouped.setdefault(prof.batch, []).append(prof)
+
+        if not grouped:
+            embed = discord.Embed(
+                title="👥 Registered Students",
+                description=f"No students found linked to **Batch {target_batch}**.",
+                color=COLOR_MUTED,
+            )
+            embed.set_author(name="Timetable Admin")
+            await ctx.send(embed=embed, ephemeral=True)
+            return
+
+        total_count = sum(len(lst) for lst in grouped.values())
+        b_info = f" in Batch {target_batch}" if target_batch else ""
+        embed = discord.Embed(
+            title="👥 Registered Students",
+            description=f"> 📋 **{total_count} student{'s' if total_count != 1 else ''} linked**{b_info}",
+            color=COLOR_PRIMARY,
+        )
+        embed.set_author(name="Timetable Admin")
+
+        for b_name in sorted(grouped.keys()):
+            s_list = grouped[b_name]
+            lines = []
+            for p in s_list:
+                info_parts = []
+                if p.name:
+                    info_parts.append(p.name)
+                if p.roll_no:
+                    info_parts.append(f"Roll: {p.roll_no}")
+                info_str = f" ({' • '.join(info_parts)})" if info_parts else ""
+                lines.append(f"• <@{p.user_id}>{info_str}")
+
+            field_content = "\n".join(lines)
+            if len(field_content) > 1024:
+                field_content = field_content[:1015] + "\n…"
+            embed.add_field(
+                name=f"👥 Batch {b_name} ({len(s_list)} student{'s' if len(s_list) != 1 else ''})",
+                value=field_content,
+                inline=False,
+            )
+
+        embed.set_footer(text=f"Total: {total_count} linked accounts • Saved in data/users.json")
         await ctx.send(embed=embed, ephemeral=True)
 
 

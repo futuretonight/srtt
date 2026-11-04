@@ -202,14 +202,17 @@ def _dynamic_prefix(bot: "TimetableBot", message: discord.Message):
 class TimetableBot(commands.Bot):
     def __init__(self, config: dict[str, Any]) -> None:
         self.config = config
-        intents = discord.Intents.default()
-        intents.message_content = True  # also enable it in the Developer Portal
-        super().__init__(
-            command_prefix=_dynamic_prefix,
-            intents=intents,
-            case_insensitive=True,
-            strip_after_prefix=True,
-        )
+        kwargs: dict[str, Any] = {
+            "command_prefix": _dynamic_prefix,
+            "case_insensitive": True,
+            "strip_after_prefix": True,
+            "help_command": None,
+        }
+        if hasattr(discord, "Intents"):
+            intents = discord.Intents.default()
+            intents.message_content = True  # also enable it in the Developer Portal
+            kwargs["intents"] = intents
+        super().__init__(**kwargs)
         if hasattr(self, "tree"):
             self.tree.on_error = self.on_app_command_error  # type: ignore[assignment]
 
