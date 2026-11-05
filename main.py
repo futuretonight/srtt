@@ -42,6 +42,7 @@ DEFAULT_CONFIG: dict[str, Any] = {
     "timezone": "Asia/Kolkata",
     "sync_on_start": True,
     "token": "",  # prefer the DISCORD_TOKEN environment variable
+    "attendance_threshold": 75,
 }
 
 COLOR_ERROR = 0xED4245
