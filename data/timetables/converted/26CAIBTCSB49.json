@@ -1,0 +1,302 @@
+{
+  "mon": [
+    {
+      "start": "08:30",
+      "end": "09:30",
+      "category": "class",
+      "subject": "Computational Biology",
+      "kind": "Lecture",
+      "room": "8108-BL8-FF",
+      "faculty": "Dr. Elumalai P",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Applied Physics",
+      "kind": "Lecture",
+      "room": "10206-BL10-SF",
+      "faculty": "Dr. Thirumala Rao Gurugubelli",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Applied Physics",
+      "kind": "Lab",
+      "room": "3117-BL3-FF",
+      "faculty": "Dr. Purushotham E",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Applied Physics",
+      "kind": "Lab",
+      "room": "3117-BL3-FF",
+      "faculty": "Dr. Purushotham E",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "10206-BL10-SF",
+      "faculty": "Dr. Arjun Kumar",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lab",
+      "room": "8102-BL8-FF",
+      "faculty": "Dr. Bapin Mondal",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lab",
+      "room": "8102-BL8-FF",
+      "faculty": "Dr. Bapin Mondal",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "08:30",
+      "end": "09:30",
+      "category": "class",
+      "subject": "Computational Biology",
+      "kind": "Lab",
+      "room": "10101-BL10-FF",
+      "faculty": "Dr. Elumalai P",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Computational Biology",
+      "kind": "Lab",
+      "room": "10101-BL10-FF",
+      "faculty": "Dr. Elumalai P",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Heritage, Democracy and Ecology",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Dr. YUVARAJ R",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Applied Physics",
+      "kind": "Lecture",
+      "room": "10206-BL10-SF",
+      "faculty": "Dr. Thirumala Rao Gurugubelli",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lecture",
+      "room": "10206-BL10-SF",
+      "faculty": "Dr. Manoj Kumar",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "10206-BL10-SF",
+      "faculty": "Dr. Arjun Kumar",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "08:30",
+      "end": "09:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "10206-BL10-SF",
+      "faculty": "Dr. Arjun Kumar",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Computational Biology",
+      "kind": "Lecture",
+      "room": "10206-BL10-SF",
+      "faculty": "Dr. Elumalai P",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lecture",
+      "room": "10206-BL10-SF",
+      "faculty": "Dr. Manoj Kumar",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Heritage, Democracy and Ecology",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Dr. YUVARAJ R",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Tutorial",
+      "room": "10206-BL10-SF",
+      "faculty": "Dr. Arjun Kumar",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lab",
+      "room": "8102-BL8-FF",
+      "faculty": "Dr. Ankit Kumar",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lab",
+      "room": "8102-BL8-FF",
+      "faculty": "Dr. Ankit Kumar",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "10206-BL10-SF",
+      "faculty": "Dr. Arjun Kumar",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "08:30",
+      "end": "09:30",
+      "category": "class",
+      "subject": "Heritage, Democracy and Ecology",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Dr. YUVARAJ R",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Computational Biology",
+      "kind": "Lecture",
+      "room": "8108-BL8-FF",
+      "faculty": "Dr. Elumalai P",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Applied Physics",
+      "kind": "Lecture",
+      "room": "10206-BL10-SF",
+      "faculty": "Dr. Thirumala Rao Gurugubelli",
+      "batches": [
+        "26CAIBTCSB49"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

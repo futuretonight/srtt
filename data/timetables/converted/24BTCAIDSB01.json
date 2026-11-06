@@ -1,0 +1,374 @@
+{
+  "mon": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lecture",
+      "room": "1207-BL1-SF",
+      "faculty": "Dr. Praveen Pappula",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. K Deepa",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lab",
+      "room": "1209-BL1-SF",
+      "faculty": "Ms. Anusha Vajjakeshavulu",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lab",
+      "room": "1209-BL1-SF",
+      "faculty": "Ms. Anusha Vajjakeshavulu",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lecture",
+      "room": "1107-BL1-FF",
+      "faculty": "Dr. Sridhar Chintala",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "1111-BL1-FF",
+      "faculty": "Ms. Shruti Nair",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "1111-BL1-FF",
+      "faculty": "Ms. Shruti Nair",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lecture",
+      "room": "1207-BL1-SF",
+      "faculty": "Dr. Praveen Pappula",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lab",
+      "room": "1201-BL1-SF",
+      "faculty": "Dr. Sridhar Chintala",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lab",
+      "room": "1201-BL1-SF",
+      "faculty": "Dr. Sridhar Chintala",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Statistics for Computer Science",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Jyoti",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. K Deepa",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Statistics for Computer Science",
+      "kind": "Lecture",
+      "room": "1101-BL1-FF",
+      "faculty": "Dr. Jyoti",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. K Deepa",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Sridhar Chintala",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lab",
+      "room": "8003-BL8-GF",
+      "faculty": "Ms. Garidepalli Revathi",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lab",
+      "room": "8003-BL8-GF",
+      "faculty": "Ms. Garidepalli Revathi",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lab",
+      "room": "1106-BL1-FF",
+      "faculty": "Dr. K Deepa",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lab",
+      "room": "1106-BL1-FF",
+      "faculty": "Dr. K Deepa",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "1111-BL1-FF",
+      "faculty": "Ms. Shruti Nair",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "1111-BL1-FF",
+      "faculty": "Ms. Shruti Nair",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Tutorial",
+      "room": "1206-BL1-SF",
+      "faculty": "Dr. Praveen Pappula",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lecture",
+      "room": "1107-BL1-FF",
+      "faculty": "Dr. Sridhar Chintala",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Statistics for Computer Science",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Jyoti",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Gowri Devi B",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Tut",
+      "room": "1114-BL1-FF",
+      "faculty": "Dr. Sridhar Chintala",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Statistics for Computer Science",
+      "kind": "Tutorial",
+      "room": "1115-BL1-FF",
+      "faculty": "Dr. Jyoti",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lecture",
+      "room": "1115-BL1-FF",
+      "faculty": "Dr. Praveen Pappula",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lab",
+      "room": "1201-BL1-SF",
+      "faculty": "Ms. Kalakotla Arunima",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lab",
+      "room": "1201-BL1-SF",
+      "faculty": "Ms. Kalakotla Arunima",
+      "batches": [
+        "24BTCAIDSB01"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

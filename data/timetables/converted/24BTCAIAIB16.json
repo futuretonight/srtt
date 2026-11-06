@@ -1,0 +1,374 @@
+{
+  "mon": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Statistics for Computer Science",
+      "kind": "Lecture",
+      "room": "1109-BL1-FF",
+      "faculty": "Dr. Subrata Roy",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lecture",
+      "room": "1109-BL1-FF",
+      "faculty": "Dr. Praveen Pappula",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lecture",
+      "room": "1109-BL1-FF",
+      "faculty": "Dr. Syed Ali Hussain",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lecture",
+      "room": "1213-BL1-SF",
+      "faculty": "Dr. Shanker Chandre",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lab",
+      "room": "1201-B_BL1-SF",
+      "faculty": "Ms. Mushika Shylaja",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lab",
+      "room": "1201-B_BL1-SF",
+      "faculty": "Ms. Mushika Shylaja",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Statistics for Computer Science",
+      "kind": "Lecture",
+      "room": "1109-BL1-FF",
+      "faculty": "Dr. Subrata Roy",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lab",
+      "room": "8003-B_BL8-GF",
+      "faculty": "Mr. Kiran Mysa",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lab",
+      "room": "8003-B_BL8-GF",
+      "faculty": "Mr. Kiran Mysa",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Tutorial",
+      "room": "1109-BL1-FF",
+      "faculty": "Dr. Praveen Pappula",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lecture",
+      "room": "1109-BL1-FF",
+      "faculty": "Dr. Syed Ali Hussain",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lab",
+      "room": "1106-B_BL1-FF",
+      "faculty": "Dr. Abeyram M Nithin",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lab",
+      "room": "1106-B_BL1-FF",
+      "faculty": "Dr. Abeyram M Nithin",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lecture",
+      "room": "1216-BL1-SF",
+      "faculty": "Dr. Praveen Pappula",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lecture",
+      "room": "1109-BL1-FF",
+      "faculty": "Dr. Shanker Chandre",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "1109-BL1-FF",
+      "faculty": "Dr. Aditi Das",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "1109-BL1-FF",
+      "faculty": "Dr. Aditi Das",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "1109-BL1-FF",
+      "faculty": "Dr. Aditi Das",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lab",
+      "room": "1209-B_BL1-SF",
+      "faculty": "Mr. Kiran Mysa",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lab",
+      "room": "1209-B_BL1-SF",
+      "faculty": "Mr. Kiran Mysa",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Statistics for Computer Science",
+      "kind": "Lecture",
+      "room": "1215-BL1-SF",
+      "faculty": "Dr. Subrata Roy",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Statistics for Computer Science",
+      "kind": "Tutorial",
+      "room": "1215-BL1-SF",
+      "faculty": "Dr. Subrata Roy",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Tutorial",
+      "room": "1109-BL1-FF",
+      "faculty": "Dr. Syed Ali Hussain",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lecture",
+      "room": "1213-BL1-SF",
+      "faculty": "Dr. Shanker Chandre",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lecture",
+      "room": "1213-BL1-SF",
+      "faculty": "Dr. Praveen Pappula",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lab",
+      "room": "1209-B_BL1-SF",
+      "faculty": "Mr. Namala Shivaprasad",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lab",
+      "room": "1209-B_BL1-SF",
+      "faculty": "Mr. Namala Shivaprasad",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lecture",
+      "room": "1109-BL1-FF",
+      "faculty": "Dr. Syed Ali Hussain",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "8006-BL8-GF",
+      "faculty": "Dr. Aditi Das",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "8006-BL8-GF",
+      "faculty": "Dr. Aditi Das",
+      "batches": [
+        "24BTCAIAIB16"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

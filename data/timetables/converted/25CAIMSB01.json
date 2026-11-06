@@ -1,0 +1,108 @@
+{
+  "mon": [
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Network security and cryptography",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Chopparra Prashanth",
+      "batches": [
+        "25CAIMSB01"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Cloud Technologies & Applications",
+      "kind": "Lecture",
+      "room": "1216-BL1-SF",
+      "faculty": "Mr. Bingi Raju",
+      "batches": [
+        "25CAIMSB01"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Cloud Technologies & Applications",
+      "kind": "Lecture",
+      "room": "1216-BL1-SF",
+      "faculty": "Mr. Bingi Raju",
+      "batches": [
+        "25CAIMSB01"
+      ]
+    }
+  ],
+  "wed": [],
+  "thu": [],
+  "fri": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Network security and cryptography",
+      "kind": "Lecture",
+      "room": "1215-BL1-SF",
+      "faculty": "Dr. Chopparra Prashanth",
+      "batches": [
+        "25CAIMSB01"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Network security and cryptography",
+      "kind": "Lab",
+      "room": "1210-BL1-SF",
+      "faculty": "Dr. Chopparra Prashanth",
+      "batches": [
+        "25CAIMSB01"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Network security and cryptography",
+      "kind": "Lab",
+      "room": "1210-BL1-SF",
+      "faculty": "Dr. Chopparra Prashanth",
+      "batches": [
+        "25CAIMSB01"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Cloud Technologies & Applications",
+      "kind": "Lab",
+      "room": "10003-BL10-GF",
+      "faculty": "Mr. Bingi Raju",
+      "batches": [
+        "25CAIMSB01"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Cloud Technologies & Applications",
+      "kind": "Lab",
+      "room": "10003-BL10-GF",
+      "faculty": "Mr. Bingi Raju",
+      "batches": [
+        "25CAIMSB01"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

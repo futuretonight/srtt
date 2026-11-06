@@ -1,0 +1,1189 @@
+{
+  "degree": "BTECH-EEE",
+  "year": "Second",
+  "batch": "25EEEBT00B02",
+  "lastUpdated": "2026-10-04T06:13:39.602765",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 249,
+            "unique_id": "4DAF07D5-604A-46BE-8DC9-BC9BA3DD689C",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Problem Solving using Python",
+            "batch": "25EEEBT00B02",
+            "faculty": "2405c20006",
+            "room": "44",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "08-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:46:42.000000Z",
+            "updated_at": "2026-08-08T12:41:05.000000Z",
+            "room_name": "2015-BL2-GF",
+            "facultyName": "Mr. Sai Kumar Mahadevuni"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 250,
+            "unique_id": "F7D258D0-B97A-4A5B-BB8A-51CCF09B7E3F",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Problem Solving using Python",
+            "batch": "25EEEBT00B02",
+            "faculty": "2405c20006",
+            "room": "44",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "08-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:46:42.000000Z",
+            "updated_at": "2026-08-08T12:41:44.000000Z",
+            "room_name": "2015-BL2-GF",
+            "facultyName": "Mr. Sai Kumar Mahadevuni"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 237,
+            "unique_id": "41E78247-A17B-4F85-9EB2-BFF639448592",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "DC Machines and Transformers",
+            "batch": "25EEEBT00B01,25EEEBT00B02",
+            "faculty": "1548",
+            "room": "25",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "31-07-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:41:37.000000Z",
+            "updated_at": "2026-07-31T09:50:48.000000Z",
+            "room_name": "2003-BL2-GF",
+            "facultyName": "Dr. Ankit Pal"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 244,
+            "unique_id": "3FB785E3-290C-4FDD-86B5-8D5689AE3229",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Analog and Digital Electronics",
+            "batch": "25EEEBT00B01,25EEEBT00B02",
+            "faculty": "1531",
+            "room": "25",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:44:42.000000Z",
+            "updated_at": "2026-08-22T06:26:43.000000Z",
+            "room_name": "2003-BL2-GF",
+            "facultyName": "Dr. Ch Hussaian Basha"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 235,
+            "unique_id": "F48322CF-B1FD-4FF6-9541-795E295AF741",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Signal, Systems and Transforms",
+            "batch": "25EEEBT00B01,25EEEBT00B02",
+            "faculty": "1512",
+            "room": "25",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "08-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:40:14.000000Z",
+            "updated_at": "2026-08-08T11:56:25.000000Z",
+            "room_name": "2003-BL2-GF",
+            "facultyName": "Dr. Chandan Kumar Shiva"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 240,
+            "unique_id": "794D5C5C-E87C-4F63-A895-F9EE5913880B",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Electrical Power Transmission",
+            "batch": "25EEEBT00B01,25EEEBT00B02",
+            "faculty": "1504",
+            "room": "25",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:42:42.000000Z",
+            "updated_at": "2026-08-22T05:05:11.000000Z",
+            "room_name": "2003-BL2-GF",
+            "facultyName": "Dr. Raja Babu D"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 232,
+            "unique_id": "297B35D5-C5F4-4D1C-B382-D73C6DBAFEAC",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Problem Solving using Python",
+            "batch": "25EEEBT00B01,25EEEBT00B02",
+            "faculty": "1522",
+            "room": "25",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:37:50.000000Z",
+            "updated_at": "2026-07-14T20:37:50.000000Z",
+            "room_name": "2003-BL2-GF",
+            "facultyName": "Dr. Sachidananda Sen"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 234,
+            "unique_id": "DD69C288-1C17-4A39-AFE9-E1591EBE2701",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Signal, Systems and Transforms",
+            "batch": "25EEEBT00B01,25EEEBT00B02",
+            "faculty": "1512",
+            "room": "25",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:40:14.000000Z",
+            "updated_at": "2026-07-14T20:40:14.000000Z",
+            "room_name": "2003-BL2-GF",
+            "facultyName": "Dr. Chandan Kumar Shiva"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 259,
+            "unique_id": "3B27783D-742F-4F66-B992-CEEA033DE8DF",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "DC Machines and Transformers",
+            "batch": "25EEEBT00B02",
+            "faculty": "2305c20029",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:51:08.000000Z",
+            "updated_at": "2026-07-14T20:51:08.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Ms. Ankam Sruthi"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 260,
+            "unique_id": "28A4EDA5-BB6C-433D-8C13-D96647007197",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "DC Machines and Transformers",
+            "batch": "25EEEBT00B02",
+            "faculty": "2305c20029",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:51:08.000000Z",
+            "updated_at": "2026-07-14T20:51:08.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Ms. Ankam Sruthi"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 272,
+            "unique_id": "82146130-8083-4A7A-A0D0-E4CE247275D6",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "DC Machines and Transformers",
+            "batch": "25EEEBT00B02",
+            "faculty": "2405c20014",
+            "room": "24",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Tut",
+            "rec_num": null,
+            "modify_date": "21-07-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T21:50:20.000000Z",
+            "updated_at": "2026-07-21T08:33:49.000000Z",
+            "room_name": "2002-BL2-GF",
+            "facultyName": "Mr. Gurijala Sreedhar"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 245,
+            "unique_id": "4A2704BD-6B88-4B11-80AB-8BC2C4B67995",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Analog and Digital Electronics",
+            "batch": "25EEEBT00B01,25EEEBT00B02",
+            "faculty": "1531",
+            "room": "25",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:44:42.000000Z",
+            "updated_at": "2026-08-22T06:26:18.000000Z",
+            "room_name": "2003-BL2-GF",
+            "facultyName": "Dr. Ch Hussaian Basha"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 241,
+            "unique_id": "96C99A10-A7D0-40AC-A04D-88C9569305E5",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Electrical Power Transmission",
+            "batch": "25EEEBT00B01,25EEEBT00B02",
+            "faculty": "1504",
+            "room": "25",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:42:42.000000Z",
+            "updated_at": "2026-08-22T05:18:39.000000Z",
+            "room_name": "2003-BL2-GF",
+            "facultyName": "Dr. Raja Babu D"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 274,
+            "unique_id": "2A72F63C-FD37-44D0-8B0A-C3C4B4A0EFBB",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Problem Solving using Python",
+            "batch": "25EEEBT00B02",
+            "faculty": "2305c20032",
+            "room": "25",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Tutorial",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T21:52:05.000000Z",
+            "updated_at": "2026-07-14T21:52:05.000000Z",
+            "room_name": "2003-BL2-GF",
+            "facultyName": "Ms. Gadda Venkata Keerthi Sri"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 238,
+            "unique_id": "2F9880DE-F997-4A07-B68E-FCD841DBF4FC",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "DC Machines and Transformers",
+            "batch": "25EEEBT00B01,25EEEBT00B02",
+            "faculty": "1548",
+            "room": "25",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "31-07-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:41:37.000000Z",
+            "updated_at": "2026-07-31T09:50:48.000000Z",
+            "room_name": "2003-BL2-GF",
+            "facultyName": "Dr. Ankit Pal"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 269,
+            "unique_id": "A9C6384A-8C8C-49AD-AB21-3D356499AC66",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Electrical Power Transmission",
+            "batch": "25EEEBT00B02",
+            "faculty": "2605C20001",
+            "room": "44",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T21:05:23.000000Z",
+            "updated_at": "2026-08-07T04:50:07.000000Z",
+            "room_name": "2015-BL2-GF",
+            "facultyName": "Mr. A. SHIVAKRISHNA"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 270,
+            "unique_id": "3CA43E16-A898-41E5-9C38-E498C4E7B654",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Electrical Power Transmission",
+            "batch": "25EEEBT00B02",
+            "faculty": "2605C20001",
+            "room": "44",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T21:05:23.000000Z",
+            "updated_at": "2026-08-07T04:50:07.000000Z",
+            "room_name": "2015-BL2-GF",
+            "facultyName": "Mr. A. SHIVAKRISHNA"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 258,
+            "unique_id": "D1BC551B-B573-41E2-9FA2-6A2529B32FAD",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Analog and Digital Electronics",
+            "batch": "25EEEBT00B02",
+            "faculty": "2305c20035",
+            "room": "131",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:48:56.000000Z",
+            "updated_at": "2026-07-14T20:48:56.000000Z",
+            "room_name": "2014-BL2-GF",
+            "facultyName": "Mr. M Pavan Kumar"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 257,
+            "unique_id": "3B1CF4AB-ED82-4856-8DE8-788BD414F0D8",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Analog and Digital Electronics",
+            "batch": "25EEEBT00B02",
+            "faculty": "2305c20035",
+            "room": "131",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "26-07-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:48:56.000000Z",
+            "updated_at": "2026-07-26T03:01:39.000000Z",
+            "room_name": "2014-BL2-GF",
+            "facultyName": "Mr. M Pavan Kumar"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 242,
+            "unique_id": "8FF990BA-330C-4107-8BA7-64612594D67F",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Electrical Power Transmission",
+            "batch": "25EEEBT00B01,25EEEBT00B02",
+            "faculty": "1504",
+            "room": "25",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:42:42.000000Z",
+            "updated_at": "2026-08-22T05:03:59.000000Z",
+            "room_name": "2003-BL2-GF",
+            "facultyName": "Dr. Raja Babu D"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 233,
+            "unique_id": "8072236B-2A48-409F-A04F-45D3B605B15D",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Problem Solving using Python",
+            "batch": "25EEEBT00B01,25EEEBT00B02",
+            "faculty": "1522",
+            "room": "25",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:37:50.000000Z",
+            "updated_at": "2026-07-14T20:37:50.000000Z",
+            "room_name": "2003-BL2-GF",
+            "facultyName": "Dr. Sachidananda Sen"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 243,
+            "unique_id": "66158C61-9E17-40C9-8442-B71F49A00BE9",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Electrical Power Transmission",
+            "batch": "25EEEBT00B01,25EEEBT00B02",
+            "faculty": "1504",
+            "room": "25",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:42:42.000000Z",
+            "updated_at": "2026-08-22T05:03:17.000000Z",
+            "room_name": "2003-BL2-GF",
+            "facultyName": "Dr. Raja Babu D"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 239,
+            "unique_id": "50C89F46-0E11-4697-8381-C94B73C93F95",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "DC Machines and Transformers",
+            "batch": "25EEEBT00B01,25EEEBT00B02",
+            "faculty": "1548",
+            "room": "25",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "31-07-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:41:37.000000Z",
+            "updated_at": "2026-07-31T09:50:48.000000Z",
+            "room_name": "2003-BL2-GF",
+            "facultyName": "Dr. Ankit Pal"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 236,
+            "unique_id": "6964BC83-10E9-4C28-A4AD-7CF2FD6D0B79",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Signal, Systems and Transforms",
+            "batch": "25EEEBT00B01,25EEEBT00B02",
+            "faculty": "1512",
+            "room": "25",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:40:14.000000Z",
+            "updated_at": "2026-07-14T20:40:14.000000Z",
+            "room_name": "2003-BL2-GF",
+            "facultyName": "Dr. Chandan Kumar Shiva"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 265,
+            "unique_id": "C4B405DD-BC62-458D-ADEA-7D6B6667CE82",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Problem Solving using Python",
+            "batch": "25EEEBT00B02",
+            "faculty": "2305c20032",
+            "room": "44",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "25-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T21:01:05.000000Z",
+            "updated_at": "2026-08-25T04:34:23.000000Z",
+            "room_name": "2015-BL2-GF",
+            "facultyName": "Ms. Gadda Venkata Keerthi Sri"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 266,
+            "unique_id": "521AC9E4-63A0-4601-8072-2DB80520C99E",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Problem Solving using Python",
+            "batch": "25EEEBT00B02",
+            "faculty": "2305c20032",
+            "room": "44",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "25-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T21:01:05.000000Z",
+            "updated_at": "2026-08-25T04:33:55.000000Z",
+            "room_name": "2015-BL2-GF",
+            "facultyName": "Ms. Gadda Venkata Keerthi Sri"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 246,
+            "unique_id": "FF35EDFD-3E09-4ED0-B613-3D3F6716AED7",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Analog and Digital Electronics",
+            "batch": "25EEEBT00B01,25EEEBT00B02",
+            "faculty": "1531",
+            "room": "25",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-14T20:44:42.000000Z",
+            "updated_at": "2026-08-22T06:25:51.000000Z",
+            "room_name": "2003-BL2-GF",
+            "facultyName": "Dr. Ch Hussaian Basha"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

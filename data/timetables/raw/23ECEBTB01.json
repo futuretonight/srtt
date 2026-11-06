@@ -1,0 +1,1390 @@
+{
+  "degree": "BTECH-ECE",
+  "year": "Fourth",
+  "batch": "23ECEBTB01",
+  "lastUpdated": "2026-10-04T06:13:31.464448",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 224,
+            "unique_id": "C0031604-48DA-4C76-BBF8-51247B518CDD",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Object Oriented Programming in JavaScript",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06",
+            "faculty": "2303c50021",
+            "room": "54",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "01-09-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T20:27:38.000000Z",
+            "updated_at": "2026-09-01T09:25:09.000000Z",
+            "room_name": "3202-BL3-SF",
+            "facultyName": "Mr. Rama Krishna B"
+          },
+          {
+            "id": 226,
+            "unique_id": "B1BF9B75-292F-46F4-AD1C-36E55D713D31",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Smart Sensors and Intelligent Instrumentation",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06",
+            "faculty": "2580",
+            "room": "50",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "19-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T20:27:38.000000Z",
+            "updated_at": "2026-08-19T04:39:02.000000Z",
+            "room_name": "3106-BL3-FF",
+            "facultyName": "Dr. Soumadri Samanta"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 225,
+            "unique_id": "C7E39D3F-C160-4C67-871E-D84AE84EF990",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Object Oriented Programming in JavaScript",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06",
+            "faculty": "2303c50021",
+            "room": "54",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "01-09-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T20:27:38.000000Z",
+            "updated_at": "2026-09-01T09:24:15.000000Z",
+            "room_name": "3202-BL3-SF",
+            "facultyName": "Mr. Rama Krishna B"
+          },
+          {
+            "id": 227,
+            "unique_id": "1BE009C2-793B-45E2-AC0A-BAED2C5219AE",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Smart Sensors and Intelligent Instrumentation",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06",
+            "faculty": "2580",
+            "room": "50",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "19-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T20:27:38.000000Z",
+            "updated_at": "2026-08-19T04:37:37.000000Z",
+            "room_name": "3106-BL3-FF",
+            "facultyName": "Dr. Soumadri Samanta"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 88,
+            "unique_id": "248C8B46-02E7-4059-8D9A-13B49F2276A4",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Emerging Nanotechnologies for Engineers",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05",
+            "faculty": "2604",
+            "room": "58",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "14-09-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T21:43:35.000000Z",
+            "updated_at": "2026-09-14T16:59:32.000000Z",
+            "room_name": "3206-BL3-SF",
+            "facultyName": "Dr. Suresh Kumar  C"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 218,
+            "unique_id": "E7046758-6FEC-4D7A-B5F2-A70CCA46F1A6",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Object Oriented Programming in JavaScript",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06",
+            "faculty": "2303c50021",
+            "room": "40",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "01-09-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T01:32:02.000000Z",
+            "updated_at": "2026-09-01T09:27:20.000000Z",
+            "room_name": "2208-BL2-SF",
+            "facultyName": "Mr. Rama Krishna B"
+          },
+          {
+            "id": 220,
+            "unique_id": "5495D92C-5536-4896-B82D-9EE9BD82DF3D",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Smart Sensors and Intelligent Instrumentation",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06",
+            "faculty": "2580",
+            "room": "50",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "18-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T01:32:02.000000Z",
+            "updated_at": "2026-08-18T05:05:08.000000Z",
+            "room_name": "3106-BL3-FF",
+            "facultyName": "Dr. Soumadri Samanta"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 5143,
+            "unique_id": "94AE5A8C-FAAC-482F-A3F8-CAB99DDD7A36",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Satellite Communication",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06",
+            "faculty": "2557",
+            "room": "55",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "18-09-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-30T21:42:58.000000Z",
+            "updated_at": "2026-09-18T10:12:24.000000Z",
+            "room_name": "3203-BL3-SF",
+            "facultyName": "Dr. Biswajit Mahanty"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 86,
+            "unique_id": "0E37C88C-31F9-4314-B119-914882A8B3BE",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Emerging Nanotechnologies for Engineers",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05",
+            "faculty": "2604",
+            "room": "50",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T21:42:25.000000Z",
+            "updated_at": "2026-08-21T04:32:59.000000Z",
+            "room_name": "3106-BL3-FF",
+            "facultyName": "Dr. Suresh Kumar  C"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 94,
+            "unique_id": "FC82E0E6-412E-4E8F-9992-FB5A83826684",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Data Communication",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06",
+            "faculty": "2560",
+            "room": "221",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "08-09-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T21:46:03.000000Z",
+            "updated_at": "2026-09-08T06:20:08.000000Z",
+            "room_name": "3219-BL3-SF",
+            "facultyName": "Dr. Mohammad Junaid Khan"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 219,
+            "unique_id": "028B4822-C26D-4EF9-9062-29D317E21D58",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Object Oriented Programming in JavaScript",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06",
+            "faculty": "2303c50021",
+            "room": "58",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "15-09-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T01:32:02.000000Z",
+            "updated_at": "2026-09-15T11:11:11.000000Z",
+            "room_name": "3206-BL3-SF",
+            "facultyName": "Mr. Rama Krishna B"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 221,
+            "unique_id": "D67DF4FA-BE12-4C18-9F70-73B6B64B5A68",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Smart Sensors and Intelligent Instrumentation",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06",
+            "faculty": "2580",
+            "room": "63",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "18-09-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T01:32:02.000000Z",
+            "updated_at": "2026-09-18T10:03:13.000000Z",
+            "room_name": "3216-BL3-SF",
+            "facultyName": "Dr. Soumadri Samanta"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 5815,
+            "unique_id": "A6CA8F90-908D-4CC0-97DD-8AC72F7AC7A2",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Financial Accounting And Management",
+            "batch": "23ECEBTB01,23ECEBTB04,23ECEBTB05,23ECEBTB07,23ECEBTB08,23ECEBTB09,23ECEBTB10",
+            "faculty": "2302c70047",
+            "room": "53",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-05T07:09:23.000000Z",
+            "updated_at": "2026-08-21T06:31:14.000000Z",
+            "room_name": "3115-BL3-FF",
+            "facultyName": "Ms. Ambati Suvarna"
+          },
+          {
+            "id": 5817,
+            "unique_id": "54229FCA-24ED-4807-B167-A03DE6CE516F",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Organisation Behaviour",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB07,23ECEBTB08,23ECEBTB09,23ECEBTB10,23ECEBTB11",
+            "faculty": "2402c70005",
+            "room": "55",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-05T07:09:23.000000Z",
+            "updated_at": "2026-08-21T06:38:24.000000Z",
+            "room_name": "3203-BL3-SF",
+            "facultyName": "Ms. Peddi Sarita"
+          },
+          {
+            "id": 5821,
+            "unique_id": "0556147B-A318-40F2-A5F6-C8F5BCF7A068",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Sociology",
+            "batch": "23ECEBTB01,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06,23ECEBTB07,23ECEBTB09,23ECEBTB11,23ECEBTB12",
+            "faculty": "3601",
+            "room": "57",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": null,
+            "created_at": "2026-08-05T07:09:23.000000Z",
+            "updated_at": "2026-08-05T07:09:23.000000Z",
+            "room_name": "3205-BL3-SF",
+            "facultyName": "Dr. Itishree Panda"
+          },
+          {
+            "id": 5812,
+            "unique_id": "C711DCD3-D105-4ABF-9C4C-5114540FA039",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Smart Manufacturing",
+            "batch": "23ECEBTB01, 23ECEBTB02, 23ECEBTB03, 23ECEBTB05, 23ECEBTB06, 23ECEBTB07, 23ECEBTB08, 23ECEBTB09, 23ECEBTB10, 23ECEBTB11, 23ECEBTB12",
+            "faculty": "7509",
+            "room": "52",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-05T07:09:23.000000Z",
+            "updated_at": "2026-08-21T06:22:46.000000Z",
+            "room_name": "3114-BL3-FF",
+            "facultyName": "Dr. Santhosh Kumar Kamarapu"
+          },
+          {
+            "id": 6063,
+            "unique_id": "BFD35949-C42A-40B9-81CB-7B9D1130CB09",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Introduction to French",
+            "batch": "23ECEBTB01,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06,23ECEBTB07,23ECEBTB08,23ECEBTB09,23ECEBTB10,23ECEBTB11,23ECEBTB12",
+            "faculty": "3658",
+            "room": "51",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": null,
+            "created_at": "2026-08-13T06:25:15.000000Z",
+            "updated_at": "2026-08-13T06:25:15.000000Z",
+            "room_name": "3113-BL3-FF",
+            "facultyName": "Ms. Suneha Enumula"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 6125,
+            "unique_id": "BE4D7CBF-DC23-42FE-AE66-5CF0AA8125DD",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Data Communication",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03",
+            "faculty": "2560",
+            "room": "50",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-08-14T01:06:40.000000Z",
+            "updated_at": "2026-08-14T01:06:40.000000Z",
+            "room_name": "3106-BL3-FF",
+            "facultyName": "Dr. Mohammad Junaid Khan"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 6126,
+            "unique_id": "AA7494F1-47E6-4909-A115-8555FB962E49",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "12:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Data Communication",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03",
+            "faculty": "2560",
+            "room": "50",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-08-14T01:06:40.000000Z",
+            "updated_at": "2026-08-14T01:06:40.000000Z",
+            "room_name": "3106-BL3-FF",
+            "facultyName": "Dr. Mohammad Junaid Khan"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 216,
+            "unique_id": "5E08C180-8233-46C7-A52F-CB933CDC73B3",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Satellite Communication",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06",
+            "faculty": "2557",
+            "room": "50",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T01:23:15.000000Z",
+            "updated_at": "2026-08-21T04:44:26.000000Z",
+            "room_name": "3106-BL3-FF",
+            "facultyName": "Dr. Biswajit Mahanty"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 217,
+            "unique_id": "9984858D-BFA1-45AD-AB5C-7FD02D2F88D2",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Satellite Communication",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06",
+            "faculty": "2557",
+            "room": "63",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "08-09-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T01:23:15.000000Z",
+            "updated_at": "2026-09-08T05:23:53.000000Z",
+            "room_name": "3216-BL3-SF",
+            "facultyName": "Dr. Biswajit Mahanty"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 96,
+            "unique_id": "B9ABA809-EEA5-466A-B8A9-000C636B4BF8",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Data Communication",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06",
+            "faculty": "2560",
+            "room": "34",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "16-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T21:46:58.000000Z",
+            "updated_at": "2026-08-16T08:40:34.000000Z",
+            "room_name": "2118-BL2-FF",
+            "facultyName": "Dr. Mohammad Junaid Khan"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 87,
+            "unique_id": "31EE3532-827E-4186-A12A-C7159C383B0F",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "12:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Emerging Nanotechnologies for Engineers",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05",
+            "faculty": "2604",
+            "room": "49",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T21:43:35.000000Z",
+            "updated_at": "2026-08-21T09:37:15.000000Z",
+            "room_name": "3105-BL3-FF",
+            "facultyName": "Dr. Suresh Kumar  C"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 5829,
+            "unique_id": "31D5F79B-36CC-4410-99CD-B5ECBAA8A67D",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Financial Accounting And Management",
+            "batch": "23ECEBTB01,23ECEBTB04,23ECEBTB05,23ECEBTB07,23ECEBTB08,23ECEBTB09,23ECEBTB10",
+            "faculty": "2302c70047",
+            "room": "53",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-05T07:09:24.000000Z",
+            "updated_at": "2026-08-21T06:29:59.000000Z",
+            "room_name": "3115-BL3-FF",
+            "facultyName": "Ms. Ambati Suvarna"
+          },
+          {
+            "id": 5831,
+            "unique_id": "C9AB5169-234E-4078-9416-C6DDE20A9F47",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Organisation Behaviour",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB07,23ECEBTB08,23ECEBTB09,23ECEBTB10,23ECEBTB11",
+            "faculty": "2402c70005",
+            "room": "55",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-05T07:09:24.000000Z",
+            "updated_at": "2026-08-21T06:37:23.000000Z",
+            "room_name": "3203-BL3-SF",
+            "facultyName": "Ms. Peddi Sarita"
+          },
+          {
+            "id": 5835,
+            "unique_id": "84029A62-86B7-4525-8F67-BE1249F49435",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Sociology",
+            "batch": "23ECEBTB01,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06,23ECEBTB07,23ECEBTB09,23ECEBTB11,23ECEBTB12",
+            "faculty": "3601",
+            "room": "57",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "05-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-05T07:09:24.000000Z",
+            "updated_at": "2026-08-05T08:48:26.000000Z",
+            "room_name": "3205-BL3-SF",
+            "facultyName": "Dr. Itishree Panda"
+          },
+          {
+            "id": 6637,
+            "unique_id": "E423B33C-9EDD-44E9-A86E-90D7B2CA46E6",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Smart Manufacturing",
+            "batch": "23ECEBTB01, 23ECEBTB02, 23ECEBTB03, 23ECEBTB05, 23ECEBTB06, 23ECEBTB07, 23ECEBTB08, 23ECEBTB09, 23ECEBTB10, 23ECEBTB11, 23ECEBTB12",
+            "faculty": "7509",
+            "room": "46",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-20T17:18:43.000000Z",
+            "updated_at": "2026-08-21T06:19:27.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Dr. Santhosh Kumar Kamarapu"
+          },
+          {
+            "id": 6631,
+            "unique_id": "2F464D40-1FEE-4788-8567-169932E2EF41",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Smart Manufacturing",
+            "batch": "23ECEBTB01, 23ECEBTB02, 23ECEBTB03, 23ECEBTB05, 23ECEBTB06, 23ECEBTB07, 23ECEBTB08, 23ECEBTB09, 23ECEBTB10, 23ECEBTB11, 23ECEBTB12",
+            "faculty": "2044",
+            "room": "46",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-20T17:18:42.000000Z",
+            "updated_at": "2026-08-21T06:21:47.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Dr. Anupam Chaudhary"
+          },
+          {
+            "id": 6067,
+            "unique_id": "36F277EB-A541-49F5-8F1B-53E8CD592620",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Introduction to French",
+            "batch": "23ECEBTB01,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06,23ECEBTB07,23ECEBTB08,23ECEBTB09,23ECEBTB10,23ECEBTB11,23ECEBTB12",
+            "faculty": "3658",
+            "room": "52",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": null,
+            "created_at": "2026-08-13T06:25:15.000000Z",
+            "updated_at": "2026-08-13T06:25:15.000000Z",
+            "room_name": "3114-BL3-FF",
+            "facultyName": "Ms. Suneha Enumula"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 5843,
+            "unique_id": "5C98BE93-B414-4946-93C6-76FE1E5AA5C3",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Financial Accounting And Management",
+            "batch": "23ECEBTB01,23ECEBTB04,23ECEBTB05,23ECEBTB07,23ECEBTB08,23ECEBTB09,23ECEBTB10",
+            "faculty": "2302c70047",
+            "room": "53",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-05T07:09:25.000000Z",
+            "updated_at": "2026-08-21T06:29:02.000000Z",
+            "room_name": "3115-BL3-FF",
+            "facultyName": "Ms. Ambati Suvarna"
+          },
+          {
+            "id": 5845,
+            "unique_id": "D5E977D9-44EF-46F7-8776-8FBEE2AEC36B",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Organisation Behaviour",
+            "batch": "23ECEBTB01,23ECEBTB02,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB07,23ECEBTB08,23ECEBTB09,23ECEBTB10,23ECEBTB11",
+            "faculty": "2402c70005",
+            "room": "55",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-05T07:09:25.000000Z",
+            "updated_at": "2026-08-21T06:36:07.000000Z",
+            "room_name": "3203-BL3-SF",
+            "facultyName": "Ms. Peddi Sarita"
+          },
+          {
+            "id": 5849,
+            "unique_id": "E618726F-51C6-4614-BB85-B5873DCE3142",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Sociology",
+            "batch": "23ECEBTB01,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06,23ECEBTB07,23ECEBTB09,23ECEBTB11,23ECEBTB12",
+            "faculty": "3601",
+            "room": "57",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "05-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-05T07:09:25.000000Z",
+            "updated_at": "2026-08-05T08:59:09.000000Z",
+            "room_name": "3205-BL3-SF",
+            "facultyName": "Dr. Itishree Panda"
+          },
+          {
+            "id": 6640,
+            "unique_id": "6461C06A-D72E-4D37-80AF-1507DCEC0184",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Smart Manufacturing",
+            "batch": "23ECEBTB01, 23ECEBTB02, 23ECEBTB03, 23ECEBTB05, 23ECEBTB06, 23ECEBTB07, 23ECEBTB08, 23ECEBTB09, 23ECEBTB10, 23ECEBTB11, 23ECEBTB12",
+            "faculty": "7509",
+            "room": "46",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-20T17:18:43.000000Z",
+            "updated_at": "2026-08-21T06:18:38.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Dr. Santhosh Kumar Kamarapu"
+          },
+          {
+            "id": 6634,
+            "unique_id": "E6EC8C71-ABC7-4798-AA1F-5A0539550C66",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Smart Manufacturing",
+            "batch": "23ECEBTB01, 23ECEBTB02, 23ECEBTB03, 23ECEBTB05, 23ECEBTB06, 23ECEBTB07, 23ECEBTB08, 23ECEBTB09, 23ECEBTB10, 23ECEBTB11, 23ECEBTB12",
+            "faculty": "2044",
+            "room": "46",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-20T17:18:42.000000Z",
+            "updated_at": "2026-08-21T06:20:26.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Dr. Anupam Chaudhary"
+          },
+          {
+            "id": 6071,
+            "unique_id": "17E4C7A1-05CE-43A4-838B-7583F1051CCE",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Introduction to French",
+            "batch": "23ECEBTB01,23ECEBTB03,23ECEBTB04,23ECEBTB05,23ECEBTB06,23ECEBTB07,23ECEBTB08,23ECEBTB09,23ECEBTB10,23ECEBTB11,23ECEBTB12",
+            "faculty": "3658",
+            "room": "52",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": null,
+            "created_at": "2026-08-13T06:25:16.000000Z",
+            "updated_at": "2026-08-13T06:25:16.000000Z",
+            "room_name": "3114-BL3-FF",
+            "facultyName": "Ms. Suneha Enumula"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

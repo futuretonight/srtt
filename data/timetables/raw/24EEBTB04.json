@@ -1,0 +1,1859 @@
+{
+  "degree": "BTECH-EEE",
+  "year": "Third",
+  "batch": "24EEBTB04",
+  "lastUpdated": "2026-10-04T06:13:41.018959",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 653,
+            "unique_id": "6987153A-9E5F-4856-B957-8267124F571F",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Wind Energy Systems",
+            "batch": "on,24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1542",
+            "room": "48",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "17-07-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T01:43:27.000000Z",
+            "updated_at": "2026-07-17T04:32:31.000000Z",
+            "room_name": "3104-BL3-FF",
+            "facultyName": "Dr. Padmini M"
+          },
+          {
+            "id": 652,
+            "unique_id": "070A0F2C-E069-431D-8574-E4F0294B1382",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Power Train for Electric Vehicles",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1544",
+            "room": "23",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "08-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T01:43:27.000000Z",
+            "updated_at": "2026-08-08T12:02:22.000000Z",
+            "room_name": "2001-BL2-GF",
+            "facultyName": "Dr. K Mounika Nagabhushanam"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 690,
+            "unique_id": "95AFA1DC-9C51-4D6E-8CEA-75CE979F7A59",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Power System Analysis",
+            "batch": "24EEBTB04",
+            "faculty": "2505c20001",
+            "room": "138",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T19:12:26.000000Z",
+            "updated_at": "2026-07-16T19:12:26.000000Z",
+            "room_name": "2115-BL2-FF",
+            "facultyName": "Mr. Anil Udutha"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 691,
+            "unique_id": "A9950775-ED7F-42CD-AF50-0769CB79C24D",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Power System Analysis",
+            "batch": "24EEBTB04",
+            "faculty": "2505c20001",
+            "room": "138",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T19:12:26.000000Z",
+            "updated_at": "2026-07-16T19:12:26.000000Z",
+            "room_name": "2115-BL2-FF",
+            "facultyName": "Mr. Anil Udutha"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 675,
+            "unique_id": "93F2688D-97AB-4536-964F-36F8B65FA5D8",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Power System Analysis",
+            "batch": "24EEBTB03,24EEBTB04",
+            "faculty": "1509",
+            "room": "23",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "17-07-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T18:39:06.000000Z",
+            "updated_at": "2026-07-17T04:25:20.000000Z",
+            "room_name": "2001-BL2-GF",
+            "facultyName": "Dr. Vedik B"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 680,
+            "unique_id": "EEF168BE-CE8F-4AD3-8B78-754F3A61D719",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Control System",
+            "batch": "24EEBTB03,24EEBTB04",
+            "faculty": "1506",
+            "room": "23",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T18:40:58.000000Z",
+            "updated_at": "2026-07-16T18:40:58.000000Z",
+            "room_name": "2001-BL2-GF",
+            "facultyName": "Dr. Mujahid Irfan Md"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 4490,
+            "unique_id": "091417FB-60AF-4EF0-9AD6-4FE4480683FA",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude and Logical Reasoning",
+            "batch": "24EEBTB03,24EEBTB04",
+            "faculty": "430",
+            "room": "23",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-27T19:03:31.000000Z",
+            "updated_at": "2026-07-27T19:03:31.000000Z",
+            "room_name": "2001-BL2-GF",
+            "facultyName": "Mr. Sepuri Kranthi Kumar"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 4491,
+            "unique_id": "E82CC0C9-FD9F-4F0E-9D0B-7D3C40F7C55A",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude and Logical Reasoning",
+            "batch": "24EEBTB03,24EEBTB04",
+            "faculty": "430",
+            "room": "23",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-27T19:03:31.000000Z",
+            "updated_at": "2026-07-27T19:03:31.000000Z",
+            "room_name": "2001-BL2-GF",
+            "facultyName": "Mr. Sepuri Kranthi Kumar"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 681,
+            "unique_id": "DEF65D58-DFF1-48DE-A63B-EF20104A582F",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Control System",
+            "batch": "24EEBTB03,24EEBTB04",
+            "faculty": "1506",
+            "room": "23",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T18:40:58.000000Z",
+            "updated_at": "2026-07-16T18:40:58.000000Z",
+            "room_name": "2001-BL2-GF",
+            "facultyName": "Dr. Mujahid Irfan Md"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 676,
+            "unique_id": "FAA783DD-7FD9-43DA-A314-F29E11870052",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Power System Analysis",
+            "batch": "24EEBTB03,24EEBTB04",
+            "faculty": "1509",
+            "room": "23",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T18:39:06.000000Z",
+            "updated_at": "2026-07-16T18:39:06.000000Z",
+            "room_name": "2001-BL2-GF",
+            "facultyName": "Dr. Vedik B"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 6094,
+            "unique_id": "1A253B72-3ADF-4355-8B30-F7C0030D470B",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Undergraduate Reserch",
+            "batch": "24EEBTB04",
+            "faculty": "1532",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "13-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-08-12T23:21:49.000000Z",
+            "updated_at": "2026-08-13T08:52:36.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Dr. Buddhadeva  Sahoo"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 683,
+            "unique_id": "8B4677DF-2ED8-43E2-A070-10DABAFB6C95",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Control System",
+            "batch": "24EEBTB03,24EEBTB04",
+            "faculty": "1506",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "28-07-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T18:40:58.000000Z",
+            "updated_at": "2026-07-28T06:14:18.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Mujahid Irfan Md"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 4582,
+            "unique_id": "5B11633C-6470-4C4D-8BF5-281771F929FC",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Sustainability and Ethical Innovation",
+            "batch": "24EEBTB03,24EEBTB04",
+            "faculty": "1039",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "02-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-27T20:54:33.000000Z",
+            "updated_at": "2026-09-02T07:14:19.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Buddhadev Nandi"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 4492,
+            "unique_id": "4D8DF1B9-6955-4F5D-92C7-AB15C5F4BB3D",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude and Logical Reasoning",
+            "batch": "24EEBTB03,24EEBTB04",
+            "faculty": "430",
+            "room": "23",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-27T19:03:31.000000Z",
+            "updated_at": "2026-07-27T19:03:31.000000Z",
+            "room_name": "2001-BL2-GF",
+            "facultyName": "Mr. Sepuri Kranthi Kumar"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 4493,
+            "unique_id": "F311AE49-CCA6-440B-A7EE-FB846EE4355F",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude and Logical Reasoning",
+            "batch": "24EEBTB03,24EEBTB04",
+            "faculty": "430",
+            "room": "23",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-27T19:03:31.000000Z",
+            "updated_at": "2026-07-27T19:03:31.000000Z",
+            "room_name": "2001-BL2-GF",
+            "facultyName": "Mr. Sepuri Kranthi Kumar"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 682,
+            "unique_id": "3722248E-0A4D-4446-9B79-63064B889AA4",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Control System",
+            "batch": "24EEBTB03,24EEBTB04",
+            "faculty": "1506",
+            "room": "23",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T18:40:58.000000Z",
+            "updated_at": "2026-08-03T09:26:36.000000Z",
+            "room_name": "2001-BL2-GF",
+            "facultyName": "Dr. Mujahid Irfan Md"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 677,
+            "unique_id": "B3305408-2196-4B47-9418-85A481451C3D",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Power System Analysis",
+            "batch": "24EEBTB03,24EEBTB04",
+            "faculty": "1509",
+            "room": "23",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T18:39:06.000000Z",
+            "updated_at": "2026-07-16T18:39:06.000000Z",
+            "room_name": "2001-BL2-GF",
+            "facultyName": "Dr. Vedik B"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 650,
+            "unique_id": "5A45B5E2-00D0-4D97-A7AC-B096B19E7C30",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Wind Energy Systems",
+            "batch": "on,24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1542",
+            "room": "24",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T01:42:21.000000Z",
+            "updated_at": "2026-07-16T01:42:21.000000Z",
+            "room_name": "2002-BL2-GF",
+            "facultyName": "Dr. Padmini M"
+          },
+          {
+            "id": 648,
+            "unique_id": "0D386217-716C-40CF-9910-0954B913BC01",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Power Train for Electric Vehicles",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1544",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "08-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T01:42:21.000000Z",
+            "updated_at": "2026-08-08T12:02:22.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. K Mounika Nagabhushanam"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 679,
+            "unique_id": "FE714E3D-0891-4B4B-B95C-6B27B6FD17BF",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Power Semiconductor Drives",
+            "batch": "24EEBTB03,24EEBTB04",
+            "faculty": "1505",
+            "room": "23",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T18:39:58.000000Z",
+            "updated_at": "2026-08-03T09:27:22.000000Z",
+            "room_name": "2001-BL2-GF",
+            "facultyName": "Dr. Sathyavani B"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 4494,
+            "unique_id": "8EEA85CB-D7F5-4D10-8A0E-D44DB5C5C3E2",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude and Logical Reasoning",
+            "batch": "24EEBTB03,24EEBTB04",
+            "faculty": "430",
+            "room": "23",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-27T19:03:58.000000Z",
+            "updated_at": "2026-07-27T19:03:58.000000Z",
+            "room_name": "2001-BL2-GF",
+            "facultyName": "Mr. Sepuri Kranthi Kumar"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 2325,
+            "unique_id": "4E2B5234-44D3-468F-B6A4-A54651E97CDE",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Wind Energy Systems",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1542",
+            "room": "47",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-21T18:16:10.000000Z",
+            "updated_at": "2026-07-21T18:16:10.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Dr. Padmini M"
+          },
+          {
+            "id": 2321,
+            "unique_id": "2641F7B5-BB15-488F-9468-5D1D65620906",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Power Train for Electric Vehicles",
+            "batch": "on,24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "2305c20029",
+            "room": "114",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-21T18:16:10.000000Z",
+            "updated_at": "2026-09-07T09:48:56.000000Z",
+            "room_name": "10103-BL10-FF",
+            "facultyName": "Ms. Ankam Sruthi"
+          },
+          {
+            "id": 2327,
+            "unique_id": "A55D2D83-E0EA-4D13-95D8-44EEEC614A46",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Wind Energy Systems",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "2405c20001",
+            "room": "47",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-21T18:16:10.000000Z",
+            "updated_at": "2026-07-21T18:16:10.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Ms. Lavudya Swathi"
+          },
+          {
+            "id": 2319,
+            "unique_id": "6D396CEF-079B-4363-A530-02BAF0B3D2EF",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Power Train for Electric Vehicles",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "2405c20014",
+            "room": "114",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-21T18:16:10.000000Z",
+            "updated_at": "2026-09-07T09:51:55.000000Z",
+            "room_name": "10103-BL10-FF",
+            "facultyName": "Mr. Gurijala Sreedhar"
+          },
+          {
+            "id": 2323,
+            "unique_id": "988F36D2-589C-4492-B80B-4F6C897DF285",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Power Train for Electric Vehicles",
+            "batch": "on,24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "2405c20018",
+            "room": "138",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-21T18:16:10.000000Z",
+            "updated_at": "2026-07-21T18:16:10.000000Z",
+            "room_name": "2115-BL2-FF",
+            "facultyName": "Mr. Uday Chandara S"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 2326,
+            "unique_id": "22021D5F-328B-4442-894B-E564C6163152",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Wind Energy Systems",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1542",
+            "room": "47",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-21T18:16:10.000000Z",
+            "updated_at": "2026-07-21T18:16:10.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Dr. Padmini M"
+          },
+          {
+            "id": 2322,
+            "unique_id": "C4A8E9E1-3751-4CC7-9688-8EA0BE581F4F",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Power Train for Electric Vehicles",
+            "batch": "on,24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "2305c20029",
+            "room": "114",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-21T18:16:10.000000Z",
+            "updated_at": "2026-09-07T09:53:42.000000Z",
+            "room_name": "10103-BL10-FF",
+            "facultyName": "Ms. Ankam Sruthi"
+          },
+          {
+            "id": 2328,
+            "unique_id": "56437914-17ED-405A-A2DC-ED138B1A142C",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Wind Energy Systems",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "2405c20001",
+            "room": "47",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-21T18:16:10.000000Z",
+            "updated_at": "2026-07-21T18:16:10.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Ms. Lavudya Swathi"
+          },
+          {
+            "id": 2320,
+            "unique_id": "5BD3042A-8549-44AA-B991-2418F5DE6801",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Power Train for Electric Vehicles",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "2405c20014",
+            "room": "114",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-21T18:16:10.000000Z",
+            "updated_at": "2026-09-07T09:52:58.000000Z",
+            "room_name": "10103-BL10-FF",
+            "facultyName": "Mr. Gurijala Sreedhar"
+          },
+          {
+            "id": 2324,
+            "unique_id": "E0ACC1AA-C071-45B5-A191-FEBA95BB7E2B",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Power Train for Electric Vehicles",
+            "batch": "on,24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "2405c20018",
+            "room": "138",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-21T18:16:10.000000Z",
+            "updated_at": "2026-07-21T18:16:10.000000Z",
+            "room_name": "2115-BL2-FF",
+            "facultyName": "Mr. Uday Chandara S"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 667,
+            "unique_id": "364197DC-D080-44B7-95BE-A8ED43071258",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Control System",
+            "batch": "24EEBTB04",
+            "faculty": "1549",
+            "room": "130",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "28-07-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T18:35:08.000000Z",
+            "updated_at": "2026-07-28T06:07:41.000000Z",
+            "room_name": "2012-BL2-GF",
+            "facultyName": "Dr. C.Pavan Kumar"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 668,
+            "unique_id": "C40C8C0A-5D5D-465A-A205-678DBE7EEBD4",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Control System",
+            "batch": "24EEBTB04",
+            "faculty": "1549",
+            "room": "130",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "28-07-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T18:35:08.000000Z",
+            "updated_at": "2026-07-28T06:07:05.000000Z",
+            "room_name": "2012-BL2-GF",
+            "facultyName": "Dr. C.Pavan Kumar"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 651,
+            "unique_id": "1AB2D046-4558-49E3-9EE8-568EA5ABDD0C",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Wind Energy Systems",
+            "batch": "on,24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1542",
+            "room": "24",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T01:42:21.000000Z",
+            "updated_at": "2026-07-16T01:42:21.000000Z",
+            "room_name": "2002-BL2-GF",
+            "facultyName": "Dr. Padmini M"
+          },
+          {
+            "id": 649,
+            "unique_id": "E9046C64-C6F1-4A19-8D8E-0662AA1EC175",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Power Train for Electric Vehicles",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1544",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "08-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T01:42:21.000000Z",
+            "updated_at": "2026-08-08T12:02:22.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. K Mounika Nagabhushanam"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 6075,
+            "unique_id": "A7BEA62D-E65F-47DC-93A2-E218B8B9830B",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Undergraduate Reserch",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1503",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-08-12T22:05:44.000000Z",
+            "updated_at": "2026-08-12T22:05:44.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Dr. Sudhakar A V V"
+          },
+          {
+            "id": 6077,
+            "unique_id": "64880CAF-97CA-4DBE-B9D2-F10C9F1E7752",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Undergraduate Reserch",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1505",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-08-12T22:05:44.000000Z",
+            "updated_at": "2026-08-12T22:05:44.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Dr. Sathyavani B"
+          },
+          {
+            "id": 6091,
+            "unique_id": "718CD8CF-50A5-42E8-8B28-7392BFB74C36",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Undergraduate Reserch",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1506",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "13-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-08-12T23:09:48.000000Z",
+            "updated_at": "2026-08-13T08:40:46.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Dr. Mujahid Irfan Md"
+          },
+          {
+            "id": 6078,
+            "unique_id": "17091750-A550-415A-9AFF-B2DE11F2947B",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Undergraduate Reserch",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1509",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-08-12T22:05:44.000000Z",
+            "updated_at": "2026-08-12T22:05:44.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Dr. Vedik B"
+          },
+          {
+            "id": 6079,
+            "unique_id": "B92C45F0-2237-41AF-90F2-952A67913D6F",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Undergraduate Reserch",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1512",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-08-12T22:05:44.000000Z",
+            "updated_at": "2026-08-12T22:05:44.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Dr. Chandan Kumar Shiva"
+          },
+          {
+            "id": 6080,
+            "unique_id": "CB2AE12B-07F2-4AD7-AE25-DAFDCC03B0F2",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Undergraduate Reserch",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1522",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-08-12T22:05:44.000000Z",
+            "updated_at": "2026-08-12T22:05:44.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Dr. Sachidananda Sen"
+          },
+          {
+            "id": 6092,
+            "unique_id": "42315FE0-D29F-489A-92C4-AC26574059C9",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Undergraduate Reserch",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1526",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "13-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-08-12T23:15:10.000000Z",
+            "updated_at": "2026-08-13T08:49:18.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Dr. Srikanth Velpula"
+          },
+          {
+            "id": 6082,
+            "unique_id": "9F51F124-EBD0-4B92-BC00-221A9F569BA7",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Undergraduate Reserch",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1531",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-08-12T22:05:44.000000Z",
+            "updated_at": "2026-08-12T22:05:44.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Dr. Ch Hussaian Basha"
+          },
+          {
+            "id": 6083,
+            "unique_id": "0BB6CEC5-0FF8-453B-A3B6-A87AAE5830AF",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Undergraduate Reserch",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1534",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-08-12T22:05:44.000000Z",
+            "updated_at": "2026-08-12T22:05:44.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Dr. Markala Karthik"
+          },
+          {
+            "id": 6090,
+            "unique_id": "935A19F8-A316-4498-90B3-CF1C1D539CB2",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Undergraduate Reserch",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1540",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-08-12T22:05:44.000000Z",
+            "updated_at": "2026-08-12T22:05:44.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Dr. Sourav Basak"
+          },
+          {
+            "id": 6084,
+            "unique_id": "F219AB59-F399-45F2-B0EC-41EDAB9FC3BD",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Undergraduate Reserch",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1541",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-08-12T22:05:44.000000Z",
+            "updated_at": "2026-08-12T22:05:44.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Dr. Asiqrahman Os"
+          },
+          {
+            "id": 6086,
+            "unique_id": "F9814554-CF5B-4BEB-B467-C1BE78733284",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Undergraduate Reserch",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1542",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-08-12T22:05:44.000000Z",
+            "updated_at": "2026-08-12T22:05:44.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Dr. Padmini M"
+          },
+          {
+            "id": 6085,
+            "unique_id": "6B1CE8F7-CB35-4966-BA3C-DCEE3ADB7295",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Undergraduate Reserch",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1544",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-08-12T22:05:44.000000Z",
+            "updated_at": "2026-08-12T22:05:44.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Dr. K Mounika Nagabhushanam"
+          },
+          {
+            "id": 6088,
+            "unique_id": "C8A8BB38-86F9-4557-A560-EB3D2989AFBB",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Undergraduate Reserch",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1548",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-08-12T22:05:44.000000Z",
+            "updated_at": "2026-08-12T22:05:44.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Dr. Ankit Pal"
+          },
+          {
+            "id": 6087,
+            "unique_id": "4800C91F-4401-4900-8E1E-D7FB0345A820",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Undergraduate Reserch",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1546",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-08-12T22:05:44.000000Z",
+            "updated_at": "2026-08-12T22:05:44.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Dr. Prasanta Kumar Jena"
+          },
+          {
+            "id": 6089,
+            "unique_id": "8827AB2E-8CD3-4CC6-9141-77164531B9B6",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Undergraduate Reserch",
+            "batch": "24EEBTB01,24EEBTB02,24EEBTB03,24EEBTB04,24EEBTB05,24EEBTB06",
+            "faculty": "1549",
+            "room": "132",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-08-12T22:05:44.000000Z",
+            "updated_at": "2026-08-12T22:05:44.000000Z",
+            "room_name": "2017-BL2-GF",
+            "facultyName": "Dr. C.Pavan Kumar"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 686,
+            "unique_id": "A3D2816E-E64B-400E-BEE2-0AFD1DBC7020",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Power Semiconductor Drives",
+            "batch": "24EEBTB04",
+            "faculty": "2605C20002",
+            "room": "47",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T19:09:29.000000Z",
+            "updated_at": "2026-08-07T04:51:46.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Ms. Ashwini"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 687,
+            "unique_id": "16FB7FBE-5514-41F1-A0DF-0B67A045451E",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Power Semiconductor Drives",
+            "batch": "24EEBTB04",
+            "faculty": "2605C20002",
+            "room": "47",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T19:09:29.000000Z",
+            "updated_at": "2026-08-07T04:51:46.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Ms. Ashwini"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 4583,
+            "unique_id": "2595B305-2C09-4152-9A65-C4BB8B8A007F",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Sustainability and Ethical Innovation",
+            "batch": "24EEBTB03,24EEBTB04",
+            "faculty": "1039",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "02-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-27T20:57:06.000000Z",
+            "updated_at": "2026-09-02T07:13:30.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Buddhadev Nandi"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 678,
+            "unique_id": "C0DEB34A-68C5-4DDA-A434-FEE95741D156",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Power Semiconductor Drives",
+            "batch": "24EEBTB03,24EEBTB04",
+            "faculty": "1505",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "28-07-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-16T18:39:58.000000Z",
+            "updated_at": "2026-07-28T06:26:22.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Sathyavani B"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

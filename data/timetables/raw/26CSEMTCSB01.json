@@ -1,0 +1,1281 @@
+{
+  "degree": "MTECH-CSE",
+  "year": "First",
+  "batch": "26CSEMTCSB01",
+  "lastUpdated": "2026-10-04T06:13:51.933836",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 7158,
+            "unique_id": "B507581B-E65D-448C-8572-7E64EAE6EC07",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Technical Writing and Professional Communication",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3581",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-09-18T11:20:38.000000Z",
+            "updated_at": "2026-09-22T03:31:23.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. R.Pranesh Kumar"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 7159,
+            "unique_id": "0AF21731-E33B-4A45-8656-75E9144931A2",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Technical Writing and Professional Communication",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3581",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-09-18T11:20:38.000000Z",
+            "updated_at": "2026-09-22T03:26:27.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. R.Pranesh Kumar"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 7065,
+            "unique_id": "A9511DE2-1596-4B91-AD50-7F736DD4D567",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T01:18:27.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 7066,
+            "unique_id": "ACA7163E-2BEE-45C0-AC7E-910825A5F830",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T01:18:27.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 7180,
+            "unique_id": "E594210E-EF2F-4234-B9C2-6C532E83B401",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Advanced Data Science",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3200",
+            "room": "114",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-19T04:24:14.000000Z",
+            "updated_at": "2026-09-19T04:24:14.000000Z",
+            "room_name": "10103-BL10-FF",
+            "facultyName": "Dr. S Vairachilai"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 7181,
+            "unique_id": "94B393E3-21D5-4AB5-AC09-1B23FA85A859",
+            "semester": "I",
+            "year": "First",
+            "time": "16:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Advanced Data Science",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3200",
+            "room": "114",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-19T04:24:14.000000Z",
+            "updated_at": "2026-09-19T04:24:14.000000Z",
+            "room_name": "10103-BL10-FF",
+            "facultyName": "Dr. S Vairachilai"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 7178,
+            "unique_id": "01CA8B1F-B5AD-4C23-ACF8-02F47282BA77",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Advanced Data Science",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3200",
+            "room": "4",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-19T04:17:25.000000Z",
+            "updated_at": "2026-09-19T04:17:25.000000Z",
+            "room_name": "1107-BL1-FF",
+            "facultyName": "Dr. S Vairachilai"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 7179,
+            "unique_id": "8936939D-39AC-464B-9228-BBEFA6A60070",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Advanced Data Structures and Algorithms",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3089",
+            "room": "4",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-19T04:17:55.000000Z",
+            "updated_at": "2026-09-19T04:17:55.000000Z",
+            "room_name": "1107-BL1-FF",
+            "facultyName": "Mr. Nagurla Mahender"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 7067,
+            "unique_id": "50EDDDF7-0165-4DA7-B6A6-2D3E2FCAA116",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T01:18:27.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 7068,
+            "unique_id": "170B2C9E-6936-4D1E-A625-32BF90641575",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T01:18:27.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 7071,
+            "unique_id": "E8DCC614-875B-4DF1-94C6-875C1AEFB2B5",
+            "semester": "I",
+            "year": "First",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Modern Operating System and Computer Networks",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3003",
+            "room": "13",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "20-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T01:21:09.000000Z",
+            "updated_at": "2026-09-20T12:09:51.000000Z",
+            "room_name": "1213-BL1-SF",
+            "facultyName": "Dr. Sandeep Ch"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 7226,
+            "unique_id": "094466CF-6632-4EFE-AEC0-763C0E1E00C4",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Sustainability, Critical Thinking, Research Methodology and IPR",
+            "batch": "26CSEMTCSB01",
+            "faculty": "4013",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": null,
+            "created_at": "2026-09-20T11:41:02.000000Z",
+            "updated_at": "2026-09-20T11:41:02.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. Geetha M"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 7227,
+            "unique_id": "6CA8144C-98B1-402C-91CA-CF6BC24AB254",
+            "semester": "I",
+            "year": "First",
+            "time": "16:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Sustainability, Critical Thinking, Research Methodology and IPR",
+            "batch": "26CSEMTCSB01",
+            "faculty": "4013",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": null,
+            "created_at": "2026-09-20T11:41:02.000000Z",
+            "updated_at": "2026-09-20T11:41:02.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. Geetha M"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 7182,
+            "unique_id": "F5B96439-0E0D-4DF8-AC68-2E60B901C7A1",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Advanced Data Science",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3200",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-19T04:27:17.000000Z",
+            "updated_at": "2026-09-19T04:27:17.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. S Vairachilai"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 7172,
+            "unique_id": "D53D18AA-910D-45C5-ABDF-98D62A08D0B9",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Technical Writing and Professional Communication",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3581",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-09-18T11:20:38.000000Z",
+            "updated_at": "2026-09-22T03:22:39.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. R.Pranesh Kumar"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 7173,
+            "unique_id": "B355B4FF-A8C6-4A23-8F8C-FB65ED75FA45",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Technical Writing and Professional Communication",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3581",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-09-18T11:20:38.000000Z",
+            "updated_at": "2026-09-22T03:22:10.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. R.Pranesh Kumar"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 7183,
+            "unique_id": "20730BD8-8A2C-4E3B-BEEE-58465E3E512E",
+            "semester": "I",
+            "year": "First",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Advanced Data Structures and Algorithms",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3089",
+            "room": "12",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-19T04:30:41.000000Z",
+            "updated_at": "2026-09-19T04:30:41.000000Z",
+            "room_name": "1207-BL1-SF",
+            "facultyName": "Mr. Nagurla Mahender"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 7073,
+            "unique_id": "10C811F3-8AA7-4B46-99E4-D0AC283BAA31",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Modern Operating System and Computer Networks",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3003",
+            "room": "10",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T01:23:23.000000Z",
+            "updated_at": "2026-09-18T01:23:23.000000Z",
+            "room_name": "1205-BL1-SF",
+            "facultyName": "Dr. Sandeep Ch"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 7063,
+            "unique_id": "5C839B76-5811-445B-BF82-1A2A5E3F1C27",
+            "semester": "I",
+            "year": "First",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3088",
+            "room": "98",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T01:17:07.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "8206-BL8-SF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 7224,
+            "unique_id": "6A7ABB9F-8983-4FB8-AE7C-B5ED3676240F",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Sustainability, Critical Thinking, Research Methodology and IPR",
+            "batch": "26CSEMTCSB01",
+            "faculty": "4013",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": null,
+            "created_at": "2026-09-20T11:41:02.000000Z",
+            "updated_at": "2026-09-20T11:41:02.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. Geetha M"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 7225,
+            "unique_id": "FCE1AB69-1DF9-4632-86A1-6D4FB40E49A6",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Sustainability, Critical Thinking, Research Methodology and IPR",
+            "batch": "26CSEMTCSB01",
+            "faculty": "4013",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": null,
+            "created_at": "2026-09-20T11:41:02.000000Z",
+            "updated_at": "2026-09-20T11:41:02.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. Geetha M"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 7074,
+            "unique_id": "1EFA42C2-FCCD-4C27-8BCA-F3A00E658BE3",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Modern Operating System and Computer Networks",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3003",
+            "room": "20",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T01:24:09.000000Z",
+            "updated_at": "2026-09-18T01:24:09.000000Z",
+            "room_name": "1201-BL1-SF",
+            "facultyName": "Dr. Sandeep Ch"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 7075,
+            "unique_id": "68EF495E-C83E-4873-82B2-750AD7791F27",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Modern Operating System and Computer Networks",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3003",
+            "room": "20",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T01:24:09.000000Z",
+            "updated_at": "2026-09-18T01:24:09.000000Z",
+            "room_name": "1201-BL1-SF",
+            "facultyName": "Dr. Sandeep Ch"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 7064,
+            "unique_id": "980CB9A2-B911-4578-B591-2A36AD2E88B4",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3088",
+            "room": "98",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T01:17:07.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "8206-BL8-SF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 7186,
+            "unique_id": "740D048D-66CB-4364-8FB7-162BD51FD8C5",
+            "semester": "I",
+            "year": "First",
+            "time": "16:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Advanced Data Structures and Algorithms",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3089",
+            "room": "89",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-19T05:39:39.000000Z",
+            "updated_at": "2026-09-19T05:39:39.000000Z",
+            "room_name": "8006-BL8-GF",
+            "facultyName": "Mr. Nagurla Mahender"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 7184,
+            "unique_id": "76961BEB-68C4-4E3E-95E8-8860AD9EF390",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Advanced Data Structures and Algorithms",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3089",
+            "room": "114",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-19T04:36:23.000000Z",
+            "updated_at": "2026-09-19T04:36:23.000000Z",
+            "room_name": "10103-BL10-FF",
+            "facultyName": "Mr. Nagurla Mahender"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 7185,
+            "unique_id": "5B2F1CF8-211E-4153-86AA-034EED0DC26E",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Advanced Data Structures and Algorithms",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3089",
+            "room": "114",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-19T04:36:23.000000Z",
+            "updated_at": "2026-09-19T04:36:23.000000Z",
+            "room_name": "10103-BL10-FF",
+            "facultyName": "Mr. Nagurla Mahender"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 7069,
+            "unique_id": "A90A57B4-957C-4C72-9710-3A8CA2E95E6D",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T01:18:27.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 7070,
+            "unique_id": "DCDA0FF2-00BD-4519-931E-37D4B22762D7",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T01:18:27.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 7072,
+            "unique_id": "F027CC2C-4BDA-4CED-BD6D-1911AB8C6A68",
+            "semester": "I",
+            "year": "First",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Modern Operating System and Computer Networks",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3003",
+            "room": "14",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T01:22:51.000000Z",
+            "updated_at": "2026-09-18T01:22:51.000000Z",
+            "room_name": "1215-BL1-SF",
+            "facultyName": "Dr. Sandeep Ch"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 7187,
+            "unique_id": "AB151073-B676-46D0-8745-DC5DBE3A6B95",
+            "semester": "I",
+            "year": "First",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Advanced Data Structures and Algorithms",
+            "batch": "26CSEMTCSB01",
+            "faculty": "3089",
+            "room": "84",
+            "program": "MTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-19T05:40:49.000000Z",
+            "updated_at": "2026-09-19T05:40:49.000000Z",
+            "room_name": "8001-BL8-GF",
+            "facultyName": "Mr. Nagurla Mahender"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

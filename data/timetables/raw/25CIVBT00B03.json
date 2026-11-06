@@ -1,0 +1,1144 @@
+{
+  "degree": "BTECH-CE",
+  "year": "Second",
+  "batch": "25CIVBT00B03",
+  "lastUpdated": "2026-10-04T06:12:51.738380",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3484,
+            "unique_id": "CBC369C7-8E07-4F37-B99B-4C3AE0DF4766",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Sustainability and Ethical Innovation",
+            "batch": "25CIVBT00B03,25CIVBT00B04",
+            "faculty": "1037",
+            "room": "35",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-23T22:23:03.000000Z",
+            "updated_at": "2026-08-17T05:14:06.000000Z",
+            "room_name": "2201-BL2-SF",
+            "facultyName": "Dr. Gaurav Tyagi"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 2530,
+            "unique_id": "EF754ECC-742C-47A1-A3EC-2995EA2DFF73",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Strength of Materials",
+            "batch": "25CIVBT00B03,25CIVBT00B04",
+            "faculty": "1030",
+            "room": "36",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-21T20:51:31.000000Z",
+            "updated_at": "2026-07-21T20:51:31.000000Z",
+            "room_name": "2202-BL2-SF",
+            "facultyName": "Dr. Vishnupriyan M"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 2545,
+            "unique_id": "22373DFA-BB90-47BE-B28A-4112AF464107",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Fluid Mechanics and Hydraulic Machines",
+            "batch": "25CIVBT00B03,25CIVBT00B04",
+            "faculty": "1035",
+            "room": "27",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "24-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-21T20:56:06.000000Z",
+            "updated_at": "2026-08-24T04:12:30.000000Z",
+            "room_name": "2007-BL2-GF",
+            "facultyName": "Dr. Ketan Kumar Nandi"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3623,
+            "unique_id": "F0E57043-4DCD-4195-822F-652F98DF6412",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Concrete Technology - Lab",
+            "batch": "25CIVBT00B03",
+            "faculty": "2405C10030",
+            "room": "142",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "22-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-24T02:32:56.000000Z",
+            "updated_at": "2026-08-22T06:00:40.000000Z",
+            "room_name": "4407-BL4-GF",
+            "facultyName": "Ms. Byri Chandana"
+          },
+          {
+            "id": 2531,
+            "unique_id": "4F22F646-9739-4B1E-A921-FD73BE5E0A51",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Concrete Technology",
+            "batch": "25CIVBT00B03,25CIVBT00B04",
+            "faculty": "1041",
+            "room": "36",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-09-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-21T20:52:14.000000Z",
+            "updated_at": "2026-09-22T10:02:25.000000Z",
+            "room_name": "2202-BL2-SF",
+            "facultyName": "Dr. Shreyas Pranav"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 3622,
+            "unique_id": "241BDDB8-C1A4-4D55-A04E-5019C3BD845C",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Concrete Technology - Lab",
+            "batch": "25CIVBT00B03",
+            "faculty": "2405C10030",
+            "room": "142",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "05-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-24T02:32:56.000000Z",
+            "updated_at": "2026-08-05T02:44:42.000000Z",
+            "room_name": "4407-BL4-GF",
+            "facultyName": "Ms. Byri Chandana"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3483,
+            "unique_id": "DC798E57-A0ED-4547-AF4D-C74764029332",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Sustainability and Ethical Innovation",
+            "batch": "25CIVBT00B03,25CIVBT00B04",
+            "faculty": "1037",
+            "room": "52",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-23T22:22:15.000000Z",
+            "updated_at": "2026-08-01T08:06:42.000000Z",
+            "room_name": "3114-BL3-FF",
+            "facultyName": "Dr. Gaurav Tyagi"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4849,
+            "unique_id": "2CE03C27-7CA0-4672-BD66-A7BD34CC4D26",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Surveying and Geomatics",
+            "batch": "25CIVBT00B03",
+            "faculty": "2405C10040",
+            "room": "28",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Tut",
+            "rec_num": null,
+            "modify_date": "25-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-28T20:03:11.000000Z",
+            "updated_at": "2026-08-25T05:57:09.000000Z",
+            "room_name": "2008-BL2-GF",
+            "facultyName": "Ms. Govindu Ambeshwari"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3661,
+            "unique_id": "09FDCF8F-2E88-4EC3-B5FC-7B0DBC92443A",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Fluid Mechanics and Hydraulic Machines - Lab",
+            "batch": "25CIVBT00B03",
+            "faculty": "2405C10004",
+            "room": "145",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-24T03:06:19.000000Z",
+            "updated_at": "2026-07-24T03:06:19.000000Z",
+            "room_name": "4610-BL4-GF",
+            "facultyName": "Mr. Konda Rajanikaraswamy"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3662,
+            "unique_id": "153D1DDC-E010-4589-AECE-8415B43C26F9",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Fluid Mechanics and Hydraulic Machines - Lab",
+            "batch": "25CIVBT00B03",
+            "faculty": "2405C10004",
+            "room": "145",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-24T03:06:19.000000Z",
+            "updated_at": "2026-07-24T03:06:19.000000Z",
+            "room_name": "4610-BL4-GF",
+            "facultyName": "Mr. Konda Rajanikaraswamy"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 2541,
+            "unique_id": "AC411AA1-4F48-4A73-B5D9-0120E7D8FE13",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Concrete Technology",
+            "batch": "25CIVBT00B03,25CIVBT00B04",
+            "faculty": "1041",
+            "room": "36",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "20-09-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-21T20:54:43.000000Z",
+            "updated_at": "2026-09-20T16:44:48.000000Z",
+            "room_name": "2202-BL2-SF",
+            "facultyName": "Dr. Shreyas Pranav"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 2542,
+            "unique_id": "C5CD657E-0CD4-4BDA-9E6A-22D0853ED02A",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Surveying and Geomatics",
+            "batch": "25CIVBT00B03,25CIVBT00B04",
+            "faculty": "1025",
+            "room": "36",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-21T20:55:27.000000Z",
+            "updated_at": "2026-07-21T20:55:27.000000Z",
+            "room_name": "2202-BL2-SF",
+            "facultyName": "Dr. Prakhash N"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 2543,
+            "unique_id": "F43C06FD-204B-4D08-8357-90CBE879DE5D",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Surveying and Geomatics",
+            "batch": "25CIVBT00B03,25CIVBT00B04",
+            "faculty": "1025",
+            "room": "36",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-21T20:55:27.000000Z",
+            "updated_at": "2026-07-21T20:55:27.000000Z",
+            "room_name": "2202-BL2-SF",
+            "facultyName": "Dr. Prakhash N"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 2532,
+            "unique_id": "A062812F-AD42-4F4E-B4B1-B4259F546B55",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Concrete Technology",
+            "batch": "25CIVBT00B03,25CIVBT00B04",
+            "faculty": "1041",
+            "room": "23",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "20-09-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-21T20:52:14.000000Z",
+            "updated_at": "2026-09-20T16:45:50.000000Z",
+            "room_name": "2001-BL2-GF",
+            "facultyName": "Dr. Shreyas Pranav"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 2546,
+            "unique_id": "0E00E572-3E66-4C27-9E7D-BAC506B839F0",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Fluid Mechanics and Hydraulic Machines",
+            "batch": "25CIVBT00B03,25CIVBT00B04",
+            "faculty": "1035",
+            "room": "36",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-21T20:56:06.000000Z",
+            "updated_at": "2026-07-21T20:56:06.000000Z",
+            "room_name": "2202-BL2-SF",
+            "facultyName": "Dr. Ketan Kumar Nandi"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 4864,
+            "unique_id": "448FBDE1-D49E-4800-8970-9A9AD3D17AF0",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Strength of Materials",
+            "batch": "25CIVBT00B03",
+            "faculty": "1041",
+            "room": "35",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Tut",
+            "rec_num": null,
+            "modify_date": "20-09-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-28T20:44:10.000000Z",
+            "updated_at": "2026-09-20T02:58:19.000000Z",
+            "room_name": "2201-BL2-SF",
+            "facultyName": "Dr. Shreyas Pranav"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4741,
+            "unique_id": "1137A806-B5DE-4F15-B9DA-70F6CCCE7A37",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Strength of Materials - Lab",
+            "batch": "25CIVBT00B03",
+            "faculty": "2305C10029",
+            "room": "143",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-28T01:23:15.000000Z",
+            "updated_at": "2026-07-28T01:23:15.000000Z",
+            "room_name": "4712-BL4-GF",
+            "facultyName": "Ms. Pingili Vydehi"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 4742,
+            "unique_id": "C719C2DB-055B-4BF1-B6C9-FB05B9D0501B",
+            "semester": "III",
+            "year": "Second",
+            "time": "12:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Strength of Materials - Lab",
+            "batch": "25CIVBT00B03",
+            "faculty": "2305C10029",
+            "room": "143",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-28T01:23:15.000000Z",
+            "updated_at": "2026-07-28T01:23:15.000000Z",
+            "room_name": "4712-BL4-GF",
+            "facultyName": "Ms. Pingili Vydehi"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 2548,
+            "unique_id": "1C697C05-8745-40A3-A788-9E60E972068C",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Fluid Mechanics and Hydraulic Machines",
+            "batch": "25CIVBT00B03,25CIVBT00B04",
+            "faculty": "1035",
+            "room": "36",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-21T20:57:39.000000Z",
+            "updated_at": "2026-08-22T05:55:38.000000Z",
+            "room_name": "2202-BL2-SF",
+            "facultyName": "Dr. Ketan Kumar Nandi"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 4724,
+            "unique_id": "DDB9F8C0-2705-4428-AD0E-5F6F2EFEB158",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Surveying and Geomatics - Lab",
+            "batch": "25CIVBT00B03",
+            "faculty": "2405C10017",
+            "room": "141",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-28T01:14:16.000000Z",
+            "updated_at": "2026-07-28T01:14:16.000000Z",
+            "room_name": "4406-BL4-GF",
+            "facultyName": "Mr. Balaboina Mohan Babu"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 4725,
+            "unique_id": "C6916E8F-2D19-496E-9276-78406C0251CF",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Surveying and Geomatics - Lab",
+            "batch": "25CIVBT00B03",
+            "faculty": "2405C10017",
+            "room": "141",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-28T01:14:16.000000Z",
+            "updated_at": "2026-07-28T01:14:16.000000Z",
+            "room_name": "4406-BL4-GF",
+            "facultyName": "Mr. Balaboina Mohan Babu"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4855,
+            "unique_id": "6FA3A055-9977-4212-8FB8-8AF777B38058",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Fluid Mechanics and Hydraulic Machines",
+            "batch": "25CIVBT00B03",
+            "faculty": "2505C10012",
+            "room": "35",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Tutorial",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-28T20:32:46.000000Z",
+            "updated_at": "2026-07-28T20:32:46.000000Z",
+            "room_name": "2201-BL2-SF",
+            "facultyName": "Mr. Katta Suresh"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 2547,
+            "unique_id": "1E2097DC-4452-4AC6-88D6-14FAFAD5CD8A",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Surveying and Geomatics",
+            "batch": "25CIVBT00B03,25CIVBT00B04",
+            "faculty": "1025",
+            "room": "36",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-21T20:56:58.000000Z",
+            "updated_at": "2026-08-22T04:45:46.000000Z",
+            "room_name": "2202-BL2-SF",
+            "facultyName": "Dr. Prakhash N"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 2529,
+            "unique_id": "F3EFD88D-A3E6-4379-960A-D3D9BB5601BE",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Strength of Materials",
+            "batch": "25CIVBT00B03,25CIVBT00B04",
+            "faculty": "1030",
+            "room": "51",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-21T20:51:31.000000Z",
+            "updated_at": "2026-08-07T08:52:05.000000Z",
+            "room_name": "3113-BL3-FF",
+            "facultyName": "Dr. Vishnupriyan M"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 2575,
+            "unique_id": "2A6C9A04-73CA-4DEC-9D44-6928FF2AB41C",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Strength of Materials",
+            "batch": "25CIVBT00B03,25CIVBT00B04",
+            "faculty": "1030",
+            "room": "51",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-21T21:13:45.000000Z",
+            "updated_at": "2026-08-07T08:51:26.000000Z",
+            "room_name": "3113-BL3-FF",
+            "facultyName": "Dr. Vishnupriyan M"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

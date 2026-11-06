@@ -1,0 +1,1568 @@
+{
+  "degree": "BBA-BM",
+  "year": "Second",
+  "batch": "25BUSBB00B05",
+  "lastUpdated": "2026-10-04T06:12:47.112414",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 1338,
+            "unique_id": "9416089A-0988-4FA6-B8EF-86C34A43532C",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Business Analytics",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4032",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:04:43.000000Z",
+            "updated_at": "2026-07-20T21:04:43.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Rukma R"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 1352,
+            "unique_id": "6962D26C-9C37-47DE-909C-C962F946B88A",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Financial Management",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4009",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:24:49.000000Z",
+            "updated_at": "2026-07-20T21:24:49.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Mr. Shravan M"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 2441,
+            "unique_id": "AC14D7BB-C0D1-4042-9055-868A4CC6AD33",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Foundations of Data Science",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "2502e70083",
+            "room": "102",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "11-09-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:53:54.000000Z",
+            "updated_at": "2026-09-11T07:03:12.000000Z",
+            "room_name": "9101-BL9-FF",
+            "facultyName": "Ms. Remica Aggarwal"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 2435,
+            "unique_id": "16F910D7-04EA-4707-87DE-6FC624A41AD8",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Human Capital Intelligence",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4012",
+            "room": "105",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:51:50.000000Z",
+            "updated_at": "2026-07-21T19:51:50.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr. Ramesh R"
+          },
+          {
+            "id": 2432,
+            "unique_id": "112B4FCA-3EA5-4855-9E8D-52224B564537",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Financial Ecosystem",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4041",
+            "room": "102",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:50:56.000000Z",
+            "updated_at": "2026-07-21T19:50:56.000000Z",
+            "room_name": "9101-BL9-FF",
+            "facultyName": "Dr. Namitarani Gochhayat"
+          },
+          {
+            "id": 2427,
+            "unique_id": "3C47B4C1-DF02-4C13-A820-D18B78FDBD0A",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Consumer Psychology",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4046",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "18-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:49:38.000000Z",
+            "updated_at": "2026-08-18T09:18:11.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Sarthak Dash"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 1366,
+            "unique_id": "774799BE-753E-4575-BB64-0F7BE229F997",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Production And Operations Management",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "2008",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:29:38.000000Z",
+            "updated_at": "2026-07-20T21:29:38.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Ramesh Babu D"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 4937,
+            "unique_id": "3722F7DE-F061-4CBD-9ABC-E00A74A5C1BC",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Financial Ecosystem",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4041",
+            "room": "105",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "12-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-29T00:43:40.000000Z",
+            "updated_at": "2026-08-12T03:17:24.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr. Namitarani Gochhayat"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 1347,
+            "unique_id": "09E85A9A-7A32-4325-874D-375A36788F57",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Business Strategies",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4036",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:21:44.000000Z",
+            "updated_at": "2026-08-01T08:06:16.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Karra Aruna"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 1361,
+            "unique_id": "E8E602C2-7628-41BE-8180-3874A3C30752",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Data Analytics using Power BI",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "2513",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:28:08.000000Z",
+            "updated_at": "2026-07-20T21:28:08.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Girirajan B"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 1339,
+            "unique_id": "9743FF93-82A4-4F0F-AF86-CFDB9002C685",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Business Analytics",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4032",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:04:43.000000Z",
+            "updated_at": "2026-07-20T21:04:43.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Rukma R"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 1353,
+            "unique_id": "2F1C5489-ECD3-441A-9D9F-F434F13DE5A5",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Financial Management",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4009",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:24:49.000000Z",
+            "updated_at": "2026-07-20T21:24:49.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Mr. Shravan M"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 1367,
+            "unique_id": "AD797270-CF94-471E-996D-C95AD9A50F5C",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Production And Operations Management",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "2008",
+            "room": "105",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:29:38.000000Z",
+            "updated_at": "2026-08-01T06:38:00.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr. Ramesh Babu D"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 2433,
+            "unique_id": "145627EE-05CF-4E3E-AA64-BCD0452F10AC",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Financial Ecosystem",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4041",
+            "room": "105",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:50:56.000000Z",
+            "updated_at": "2026-08-01T06:12:17.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr. Namitarani Gochhayat"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 1385,
+            "unique_id": "AEFA0EB4-3E9B-4D60-AE88-EC6CDBBE326D",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Financial Management",
+            "batch": "25BUSBB00B04,25BUSBB00B05",
+            "faculty": "2302c70047",
+            "room": "107",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:38:28.000000Z",
+            "updated_at": "2026-07-20T21:38:28.000000Z",
+            "room_name": "9106-BL9-FF",
+            "facultyName": "Ms. Ambati Suvarna"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 1386,
+            "unique_id": "1BCD7A5C-E83F-432A-B019-18BD9A15DF50",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Financial Management",
+            "batch": "25BUSBB00B04,25BUSBB00B05",
+            "faculty": "2302c70047",
+            "room": "107",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:38:28.000000Z",
+            "updated_at": "2026-07-20T21:38:28.000000Z",
+            "room_name": "9106-BL9-FF",
+            "facultyName": "Ms. Ambati Suvarna"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 1348,
+            "unique_id": "47CED939-B8A5-4E96-AF50-59D8576542BA",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Business Strategies",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4036",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:21:44.000000Z",
+            "updated_at": "2026-07-20T21:21:44.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Karra Aruna"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 1362,
+            "unique_id": "BC88789E-5CE4-4DD0-8BD1-73F7C41C1CB3",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Data Analytics using Power BI",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "2513",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:28:08.000000Z",
+            "updated_at": "2026-07-20T21:28:08.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Girirajan B"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4938,
+            "unique_id": "31A838F7-F1F3-45BE-8424-8F8F118ABFCB",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Financial Ecosystem",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4041",
+            "room": "102",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-29T00:43:40.000000Z",
+            "updated_at": "2026-08-01T10:15:38.000000Z",
+            "room_name": "9101-BL9-FF",
+            "facultyName": "Dr. Namitarani Gochhayat"
+          },
+          {
+            "id": 2440,
+            "unique_id": "A07890E2-02BD-4892-9B87-2CF9628ACADF",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Foundations of Data Science",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "2502e70083",
+            "room": "107",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "11-09-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:53:54.000000Z",
+            "updated_at": "2026-09-11T07:03:12.000000Z",
+            "room_name": "9106-BL9-FF",
+            "facultyName": "Ms. Remica Aggarwal"
+          },
+          {
+            "id": 2428,
+            "unique_id": "EE0A12D3-92EE-4359-ADA1-1BE768973072",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Consumer Psychology",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4046",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "18-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:49:38.000000Z",
+            "updated_at": "2026-08-18T09:18:11.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Sarthak Dash"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 4928,
+            "unique_id": "37BD335E-9081-48FA-BA11-64DD0FACC2BB",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Data Analytics using Power BI",
+            "batch": "25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "2513",
+            "room": "102",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-29T00:19:35.000000Z",
+            "updated_at": "2026-07-29T11:27:38.000000Z",
+            "room_name": "9101-BL9-FF",
+            "facultyName": "Dr. Girirajan B"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 4929,
+            "unique_id": "4C5DC31D-4392-470B-ACC3-C78EFE179A4F",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Data Analytics using Power BI",
+            "batch": "25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "2513",
+            "room": "102",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-29T00:19:35.000000Z",
+            "updated_at": "2026-07-29T11:26:44.000000Z",
+            "room_name": "9101-BL9-FF",
+            "facultyName": "Dr. Girirajan B"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 1340,
+            "unique_id": "D8C34E14-DED4-4C93-A650-546ECC80B99C",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Business Analytics",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4032",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:04:43.000000Z",
+            "updated_at": "2026-07-20T21:04:43.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Rukma R"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 1368,
+            "unique_id": "82ED4D6A-B4BB-4324-B09F-78AE277EE875",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Production And Operations Management",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "2008",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:29:38.000000Z",
+            "updated_at": "2026-07-20T21:29:38.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Ramesh Babu D"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 1349,
+            "unique_id": "D973A98A-B168-4134-A255-2E7728600C38",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Business Strategies",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4036",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:21:44.000000Z",
+            "updated_at": "2026-07-20T21:21:44.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Karra Aruna"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 2438,
+            "unique_id": "8F7155C9-BE88-4516-AD21-544D6612B06D",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Human Capital Intelligence",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4012",
+            "room": "105",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:52:51.000000Z",
+            "updated_at": "2026-07-21T19:52:51.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr. Ramesh R"
+          },
+          {
+            "id": 2443,
+            "unique_id": "0B8DDA5C-926E-4A85-83B5-A1FC17E39842",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Foundations of Data Science",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "2502e70083",
+            "room": "71",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "15-09-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:55:07.000000Z",
+            "updated_at": "2026-09-15T06:46:05.000000Z",
+            "room_name": "3107-BL3-FF",
+            "facultyName": "Ms. Remica Aggarwal"
+          },
+          {
+            "id": 2430,
+            "unique_id": "409A4990-791E-4DFC-AFB5-3F4ADBEA891C",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Consumer Psychology",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4046",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "18-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:50:06.000000Z",
+            "updated_at": "2026-08-18T09:18:11.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Sarthak Dash"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 2439,
+            "unique_id": "173CD387-74B2-4D00-960C-1856953E097E",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Human Capital Intelligence",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4012",
+            "room": "105",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:52:51.000000Z",
+            "updated_at": "2026-07-21T19:52:51.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr. Ramesh R"
+          },
+          {
+            "id": 2444,
+            "unique_id": "4DDAFA73-300F-4335-995A-A04EB5B3E5F3",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Foundations of Data Science",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "2502e70083",
+            "room": "71",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "15-09-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:55:07.000000Z",
+            "updated_at": "2026-09-15T06:48:36.000000Z",
+            "room_name": "3107-BL3-FF",
+            "facultyName": "Ms. Remica Aggarwal"
+          },
+          {
+            "id": 2431,
+            "unique_id": "55C28761-2F0E-494B-AE19-BE4D5C5E6829",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Consumer Psychology",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4046",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "18-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:50:06.000000Z",
+            "updated_at": "2026-08-18T09:18:11.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Sarthak Dash"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 1345,
+            "unique_id": "A497EC02-165F-499B-9DF4-D3987B4EF8E4",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Business Analytics",
+            "batch": "25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4032",
+            "room": "47",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:15:53.000000Z",
+            "updated_at": "2026-07-20T21:15:53.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Dr. Rukma R"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 1346,
+            "unique_id": "B4AAD29F-3F52-45F6-9459-0CFFF5393C69",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Business Analytics",
+            "batch": "25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4032",
+            "room": "47",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:15:53.000000Z",
+            "updated_at": "2026-07-20T21:15:53.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Dr. Rukma R"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 1363,
+            "unique_id": "79725673-C2D3-4EEA-BD22-8C12544885B2",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Data Analytics using Power BI",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "2513",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:28:08.000000Z",
+            "updated_at": "2026-07-20T21:28:08.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Girirajan B"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 1354,
+            "unique_id": "277804A2-C2CA-411A-8B05-D88B5186EB5C",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Financial Management",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4009",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:24:49.000000Z",
+            "updated_at": "2026-07-20T21:24:49.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Mr. Shravan M"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 2436,
+            "unique_id": "9D6E89C8-2756-4295-8C7A-038C3237F990",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Human Capital Intelligence",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4012",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:51:50.000000Z",
+            "updated_at": "2026-08-01T08:19:44.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Ramesh R"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 2437,
+            "unique_id": "85F61869-02A5-47CF-9E71-CEB00FCFE463",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Human Capital Intelligence",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4012",
+            "room": "107",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:52:11.000000Z",
+            "updated_at": "2026-08-01T11:13:14.000000Z",
+            "room_name": "9106-BL9-FF",
+            "facultyName": "Dr. Ramesh R"
+          },
+          {
+            "id": 2434,
+            "unique_id": "B4A590B8-FB44-4AC9-B49E-8F5ADC3825C2",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Financial Ecosystem",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4041",
+            "room": "102",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:50:56.000000Z",
+            "updated_at": "2026-07-21T19:50:56.000000Z",
+            "room_name": "9101-BL9-FF",
+            "facultyName": "Dr. Namitarani Gochhayat"
+          },
+          {
+            "id": 2442,
+            "unique_id": "810E8914-EA21-4E16-9D2F-B6DC732F206F",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Foundations of Data Science",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "2502e70083",
+            "room": "106",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "11-09-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:54:27.000000Z",
+            "updated_at": "2026-09-11T07:03:12.000000Z",
+            "room_name": "9105-BL9-FF",
+            "facultyName": "Ms. Remica Aggarwal"
+          },
+          {
+            "id": 2429,
+            "unique_id": "59A0F0FA-7768-429E-B34C-3DA0DA6A1CC4",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Consumer Psychology",
+            "batch": "25BUSBB00B01,25BUSBB00B02,25BUSBB00B03,25BUSBB00B04,25BUSBB00B05",
+            "faculty": "4046",
+            "room": "104",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "18-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T19:49:38.000000Z",
+            "updated_at": "2026-08-18T09:18:11.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Sarthak Dash"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 1377,
+            "unique_id": "722AE39C-205A-4BD4-8D04-449C62E79B7A",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Production And Operations Management",
+            "batch": "25BUSBB00B04,25BUSBB00B05",
+            "faculty": "2302c70044",
+            "room": "107",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:36:12.000000Z",
+            "updated_at": "2026-07-20T21:36:12.000000Z",
+            "room_name": "9106-BL9-FF",
+            "facultyName": "Mr. Md Abdul Waheb"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 1378,
+            "unique_id": "61D6405F-041D-4CC1-A928-A483EB1B98F5",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Production And Operations Management",
+            "batch": "25BUSBB00B04,25BUSBB00B05",
+            "faculty": "2302c70044",
+            "room": "107",
+            "program": "BBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:36:12.000000Z",
+            "updated_at": "2026-07-20T21:36:12.000000Z",
+            "room_name": "9106-BL9-FF",
+            "facultyName": "Mr. Md Abdul Waheb"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

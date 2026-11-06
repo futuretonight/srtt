@@ -1,0 +1,1235 @@
+{
+  "degree": "BTECH-IEP-CSE",
+  "year": "Third",
+  "batch": "24CSBTBA1",
+  "lastUpdated": "2026-10-04T06:13:42.548904",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3501,
+            "unique_id": "C9006ED2-C995-4BEF-9FA4-B576DDF7E5D5",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Discrete Mathematical Structures - II",
+            "batch": "24CSBTBA1",
+            "faculty": "3637",
+            "room": "11",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "16-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-24T00:23:22.000000Z",
+            "updated_at": "2026-09-16T11:45:55.000000Z",
+            "room_name": "1206-BL1-SF",
+            "facultyName": "Dr. Kavitha Williams W"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3462,
+            "unique_id": "CADE1E26-A150-4684-844F-11751A8D083B",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Database Management Systems",
+            "batch": "24CSBTBA1",
+            "faculty": "3003",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T08:07:34.000000Z",
+            "updated_at": "2026-08-07T04:21:30.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Sandeep Ch"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3467,
+            "unique_id": "88167C09-4F66-4AA4-A49F-7CCD48FB31D7",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Probability and Statistics",
+            "batch": "24CSBTBA1",
+            "faculty": "3502",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "18-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T08:13:21.000000Z",
+            "updated_at": "2026-08-18T17:25:49.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Swamy Reddy G"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 3453,
+            "unique_id": "7A2159E6-E279-4A07-A256-954A17D94A9A",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Design and Analysis of Algorithms",
+            "batch": "24CSBTBA1",
+            "faculty": "3014",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "26-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:52:35.000000Z",
+            "updated_at": "2026-08-26T12:48:56.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Sheshikala M"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 3448,
+            "unique_id": "D62CB32E-9360-46CA-A614-EA2EEBBBC5FE",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Computer Networks",
+            "batch": "24CSBTBA1",
+            "faculty": "2511",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:50:15.000000Z",
+            "updated_at": "2026-08-17T09:00:24.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Ms. Shilpa N"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3459,
+            "unique_id": "CED55080-62C5-4D42-8F6A-DAC739B4DED1",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Principles of Programming Languages",
+            "batch": "24CSBTBA1",
+            "faculty": "3057",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:56:13.000000Z",
+            "updated_at": "2026-08-17T06:40:21.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Venkatesh  Naramula"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3454,
+            "unique_id": "D6C84236-2CB9-4768-9F6E-53C6D19EBE8B",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Design and Analysis of Algorithms",
+            "batch": "24CSBTBA1",
+            "faculty": "3014",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:52:35.000000Z",
+            "updated_at": "2026-08-07T04:21:30.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Sheshikala M"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 3465,
+            "unique_id": "4CE540D1-577F-4030-B1B8-580B4BF07F8F",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Database Management Systems Lab",
+            "batch": "24CSBTBA1",
+            "faculty": "3003",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T08:08:07.000000Z",
+            "updated_at": "2026-08-07T04:21:30.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Sandeep Ch"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 3466,
+            "unique_id": "C55175D1-172A-4684-9378-4D0011BF78CD",
+            "semester": "V",
+            "year": "Third",
+            "time": "12:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Database Management Systems Lab",
+            "batch": "24CSBTBA1",
+            "faculty": "3003",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T08:08:07.000000Z",
+            "updated_at": "2026-08-07T04:21:30.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Sandeep Ch"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3468,
+            "unique_id": "F85734B4-4327-4C7A-9198-C800EA5C59CF",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Probability and Statistics",
+            "batch": "24CSBTBA1",
+            "faculty": "3502",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T08:13:21.000000Z",
+            "updated_at": "2026-08-17T06:39:58.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Swamy Reddy G"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3449,
+            "unique_id": "6DA016B0-204A-47DB-BF8D-5900F71CA581",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Computer Networks",
+            "batch": "24CSBTBA1",
+            "faculty": "2511",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:50:15.000000Z",
+            "updated_at": "2026-08-07T04:21:30.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Ms. Shilpa N"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3469,
+            "unique_id": "9BA89E21-7E2A-4DDF-9007-A85474C18BB9",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Probability and Statistics",
+            "batch": "24CSBTBA1",
+            "faculty": "3502",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "20-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T08:13:21.000000Z",
+            "updated_at": "2026-09-20T11:41:23.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Swamy Reddy G"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 3457,
+            "unique_id": "77711DFF-2390-4FE1-A7AB-98713CACDDA9",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Design and Analysis of Algorithms",
+            "batch": "24CSBTBA1",
+            "faculty": "3014",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:53:51.000000Z",
+            "updated_at": "2026-08-07T04:21:30.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Sheshikala M"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 3458,
+            "unique_id": "68EA6DC9-AA0F-4499-B568-F497AC75120C",
+            "semester": "V",
+            "year": "Third",
+            "time": "12:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Design and Analysis of Algorithms",
+            "batch": "24CSBTBA1",
+            "faculty": "3014",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:53:51.000000Z",
+            "updated_at": "2026-08-07T04:21:30.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Sheshikala M"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3455,
+            "unique_id": "33E8D895-CB0F-4644-8405-52B5DC99B46D",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Design and Analysis of Algorithms",
+            "batch": "24CSBTBA1",
+            "faculty": "3014",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "20-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:52:35.000000Z",
+            "updated_at": "2026-09-20T11:41:06.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Sheshikala M"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 3512,
+            "unique_id": "7A1A7E50-8AC0-4106-AA74-6F7DF05C4664",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Discrete Mathematical Structures - II",
+            "batch": "24CSBTBA1",
+            "faculty": "3637",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Tutorial",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-24T00:23:53.000000Z",
+            "updated_at": "2026-08-07T04:21:30.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Kavitha Williams W"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3460,
+            "unique_id": "2132A477-1C91-4801-A37D-8744CD15F9F8",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Principles of Programming Languages",
+            "batch": "24CSBTBA1",
+            "faculty": "3057",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:56:13.000000Z",
+            "updated_at": "2026-08-07T05:01:12.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Venkatesh  Naramula"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3456,
+            "unique_id": "19DABB26-F6D3-4C14-B2BC-B7419007A5E5",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Design and Analysis of Algorithms",
+            "batch": "24CSBTBA1",
+            "faculty": "3014",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Tutorial",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:53:17.000000Z",
+            "updated_at": "2026-08-07T04:21:30.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Sheshikala M"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 3451,
+            "unique_id": "66F0C94C-88B0-4D55-8EDC-4D58A7F1465D",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Computer Networks",
+            "batch": "24CSBTBA1",
+            "faculty": "2511",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:51:03.000000Z",
+            "updated_at": "2026-08-07T04:21:30.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Ms. Shilpa N"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 3452,
+            "unique_id": "35840DF4-8A87-41F2-B9E7-7DF1DF0F921D",
+            "semester": "V",
+            "year": "Third",
+            "time": "12:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Computer Networks",
+            "batch": "24CSBTBA1",
+            "faculty": "2511",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:51:03.000000Z",
+            "updated_at": "2026-08-07T04:21:30.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Ms. Shilpa N"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3464,
+            "unique_id": "58B4A62F-090E-4488-B495-ED4DB069D3B2",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Database Management Systems",
+            "batch": "24CSBTBA1",
+            "faculty": "3003",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T08:07:34.000000Z",
+            "updated_at": "2026-08-07T04:21:30.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Sandeep Ch"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 3503,
+            "unique_id": "252FE3F7-B2E0-487B-9592-FEB0972C5466",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Discrete Mathematical Structures - II",
+            "batch": "24CSBTBA1",
+            "faculty": "3637",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-24T00:23:22.000000Z",
+            "updated_at": "2026-08-07T04:21:30.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Kavitha Williams W"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3450,
+            "unique_id": "742931E3-B8AB-45F3-9154-F3510C1D6D8F",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Computer Networks",
+            "batch": "24CSBTBA1",
+            "faculty": "2511",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "16-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:50:15.000000Z",
+            "updated_at": "2026-09-16T03:59:39.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Ms. Shilpa N"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3463,
+            "unique_id": "B7FF58DC-BAF4-4A8D-A79F-2E22073817D1",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Database Management Systems",
+            "batch": "24CSBTBA1",
+            "faculty": "3003",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "20-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T08:07:34.000000Z",
+            "updated_at": "2026-09-20T11:41:46.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Sandeep Ch"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 6539,
+            "unique_id": "9BC32817-BEA1-41DE-801C-B8B3A3AEFF1F",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Design and Analysis of Algorithms",
+            "batch": "24CSBTBA1",
+            "faculty": "3014",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "23-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-17T22:49:23.000000Z",
+            "updated_at": "2026-08-23T04:06:02.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Sheshikala M"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 6540,
+            "unique_id": "E2EC61F5-EA5A-4594-8D65-4A41E7F4342D",
+            "semester": "V",
+            "year": "Third",
+            "time": "12:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Design and Analysis of Algorithms",
+            "batch": "24CSBTBA1",
+            "faculty": "3014",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "23-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-17T22:49:23.000000Z",
+            "updated_at": "2026-08-23T04:06:10.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Sheshikala M"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3461,
+            "unique_id": "3DD6A0AF-C92D-44BA-B334-D214A88CB66D",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Principles of Programming Languages",
+            "batch": "24CSBTBA1",
+            "faculty": "3057",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:56:13.000000Z",
+            "updated_at": "2026-08-07T05:01:12.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Venkatesh  Naramula"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 3470,
+            "unique_id": "5447CB81-8BB4-470C-9185-5319B9DDD6BA",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Probability and Statistics",
+            "batch": "24CSBTBA1",
+            "faculty": "3502",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Tutorial",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T08:13:58.000000Z",
+            "updated_at": "2026-08-07T04:21:30.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Swamy Reddy G"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 3502,
+            "unique_id": "DF550356-9438-49A1-A6DF-61F68CC43F7C",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Discrete Mathematical Structures - II",
+            "batch": "24CSBTBA1",
+            "faculty": "3637",
+            "room": "16",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "23-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-24T00:23:22.000000Z",
+            "updated_at": "2026-08-23T04:04:41.000000Z",
+            "room_name": "1104-BL1-FF",
+            "facultyName": "Dr. Kavitha Williams W"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

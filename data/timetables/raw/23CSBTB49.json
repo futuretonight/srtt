@@ -1,0 +1,890 @@
+{
+  "degree": "BTECH-IEP-CSE",
+  "year": "Fourth",
+  "batch": "23CSBTB49",
+  "lastUpdated": "2026-10-04T06:13:42.001651",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 6665,
+            "unique_id": "E4A72F3C-A0A5-4DF9-8B43-CF5ACCD8BD09",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Cloud Computing",
+            "batch": "23CSBTB49",
+            "faculty": "706",
+            "room": "85",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "13-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-21T04:44:30.000000Z",
+            "updated_at": "2026-09-13T17:25:45.000000Z",
+            "room_name": "8002-BL8-GF",
+            "facultyName": "Mr. Bingi Raju"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 3471,
+            "unique_id": "B9BA8E09-4D3E-4DA2-8C81-FC611DC8977E",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Data Mining",
+            "batch": "23CSBTB49",
+            "faculty": "3098",
+            "room": "89",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T08:21:25.000000Z",
+            "updated_at": "2026-08-17T09:20:05.000000Z",
+            "room_name": "8006-BL8-GF",
+            "facultyName": "Dr. Shivani Goel"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3487,
+            "unique_id": "4B071B99-9CAB-49A2-B8B7-C493D45661CC",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Machine Learning",
+            "batch": "23CSBTB49",
+            "faculty": "3230",
+            "room": "89",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T23:43:54.000000Z",
+            "updated_at": "2026-07-23T23:43:54.000000Z",
+            "room_name": "8006-BL8-GF",
+            "facultyName": "Dr. Abeyram M Nithin"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3498,
+            "unique_id": "D77CB0CC-3C86-44AC-9F8D-75C6BBA4DED9",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Marketing For Engineers",
+            "batch": "23CSBTB49",
+            "faculty": "2402c7e005",
+            "room": "89",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-24T00:17:35.000000Z",
+            "updated_at": "2026-07-24T00:17:35.000000Z",
+            "room_name": "8006-BL8-GF",
+            "facultyName": "Mr. V Laxmi Prasad Rao"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3488,
+            "unique_id": "F634355A-C132-407F-9AC2-EAEEFFDD62E1",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Machine Learning",
+            "batch": "23CSBTB49",
+            "faculty": "3230",
+            "room": "89",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T23:43:54.000000Z",
+            "updated_at": "2026-07-23T23:43:54.000000Z",
+            "room_name": "8006-BL8-GF",
+            "facultyName": "Dr. Abeyram M Nithin"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 3472,
+            "unique_id": "D7C5354E-E23F-47B4-92D9-EC773DF0039A",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Data Mining",
+            "batch": "23CSBTB49",
+            "faculty": "3098",
+            "room": "89",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T08:21:25.000000Z",
+            "updated_at": "2026-08-17T09:20:05.000000Z",
+            "room_name": "8006-BL8-GF",
+            "facultyName": "Dr. Shivani Goel"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3499,
+            "unique_id": "54C18B55-C873-429E-B505-B595EC8DC992",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Marketing For Engineers",
+            "batch": "23CSBTB49",
+            "faculty": "2402c7e005",
+            "room": "89",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-24T00:17:35.000000Z",
+            "updated_at": "2026-07-24T00:17:35.000000Z",
+            "room_name": "8006-BL8-GF",
+            "facultyName": "Mr. V Laxmi Prasad Rao"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3473,
+            "unique_id": "1B45F12A-75C2-4227-AFA8-061746727EF6",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Data Mining",
+            "batch": "23CSBTB49",
+            "faculty": "3098",
+            "room": "89",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T08:21:25.000000Z",
+            "updated_at": "2026-08-17T09:20:05.000000Z",
+            "room_name": "8006-BL8-GF",
+            "facultyName": "Dr. Shivani Goel"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 3500,
+            "unique_id": "BF177B56-BD00-4A37-A21C-0273DCAA9234",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Marketing For Engineers",
+            "batch": "23CSBTB49",
+            "faculty": "2402c7e005",
+            "room": "89",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-24T00:17:35.000000Z",
+            "updated_at": "2026-07-24T00:17:35.000000Z",
+            "room_name": "8006-BL8-GF",
+            "facultyName": "Mr. V Laxmi Prasad Rao"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3489,
+            "unique_id": "106CC8E5-25B1-457C-9276-27529C5B0819",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Machine Learning",
+            "batch": "23CSBTB49",
+            "faculty": "3230",
+            "room": "89",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T23:43:54.000000Z",
+            "updated_at": "2026-07-23T23:43:54.000000Z",
+            "room_name": "8006-BL8-GF",
+            "facultyName": "Dr. Abeyram M Nithin"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 6666,
+            "unique_id": "A6BCB779-06D3-4FEB-81FC-C764729259D0",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Cloud Computing",
+            "batch": "23CSBTB49",
+            "faculty": "706",
+            "room": "89",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "09-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-21T04:44:30.000000Z",
+            "updated_at": "2026-09-09T15:48:41.000000Z",
+            "room_name": "8006-BL8-GF",
+            "facultyName": "Mr. Bingi Raju"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 6544,
+            "unique_id": "D698308D-1479-4C50-8CF0-893C8EC154DC",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Machine Learning",
+            "batch": "23CSBTB49",
+            "faculty": "3230",
+            "room": "89",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-18T03:14:55.000000Z",
+            "updated_at": "2026-08-18T03:14:55.000000Z",
+            "room_name": "8006-BL8-GF",
+            "facultyName": "Dr. Abeyram M Nithin"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 6545,
+            "unique_id": "4810B6AC-634F-41DA-A941-F4C7CC32A263",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Machine Learning",
+            "batch": "23CSBTB49",
+            "faculty": "3230",
+            "room": "89",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-18T03:14:55.000000Z",
+            "updated_at": "2026-08-18T03:14:55.000000Z",
+            "room_name": "8006-BL8-GF",
+            "facultyName": "Dr. Abeyram M Nithin"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 6667,
+            "unique_id": "034F2332-4750-425B-BF19-1FF0CB5481DE",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Cloud Computing",
+            "batch": "23CSBTB49",
+            "faculty": "706",
+            "room": "89",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "09-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-21T04:44:30.000000Z",
+            "updated_at": "2026-09-09T15:49:14.000000Z",
+            "room_name": "8006-BL8-GF",
+            "facultyName": "Mr. Bingi Raju"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

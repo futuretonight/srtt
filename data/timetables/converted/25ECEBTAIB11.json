@@ -1,0 +1,386 @@
+{
+  "mon": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Analog Circuits Analysis",
+      "kind": "Lecture",
+      "room": "2102-BL2-FF",
+      "faculty": "Dr. Danish Abdullah",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Random Variables and Stochastic Process",
+      "kind": "Lecture",
+      "room": "2103-BL2-FF",
+      "faculty": "Dr. Shaik Thaherbasha",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Generative AI",
+      "kind": "Lecture",
+      "room": "2101-BL2-FF",
+      "faculty": "Dr. Borish Moirangthem",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Control Systems",
+      "kind": "Tut",
+      "room": "3105-BL3-FF",
+      "faculty": "Dr. Naga Srinivasa Rao Ch",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Analog Circuits Analysis",
+      "kind": "Tutorial",
+      "room": "2203-BL2-SF",
+      "faculty": "Dr. Subhashis Das",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Analog Circuits Analysis",
+      "kind": "Lab",
+      "room": "2107-BL2-FF",
+      "faculty": "Mr. Moodu Veeranna",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Analog Circuits Analysis",
+      "kind": "Lab",
+      "room": "2107-BL2-FF",
+      "faculty": "Mr. Moodu Veeranna",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Generative AI",
+      "kind": "Lecture",
+      "room": "2102-BL2-FF",
+      "faculty": "Dr. Borish Moirangthem",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Random Variables and Stochastic Process",
+      "kind": "Lecture",
+      "room": "2103-BL2-FF",
+      "faculty": "Dr. Shaik Thaherbasha",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Generative AI",
+      "kind": "Lecture",
+      "room": "2101-BL2-FF",
+      "faculty": "Dr. Borish Moirangthem",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Problem Solving using Python",
+      "kind": "Lecture",
+      "room": "2207-BL2-SF",
+      "faculty": "Dr. Rajeshwarrao Arabelli",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Signals and Systems",
+      "kind": "Lecture",
+      "room": "2208-BL2-SF",
+      "faculty": "Dr. Biswajit Mahanty",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Problem Solving using Python",
+      "kind": "Lab",
+      "room": "2114-BL2-FF",
+      "faculty": "Dr. Rajeshwarrao Arabelli",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Problem Solving using Python",
+      "kind": "Lab",
+      "room": "2114-BL2-FF",
+      "faculty": "Dr. Rajeshwarrao Arabelli",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Problem Solving using Python",
+      "kind": "Tut",
+      "room": "2108-BL2-FF",
+      "faculty": "Dr. Rajeshwarrao Arabelli",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Random Variables and Stochastic Process",
+      "kind": "Lecture",
+      "room": "2103-BL2-FF",
+      "faculty": "Dr. Shaik Thaherbasha",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Signals and Systems",
+      "kind": "Lecture",
+      "room": "2101-BL2-FF",
+      "faculty": "Dr. Biswajit Mahanty",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Problem Solving using Python",
+      "kind": "Lab",
+      "room": "2114-BL2-FF",
+      "faculty": "Dr. Rajeshwarrao Arabelli",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Problem Solving using Python",
+      "kind": "Lab",
+      "room": "2114-BL2-FF",
+      "faculty": "Dr. Rajeshwarrao Arabelli",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Signals and Systems",
+      "kind": "Lecture",
+      "room": "2102-BL2-FF",
+      "faculty": "Dr. Biswajit Mahanty",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Control Systems",
+      "kind": "Lecture",
+      "room": "2103-BL2-FF",
+      "faculty": "Dr. Naga Srinivasa Rao Ch",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Control Systems",
+      "kind": "Lecture",
+      "room": "2103-BL2-FF",
+      "faculty": "Dr. Naga Srinivasa Rao Ch",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Signals and Systems",
+      "kind": "Lecture",
+      "room": "2116-BL2-FF",
+      "faculty": "Dr. Biswajit Mahanty",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Problem Solving using Python",
+      "kind": "Lecture",
+      "room": "2207-BL2-SF",
+      "faculty": "Dr. Rajeshwarrao Arabelli",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Analog Circuits Analysis",
+      "kind": "Lecture",
+      "room": "2116-BL2-FF",
+      "faculty": "Dr. Danish Abdullah",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Signals and Systems",
+      "kind": "Lab",
+      "room": "2113-BL2-FF",
+      "faculty": "Dr. Arnab Kumar Pariari",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Signals and Systems",
+      "kind": "Lab",
+      "room": "2113-BL2-FF",
+      "faculty": "Dr. Arnab Kumar Pariari",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Generative AI",
+      "kind": "Lab",
+      "room": "3111-BL3-FF",
+      "faculty": "Dr. Borish Moirangthem",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Generative AI",
+      "kind": "Lab",
+      "room": "3111-BL3-FF",
+      "faculty": "Dr. Borish Moirangthem",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Control Systems",
+      "kind": "Lecture",
+      "room": "2103-BL2-FF",
+      "faculty": "Dr. Naga Srinivasa Rao Ch",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Analog Circuits Analysis",
+      "kind": "Lecture",
+      "room": "2116-BL2-FF",
+      "faculty": "Dr. Danish Abdullah",
+      "batches": [
+        "25ECEBTAIB11"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

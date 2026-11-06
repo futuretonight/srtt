@@ -1,0 +1,1258 @@
+{
+  "degree": "BTECH-ME",
+  "year": "Second",
+  "batch": "25MECBT00B02",
+  "lastUpdated": "2026-10-04T06:13:44.205894",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 1174,
+            "unique_id": "706FDDC2-C6D9-40BF-A179-55ADC7A97819",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Problem Solving using Python",
+            "batch": "25MECBT00B01,25MECBT00B02",
+            "faculty": "2042",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "02-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-20T00:21:38.000000Z",
+            "updated_at": "2026-08-02T09:32:57.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Arnab Mukherjee"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 818,
+            "unique_id": "8D9AD615-7A49-4408-A3BA-927BA8CF4508",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Machines and Mechanisms",
+            "batch": "25MECBT00B01,25MECBT00B02",
+            "faculty": "2029",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:29:52.000000Z",
+            "updated_at": "2026-07-17T01:29:52.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Shitendu Some"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 820,
+            "unique_id": "0D19A8D3-1A7F-4759-AF79-7C8EF47ACA0B",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Material Science Engineering",
+            "batch": "25MECBT00B01,25MECBT00B02",
+            "faculty": "2002",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:31:24.000000Z",
+            "updated_at": "2026-07-17T01:31:24.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Sammaiah P"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 832,
+            "unique_id": "DCF08509-8D86-4661-ACA5-5861622F9F0F",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Mechanics of Solids",
+            "batch": "25MECBT00B02",
+            "faculty": "2040",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Tutorial",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:37:25.000000Z",
+            "updated_at": "2026-07-17T01:37:25.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Dipankar Saha"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 830,
+            "unique_id": "3BD4507C-D10A-4290-B431-DEF7DED7656A",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Thermodynamics",
+            "batch": "25MECBT00B02",
+            "faculty": "2004",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Tutorial",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:36:13.000000Z",
+            "updated_at": "2026-07-17T01:36:13.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Nagireddy Praveenadevi"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 839,
+            "unique_id": "01072AAB-01A5-4309-A725-E83D89EC3DB6",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Mechanics of Solids",
+            "batch": "25MECBT00B02",
+            "faculty": "2044",
+            "room": "143",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "23-07-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:40:21.000000Z",
+            "updated_at": "2026-07-23T11:02:25.000000Z",
+            "room_name": "4712-BL4-GF",
+            "facultyName": "Dr. Anupam Chaudhary"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 840,
+            "unique_id": "EA3565AD-9CAD-4B5D-B37D-18F070B9443A",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Mechanics of Solids",
+            "batch": "25MECBT00B02",
+            "faculty": "2044",
+            "room": "143",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "23-07-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:40:21.000000Z",
+            "updated_at": "2026-07-23T11:01:26.000000Z",
+            "room_name": "4712-BL4-GF",
+            "facultyName": "Dr. Anupam Chaudhary"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 821,
+            "unique_id": "6B131818-4B5A-4B72-B7F4-DCC702A830ED",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Material Science Engineering",
+            "batch": "25MECBT00B01,25MECBT00B02",
+            "faculty": "2002",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:31:24.000000Z",
+            "updated_at": "2026-07-17T01:31:24.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Sammaiah P"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 822,
+            "unique_id": "FC79117D-3068-40B9-9DD2-C198C8BEC3C0",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Material Science Engineering",
+            "batch": "25MECBT00B01,25MECBT00B02",
+            "faculty": "2002",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:31:24.000000Z",
+            "updated_at": "2026-07-17T01:31:24.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Sammaiah P"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 1181,
+            "unique_id": "81FAD783-A6BC-4294-B1E3-5A6A6AD758C0",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Problem Solving Using Python",
+            "batch": "25MECBT00B02",
+            "faculty": "2305c30010",
+            "room": "47",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-20T00:41:46.000000Z",
+            "updated_at": "2026-07-20T00:41:46.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Mr.  Illandula Venu"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 1182,
+            "unique_id": "554E6F33-DBE1-4706-9827-D20B9678DB7C",
+            "semester": "III",
+            "year": "Second",
+            "time": "12:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Problem Solving Using Python",
+            "batch": "25MECBT00B02",
+            "faculty": "2305c30010",
+            "room": "47",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-20T00:41:46.000000Z",
+            "updated_at": "2026-07-20T00:41:46.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Mr.  Illandula Venu"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 827,
+            "unique_id": "DBB7D248-2B60-4D28-9B65-42A1AF232392",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Thermodynamics",
+            "batch": "25MECBT00B01,25MECBT00B02",
+            "faculty": "2004",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:35:07.000000Z",
+            "updated_at": "2026-07-17T01:35:07.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Nagireddy Praveenadevi"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 846,
+            "unique_id": "70EB6E75-DBE4-4019-9C6C-6C77A98BCEAE",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Manufacturing Technology",
+            "batch": "25MECBT00B02",
+            "faculty": "2022",
+            "room": "147",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:46:18.000000Z",
+            "updated_at": "2026-07-17T01:46:18.000000Z",
+            "room_name": "4813-BL4-GF",
+            "facultyName": "Dr. Subbarao Medabalimi"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 847,
+            "unique_id": "7FB063BA-8442-4D63-9B17-FF4796187CF3",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Manufacturing Technology",
+            "batch": "25MECBT00B02",
+            "faculty": "2022",
+            "room": "147",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:46:18.000000Z",
+            "updated_at": "2026-07-17T01:46:18.000000Z",
+            "room_name": "4813-BL4-GF",
+            "facultyName": "Dr. Subbarao Medabalimi"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 834,
+            "unique_id": "1BC47FEA-3595-43E9-AEA9-B763F10C8D0F",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Mechanics of Solids",
+            "batch": "25MECBT00B01,25MECBT00B02",
+            "faculty": "2044",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "23-07-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:38:45.000000Z",
+            "updated_at": "2026-07-23T11:04:32.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Anupam Chaudhary"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 828,
+            "unique_id": "B8DF884A-CEE3-4ABC-9B41-5E9B561B9703",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Thermodynamics",
+            "batch": "25MECBT00B01,25MECBT00B02",
+            "faculty": "2004",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:35:07.000000Z",
+            "updated_at": "2026-07-17T01:35:07.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Nagireddy Praveenadevi"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 841,
+            "unique_id": "76C27270-190F-4EF3-A43F-BBC0B7DFCC67",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Manufacturing Technology",
+            "batch": "25MECBT00B01,25MECBT00B02",
+            "faculty": "2022",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:45:00.000000Z",
+            "updated_at": "2026-07-29T10:48:32.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Subbarao Medabalimi"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 825,
+            "unique_id": "30E6D407-F947-4531-8DFF-B21A5C3A4806",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Material Science Engineering",
+            "batch": "25MECBT00B02",
+            "faculty": "2002",
+            "room": "143",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:33:26.000000Z",
+            "updated_at": "2026-07-17T01:33:26.000000Z",
+            "room_name": "4712-BL4-GF",
+            "facultyName": "Dr. Sammaiah P"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 826,
+            "unique_id": "FC2B2955-E88A-4C5E-902E-DCCBBA7313A1",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Material Science Engineering",
+            "batch": "25MECBT00B02",
+            "faculty": "2002",
+            "room": "143",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:33:26.000000Z",
+            "updated_at": "2026-07-17T01:33:26.000000Z",
+            "room_name": "4712-BL4-GF",
+            "facultyName": "Dr. Sammaiah P"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 819,
+            "unique_id": "79ADD475-01C8-4E99-965C-97DBF7D251C8",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Machines and Mechanisms",
+            "batch": "25MECBT00B01,25MECBT00B02",
+            "faculty": "2029",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:29:52.000000Z",
+            "updated_at": "2026-07-17T01:29:52.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Shitendu Some"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 842,
+            "unique_id": "C06F9FAF-4352-4877-BF74-AFF85695BD56",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Manufacturing Technology",
+            "batch": "25MECBT00B01,25MECBT00B02",
+            "faculty": "2022",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:45:00.000000Z",
+            "updated_at": "2026-07-17T01:45:00.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Subbarao Medabalimi"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 835,
+            "unique_id": "13C536D1-C022-4707-96BA-C91BACBE44B9",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Mechanics of Solids",
+            "batch": "25MECBT00B01,25MECBT00B02",
+            "faculty": "2044",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "23-07-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:38:45.000000Z",
+            "updated_at": "2026-07-23T11:00:40.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Anupam Chaudhary"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 1173,
+            "unique_id": "B63B26E7-44CA-4B00-84F7-FA694510A0EB",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Problem Solving Using Python",
+            "batch": "25MECBT00B01,25MECBT00B02",
+            "faculty": "2042",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-20T00:21:38.000000Z",
+            "updated_at": "2026-07-20T00:21:38.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Arnab Mukherjee"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 1183,
+            "unique_id": "C173306C-A4B9-453D-B39F-1E35C4067F33",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Problem Solving Using Python",
+            "batch": "25MECBT00B02",
+            "faculty": "2305c30010",
+            "room": "47",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-20T00:41:46.000000Z",
+            "updated_at": "2026-07-20T00:41:46.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Mr.  Illandula Venu"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 1184,
+            "unique_id": "9F78AB9E-F58D-4BF4-BF26-C6D51F26204A",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Problem Solving Using Python",
+            "batch": "25MECBT00B02",
+            "faculty": "2305c30010",
+            "room": "47",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-20T00:41:46.000000Z",
+            "updated_at": "2026-07-20T00:41:46.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Mr.  Illandula Venu"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 817,
+            "unique_id": "D1C3EEC5-CFAC-44AC-9BDF-3B8EC57B83CD",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Machines and Mechanisms",
+            "batch": "25MECBT00B01,25MECBT00B02",
+            "faculty": "2029",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "02-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:29:52.000000Z",
+            "updated_at": "2026-08-02T09:33:42.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Shitendu Some"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 836,
+            "unique_id": "9C11DF40-168A-4AFF-B692-C8EBD0C8FC45",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Mechanics of Solids",
+            "batch": "25MECBT00B01,25MECBT00B02",
+            "faculty": "2044",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "23-07-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:38:45.000000Z",
+            "updated_at": "2026-07-23T11:04:00.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Anupam Chaudhary"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 829,
+            "unique_id": "15E015C7-469D-4872-BE58-292D2FAAC6D4",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Thermodynamics",
+            "batch": "25MECBT00B01,25MECBT00B02",
+            "faculty": "2004",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:35:07.000000Z",
+            "updated_at": "2026-07-17T01:35:07.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Nagireddy Praveenadevi"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 843,
+            "unique_id": "A04FC08F-B480-4A35-AA69-5D51074D2894",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Manufacturing Technology",
+            "batch": "25MECBT00B01,25MECBT00B02",
+            "faculty": "2022",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-17T01:45:00.000000Z",
+            "updated_at": "2026-07-17T01:45:00.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Subbarao Medabalimi"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 1186,
+            "unique_id": "DC4DE0B2-D822-45F0-8095-ED2BD9D9BD3E",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Problem Solving using Python",
+            "batch": "25MECBT00B02",
+            "faculty": "2042",
+            "room": "45",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Tut",
+            "rec_num": null,
+            "modify_date": "18-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-20T00:43:30.000000Z",
+            "updated_at": "2026-08-18T16:33:24.000000Z",
+            "room_name": "2211-BL2-SF",
+            "facultyName": "Dr. Arnab Mukherjee"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

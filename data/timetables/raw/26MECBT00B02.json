@@ -1,0 +1,1143 @@
+{
+  "degree": "BTECH-ME",
+  "year": "First",
+  "batch": "26MECBT00B02",
+  "lastUpdated": "2026-10-04T17:13:43.911457",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          {
+            "id": 4103,
+            "unique_id": "BC6E655A-ACDA-4B15-B012-C296AE4E4894",
+            "semester": "I",
+            "year": "First",
+            "time": "08:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Computational Chemistry",
+            "batch": "26MECBT00B01,26MECBT00B02",
+            "faculty": "3627",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-26T00:33:21.000000Z",
+            "updated_at": "2026-08-01T17:24:18.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr. Siva Sankara Rao Ede"
+          }
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3629,
+            "unique_id": "B4E6E049-1B76-41EF-90C8-D3C9D6DC2ACD",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Foundation of Engineering",
+            "batch": "26MECBT00B01,26MECBT00B02",
+            "faculty": "1546",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-24T02:37:23.000000Z",
+            "updated_at": "2026-07-24T02:37:23.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr. Prasanta Kumar Jena"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 4081,
+            "unique_id": "9F8E362E-4AEC-4A85-B101-2F68F3001E0F",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Graphics and Design Modelling",
+            "batch": "26MECBT00B02",
+            "faculty": "2305c30011",
+            "room": "46",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-25T23:29:34.000000Z",
+            "updated_at": "2026-07-25T23:29:34.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Ms. Boddu Shalini Valentina"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4082,
+            "unique_id": "444E8512-17E6-439A-B322-7D29D23D775F",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Graphics and Design Modelling",
+            "batch": "26MECBT00B02",
+            "faculty": "2305c30011",
+            "room": "46",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-25T23:29:34.000000Z",
+            "updated_at": "2026-07-25T23:29:34.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Ms. Boddu Shalini Valentina"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3586,
+            "unique_id": "DDACD10F-0728-4ACB-A53E-52ACA7F8C927",
+            "semester": "I",
+            "year": "First",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Technical and Professional Communication for Engineers",
+            "batch": "26MECBT00B01,26MECBT00B02",
+            "faculty": "3567",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-24T02:10:21.000000Z",
+            "updated_at": "2026-08-03T05:50:06.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr.  Vahini Billu"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          {
+            "id": 3587,
+            "unique_id": "630C4AE4-6626-46B0-B538-7824B185F2A3",
+            "semester": "I",
+            "year": "First",
+            "time": "08:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Technical and Professional Communication for Engineers",
+            "batch": "26MECBT00B01,26MECBT00B02",
+            "faculty": "3567",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-24T02:10:21.000000Z",
+            "updated_at": "2026-08-03T05:49:30.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr.  Vahini Billu"
+          }
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3642,
+            "unique_id": "75832671-B54C-480C-B946-90062CCCB3D7",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Graphics and Design Modelling",
+            "batch": "26MECBT00B01,26MECBT00B02",
+            "faculty": "2022",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-24T02:46:33.000000Z",
+            "updated_at": "2026-07-24T02:46:33.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr. Subbarao Medabalimi"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 4083,
+            "unique_id": "995BB32A-43C6-45F3-A35A-B50BE7CEE400",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Graphics and Design Modelling",
+            "batch": "26MECBT00B02",
+            "faculty": "2305c30011",
+            "room": "46",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-25T23:29:34.000000Z",
+            "updated_at": "2026-07-25T23:29:34.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Ms. Boddu Shalini Valentina"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4084,
+            "unique_id": "074D50FB-B960-43F3-AD2D-4C5BE00110FF",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Graphics and Design Modelling",
+            "batch": "26MECBT00B02",
+            "faculty": "2305c30011",
+            "room": "46",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-25T23:29:34.000000Z",
+            "updated_at": "2026-07-25T23:29:34.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Ms. Boddu Shalini Valentina"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 6950,
+            "unique_id": "F61172B0-D696-4ABE-BAAC-3D65D986D9DB",
+            "semester": "I",
+            "year": "First",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Calculus and Differential Equations",
+            "batch": "26MECBT00B02",
+            "faculty": "2506c9m001",
+            "room": "42",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-09-09T10:12:53.000000Z",
+            "updated_at": "2026-09-09T10:12:53.000000Z",
+            "room_name": "2217-BL2-SF",
+            "facultyName": "Ms. Sucharitha J"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          {
+            "id": 3605,
+            "unique_id": "5F0C77C0-8347-4651-B5BE-CB2A04C1172E",
+            "semester": "I",
+            "year": "First",
+            "time": "08:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Calculus and Differential Equations",
+            "batch": "26MECBT00B01,26MECBT00B02",
+            "faculty": "3609",
+            "room": "42",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "09-09-2026",
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-07-24T02:20:51.000000Z",
+            "updated_at": "2026-09-09T15:39:22.000000Z",
+            "room_name": "2217-BL2-SF",
+            "facultyName": "Dr. Ahsan Mahboob"
+          }
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 4101,
+            "unique_id": "46460672-E03A-4B83-BA6F-D32037AA33BE",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Computational Chemistry",
+            "batch": "26MECBT00B01,26MECBT00B02",
+            "faculty": "3627",
+            "room": "42",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "02-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-26T00:28:55.000000Z",
+            "updated_at": "2026-08-02T09:53:46.000000Z",
+            "room_name": "2217-BL2-SF",
+            "facultyName": "Dr. Siva Sankara Rao Ede"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 3588,
+            "unique_id": "4498844F-9C18-442B-AC4B-981C16117ECB",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Technical and Professional Communication for Engineers",
+            "batch": "26MECBT00B01,26MECBT00B02",
+            "faculty": "3567",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-24T02:10:21.000000Z",
+            "updated_at": "2026-08-03T05:48:45.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr.  Vahini Billu"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3643,
+            "unique_id": "173E9D57-0620-4820-9E5F-4C6451896A68",
+            "semester": "I",
+            "year": "First",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Graphics and Design Modelling",
+            "batch": "26MECBT00B01,26MECBT00B02",
+            "faculty": "2022",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-24T02:46:33.000000Z",
+            "updated_at": "2026-08-01T17:14:10.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr. Subbarao Medabalimi"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          {
+            "id": 3618,
+            "unique_id": "01DC9A34-9F46-43C5-B3C2-E50051230CF5",
+            "semester": "I",
+            "year": "First",
+            "time": "08:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Foundation of Engineering",
+            "batch": "26MECBT00B01,26MECBT00B02",
+            "faculty": "1546",
+            "room": "42",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-24T02:31:06.000000Z",
+            "updated_at": "2026-07-24T02:31:06.000000Z",
+            "room_name": "2217-BL2-SF",
+            "facultyName": "Dr. Prasanta Kumar Jena"
+          }
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3603,
+            "unique_id": "B010C352-240C-44CC-9564-6213D9B92533",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Calculus and Differential Equations",
+            "batch": "26MECBT00B01,26MECBT00B02",
+            "faculty": "3609",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "09-09-2026",
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-07-24T02:20:51.000000Z",
+            "updated_at": "2026-09-09T15:39:22.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr. Ahsan Mahboob"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4094,
+            "unique_id": "40545AC4-2B89-4D6A-8C67-B5ED8607BD48",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Computational Chemistry",
+            "batch": "26MECBT00B02",
+            "faculty": "3627",
+            "room": "108",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "20-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-26T00:14:24.000000Z",
+            "updated_at": "2026-09-20T06:07:28.000000Z",
+            "room_name": "10001-BL10-GF",
+            "facultyName": "Dr. Siva Sankara Rao Ede"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 4093,
+            "unique_id": "F557E694-DEBC-4EF0-AEA7-95B7E642B940",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Computational Chemistry",
+            "batch": "26MECBT00B02",
+            "faculty": "3627",
+            "room": "108",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "20-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-26T00:14:24.000000Z",
+            "updated_at": "2026-09-20T06:08:18.000000Z",
+            "room_name": "10001-BL10-GF",
+            "facultyName": "Dr. Siva Sankara Rao Ede"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3589,
+            "unique_id": "9DE303E0-A93C-40C2-BEA5-49D479AAE4CD",
+            "semester": "I",
+            "year": "First",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Technical and Professional Communication for Engineers",
+            "batch": "26MECBT00B01,26MECBT00B02",
+            "faculty": "3567",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-24T02:10:21.000000Z",
+            "updated_at": "2026-08-03T05:48:04.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr.  Vahini Billu"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 4102,
+            "unique_id": "5EC05D5F-2E09-4A87-A71E-A11DFBFF0BF9",
+            "semester": "I",
+            "year": "First",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Computational Chemistry",
+            "batch": "26MECBT00B01,26MECBT00B02",
+            "faculty": "3627",
+            "room": "42",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-26T00:33:21.000000Z",
+            "updated_at": "2026-07-26T00:33:21.000000Z",
+            "room_name": "2217-BL2-SF",
+            "facultyName": "Dr. Siva Sankara Rao Ede"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          {
+            "id": 3630,
+            "unique_id": "FA259E8B-E85C-4376-91F7-FBE01EBDB903",
+            "semester": "I",
+            "year": "First",
+            "time": "08:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Foundation of Engineering",
+            "batch": "26MECBT00B01,26MECBT00B02",
+            "faculty": "1546",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "30-07-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-24T02:37:23.000000Z",
+            "updated_at": "2026-07-30T10:30:27.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr. Prasanta Kumar Jena"
+          }
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3606,
+            "unique_id": "61CB7864-3880-4F1F-AD8A-9BF8AC466644",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Calculus and Differential Equations",
+            "batch": "26MECBT00B01,26MECBT00B02",
+            "faculty": "3609",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "09-09-2026",
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-07-24T02:20:51.000000Z",
+            "updated_at": "2026-09-09T15:39:22.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr. Ahsan Mahboob"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3615,
+            "unique_id": "BDF636A0-1F89-472A-B316-DB8856A2AE0C",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Foundation of Engineering",
+            "batch": "26MECBT00B02",
+            "faculty": "1546",
+            "room": "147",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-24T02:29:31.000000Z",
+            "updated_at": "2026-07-24T02:29:31.000000Z",
+            "room_name": "4813-BL4-GF",
+            "facultyName": "Dr. Prasanta Kumar Jena"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 3616,
+            "unique_id": "E38191CB-DEE3-4C78-90EE-7AA530CA7860",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Foundation of Engineering",
+            "batch": "26MECBT00B02",
+            "faculty": "1546",
+            "room": "147",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-24T02:29:31.000000Z",
+            "updated_at": "2026-07-24T02:29:31.000000Z",
+            "room_name": "4813-BL4-GF",
+            "facultyName": "Dr. Prasanta Kumar Jena"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 6563,
+            "unique_id": "392C8359-E3E6-455A-BC60-AA20A0B13067",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Calculus and Differential Equations",
+            "batch": "26MECBT00B01,26MECBT00B02",
+            "faculty": "3609",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Tutorial",
+            "rec_num": null,
+            "modify_date": "09-09-2026",
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-08-18T06:31:28.000000Z",
+            "updated_at": "2026-09-09T15:39:22.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr. Ahsan Mahboob"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

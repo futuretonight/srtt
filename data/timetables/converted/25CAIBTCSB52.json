@@ -1,0 +1,350 @@
+{
+  "mon": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "11206-BL11-SF",
+      "faculty": "Mr. Syed Nawaz Pasha",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lab",
+      "room": "3201-B_BL3-SF",
+      "faculty": "Mr. Bediga Sharan",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lab",
+      "room": "3201-B_BL3-SF",
+      "faculty": "Mr. Bediga Sharan",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Dr. Krishna Bharat L",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "11003-A-BL11-GF",
+      "faculty": "Mr. Deepak Soni",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "11003-A-BL11-GF",
+      "faculty": "Mr. Deepak Soni",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Mr. Syed Nawaz Pasha",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3107-B_BL3-FF",
+      "faculty": "Dr. Sajan",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3107-B_BL3-FF",
+      "faculty": "Dr. Sajan",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Madarapu Sandeep",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Mr. Vijay Kumar B",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Dr. Krishna Bharat L",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "11003-A-BL11-GF",
+      "faculty": "Mr. Vijay Kumar B",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "11003-A-BL11-GF",
+      "faculty": "Mr. Vijay Kumar B",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "8209-BL8-SF",
+      "faculty": "Mr. Syed Nawaz Pasha",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "11007-BL11-GF",
+      "faculty": "Dr. Krishna Bharat L",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lecture",
+      "room": "11010-BL11-GF",
+      "faculty": "Mr. Bediga Sharan",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lab",
+      "room": "10001-B_BL10-GF",
+      "faculty": "Dr. Madarapu Sandeep",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lab",
+      "room": "10001-B_BL10-GF",
+      "faculty": "Dr. Madarapu Sandeep",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lab",
+      "room": "3212-BL3-SF",
+      "faculty": "Dr. Krishna Bharat L",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lab",
+      "room": "3212-BL3-SF",
+      "faculty": "Dr. Krishna Bharat L",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3102-B_BL3-FF",
+      "faculty": "Dr. Sajan",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3102-B_BL3-FF",
+      "faculty": "Dr. Sajan",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lecture",
+      "room": "8108-BL8-FF",
+      "faculty": "Dr. Madarapu Sandeep",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lab",
+      "room": "3107-B_BL3-FF",
+      "faculty": "Mr. Syed Nawaz Pasha",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lab",
+      "room": "3107-B_BL3-FF",
+      "faculty": "Mr. Syed Nawaz Pasha",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Mr. Vijay Kumar B",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "8209-BL8-SF",
+      "faculty": "Dr. Krishna Bharat L",
+      "batches": [
+        "25CAIBTCSB52"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

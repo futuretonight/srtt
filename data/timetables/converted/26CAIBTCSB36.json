@@ -1,0 +1,302 @@
+{
+  "mon": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Applied Physics",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Raja Shekar P V",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Computational Biology",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Muthu Kumar . T",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Gagan Sahoo",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Tutorial",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Debasish Gorai",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Heritage, Democracy and Ecology",
+      "kind": "Lecture",
+      "room": "11206-BL11-SF",
+      "faculty": "Dr. Mani Durai",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Debasish Gorai",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Applied Physics",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Raja Shekar P V",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lab",
+      "room": "8103-B_BL8-FF",
+      "faculty": "Dr. Sanketa Jena",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lab",
+      "room": "8103-B_BL8-FF",
+      "faculty": "Dr. Sanketa Jena",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "08:30",
+      "end": "09:30",
+      "category": "class",
+      "subject": "Heritage, Democracy and Ecology",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Dr. Mani Durai",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Gagan Sahoo",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Debasish Gorai",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Computational Biology",
+      "kind": "Lab",
+      "room": "10102-BL10-FF",
+      "faculty": "Dr. S.Badrinathan",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Computational Biology",
+      "kind": "Lab",
+      "room": "10102-BL10-FF",
+      "faculty": "Dr. S.Badrinathan",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Heritage, Democracy and Ecology",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Dr. Mani Durai",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lab",
+      "room": "8103-B_BL8-FF",
+      "faculty": "Dr. Sanketa Jena",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lab",
+      "room": "8103-B_BL8-FF",
+      "faculty": "Dr. Sanketa Jena",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Applied Physics",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Raja Shekar P V",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Ms. Sucharitha J",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Computational Biology",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Muthu Kumar . T",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Computational Biology",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Muthu Kumar . T",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Applied Physics",
+      "kind": "Lab",
+      "room": "3015-BL3-FF",
+      "faculty": "Ms. Nageswari",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Applied Physics",
+      "kind": "Lab",
+      "room": "3015-BL3-FF",
+      "faculty": "Ms. Nageswari",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Debasish Gorai",
+      "batches": [
+        "26CAIBTCSB36"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

@@ -1,0 +1,1258 @@
+{
+  "degree": "BTECH-CSE",
+  "year": "Third",
+  "batch": "24BTCAIAIB12",
+  "lastUpdated": "2026-10-04T06:13:23.217630",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 4511,
+            "unique_id": "F7A3844D-7108-4CA7-8C30-059FF72CFDE3",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Software Engineering and System Design",
+            "batch": "24BTCAIAIB11,24BTCAIAIB12",
+            "faculty": "3235",
+            "room": "8",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-27T19:34:22.000000Z",
+            "updated_at": "2026-07-27T19:34:22.000000Z",
+            "room_name": "1115-BL1-FF",
+            "facultyName": "Dr. Asha S"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 4282,
+            "unique_id": "4F9131EE-44D4-4B2C-BA91-4A2D4715201B",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Artificial Intelligence and Deep Learning",
+            "batch": "24BTCAIAIB11,24BTCAIAIB12",
+            "faculty": "3211",
+            "room": "3",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-27T05:52:19.000000Z",
+            "updated_at": "2026-07-27T05:52:19.000000Z",
+            "room_name": "1103-BL1-FF",
+            "facultyName": "Dr. K.Venkateswara Reddy"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4700,
+            "unique_id": "432C0E9F-7CA2-4B90-BFCC-755888B9D84D",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Algorithms",
+            "batch": "24BTCAIAIB11,24BTCAIAIB12",
+            "faculty": "3149",
+            "room": "3",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-28T00:53:51.000000Z",
+            "updated_at": "2026-07-28T00:53:51.000000Z",
+            "room_name": "1103-BL1-FF",
+            "facultyName": "Dr. Sudha Rani V"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3977,
+            "unique_id": "78B7CBF0-4DBF-49CF-9E1C-61A06691F00E",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Artificial Intelligence and Deep Learning",
+            "batch": "24BTCAIAIB12",
+            "faculty": "2403C50170",
+            "room": "204",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-25T20:20:23.000000Z",
+            "updated_at": "2026-07-25T20:20:23.000000Z",
+            "room_name": "1105-B_BL1-FF",
+            "facultyName": "Mr. Ananthula Vijay Kumar"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3978,
+            "unique_id": "1EFA017C-6C99-462B-A7B7-E5AB41D87557",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Artificial Intelligence and Deep Learning",
+            "batch": "24BTCAIAIB12",
+            "faculty": "2403C50170",
+            "room": "204",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-25T20:20:23.000000Z",
+            "updated_at": "2026-07-25T20:20:23.000000Z",
+            "room_name": "1105-B_BL1-FF",
+            "facultyName": "Mr. Ananthula Vijay Kumar"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 4785,
+            "unique_id": "77361576-0B85-489C-BA02-802FA05C8D37",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Critical Thinking and Interpersonal Skills",
+            "batch": "24BTCAIAIB11,24BTCAIAIB12",
+            "faculty": "3695",
+            "room": "11",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "14-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-28T06:05:57.000000Z",
+            "updated_at": "2026-08-14T16:08:21.000000Z",
+            "room_name": "1206-BL1-SF",
+            "facultyName": "Dr. Parvathy Das"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 4419,
+            "unique_id": "6E096C04-265C-46D7-9A06-68C656E5D3D6",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Statistics for Computer Science",
+            "batch": "24BTCAIAIB11,24BTCAIAIB12",
+            "faculty": "3622",
+            "room": "11",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "19-09-2026",
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-07-27T07:38:11.000000Z",
+            "updated_at": "2026-09-19T09:27:02.000000Z",
+            "room_name": "1206-BL1-SF",
+            "facultyName": "Dr. Jyoti"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 4701,
+            "unique_id": "B31552D4-FA1F-40E9-83F3-FE9C0ECF85D2",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Algorithms",
+            "batch": "24BTCAIAIB11,24BTCAIAIB12",
+            "faculty": "3149",
+            "room": "3",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-28T00:53:51.000000Z",
+            "updated_at": "2026-07-28T00:53:51.000000Z",
+            "room_name": "1103-BL1-FF",
+            "facultyName": "Dr. Sudha Rani V"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 4424,
+            "unique_id": "E567FB3E-DED9-427F-8825-4169FD7E0DBA",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Statistics for Computer Science",
+            "batch": "24BTCAIAIB11,24BTCAIAIB12",
+            "faculty": "3622",
+            "room": "10",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "19-09-2026",
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-07-27T07:38:57.000000Z",
+            "updated_at": "2026-09-19T09:27:02.000000Z",
+            "room_name": "1205-BL1-SF",
+            "facultyName": "Dr. Jyoti"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 4283,
+            "unique_id": "9AC1FA5B-89CB-4EDA-BCB3-39E68700658B",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Artificial Intelligence and Deep Learning",
+            "batch": "24BTCAIAIB11,24BTCAIAIB12",
+            "faculty": "3211",
+            "room": "3",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-27T05:52:19.000000Z",
+            "updated_at": "2026-07-27T05:52:19.000000Z",
+            "room_name": "1103-BL1-FF",
+            "facultyName": "Dr. K.Venkateswara Reddy"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 3949,
+            "unique_id": "63946734-61D2-41EA-B90B-49D231DFC679",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Algorithms",
+            "batch": "24BTCAIAIB12",
+            "faculty": "2403C50001",
+            "room": "213",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "30-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-25T19:13:00.000000Z",
+            "updated_at": "2026-08-30T16:15:17.000000Z",
+            "room_name": "1210-B_BL1-SF",
+            "facultyName": "Ms. Kalavala Swetha"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 3950,
+            "unique_id": "C6986530-E059-48E7-B253-6779D0E3A22B",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Algorithms",
+            "batch": "24BTCAIAIB12",
+            "faculty": "2403C50001",
+            "room": "213",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "30-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-25T19:13:00.000000Z",
+            "updated_at": "2026-08-30T16:15:34.000000Z",
+            "room_name": "1210-B_BL1-SF",
+            "facultyName": "Ms. Kalavala Swetha"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 5970,
+            "unique_id": "B67098BF-C5C0-4A23-94FC-AB3F5F56A721",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Critical Thinking and Interpersonal Skills",
+            "batch": "24BTCAIAIB12",
+            "faculty": "3695",
+            "room": "12",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "14-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-09T19:46:33.000000Z",
+            "updated_at": "2026-08-14T16:08:21.000000Z",
+            "room_name": "1207-BL1-SF",
+            "facultyName": "Dr. Parvathy Das"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 5971,
+            "unique_id": "C013D15B-6BF6-4F36-824D-30A95927A7C4",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Critical Thinking and Interpersonal Skills",
+            "batch": "24BTCAIAIB12",
+            "faculty": "3695",
+            "room": "12",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "14-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-09T19:46:33.000000Z",
+            "updated_at": "2026-08-14T16:08:21.000000Z",
+            "room_name": "1207-BL1-SF",
+            "facultyName": "Dr. Parvathy Das"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4285,
+            "unique_id": "AB03021B-754B-4936-BBD4-44854053A4B9",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Artificial Intelligence and Deep Learning",
+            "batch": "24BTCAIAIB11,24BTCAIAIB12",
+            "faculty": "3211",
+            "room": "4",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-27T05:53:34.000000Z",
+            "updated_at": "2026-07-27T05:53:34.000000Z",
+            "room_name": "1107-BL1-FF",
+            "facultyName": "Dr. K.Venkateswara Reddy"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 4702,
+            "unique_id": "40DC726A-A91F-4A3F-8604-0CA0A3382002",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Algorithms",
+            "batch": "24BTCAIAIB11,24BTCAIAIB12",
+            "faculty": "3149",
+            "room": "19",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Tut",
+            "rec_num": null,
+            "modify_date": "23-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-28T00:55:00.000000Z",
+            "updated_at": "2026-09-23T17:29:54.000000Z",
+            "room_name": "1114-BL1-FF",
+            "facultyName": "Dr. Sudha Rani V"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 4519,
+            "unique_id": "88AF918D-D631-4A7D-8F2B-986CE5E32A56",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Software Engineering and System Design",
+            "batch": "24BTCAIAIB11,24BTCAIAIB12",
+            "faculty": "3235",
+            "room": "5",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-27T19:42:01.000000Z",
+            "updated_at": "2026-07-27T19:42:01.000000Z",
+            "room_name": "1108-BL1-FF",
+            "facultyName": "Dr. Asha S"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 5018,
+            "unique_id": "806B2BB8-F360-44B7-A403-7F61F3CE3051",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Artificial Intelligence and Deep Learning",
+            "batch": "24BTCAIAIB12",
+            "faculty": "2403C50170",
+            "room": "204",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-29T22:59:47.000000Z",
+            "updated_at": "2026-07-29T22:59:47.000000Z",
+            "room_name": "1105-B_BL1-FF",
+            "facultyName": "Mr. Ananthula Vijay Kumar"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 5019,
+            "unique_id": "EC6D348A-17FA-422C-B7B9-3B49BA919002",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Artificial Intelligence and Deep Learning",
+            "batch": "24BTCAIAIB12",
+            "faculty": "2403C50170",
+            "room": "204",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-29T22:59:47.000000Z",
+            "updated_at": "2026-07-29T22:59:47.000000Z",
+            "room_name": "1105-B_BL1-FF",
+            "facultyName": "Mr. Ananthula Vijay Kumar"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4521,
+            "unique_id": "41C080E4-B526-4A19-9456-CFA44B9A0FCC",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Software Engineering and System Design",
+            "batch": "24BTCAIAIB11,24BTCAIAIB12",
+            "faculty": "3235",
+            "room": "2",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "12-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-27T19:42:49.000000Z",
+            "updated_at": "2026-08-12T10:23:05.000000Z",
+            "room_name": "1102-BL1-FF",
+            "facultyName": "Dr. Asha S"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 5974,
+            "unique_id": "D2C55FD5-62EF-4D54-8135-DFDDBB2B275F",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Critical Thinking and Interpersonal Skills",
+            "batch": "24BTCAIAIB12",
+            "faculty": "3695",
+            "room": "3",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "14-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-09T19:48:07.000000Z",
+            "updated_at": "2026-08-14T16:08:21.000000Z",
+            "room_name": "1103-BL1-FF",
+            "facultyName": "Dr. Parvathy Das"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 5975,
+            "unique_id": "F360C5D2-F812-4060-9600-90A513203987",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Critical Thinking and Interpersonal Skills",
+            "batch": "24BTCAIAIB12",
+            "faculty": "3695",
+            "room": "3",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "14-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-09T19:48:07.000000Z",
+            "updated_at": "2026-08-14T16:08:21.000000Z",
+            "room_name": "1103-BL1-FF",
+            "facultyName": "Dr. Parvathy Das"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 4704,
+            "unique_id": "085E6105-1132-4578-B2B5-E5C1A984800F",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Algorithms",
+            "batch": "24BTCAIAIB11,24BTCAIAIB12",
+            "faculty": "3149",
+            "room": "13",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-28T00:56:04.000000Z",
+            "updated_at": "2026-07-28T00:56:04.000000Z",
+            "room_name": "1213-BL1-SF",
+            "facultyName": "Dr. Sudha Rani V"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3953,
+            "unique_id": "8E3D8DE3-7E2A-410B-9424-0DE2AA82305C",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Algorithms",
+            "batch": "24BTCAIAIB12",
+            "faculty": "701",
+            "room": "191",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-25T19:14:48.000000Z",
+            "updated_at": "2026-07-25T19:14:48.000000Z",
+            "room_name": "8003-B_BL8-GF",
+            "facultyName": "Ms. Velpula Sumalatha"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3954,
+            "unique_id": "5D8F5580-E94E-4B06-BC27-13F6842A5BE8",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Algorithms",
+            "batch": "24BTCAIAIB12",
+            "faculty": "701",
+            "room": "191",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-25T19:14:48.000000Z",
+            "updated_at": "2026-07-25T19:14:48.000000Z",
+            "room_name": "8003-B_BL8-GF",
+            "facultyName": "Ms. Velpula Sumalatha"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 6866,
+            "unique_id": "DE479AAE-DB48-4AA4-8B5F-0D680DC54097",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Statistics for Computer Science",
+            "batch": "24BTCAIAIB11,24BTCAIAIB12",
+            "faculty": "3622",
+            "room": "96",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Tutorial",
+            "rec_num": null,
+            "modify_date": "19-09-2026",
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-09-06T09:22:48.000000Z",
+            "updated_at": "2026-09-19T09:27:02.000000Z",
+            "room_name": "8106-BL8-FF",
+            "facultyName": "Dr. Jyoti"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 2077,
+            "unique_id": "83D8DA92-C3CE-4112-BF35-3F48C034261E",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Software Engineering and System Design",
+            "batch": "24BTCAIAIB12",
+            "faculty": "2603c50001",
+            "room": "210",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "05-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-21T04:56:17.000000Z",
+            "updated_at": "2026-08-04T19:05:55.000000Z",
+            "room_name": "1114-B_BL1-FF",
+            "facultyName": "K Jyothi"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 2078,
+            "unique_id": "DA41B433-8A49-4667-B41A-D288FAC68DC0",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Software Engineering and System Design",
+            "batch": "24BTCAIAIB12",
+            "faculty": "2603c50001",
+            "room": "210",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "05-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-21T04:56:17.000000Z",
+            "updated_at": "2026-08-04T19:05:59.000000Z",
+            "room_name": "1114-B_BL1-FF",
+            "facultyName": "K Jyothi"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 4425,
+            "unique_id": "5832D09B-4EFF-49D2-8C78-FA1FA7603036",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Statistics for Computer Science",
+            "batch": "24BTCAIAIB11,24BTCAIAIB12",
+            "faculty": "3622",
+            "room": "3",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "19-09-2026",
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-07-27T07:39:39.000000Z",
+            "updated_at": "2026-09-19T09:27:02.000000Z",
+            "room_name": "1103-BL1-FF",
+            "facultyName": "Dr. Jyoti"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 4284,
+            "unique_id": "D1D6E70D-1468-4988-B985-1BECA32E44D4",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Artificial Intelligence and Deep Learning",
+            "batch": "24BTCAIAIB11,24BTCAIAIB12",
+            "faculty": "3211",
+            "room": "3",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Tutorial",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-27T05:52:56.000000Z",
+            "updated_at": "2026-07-27T05:52:56.000000Z",
+            "room_name": "1103-BL1-FF",
+            "facultyName": "Dr. K.Venkateswara Reddy"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

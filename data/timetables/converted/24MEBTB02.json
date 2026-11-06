@@ -1,0 +1,458 @@
+{
+  "mon": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "AI for Mechanical Engineering",
+      "kind": "Lecture",
+      "room": "3203-BL3-SF",
+      "faculty": "Dr. Vijay Reddy",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Robotic System Design",
+      "kind": "Lecture",
+      "room": "3203-BL3-SF",
+      "faculty": "Dr. Rohit Singh",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Digital Manufacturing System Design",
+      "kind": "Lecture",
+      "room": "2216-BL2-SF",
+      "faculty": "Dr. Santhosh Kumar Kamarapu",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Quantitative Aptitude And Logical Reasoning",
+      "kind": "Lab",
+      "room": "3203-BL3-SF",
+      "faculty": "Dr. Ahsan Mahboob",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Quantitative Aptitude And Logical Reasoning",
+      "kind": "Lab",
+      "room": "3203-BL3-SF",
+      "faculty": "Dr. Ahsan Mahboob",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Machine Tools and Metrology",
+      "kind": "Lecture",
+      "room": "3203-BL3-SF",
+      "faculty": "Dr. Shravan Kumar Yadav",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Machine Design",
+      "kind": "Lecture",
+      "room": "2217-BL2-SF",
+      "faculty": "Dr. Shitendu Some",
+      "batches": [
+        "24MEBTB02"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Machine Design",
+      "kind": "Lecture",
+      "room": "2203-BL2-SF",
+      "faculty": "Dr. Shitendu Some",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "AI for Mechanical Engineering",
+      "kind": "Lecture",
+      "room": "2216-BL2-SF",
+      "faculty": "Dr. Vijay Reddy",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Robotic System Design",
+      "kind": "Lecture",
+      "room": "3203-BL3-SF",
+      "faculty": "Dr. Rohit Singh",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Digital Manufacturing System Design",
+      "kind": "Lecture",
+      "room": "3207-BL3-SF",
+      "faculty": "Dr. Santhosh Kumar Kamarapu",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Machine Design",
+      "kind": "Tut",
+      "room": "3203-BL3-SF",
+      "faculty": "Dr. Prasun Dutta",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Quantitative Aptitude And Logical Reasoning",
+      "kind": "Lecture",
+      "room": "3203-BL3-SF",
+      "faculty": "Dr. Subrata Roy",
+      "batches": [
+        "24MEBTB02"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Machine Tools and Metrology",
+      "kind": "Lab",
+      "room": "4101-BL4-GF",
+      "faculty": "Dr. Shravan Kumar Yadav",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Machine Tools and Metrology",
+      "kind": "Lab",
+      "room": "4101-BL4-GF",
+      "faculty": "Dr. Shravan Kumar Yadav",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Machine Design",
+      "kind": "Lecture",
+      "room": "2217-BL2-SF",
+      "faculty": "Dr. Shitendu Some",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Robotic System Design",
+      "kind": "Lab",
+      "room": "2213-BL2-SF",
+      "faculty": "Dr. Rohit Singh",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Digital Manufacturing System Design",
+      "kind": "Lab",
+      "room": "2214-BL2-SF",
+      "faculty": "Dr. Santhosh Kumar Kamarapu",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Robotic System Design",
+      "kind": "Lab",
+      "room": "2213-BL2-SF",
+      "faculty": "Dr. Rohit Singh",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Digital Manufacturing System Design",
+      "kind": "Lab",
+      "room": "2214-BL2-SF",
+      "faculty": "Dr. Santhosh Kumar Kamarapu",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Sustainability and Ethical Innovation",
+      "kind": "Lecture",
+      "room": "3217-BL3-SF",
+      "faculty": "Dr. Buddhadev Nandi",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Machine Tools and Metrology",
+      "kind": "Lecture",
+      "room": "2218-BL2-SF",
+      "faculty": "Dr. Shravan Kumar Yadav",
+      "batches": [
+        "24MEBTB02"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Machine Tools and Metrology",
+      "kind": "Lecture",
+      "room": "2203-BL2-SF",
+      "faculty": "Dr. Shravan Kumar Yadav",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Robotic System Design",
+      "kind": "Lecture",
+      "room": "2216-BL2-SF",
+      "faculty": "Dr. Rohit Singh",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Digital Manufacturing System Design",
+      "kind": "Lecture",
+      "room": "3203-BL3-SF",
+      "faculty": "Dr. Santhosh Kumar Kamarapu",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "AI for Mechanical Engineering",
+      "kind": "Lab",
+      "room": "2214-BL2-SF",
+      "faculty": "Dr. Krishnamoorthi M",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "AI for Mechanical Engineering",
+      "kind": "Lab",
+      "room": "2214-BL2-SF",
+      "faculty": "Dr. Krishnamoorthi M",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Training Classes",
+      "kind": "Lab",
+      "room": "2213-BL2-SF",
+      "faculty": "Dr. Golak Kunti",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Training Classes",
+      "kind": "Lab",
+      "room": "2213-BL2-SF",
+      "faculty": "Dr. Golak Kunti",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Training Classes",
+      "kind": "Lab",
+      "room": "2213-BL2-SF",
+      "faculty": "Dr. Golak Kunti",
+      "batches": [
+        "24MEBTB02"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Training Classes",
+      "kind": "Lab",
+      "room": "2213-BL2-SF",
+      "faculty": "Dr. Golak Kunti",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Training Classes",
+      "kind": "Lab",
+      "room": "2213-BL2-SF",
+      "faculty": "Dr. Golak Kunti",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Training Classes",
+      "kind": "Lab",
+      "room": "2213-BL2-SF",
+      "faculty": "Dr. Golak Kunti",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Sustainability and Ethical Innovation",
+      "kind": "Lecture",
+      "room": "2217-BL2-SF",
+      "faculty": "Dr. Buddhadev Nandi",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Quantitative Aptitude And Logical Reasoning",
+      "kind": "Lab",
+      "room": "2217-BL2-SF",
+      "faculty": "Dr. Vana Rambabu",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Quantitative Aptitude And Logical Reasoning",
+      "kind": "Lab",
+      "room": "2217-BL2-SF",
+      "faculty": "Dr. Vana Rambabu",
+      "batches": [
+        "24MEBTB02"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "AI for Mechanical Engineering",
+      "kind": "Lecture",
+      "room": "2217-BL2-SF",
+      "faculty": "Dr. Vijay Reddy",
+      "batches": [
+        "24MEBTB02"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

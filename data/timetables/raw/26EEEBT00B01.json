@@ -1,0 +1,1074 @@
+{
+  "degree": "BTECH-EEE",
+  "year": "First",
+  "batch": "26EEEBT00B01",
+  "lastUpdated": "2026-10-04T06:13:37.823254",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          {
+            "id": 4035,
+            "unique_id": "7623238E-C53C-4F01-B3A1-A10B9266303F",
+            "semester": "I",
+            "year": "First",
+            "time": "08:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Computational Chemistry",
+            "batch": "26EEEBT00B01,26EEEBT00B02",
+            "faculty": "3676",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "28-07-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-25T20:47:25.000000Z",
+            "updated_at": "2026-07-28T07:05:46.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. LAKSHMANAREDDY .N"
+          }
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 6945,
+            "unique_id": "29C50E2E-82DB-4421-B094-D02E990B4448",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Calculus and Differential Equations",
+            "batch": "26EEEBT00B01",
+            "faculty": "3670",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-09-09T10:01:28.000000Z",
+            "updated_at": "2026-09-09T10:01:28.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Selim Reja"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 4031,
+            "unique_id": "F73B12A5-286E-4535-8660-B55BDE883993",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Technical and Professional Communication for Engineers",
+            "batch": "26EEEBT00B01,26EEEBT00B02",
+            "faculty": "3681",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-25T20:43:51.000000Z",
+            "updated_at": "2026-07-29T11:08:07.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Sangjukta Roy"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 4045,
+            "unique_id": "D332B230-13BF-4F22-9FBF-00DBE1C0F8DE",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Foundation of Engineering",
+            "batch": "26EEEBT00B01,26EEEBT00B02",
+            "faculty": "1542",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-25T20:50:53.000000Z",
+            "updated_at": "2026-07-25T20:50:53.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Padmini M"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          {
+            "id": 4032,
+            "unique_id": "56EDEC21-34E2-4DFA-BD13-CD123FBE67E7",
+            "semester": "I",
+            "year": "First",
+            "time": "08:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Technical and Professional Communication for Engineers",
+            "batch": "26EEEBT00B01,26EEEBT00B02",
+            "faculty": "3681",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-25T20:43:51.000000Z",
+            "updated_at": "2026-08-01T06:54:52.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Sangjukta Roy"
+          }
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 4046,
+            "unique_id": "8E123338-A612-419F-8D12-8B0EE98ED7FF",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Foundation of Engineering",
+            "batch": "26EEEBT00B01,26EEEBT00B02",
+            "faculty": "1542",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-25T20:50:53.000000Z",
+            "updated_at": "2026-08-01T06:55:16.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Padmini M"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 4042,
+            "unique_id": "F4A20D56-53C4-4E51-8DD3-DF9313FE0810",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Heritage, Democracy, and Ecology",
+            "batch": "26EEEBT00B01,26EEEBT00B02",
+            "faculty": "1032",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-25T20:50:10.000000Z",
+            "updated_at": "2026-07-25T20:50:10.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Sujay Vipulbhai Teli"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 4028,
+            "unique_id": "D324E533-0B11-4778-B953-817A2E60BEAD",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Calculus and Differential Equations",
+            "batch": "26EEEBT00B01,26EEEBT00B02",
+            "faculty": "3670",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "09-09-2026",
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-07-25T20:43:01.000000Z",
+            "updated_at": "2026-09-09T15:28:11.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Selim Reja"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 4036,
+            "unique_id": "6FABF08E-5712-4ACE-A99F-EB5A6B745AE0",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Computational Chemistry",
+            "batch": "26EEEBT00B01,26EEEBT00B02",
+            "faculty": "3676",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-25T20:47:25.000000Z",
+            "updated_at": "2026-10-03T10:18:06.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. LAKSHMANAREDDY .N"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          {
+            "id": 4029,
+            "unique_id": "086C34D8-1A84-40D1-AEC0-3F6F60DBFA96",
+            "semester": "I",
+            "year": "First",
+            "time": "08:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Calculus and Differential Equations",
+            "batch": "26EEEBT00B01,26EEEBT00B02",
+            "faculty": "3670",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "09-09-2026",
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-07-25T20:43:01.000000Z",
+            "updated_at": "2026-09-09T15:28:11.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Selim Reja"
+          }
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 4033,
+            "unique_id": "655ED8C3-4F71-4792-9AFA-8BC329B8F800",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Technical and Professional Communication for Engineers",
+            "batch": "26EEEBT00B01,26EEEBT00B02",
+            "faculty": "3681",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-25T20:43:51.000000Z",
+            "updated_at": "2026-07-29T11:08:07.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Sangjukta Roy"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 4043,
+            "unique_id": "50846E8B-470B-4C32-9171-36758453949C",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Heritage, Democracy, and Ecology",
+            "batch": "26EEEBT00B01,26EEEBT00B02",
+            "faculty": "1032",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-25T20:50:10.000000Z",
+            "updated_at": "2026-07-25T20:50:10.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Sujay Vipulbhai Teli"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 4038,
+            "unique_id": "8BF4346A-AA3D-47CA-963B-BC79CDBFBF0C",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Computational Chemistry",
+            "batch": "26EEEBT00B01",
+            "faculty": "2506E9c027",
+            "room": "114",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-25T20:49:05.000000Z",
+            "updated_at": "2026-10-03T10:15:02.000000Z",
+            "room_name": "10103-BL10-FF",
+            "facultyName": "Dr. Nasrin Kabeer"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 4039,
+            "unique_id": "F1D3BC9E-D95A-4CC1-8F63-F133CD3FBCDF",
+            "semester": "I",
+            "year": "First",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Computational Chemistry",
+            "batch": "26EEEBT00B01",
+            "faculty": "2506E9c027",
+            "room": "114",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-25T20:49:05.000000Z",
+            "updated_at": "2026-10-03T10:14:03.000000Z",
+            "room_name": "10103-BL10-FF",
+            "facultyName": "Dr. Nasrin Kabeer"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          {
+            "id": 4034,
+            "unique_id": "E6F02167-CCD6-4BEA-A571-98188FF33C63",
+            "semester": "I",
+            "year": "First",
+            "time": "08:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Technical and Professional Communication for Engineers",
+            "batch": "26EEEBT00B01,26EEEBT00B02",
+            "faculty": "3681",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-25T20:43:51.000000Z",
+            "updated_at": "2026-07-29T11:08:07.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Sangjukta Roy"
+          }
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 4047,
+            "unique_id": "4179ECB9-D033-4A18-83FB-4C77B573FCE5",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Foundation of Engineering",
+            "batch": "26EEEBT00B01,26EEEBT00B02",
+            "faculty": "1542",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-25T20:50:53.000000Z",
+            "updated_at": "2026-07-25T20:50:53.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Padmini M"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 4037,
+            "unique_id": "16303390-4F84-4A3E-BE02-C1B2C7940316",
+            "semester": "I",
+            "year": "First",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Computational Chemistry",
+            "batch": "26EEEBT00B01,26EEEBT00B02",
+            "faculty": "3676",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "28-07-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-25T20:47:25.000000Z",
+            "updated_at": "2026-07-28T07:05:46.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. LAKSHMANAREDDY .N"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          {
+            "id": 4044,
+            "unique_id": "A212E31E-7C3A-42B2-B86F-9D01BE9D7B2A",
+            "semester": "I",
+            "year": "First",
+            "time": "08:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Heritage, Democracy, and Ecology",
+            "batch": "26EEEBT00B01,26EEEBT00B02",
+            "faculty": "1032",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-25T20:50:10.000000Z",
+            "updated_at": "2026-07-25T20:50:10.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Sujay Vipulbhai Teli"
+          }
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 4048,
+            "unique_id": "E9634E4F-99EC-4C57-B067-95C97C8CBDCC",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Foundation of Engineering",
+            "batch": "26EEEBT00B01",
+            "faculty": "1542",
+            "room": "130",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-25T20:55:02.000000Z",
+            "updated_at": "2026-07-25T20:55:02.000000Z",
+            "room_name": "2012-BL2-GF",
+            "facultyName": "Dr. Padmini M"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 4049,
+            "unique_id": "EFF47300-4E23-494E-8F3C-DD526E78A35F",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Foundation of Engineering",
+            "batch": "26EEEBT00B01",
+            "faculty": "1542",
+            "room": "130",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "b.vedik@sru.edu.in",
+            "created_at": "2026-07-25T20:55:02.000000Z",
+            "updated_at": "2026-07-25T20:55:02.000000Z",
+            "room_name": "2012-BL2-GF",
+            "facultyName": "Dr. Padmini M"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4030,
+            "unique_id": "B857EAEA-F9C0-4B3E-BDE4-297B3FCF3C6A",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Calculus and Differential Equations",
+            "batch": "26EEEBT00B01,26EEEBT00B02",
+            "faculty": "3670",
+            "room": "26",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "09-09-2026",
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-07-25T20:43:01.000000Z",
+            "updated_at": "2026-09-09T15:28:11.000000Z",
+            "room_name": "2006-BL2-GF",
+            "facultyName": "Dr. Selim Reja"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 6572,
+            "unique_id": "A627627B-886B-4037-BAE4-80ED72BE1E86",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Calculus and Differential Equations",
+            "batch": "26EEEBT00B01,26EEEBT00B02",
+            "faculty": "3670",
+            "room": "23",
+            "program": "BTECH",
+            "offeredfrom": "EEE",
+            "ltp": "Tutorial",
+            "rec_num": null,
+            "modify_date": "09-09-2026",
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-08-18T07:19:39.000000Z",
+            "updated_at": "2026-09-09T15:28:11.000000Z",
+            "room_name": "2001-BL2-GF",
+            "facultyName": "Dr. Selim Reja"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

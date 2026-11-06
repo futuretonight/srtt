@@ -1,0 +1,350 @@
+{
+  "mon": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Sumit  Kumar Singh",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lecture",
+      "room": "11010-BL11-GF",
+      "faculty": "Dr. Thirupathi V",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3101-BL3-FF",
+      "faculty": "Mr. Naresh Kumar S",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3101-BL3-FF",
+      "faculty": "Mr. Naresh Kumar S",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. R. Santhappa",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Chiranjeevi Manike",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lab",
+      "room": "8003-BL8-GF",
+      "faculty": "Dr. J. Sampathkumar",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lab",
+      "room": "8003-BL8-GF",
+      "faculty": "Dr. J. Sampathkumar",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Thirupathi V",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lab",
+      "room": "3103-BL3-FF",
+      "faculty": "Dr. Rajesh Bingu",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lab",
+      "room": "3103-BL3-FF",
+      "faculty": "Dr. Rajesh Bingu",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Sumit  Kumar Singh",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. R. Santhappa",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "11004-A-BL11-GF",
+      "faculty": "Mr. Indrajit Ghosh",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "11004-A-BL11-GF",
+      "faculty": "Mr. Indrajit Ghosh",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Chiranjeevi Manike",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Chiranjeevi Manike",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lab",
+      "room": "3212-BL3-SF",
+      "faculty": "Ms. R Sujitha",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lab",
+      "room": "3212-BL3-SF",
+      "faculty": "Ms. R Sujitha",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "8004-BL8-GF",
+      "faculty": "Dr. R. Santhappa",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "11004-A-BL11-GF",
+      "faculty": "Dr. Thirupathi V",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "11004-A-BL11-GF",
+      "faculty": "Dr. Thirupathi V",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3101-BL3-FF",
+      "faculty": "Ms. Patil Sonali Sardar",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3101-BL3-FF",
+      "faculty": "Ms. Patil Sonali Sardar",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "8008-BL8-GF",
+      "faculty": "Dr. R. Santhappa",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lecture",
+      "room": "11007-BL11-GF",
+      "faculty": "Dr. Vijaya Prakash R",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lab",
+      "room": "10002-BL10-GF",
+      "faculty": "Dr. Soutrick Das",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lab",
+      "room": "10002-BL10-GF",
+      "faculty": "Dr. Soutrick Das",
+      "batches": [
+        "25CAIBTAIB19"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

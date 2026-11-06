@@ -1,0 +1,362 @@
+{
+  "mon": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Discrete Mathematical Structures - II",
+      "kind": "Lecture",
+      "room": "1206-BL1-SF",
+      "faculty": "Dr. Kavitha Williams W",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Database Management Systems",
+      "kind": "Lecture",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Sandeep Ch",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Probability and Statistics",
+      "kind": "Lecture",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Swamy Reddy G",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Design and Analysis of Algorithms",
+      "kind": "Lecture",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Sheshikala M",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Computer Networks",
+      "kind": "Lecture",
+      "room": "1104-BL1-FF",
+      "faculty": "Ms. Shilpa N",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Principles of Programming Languages",
+      "kind": "Lecture",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Venkatesh  Naramula",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Design and Analysis of Algorithms",
+      "kind": "Lecture",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Sheshikala M",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Database Management Systems Lab",
+      "kind": "Lab",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Sandeep Ch",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Database Management Systems Lab",
+      "kind": "Lab",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Sandeep Ch",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Probability and Statistics",
+      "kind": "Lecture",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Swamy Reddy G",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Computer Networks",
+      "kind": "Lecture",
+      "room": "1104-BL1-FF",
+      "faculty": "Ms. Shilpa N",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Probability and Statistics",
+      "kind": "Lecture",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Swamy Reddy G",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Design and Analysis of Algorithms",
+      "kind": "Lab",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Sheshikala M",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Design and Analysis of Algorithms",
+      "kind": "Lab",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Sheshikala M",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Design and Analysis of Algorithms",
+      "kind": "Lecture",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Sheshikala M",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Discrete Mathematical Structures - II",
+      "kind": "Tutorial",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Kavitha Williams W",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Principles of Programming Languages",
+      "kind": "Lecture",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Venkatesh  Naramula",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Design and Analysis of Algorithms",
+      "kind": "Tutorial",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Sheshikala M",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Computer Networks",
+      "kind": "Lab",
+      "room": "1104-BL1-FF",
+      "faculty": "Ms. Shilpa N",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Computer Networks",
+      "kind": "Lab",
+      "room": "1104-BL1-FF",
+      "faculty": "Ms. Shilpa N",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Database Management Systems",
+      "kind": "Lecture",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Sandeep Ch",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Discrete Mathematical Structures - II",
+      "kind": "Lecture",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Kavitha Williams W",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Computer Networks",
+      "kind": "Lecture",
+      "room": "1104-BL1-FF",
+      "faculty": "Ms. Shilpa N",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Database Management Systems",
+      "kind": "Lecture",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Sandeep Ch",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Design and Analysis of Algorithms",
+      "kind": "Lab",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Sheshikala M",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Design and Analysis of Algorithms",
+      "kind": "Lab",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Sheshikala M",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Principles of Programming Languages",
+      "kind": "Lecture",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Venkatesh  Naramula",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Probability and Statistics",
+      "kind": "Tutorial",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Swamy Reddy G",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Discrete Mathematical Structures - II",
+      "kind": "Lecture",
+      "room": "1104-BL1-FF",
+      "faculty": "Dr. Kavitha Williams W",
+      "batches": [
+        "24CSBTBA1"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

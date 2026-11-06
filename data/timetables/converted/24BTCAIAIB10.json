@@ -1,0 +1,374 @@
+{
+  "mon": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lecture",
+      "room": "1205-BL1-SF",
+      "faculty": "Dr. Ramesh Babu A",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lecture",
+      "room": "1102-BL1-FF",
+      "faculty": "Dr. Sridevi Chitti",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lab",
+      "room": "1106-B_BL1-FF",
+      "faculty": "Ms. Kalakotla Arunima",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lab",
+      "room": "1106-B_BL1-FF",
+      "faculty": "Ms. Kalakotla Arunima",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Statistics for Computer Science",
+      "kind": "Lecture",
+      "room": "1213-BL1-SF",
+      "faculty": "Dr. Gagan Sahoo",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "1102-BL1-FF",
+      "faculty": "Mr. Anil Mathangi",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "1102-BL1-FF",
+      "faculty": "Mr. Anil Mathangi",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Statistics for Computer Science",
+      "kind": "Lecture",
+      "room": "1102-BL1-FF",
+      "faculty": "Dr. Gagan Sahoo",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lecture",
+      "room": "1103-BL1-FF",
+      "faculty": "Dr. Ramesh Babu A",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lecture",
+      "room": "1102-BL1-FF",
+      "faculty": "Dr. Sridevi Chitti",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lab",
+      "room": "1106-B_BL1-FF",
+      "faculty": "Ms. Junuguri Sandhya",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lab",
+      "room": "1106-B_BL1-FF",
+      "faculty": "Ms. Junuguri Sandhya",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lab",
+      "room": "8002-B_BL8-GF",
+      "faculty": "Ms. Vemula Niharika",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lab",
+      "room": "8002-B_BL8-GF",
+      "faculty": "Ms. Vemula Niharika",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lecture",
+      "room": "1102-BL1-FF",
+      "faculty": "Dr. Sridevi Chitti",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lecture",
+      "room": "1102-BL1-FF",
+      "faculty": "Ms. Faiza Iram",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Statistics for Computer Science",
+      "kind": "Tutorial",
+      "room": "3113-BL3-FF",
+      "faculty": "Dr. Gagan Sahoo",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lecture",
+      "room": "1103-BL1-FF",
+      "faculty": "Ms. Faiza Iram",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Tut",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Ramesh Babu A",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lab",
+      "room": "1106-B_BL1-FF",
+      "faculty": "Ms. Kalakotla Arunima",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lab",
+      "room": "1106-B_BL1-FF",
+      "faculty": "Ms. Kalakotla Arunima",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "1102-BL1-FF",
+      "faculty": "Dr. Anish K",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "1102-BL1-FF",
+      "faculty": "Dr. Anish K",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lecture",
+      "room": "1102-BL1-FF",
+      "faculty": "Dr. Aditi Das",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Tut",
+      "room": "1102-BL1-FF",
+      "faculty": "Dr. Sridevi Chitti",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Tutorial",
+      "room": "1206-BL1-SF",
+      "faculty": "Dr. Ramesh Babu A",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lab",
+      "room": "1210-B_BL1-SF",
+      "faculty": "Ms. Vemula Niharika",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lab",
+      "room": "1210-B_BL1-SF",
+      "faculty": "Ms. Vemula Niharika",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Statistics for Computer Science",
+      "kind": "Lecture",
+      "room": "1215-BL1-SF",
+      "faculty": "Dr. Gagan Sahoo",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lecture",
+      "room": "1107-BL1-FF",
+      "faculty": "Ms. Faiza Iram",
+      "batches": [
+        "24BTCAIAIB10"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

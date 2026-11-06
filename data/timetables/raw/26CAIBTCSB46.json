@@ -1,0 +1,1120 @@
+{
+  "degree": "BTECH-CSE",
+  "year": "First",
+  "batch": "26CAIBTCSB46",
+  "lastUpdated": "2026-10-04T06:12:59.370207",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          {
+            "id": 3801,
+            "unique_id": "1436D1F0-7F2B-454A-B484-0BF1381A7D6F",
+            "semester": "I",
+            "year": "First",
+            "time": "08:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Calculus and Differential Equations",
+            "batch": "26CAIBTCSB45,26CAIBTCSB46,26CAIBTCSB47,26CAIBTCSB48",
+            "faculty": "3636",
+            "room": "90",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "04-09-2026",
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-07-24T07:59:51.000000Z",
+            "updated_at": "2026-09-04T03:46:24.000000Z",
+            "room_name": "8008-BL8-GF",
+            "facultyName": "Dr. Anupam Khatua"
+          }
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3824,
+            "unique_id": "00C4E0B3-82B2-487B-92C9-F48481A3A8DA",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Heritage, Democracy and Ecology",
+            "batch": "26CAIBTCSB45,26CAIBTCSB46,26CAIBTCSB47,26CAIBTCSB48",
+            "faculty": "3676",
+            "room": "115",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "28-07-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-25T00:41:48.000000Z",
+            "updated_at": "2026-07-28T07:05:23.000000Z",
+            "room_name": "10104-BL10-FF",
+            "facultyName": "Dr. LAKSHMANAREDDY .N"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3423,
+            "unique_id": "CB8426A5-ED2D-45BB-872B-1364B2D55120",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Computational Biology",
+            "batch": "26CAIBTCSB45,26CAIBTCSB46,26CAIBTCSB47,26CAIBTCSB48",
+            "faculty": "3593",
+            "room": "90",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rajkumar.samudrala@sru.edu.in",
+            "created_at": "2026-07-23T02:44:37.000000Z",
+            "updated_at": "2026-07-23T02:44:37.000000Z",
+            "room_name": "8008-BL8-GF",
+            "facultyName": "Dr. Ravinder Kandi"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 3011,
+            "unique_id": "3EEA5888-C047-424B-89C8-8826BD6426C2",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Computational Biology",
+            "batch": "26CAIBTCSB46",
+            "faculty": "3668",
+            "room": "84",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "22-09-2026",
+            "status": 1,
+            "updated_by": "rajkumar.samudrala@sru.edu.in",
+            "created_at": "2026-07-22T20:39:48.000000Z",
+            "updated_at": "2026-09-22T10:42:21.000000Z",
+            "room_name": "8001-BL8-GF",
+            "facultyName": "Dr. Wanjari Uddesh Ramesh"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3012,
+            "unique_id": "AAC230BA-025F-49E1-B236-19AC7E5DF63F",
+            "semester": "I",
+            "year": "First",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Computational Biology",
+            "batch": "26CAIBTCSB46",
+            "faculty": "3668",
+            "room": "84",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "22-09-2026",
+            "status": 1,
+            "updated_by": "rajkumar.samudrala@sru.edu.in",
+            "created_at": "2026-07-22T20:39:48.000000Z",
+            "updated_at": "2026-09-22T10:44:10.000000Z",
+            "room_name": "8001-BL8-GF",
+            "facultyName": "Dr. Wanjari Uddesh Ramesh"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          {
+            "id": 6556,
+            "unique_id": "6F8D0E7E-2DF2-4BCA-8844-5EDC466D0CD6",
+            "semester": "I",
+            "year": "First",
+            "time": "08:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Calculus and Differential Equations",
+            "batch": "26CAIBTCSB45,26CAIBTCSB46,26CAIBTCSB47,26CAIBTCSB48",
+            "faculty": "3636",
+            "room": "90",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Tutorial",
+            "rec_num": null,
+            "modify_date": "04-09-2026",
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-08-18T04:14:38.000000Z",
+            "updated_at": "2026-09-04T03:46:24.000000Z",
+            "room_name": "8008-BL8-GF",
+            "facultyName": "Dr. Anupam Khatua"
+          }
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 2893,
+            "unique_id": "698FF958-2EA4-4F7F-85B0-2A350183DCB9",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "AI assisted Python Programming",
+            "batch": "26CAIBTCSB46",
+            "faculty": "3593",
+            "room": "192",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-22T07:27:57.000000Z",
+            "updated_at": "2026-07-22T07:27:57.000000Z",
+            "room_name": "8101-B_BL8-FF",
+            "facultyName": "Dr. Ravinder Kandi"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 2894,
+            "unique_id": "DE96FAE2-016D-4C51-A9E6-1E7E01E491AF",
+            "semester": "I",
+            "year": "First",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "AI assisted Python Programming",
+            "batch": "26CAIBTCSB46",
+            "faculty": "3593",
+            "room": "192",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-22T07:27:57.000000Z",
+            "updated_at": "2026-07-22T07:27:57.000000Z",
+            "room_name": "8101-B_BL8-FF",
+            "facultyName": "Dr. Ravinder Kandi"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3799,
+            "unique_id": "D851BCDE-04A3-402E-B5AB-963D88DE7304",
+            "semester": "I",
+            "year": "First",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Calculus and Differential Equations",
+            "batch": "26CAIBTCSB45,26CAIBTCSB46,26CAIBTCSB47,26CAIBTCSB48",
+            "faculty": "3636",
+            "room": "90",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "04-09-2026",
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-07-24T07:59:51.000000Z",
+            "updated_at": "2026-09-04T03:46:24.000000Z",
+            "room_name": "8008-BL8-GF",
+            "facultyName": "Dr. Anupam Khatua"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          {
+            "id": 3424,
+            "unique_id": "A2115BDF-1EDD-4AF3-B8E8-E2D6CF8727B3",
+            "semester": "I",
+            "year": "First",
+            "time": "08:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Computational Biology",
+            "batch": "26CAIBTCSB45,26CAIBTCSB46,26CAIBTCSB47,26CAIBTCSB48",
+            "faculty": "3593",
+            "room": "90",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "rajkumar.samudrala@sru.edu.in",
+            "created_at": "2026-07-23T02:44:37.000000Z",
+            "updated_at": "2026-08-01T09:13:55.000000Z",
+            "room_name": "8008-BL8-GF",
+            "facultyName": "Dr. Ravinder Kandi"
+          }
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 2333,
+            "unique_id": "42118285-8FF5-4A25-86D2-44F75598C2D4",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "AI assisted Python Programming",
+            "batch": "26CAIBTCSB45,26CAIBTCSB46,26CAIBTCSB47,26CAIBTCSB48",
+            "faculty": "3240",
+            "room": "90",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-21T18:23:45.000000Z",
+            "updated_at": "2026-07-29T15:24:10.000000Z",
+            "room_name": "8008-BL8-GF",
+            "facultyName": "Dr. Nirapada Santra"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3825,
+            "unique_id": "692DD3AE-2F0C-4E7E-B96D-D5934F028EB1",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Heritage, Democracy and Ecology",
+            "batch": "26CAIBTCSB45,26CAIBTCSB46,26CAIBTCSB47,26CAIBTCSB48",
+            "faculty": "3676",
+            "room": "115",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "28-07-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-25T00:41:48.000000Z",
+            "updated_at": "2026-07-28T07:05:23.000000Z",
+            "room_name": "10104-BL10-FF",
+            "facultyName": "Dr. LAKSHMANAREDDY .N"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 3800,
+            "unique_id": "9C423341-5943-4C01-B273-A002D54A3694",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Calculus and Differential Equations",
+            "batch": "26CAIBTCSB45,26CAIBTCSB46,26CAIBTCSB47,26CAIBTCSB48",
+            "faculty": "3636",
+            "room": "90",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "04-09-2026",
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-07-24T07:59:51.000000Z",
+            "updated_at": "2026-09-04T03:46:24.000000Z",
+            "room_name": "8008-BL8-GF",
+            "facultyName": "Dr. Anupam Khatua"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3670,
+            "unique_id": "E6B1107D-2EDB-4E1B-978B-AC40D13EE112",
+            "semester": "I",
+            "year": "First",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Applied Physics",
+            "batch": "26CAIBTCSB45,26CAIBTCSB46,26CAIBTCSB47,26CAIBTCSB48",
+            "faculty": "3513",
+            "room": "90",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rajkumar.samudrala@sru.edu.in",
+            "created_at": "2026-07-24T03:28:33.000000Z",
+            "updated_at": "2026-07-24T03:28:33.000000Z",
+            "room_name": "8008-BL8-GF",
+            "facultyName": "Dr. Srishailam K"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          {
+            "id": 3671,
+            "unique_id": "6856C9FA-81AE-4BE0-876B-2E6709D53BBF",
+            "semester": "I",
+            "year": "First",
+            "time": "08:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Applied Physics",
+            "batch": "26CAIBTCSB45,26CAIBTCSB46,26CAIBTCSB47,26CAIBTCSB48",
+            "faculty": "3513",
+            "room": "90",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rajkumar.samudrala@sru.edu.in",
+            "created_at": "2026-07-24T03:28:33.000000Z",
+            "updated_at": "2026-07-24T03:28:33.000000Z",
+            "room_name": "8008-BL8-GF",
+            "facultyName": "Dr. Srishailam K"
+          }
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3425,
+            "unique_id": "2754FEE9-6E3C-45D4-9A14-4936063A1F10",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Computational Biology",
+            "batch": "26CAIBTCSB45,26CAIBTCSB46,26CAIBTCSB47,26CAIBTCSB48",
+            "faculty": "3593",
+            "room": "90",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rajkumar.samudrala@sru.edu.in",
+            "created_at": "2026-07-23T02:44:37.000000Z",
+            "updated_at": "2026-07-23T02:44:37.000000Z",
+            "room_name": "8008-BL8-GF",
+            "facultyName": "Dr. Ravinder Kandi"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3131,
+            "unique_id": "0935114F-8D89-4E61-BFD5-FC70DE218B55",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Applied Physics",
+            "batch": "26CAIBTCSB46",
+            "faculty": "2506e9p058",
+            "room": "216",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "08-09-2026",
+            "status": 1,
+            "updated_by": "rajkumar.samudrala@sru.edu.in",
+            "created_at": "2026-07-22T22:31:57.000000Z",
+            "updated_at": "2026-09-08T10:32:43.000000Z",
+            "room_name": "3118_BL3-FF",
+            "facultyName": "Dr. Karunakaran M"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 3132,
+            "unique_id": "A3125782-ABCD-4BB7-9581-22F5AB75B8A7",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Applied Physics",
+            "batch": "26CAIBTCSB46",
+            "faculty": "2506e9p058",
+            "room": "216",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "08-09-2026",
+            "status": 1,
+            "updated_by": "rajkumar.samudrala@sru.edu.in",
+            "created_at": "2026-07-22T22:31:57.000000Z",
+            "updated_at": "2026-09-08T10:33:42.000000Z",
+            "room_name": "3118_BL3-FF",
+            "facultyName": "Dr. Karunakaran M"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 2334,
+            "unique_id": "CBE716D6-5071-453C-98C1-3E36E66A1EA7",
+            "semester": "I",
+            "year": "First",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "AI assisted Python Programming",
+            "batch": "26CAIBTCSB45,26CAIBTCSB46,26CAIBTCSB47,26CAIBTCSB48",
+            "faculty": "3240",
+            "room": "90",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-21T18:23:45.000000Z",
+            "updated_at": "2026-07-29T15:24:10.000000Z",
+            "room_name": "8008-BL8-GF",
+            "facultyName": "Dr. Nirapada Santra"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3826,
+            "unique_id": "A45C61B0-7969-4F71-B1D8-DA00AB5BD662",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Heritage, Democracy and Ecology",
+            "batch": "26CAIBTCSB45,26CAIBTCSB46,26CAIBTCSB47,26CAIBTCSB48",
+            "faculty": "3676",
+            "room": "115",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "28-07-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-25T00:41:48.000000Z",
+            "updated_at": "2026-07-28T07:05:23.000000Z",
+            "room_name": "10104-BL10-FF",
+            "facultyName": "Dr. LAKSHMANAREDDY .N"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 2901,
+            "unique_id": "6FB55EC6-8067-4613-9A3F-6B97668F774A",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "AI assisted Python Programming",
+            "batch": "26CAIBTCSB46",
+            "faculty": "3593",
+            "room": "193",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-22T07:31:27.000000Z",
+            "updated_at": "2026-07-22T07:31:27.000000Z",
+            "room_name": "8102-B_BL8-FF",
+            "facultyName": "Dr. Ravinder Kandi"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 2902,
+            "unique_id": "3748CCDB-E824-48E3-83FC-7D61CD47BFBD",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "AI assisted Python Programming",
+            "batch": "26CAIBTCSB46",
+            "faculty": "3593",
+            "room": "193",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-22T07:31:27.000000Z",
+            "updated_at": "2026-07-22T07:31:27.000000Z",
+            "room_name": "8102-B_BL8-FF",
+            "facultyName": "Dr. Ravinder Kandi"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3672,
+            "unique_id": "AC7EFB3B-668D-4AA2-B76B-CF902615D5F7",
+            "semester": "I",
+            "year": "First",
+            "time": "13:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Applied Physics",
+            "batch": "26CAIBTCSB45,26CAIBTCSB46,26CAIBTCSB47,26CAIBTCSB48",
+            "faculty": "3513",
+            "room": "90",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rajkumar.samudrala@sru.edu.in",
+            "created_at": "2026-07-24T03:28:33.000000Z",
+            "updated_at": "2026-07-24T03:28:33.000000Z",
+            "room_name": "8008-BL8-GF",
+            "facultyName": "Dr. Srishailam K"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 6858,
+            "unique_id": "22023423-2591-4C4F-828A-16172B38BDC2",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Calculus and Differential Equations",
+            "batch": "26CAIBTCSB46",
+            "faculty": "2606c9m002",
+            "room": "90",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "vikrant.yadav@sru.edu.in",
+            "created_at": "2026-09-03T22:23:35.000000Z",
+            "updated_at": "2026-09-03T22:23:35.000000Z",
+            "room_name": "8008-BL8-GF",
+            "facultyName": "Mr. Ashok Patel"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

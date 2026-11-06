@@ -1,0 +1,2142 @@
+{
+  "degree": "MBA-BM",
+  "year": "Second",
+  "batch": "25BUSMB00B04",
+  "lastUpdated": "2026-10-04T06:13:49.981067",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 1411,
+            "unique_id": "BA22D505-F2B1-4CD8-B517-AE2D5497141D",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Business Environment & Strategy",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4042",
+            "room": "105",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "30-07-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:55:51.000000Z",
+            "updated_at": "2026-07-30T06:00:08.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Ms. Sunitha Purushottam Ashtikar"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 1484,
+            "unique_id": "40FD8F82-7E10-4F46-98B7-F13A9510B411",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Critical Thinking and Interpersonal Skills",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "3567",
+            "room": "105",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "18-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T22:54:39.000000Z",
+            "updated_at": "2026-08-18T09:48:29.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr.  Vahini Billu"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 1421,
+            "unique_id": "9550E5C1-E81A-4C56-AB50-182C60182D41",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Research Methodology",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4046",
+            "room": "105",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "18-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T22:03:57.000000Z",
+            "updated_at": "2026-08-18T09:47:44.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr. Sarthak Dash"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 2486,
+            "unique_id": "2913E3A6-F619-40B9-8A39-9A8066229B63",
+            "semester": "III",
+            "year": "Second",
+            "time": "12:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Logistics Management",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "2008",
+            "room": "86",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "07-09-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:37:52.000000Z",
+            "updated_at": "2026-09-07T07:50:43.000000Z",
+            "room_name": "8003-BL8-GF",
+            "facultyName": "Dr. Ramesh Babu D"
+          },
+          {
+            "id": 2459,
+            "unique_id": "56037CE9-E68A-4189-B65B-9B618857C8A9",
+            "semester": "III",
+            "year": "Second",
+            "time": "12:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Organizational Change And Development",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4012",
+            "room": "103",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:24:29.000000Z",
+            "updated_at": "2026-07-21T20:24:29.000000Z",
+            "room_name": "9102-BL9-FF",
+            "facultyName": "Dr. Ramesh R"
+          },
+          {
+            "id": 2462,
+            "unique_id": "8986C722-AC3A-4FD6-A525-61FD5C577899",
+            "semester": "III",
+            "year": "Second",
+            "time": "12:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Marketing Analytics",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4036",
+            "room": "104",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:25:45.000000Z",
+            "updated_at": "2026-07-21T20:25:45.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Karra Aruna"
+          },
+          {
+            "id": 2467,
+            "unique_id": "496E9244-2422-4BC9-970B-637A40906AB5",
+            "semester": "III",
+            "year": "Second",
+            "time": "12:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Programming with R",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4044",
+            "room": "47",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "30-07-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:29:20.000000Z",
+            "updated_at": "2026-07-30T07:00:26.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Mr. Akhil Chowhan Korra"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 2498,
+            "unique_id": "085A1101-F743-4DC0-AE7B-CCA9F0E851C2",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Portfolio Management",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4004",
+            "room": "106",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "12-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:42:31.000000Z",
+            "updated_at": "2026-08-12T03:18:18.000000Z",
+            "room_name": "9105-BL9-FF",
+            "facultyName": "Dr. Kafila"
+          },
+          {
+            "id": 2475,
+            "unique_id": "F05C0C78-F57F-45A7-AAF7-F00751284347",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Human Capital Empowerment",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4042",
+            "room": "105",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:32:55.000000Z",
+            "updated_at": "2026-07-29T09:57:07.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Ms. Sunitha Purushottam Ashtikar"
+          },
+          {
+            "id": 5006,
+            "unique_id": "2ED6E33F-32E5-40BA-9C8C-84B3AE880263",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Industry 4.0 - Transforming Business Operations",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4045",
+            "room": "103",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-29T22:08:17.000000Z",
+            "updated_at": "2026-08-01T05:34:55.000000Z",
+            "room_name": "9102-BL9-FF",
+            "facultyName": "Dr. Laxmikanta Gual"
+          },
+          {
+            "id": 6663,
+            "unique_id": "A2F884F4-E19B-4B21-B01D-F678BC0A5936",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Programming with Python",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "3689",
+            "room": "86",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "22-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-08-21T04:31:57.000000Z",
+            "updated_at": "2026-08-22T04:17:16.000000Z",
+            "room_name": "8003-BL8-GF",
+            "facultyName": "Dr Manoj Kumar K"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 2481,
+            "unique_id": "6AF4E114-8338-468D-B546-AA6E9890DB8E",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Digital Marketing, Social Media And Visual Marketing",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4003",
+            "room": "103",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:35:34.000000Z",
+            "updated_at": "2026-07-21T20:35:34.000000Z",
+            "room_name": "9102-BL9-FF",
+            "facultyName": "Dr. Srinivas D"
+          },
+          {
+            "id": 2491,
+            "unique_id": "3FD69F3A-8257-47E3-A81F-A3FE6E45D9C9",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Portfolio Management",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4004",
+            "room": "106",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "12-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:40:55.000000Z",
+            "updated_at": "2026-08-12T03:18:55.000000Z",
+            "room_name": "9105-BL9-FF",
+            "facultyName": "Dr. Kafila"
+          },
+          {
+            "id": 2473,
+            "unique_id": "88BF39B9-697F-42B0-B4CE-46D57F2C652C",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Human Capital Empowerment",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4042",
+            "room": "102",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:32:18.000000Z",
+            "updated_at": "2026-07-29T10:02:12.000000Z",
+            "room_name": "9101-BL9-FF",
+            "facultyName": "Ms. Sunitha Purushottam Ashtikar"
+          },
+          {
+            "id": 2466,
+            "unique_id": "655B66D1-F7BE-4A5D-BD6C-0B63FD739B1B",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Industry 4.0 - Transforming Business Operations",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4045",
+            "room": "104",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:27:10.000000Z",
+            "updated_at": "2026-08-21T10:54:05.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Laxmikanta Gual"
+          },
+          {
+            "id": 6662,
+            "unique_id": "A5266442-9282-488E-8E15-D90820BB9312",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Programming with Python",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "3689",
+            "room": "86",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "22-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-08-21T04:31:57.000000Z",
+            "updated_at": "2026-08-22T04:16:29.000000Z",
+            "room_name": "8003-BL8-GF",
+            "facultyName": "Dr Manoj Kumar K"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 1422,
+            "unique_id": "2B087F8D-4455-425B-BC95-2C772A2E3959",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Research Methodology",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4046",
+            "room": "105",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "18-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T22:03:57.000000Z",
+            "updated_at": "2026-08-18T09:46:39.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr. Sarthak Dash"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 1410,
+            "unique_id": "5884E5E9-5FC6-4EC1-AE02-FAC5BED3534F",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Business Environment & Strategy",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4042",
+            "room": "105",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:55:23.000000Z",
+            "updated_at": "2026-07-20T21:55:23.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Ms. Sunitha Purushottam Ashtikar"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 2487,
+            "unique_id": "B9205F94-5B06-4DFD-8665-85373832FE25",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Logistics Management",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "2008",
+            "room": "106",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:38:59.000000Z",
+            "updated_at": "2026-07-21T20:38:59.000000Z",
+            "room_name": "9105-BL9-FF",
+            "facultyName": "Dr. Ramesh Babu D"
+          },
+          {
+            "id": 2483,
+            "unique_id": "742CA207-1D1C-440C-8677-DD6FB1E7F15F",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Digital Marketing, Social Media And Visual Marketing",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4003",
+            "room": "105",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:36:07.000000Z",
+            "updated_at": "2026-07-21T20:36:07.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr. Srinivas D"
+          },
+          {
+            "id": 2474,
+            "unique_id": "38766C94-916C-4762-92E4-5081F62C6E05",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Human Capital Empowerment",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4042",
+            "room": "102",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:32:18.000000Z",
+            "updated_at": "2026-07-29T10:02:12.000000Z",
+            "room_name": "9101-BL9-FF",
+            "facultyName": "Ms. Sunitha Purushottam Ashtikar"
+          },
+          {
+            "id": 2465,
+            "unique_id": "9BA78030-BDA8-419A-B171-96970C59EB20",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Financial Technology And Services",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4044",
+            "room": "107",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:26:46.000000Z",
+            "updated_at": "2026-08-01T10:56:47.000000Z",
+            "room_name": "9106-BL9-FF",
+            "facultyName": "Mr. Akhil Chowhan Korra"
+          },
+          {
+            "id": 6664,
+            "unique_id": "EB7AB8D9-EE78-4B99-9721-B7F0B993CA37",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Programming with Python",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "3689",
+            "room": "45",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-08-21T04:32:44.000000Z",
+            "updated_at": "2026-08-22T04:25:05.000000Z",
+            "room_name": "2211-BL2-SF",
+            "facultyName": "Dr Manoj Kumar K"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 2460,
+            "unique_id": "94FB6502-1AFC-45C3-B959-C22A3614D909",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Organizational Change And Development",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4012",
+            "room": "103",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:25:09.000000Z",
+            "updated_at": "2026-07-21T20:25:09.000000Z",
+            "room_name": "9102-BL9-FF",
+            "facultyName": "Dr. Ramesh R"
+          },
+          {
+            "id": 2463,
+            "unique_id": "554450ED-5927-4304-B1B6-B644005F559D",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Marketing Analytics",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4036",
+            "room": "104",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:26:21.000000Z",
+            "updated_at": "2026-08-01T06:37:17.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Karra Aruna"
+          },
+          {
+            "id": 2468,
+            "unique_id": "10B83730-68C6-43F1-A05C-909E23115ECD",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Programming with R",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4044",
+            "room": "46",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "30-07-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:30:37.000000Z",
+            "updated_at": "2026-07-30T07:02:22.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Mr. Akhil Chowhan Korra"
+          },
+          {
+            "id": 2576,
+            "unique_id": "1D19A0F7-9038-4C61-81D7-B452D7826CF4",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Industry 4.0 - Transforming Business Operations",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4045",
+            "room": "107",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T21:14:45.000000Z",
+            "updated_at": "2026-08-21T10:20:28.000000Z",
+            "room_name": "9106-BL9-FF",
+            "facultyName": "Dr. Laxmikanta Gual"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 2496,
+            "unique_id": "E973FC19-3A23-405D-9D34-A4F4CE94A488",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Portfolio Management",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4004",
+            "room": "106",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "19-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:41:59.000000Z",
+            "updated_at": "2026-08-19T04:56:41.000000Z",
+            "room_name": "9105-BL9-FF",
+            "facultyName": "Dr. Kafila"
+          },
+          {
+            "id": 2461,
+            "unique_id": "C06DABCA-7BA7-4D66-B7B2-7E0F88C2FAAB",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Organizational Change And Development",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4012",
+            "room": "103",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:25:09.000000Z",
+            "updated_at": "2026-07-21T20:25:09.000000Z",
+            "room_name": "9102-BL9-FF",
+            "facultyName": "Dr. Ramesh R"
+          },
+          {
+            "id": 2464,
+            "unique_id": "8FE88AD1-0AAB-48A1-9D13-D60F2ADF4CE2",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Marketing Analytics",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4036",
+            "room": "104",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:26:21.000000Z",
+            "updated_at": "2026-07-21T20:26:21.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Karra Aruna"
+          },
+          {
+            "id": 2469,
+            "unique_id": "E43DC380-20FB-440C-9084-90BB14433B57",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Programming with R",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4044",
+            "room": "46",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "30-07-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:30:37.000000Z",
+            "updated_at": "2026-07-30T07:01:45.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Mr. Akhil Chowhan Korra"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 6670,
+            "unique_id": "CA65CAB6-5E98-4B2A-95AA-5CA71DD9DAA5",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "BLOCK CHAIN TECHNOLOGY",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "3177",
+            "room": "96",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-08-21T05:03:45.000000Z",
+            "updated_at": "2026-08-21T05:03:45.000000Z",
+            "room_name": "8106-BL8-FF",
+            "facultyName": "Dr. Jagjit Singh Dhaterwal"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 5004,
+            "unique_id": "8B3E68EC-E21A-4509-9265-55A314A000C2",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Financial Technology And Services",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4044",
+            "room": "106",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-29T21:43:58.000000Z",
+            "updated_at": "2026-07-29T21:43:58.000000Z",
+            "room_name": "9105-BL9-FF",
+            "facultyName": "Mr. Akhil Chowhan Korra"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 6668,
+            "unique_id": "6F05A6EF-156B-450C-837D-262E6F1BBA1A",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "BLOCK CHAIN TECHNOLOGY",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "3177",
+            "room": "105",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-08-21T05:00:42.000000Z",
+            "updated_at": "2026-08-21T05:00:42.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr. Jagjit Singh Dhaterwal"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 4994,
+            "unique_id": "96763F93-E7D8-45ED-ABA2-D28CD3FD8769",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude And Logical Reasoning",
+            "batch": "25BUSMB00B03,25BUSMB00B04",
+            "faculty": "3673",
+            "room": "103",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "14-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-29T19:52:26.000000Z",
+            "updated_at": "2026-08-14T08:01:44.000000Z",
+            "room_name": "9102-BL9-FF",
+            "facultyName": "Dr. Chandralekha Mahanta"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4995,
+            "unique_id": "E5CB7CA8-3062-4121-80B5-2E9E91B7E8F9",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude And Logical Reasoning",
+            "batch": "25BUSMB00B03,25BUSMB00B04",
+            "faculty": "3673",
+            "room": "103",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "14-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-29T19:52:26.000000Z",
+            "updated_at": "2026-08-14T08:00:55.000000Z",
+            "room_name": "9102-BL9-FF",
+            "facultyName": "Dr. Chandralekha Mahanta"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 1546,
+            "unique_id": "B0281AC0-308F-4562-BAC2-4A56FFFAC08D",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Research Methodology",
+            "batch": "25BUSMB00B03,25BUSMB00B04",
+            "faculty": "2402c70005",
+            "room": "107",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "14-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T23:06:34.000000Z",
+            "updated_at": "2026-08-14T08:19:45.000000Z",
+            "room_name": "9106-BL9-FF",
+            "facultyName": "Ms. Peddi Sarita"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 1547,
+            "unique_id": "E7523483-7816-4D8D-B0F1-FF5AC5E095AB",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Research Methodology",
+            "batch": "25BUSMB00B03,25BUSMB00B04",
+            "faculty": "2402c70005",
+            "room": "107",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "14-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T23:06:34.000000Z",
+            "updated_at": "2026-08-14T08:19:00.000000Z",
+            "room_name": "9106-BL9-FF",
+            "facultyName": "Ms. Peddi Sarita"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 2489,
+            "unique_id": "5E60EC4E-56E6-4C49-A201-83402904BA8E",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Logistics Management",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "2008",
+            "room": "105",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:39:50.000000Z",
+            "updated_at": "2026-07-21T20:39:50.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr. Ramesh Babu D"
+          },
+          {
+            "id": 2484,
+            "unique_id": "217A144B-F4E7-4E77-BDD3-BF62CA4B6338",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Digital Marketing, Social Media And Visual Marketing",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4003",
+            "room": "104",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:36:42.000000Z",
+            "updated_at": "2026-07-21T20:36:42.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Srinivas D"
+          },
+          {
+            "id": 2497,
+            "unique_id": "C1B7DE97-6B05-4FD2-B73C-B6B372EC2415",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Portfolio Management",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4004",
+            "room": "106",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:42:31.000000Z",
+            "updated_at": "2026-07-21T20:42:31.000000Z",
+            "room_name": "9105-BL9-FF",
+            "facultyName": "Dr. Kafila"
+          },
+          {
+            "id": 2476,
+            "unique_id": "FA33960B-8D64-4345-9A7F-B307D0E83766",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Human Capital Empowerment",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4042",
+            "room": "102",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:33:51.000000Z",
+            "updated_at": "2026-07-29T09:58:36.000000Z",
+            "room_name": "9101-BL9-FF",
+            "facultyName": "Ms. Sunitha Purushottam Ashtikar"
+          },
+          {
+            "id": 2544,
+            "unique_id": "D9209FA6-F7F7-4E2D-BB09-AB6942E2A770",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Programming with R",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4044",
+            "room": "88",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:55:35.000000Z",
+            "updated_at": "2026-08-22T04:22:21.000000Z",
+            "room_name": "8005-BL8-GF",
+            "facultyName": "Mr. Akhil Chowhan Korra"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 2490,
+            "unique_id": "1DA212E6-F4C5-4F62-B54F-876C9D0BDC28",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Logistics Management",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "2008",
+            "room": "105",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:39:50.000000Z",
+            "updated_at": "2026-07-21T20:39:50.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr. Ramesh Babu D"
+          },
+          {
+            "id": 2485,
+            "unique_id": "87C1970A-C132-4D57-8A2C-292F451FA031",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Digital Marketing, Social Media And Visual Marketing",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4003",
+            "room": "104",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:36:42.000000Z",
+            "updated_at": "2026-07-21T20:36:42.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Dr. Srinivas D"
+          },
+          {
+            "id": 2477,
+            "unique_id": "A005533E-2C92-4D0C-AC6A-77173FA3522D",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Human Capital Empowerment",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4042",
+            "room": "102",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:33:51.000000Z",
+            "updated_at": "2026-07-29T09:57:48.000000Z",
+            "room_name": "9101-BL9-FF",
+            "facultyName": "Ms. Sunitha Purushottam Ashtikar"
+          },
+          {
+            "id": 5005,
+            "unique_id": "477D475A-2E98-433A-AE9F-862CA274A222",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Financial Technology And Services",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4044",
+            "room": "106",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "12-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-29T21:49:49.000000Z",
+            "updated_at": "2026-08-12T03:21:15.000000Z",
+            "room_name": "9105-BL9-FF",
+            "facultyName": "Mr. Akhil Chowhan Korra"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 4952,
+            "unique_id": "932B14E8-AC0E-451B-A3D0-D3CA667601D3",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude And Logical Reasoning",
+            "batch": "25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "3673",
+            "room": "103",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "nirakara.pradhan@sru.edu.in",
+            "created_at": "2026-07-29T01:22:14.000000Z",
+            "updated_at": "2026-08-03T13:54:33.000000Z",
+            "room_name": "9102-BL9-FF",
+            "facultyName": "Dr. Chandralekha Mahanta"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 1488,
+            "unique_id": "43828CD5-AA51-4C8E-9320-340D6744BC9C",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Critical Thinking and Interpersonal Skills",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "3567",
+            "room": "105",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-20T22:55:13.000000Z",
+            "updated_at": "2026-08-01T09:10:31.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr.  Vahini Billu"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 1487,
+            "unique_id": "86091A04-7EA1-4141-ACA0-E69DA3FF1526",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Critical Thinking and Interpersonal Skills",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "3567",
+            "room": "105",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-20T22:55:13.000000Z",
+            "updated_at": "2026-08-01T09:11:23.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr.  Vahini Billu"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 6661,
+            "unique_id": "05EE3F53-6B53-4963-A595-716ADCE23CC3",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Programming with Python",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "3689",
+            "room": "88",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-08-21T04:29:14.000000Z",
+            "updated_at": "2026-08-22T04:34:09.000000Z",
+            "room_name": "8005-BL8-GF",
+            "facultyName": "Dr Manoj Kumar K"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 2488,
+            "unique_id": "B18DB625-4AF1-4FF2-A03A-8FFCD54350E3",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Logistics Management",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "2008",
+            "room": "107",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:39:26.000000Z",
+            "updated_at": "2026-07-21T20:39:26.000000Z",
+            "room_name": "9106-BL9-FF",
+            "facultyName": "Dr. Ramesh Babu D"
+          },
+          {
+            "id": 2482,
+            "unique_id": "850218F6-1D9F-4620-8F1C-E4C760134948",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Digital Marketing, Social Media And Visual Marketing",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4003",
+            "room": "103",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:35:34.000000Z",
+            "updated_at": "2026-07-21T20:35:34.000000Z",
+            "room_name": "9102-BL9-FF",
+            "facultyName": "Dr. Srinivas D"
+          },
+          {
+            "id": 2495,
+            "unique_id": "B3654E37-362D-4CAC-87C0-0621F8DFD49C",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Portfolio Management",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4004",
+            "room": "102",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:41:39.000000Z",
+            "updated_at": "2026-08-01T10:58:56.000000Z",
+            "room_name": "9101-BL9-FF",
+            "facultyName": "Dr. Kafila"
+          },
+          {
+            "id": 6660,
+            "unique_id": "626FD908-FC46-44A9-8D7A-1DE248329A34",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Programming with Python",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "3689",
+            "room": "88",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-08-21T04:29:14.000000Z",
+            "updated_at": "2026-08-22T04:35:04.000000Z",
+            "room_name": "8005-BL8-GF",
+            "facultyName": "Dr Manoj Kumar K"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 1419,
+            "unique_id": "D22D329F-6112-4037-802A-C670D596223F",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Business Environment & Strategy",
+            "batch": "25BUSMB00B03,25BUSMB00B04",
+            "faculty": "2502c70001",
+            "room": "104",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "08-09-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T22:02:30.000000Z",
+            "updated_at": "2026-09-08T09:22:08.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Mr. Devanaboina Goutham"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 1420,
+            "unique_id": "00D109BE-0952-4DC6-B920-5B6B0E47D415",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Business Environment & Strategy",
+            "batch": "25BUSMB00B03,25BUSMB00B04",
+            "faculty": "2502c70001",
+            "room": "104",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "08-09-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T22:02:30.000000Z",
+            "updated_at": "2026-09-08T09:21:23.000000Z",
+            "room_name": "9103-BL9-FF",
+            "facultyName": "Mr. Devanaboina Goutham"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 1409,
+            "unique_id": "899D3F00-F660-49BF-93ED-73BFB7080236",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Business Environment & Strategy",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4042",
+            "room": "105",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-20T21:55:23.000000Z",
+            "updated_at": "2026-08-21T10:29:47.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Ms. Sunitha Purushottam Ashtikar"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 1489,
+            "unique_id": "56F7C471-D7AB-431C-8972-2AFE5B9822BA",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Critical Thinking and Interpersonal Skills",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "3567",
+            "room": "105",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-20T22:55:13.000000Z",
+            "updated_at": "2026-08-01T09:09:28.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr.  Vahini Billu"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 1490,
+            "unique_id": "2BD260B9-EA9F-4163-B5EF-945AAEBCC8EB",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Critical Thinking and Interpersonal Skills",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "3567",
+            "room": "105",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-20T22:55:13.000000Z",
+            "updated_at": "2026-08-01T09:08:20.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr.  Vahini Billu"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 4996,
+            "unique_id": "B920F966-3EA1-477F-8A0B-D53BD323587E",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude And Logical Reasoning",
+            "batch": "25BUSMB00B03,25BUSMB00B04",
+            "faculty": "3673",
+            "room": "103",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "14-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-29T19:52:26.000000Z",
+            "updated_at": "2026-08-14T07:59:57.000000Z",
+            "room_name": "9102-BL9-FF",
+            "facultyName": "Dr. Chandralekha Mahanta"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 4997,
+            "unique_id": "CCD8A98A-9F38-443F-B015-F4EADA925C33",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude And Logical Reasoning",
+            "batch": "25BUSMB00B03,25BUSMB00B04",
+            "faculty": "3673",
+            "room": "103",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "14-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-29T19:52:26.000000Z",
+            "updated_at": "2026-08-14T07:59:16.000000Z",
+            "room_name": "9102-BL9-FF",
+            "facultyName": "Dr. Chandralekha Mahanta"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 6669,
+            "unique_id": "5A129430-B4DA-4577-8FF1-C3D106A9EDFC",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "BLOCK CHAIN TECHNOLOGY",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "3177",
+            "room": "105",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-08-21T05:00:42.000000Z",
+            "updated_at": "2026-08-21T05:00:42.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Dr. Jagjit Singh Dhaterwal"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 2557,
+            "unique_id": "E326FD0D-7D44-4389-B47F-46A0C948D523",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Organizational Change And Development",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4012",
+            "room": "90",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:59:04.000000Z",
+            "updated_at": "2026-08-21T10:17:13.000000Z",
+            "room_name": "8008-BL8-GF",
+            "facultyName": "Dr. Ramesh R"
+          },
+          {
+            "id": 2558,
+            "unique_id": "2514B47F-78CB-4E0B-8D74-DF1ED131F6B9",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Marketing Analytics",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4036",
+            "room": "87",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T20:59:24.000000Z",
+            "updated_at": "2026-08-21T10:16:17.000000Z",
+            "room_name": "8004-BL8-GF",
+            "facultyName": "Dr. Karra Aruna"
+          },
+          {
+            "id": 2560,
+            "unique_id": "994F1E3C-0082-4040-AE18-7EDBF506EBF3",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Financial Technology And Services",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4044",
+            "room": "105",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "11-09-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T21:00:03.000000Z",
+            "updated_at": "2026-09-11T07:28:04.000000Z",
+            "room_name": "9104-BL9-FF",
+            "facultyName": "Mr. Akhil Chowhan Korra"
+          },
+          {
+            "id": 2569,
+            "unique_id": "C6FBEBBB-0C1B-4305-ABDC-82F88F5B640C",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Industry 4.0 - Transforming Business Operations",
+            "batch": "25BUSMB00B01,25BUSMB00B02,25BUSMB00B03,25BUSMB00B04,25BUSMB00B05",
+            "faculty": "4045",
+            "room": "106",
+            "program": "MBA",
+            "offeredfrom": "BM",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "01-08-2026",
+            "status": 1,
+            "updated_by": "rukma@sru.edu.in",
+            "created_at": "2026-07-21T21:06:55.000000Z",
+            "updated_at": "2026-08-01T06:25:11.000000Z",
+            "room_name": "9105-BL9-FF",
+            "facultyName": "Dr. Laxmikanta Gual"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

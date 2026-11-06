@@ -1,0 +1,1281 @@
+{
+  "degree": "BTECH-ECE",
+  "year": "Second",
+  "batch": "25ECEBT00B03",
+  "lastUpdated": "2026-10-04T06:13:33.676734",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 278,
+            "unique_id": "F6BD9173-9C2C-4BF2-9095-5A05F265E2B7",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Analog Circuits Analysis",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2555",
+            "room": "29",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T23:18:07.000000Z",
+            "updated_at": "2026-07-14T23:18:07.000000Z",
+            "room_name": "2101-BL2-FF",
+            "facultyName": "Dr. Mounika. B"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 470,
+            "unique_id": "17968723-A5B2-4300-8947-92D5C620DF23",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Random Variables and Stochastic Process",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2509",
+            "room": "49",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "17-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T20:34:07.000000Z",
+            "updated_at": "2026-07-17T06:09:10.000000Z",
+            "room_name": "3105-BL3-FF",
+            "facultyName": "Dr. Srinivas S"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 190,
+            "unique_id": "43CDF6D1-4E96-4B53-8734-F36CC1AC9BFB",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Nanomaterials and Nanotechnology",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2587",
+            "room": "30",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T01:15:14.000000Z",
+            "updated_at": "2026-07-14T01:15:14.000000Z",
+            "room_name": "2102-BL2-FF",
+            "facultyName": "Dr. Vishnu Saraswat"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 348,
+            "unique_id": "DFEE2731-07A7-4DCF-9A48-75C94BBCC94E",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Analog Circuits Analysis",
+            "batch": "25ECEBT00B03",
+            "faculty": "2555",
+            "room": "134",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T18:28:17.000000Z",
+            "updated_at": "2026-07-15T18:28:17.000000Z",
+            "room_name": "2107-BL2-FF",
+            "facultyName": "Dr. Mounika. B"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 349,
+            "unique_id": "BF3546C0-F61E-4534-AD3F-E20441F5467B",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Analog Circuits Analysis",
+            "batch": "25ECEBT00B03",
+            "faculty": "2555",
+            "room": "134",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T18:28:17.000000Z",
+            "updated_at": "2026-07-15T18:28:17.000000Z",
+            "room_name": "2107-BL2-FF",
+            "facultyName": "Dr. Mounika. B"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 325,
+            "unique_id": "F6BBF3D4-4388-474A-BA22-72888424777D",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Control Systems",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2543",
+            "room": "31",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T23:52:28.000000Z",
+            "updated_at": "2026-07-14T23:52:28.000000Z",
+            "room_name": "2103-BL2-FF",
+            "facultyName": "Dr. Kallepelli Sagar"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 5033,
+            "unique_id": "BA180DD7-907A-4953-B323-06121C7473D9",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Signals and Systems",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2510",
+            "room": "29",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-30T00:38:34.000000Z",
+            "updated_at": "2026-07-30T00:38:34.000000Z",
+            "room_name": "2101-BL2-FF",
+            "facultyName": "Dr. Sreedhar Kollem"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 452,
+            "unique_id": "BF66E3DE-097E-4C99-80B1-D1E87D761880",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Problem Solving using Python",
+            "batch": "25ECEBT00B03",
+            "faculty": "2522",
+            "room": "137",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T20:27:16.000000Z",
+            "updated_at": "2026-07-15T20:27:16.000000Z",
+            "room_name": "2114-BL2-FF",
+            "facultyName": "Dr. Chakradhar A"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 453,
+            "unique_id": "EC62E973-149C-44B8-8039-3F353DEC3A38",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Problem Solving using Python",
+            "batch": "25ECEBT00B03",
+            "faculty": "2522",
+            "room": "137",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T20:27:16.000000Z",
+            "updated_at": "2026-07-15T20:27:16.000000Z",
+            "room_name": "2114-BL2-FF",
+            "facultyName": "Dr. Chakradhar A"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 191,
+            "unique_id": "94B0BE28-4B0A-4536-A214-5645EBFBA7D9",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Nanomaterials and Nanotechnology",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2587",
+            "room": "30",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T01:15:14.000000Z",
+            "updated_at": "2026-07-14T01:15:14.000000Z",
+            "room_name": "2102-BL2-FF",
+            "facultyName": "Dr. Vishnu Saraswat"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 493,
+            "unique_id": "67AA1F18-5C47-4D23-A59E-C029B4DF5C6D",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Nanomaterials and Nanotechnology",
+            "batch": "25ECEBT00B03",
+            "faculty": "2587",
+            "room": "135",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T20:59:58.000000Z",
+            "updated_at": "2026-07-15T20:59:58.000000Z",
+            "room_name": "2108-BL2-FF",
+            "facultyName": "Dr. Vishnu Saraswat"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 494,
+            "unique_id": "F8B71F73-8E47-42A8-A70A-39C74BA76680",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Nanomaterials and Nanotechnology",
+            "batch": "25ECEBT00B03",
+            "faculty": "2587",
+            "room": "135",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T20:59:58.000000Z",
+            "updated_at": "2026-07-15T20:59:58.000000Z",
+            "room_name": "2108-BL2-FF",
+            "facultyName": "Dr. Vishnu Saraswat"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 414,
+            "unique_id": "B4939888-170E-4C7D-9CA3-5D473AF88955",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Problem Solving using Python",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2522",
+            "room": "39",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T19:54:39.000000Z",
+            "updated_at": "2026-07-15T19:54:39.000000Z",
+            "room_name": "2207-BL2-SF",
+            "facultyName": "Dr. Chakradhar A"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 279,
+            "unique_id": "DBEFADBF-7A8A-44AD-B78B-D27F3ED0B486",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Analog Circuits Analysis",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2555",
+            "room": "29",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T23:18:07.000000Z",
+            "updated_at": "2026-07-14T23:18:07.000000Z",
+            "room_name": "2101-BL2-FF",
+            "facultyName": "Dr. Mounika. B"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 471,
+            "unique_id": "791B4453-217C-4192-B4EC-D2AB0BE192FA",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Random Variables and Stochastic Process",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2509",
+            "room": "49",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "30-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T20:34:07.000000Z",
+            "updated_at": "2026-07-30T06:16:23.000000Z",
+            "room_name": "3105-BL3-FF",
+            "facultyName": "Dr. Srinivas S"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 192,
+            "unique_id": "AE1C6ED0-401D-41A2-9250-68415F29C601",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Nanomaterials and Nanotechnology",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2587",
+            "room": "30",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T01:15:14.000000Z",
+            "updated_at": "2026-07-14T01:15:14.000000Z",
+            "room_name": "2102-BL2-FF",
+            "facultyName": "Dr. Vishnu Saraswat"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 428,
+            "unique_id": "404D5EF8-D1BE-49A4-B0DA-CE406F13D4A2",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Signals and Systems",
+            "batch": "25ECEBT00B03",
+            "faculty": "2510",
+            "room": "136",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T20:07:59.000000Z",
+            "updated_at": "2026-07-15T20:07:59.000000Z",
+            "room_name": "2113-BL2-FF",
+            "facultyName": "Dr. Sreedhar Kollem"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 429,
+            "unique_id": "8DE18E10-55A9-4BD3-B73E-8BC16DC90F41",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Signals and Systems",
+            "batch": "25ECEBT00B03",
+            "faculty": "2510",
+            "room": "136",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T20:07:59.000000Z",
+            "updated_at": "2026-07-15T20:07:59.000000Z",
+            "room_name": "2113-BL2-FF",
+            "facultyName": "Dr. Sreedhar Kollem"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 415,
+            "unique_id": "056A1FA6-ACA9-4B09-8E7D-E77A6D926108",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Problem Solving using Python",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2522",
+            "room": "39",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T19:54:39.000000Z",
+            "updated_at": "2026-07-15T19:54:39.000000Z",
+            "room_name": "2207-BL2-SF",
+            "facultyName": "Dr. Chakradhar A"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 476,
+            "unique_id": "7C919A93-0BAB-485F-903A-3DEB82473E1C",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Random Variables and Stochastic Process",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2509",
+            "room": "30",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "17-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T20:36:31.000000Z",
+            "updated_at": "2026-07-17T06:08:31.000000Z",
+            "room_name": "2102-BL2-FF",
+            "facultyName": "Dr. Srinivas S"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 456,
+            "unique_id": "BC051BD5-0D3E-4641-A2EE-389423C489D4",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Problem Solving using Python",
+            "batch": "25ECEBT00B03",
+            "faculty": "2579",
+            "room": "137",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T20:28:32.000000Z",
+            "updated_at": "2026-07-29T06:16:54.000000Z",
+            "room_name": "2114-BL2-FF",
+            "facultyName": "Dr. Amudala Maha Lakshmi"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 457,
+            "unique_id": "FA9E60B3-FF0E-405E-B7BD-D6F8AC0007A5",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Problem Solving using Python",
+            "batch": "25ECEBT00B03",
+            "faculty": "2579",
+            "room": "137",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T20:28:32.000000Z",
+            "updated_at": "2026-07-29T06:16:17.000000Z",
+            "room_name": "2114-BL2-FF",
+            "facultyName": "Dr. Amudala Maha Lakshmi"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 326,
+            "unique_id": "248E51D6-4470-4D34-BAA4-D2385302D619",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Control Systems",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2543",
+            "room": "31",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T23:52:28.000000Z",
+            "updated_at": "2026-07-14T23:52:28.000000Z",
+            "room_name": "2103-BL2-FF",
+            "facultyName": "Dr. Kallepelli Sagar"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 5035,
+            "unique_id": "F13B5AA6-CDF5-434C-926E-D1492A8F0CAC",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Signals and Systems",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2510",
+            "room": "29",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-30T00:38:34.000000Z",
+            "updated_at": "2026-07-30T00:38:34.000000Z",
+            "room_name": "2101-BL2-FF",
+            "facultyName": "Dr. Sreedhar Kollem"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 5034,
+            "unique_id": "E7D32E57-A853-419A-835D-AD1B4D9A8A50",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Signals and Systems",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2510",
+            "room": "29",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "14-09-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-30T00:38:34.000000Z",
+            "updated_at": "2026-09-14T16:47:49.000000Z",
+            "room_name": "2101-BL2-FF",
+            "facultyName": "Dr. Sreedhar Kollem"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 519,
+            "unique_id": "4FC0E14D-7F23-4004-991A-0EE5C59525B3",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Analog Circuits Analysis",
+            "batch": "25ECEBT00B03",
+            "faculty": "2555",
+            "room": "137",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Tut",
+            "rec_num": null,
+            "modify_date": "21-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T21:16:07.000000Z",
+            "updated_at": "2026-07-21T09:18:19.000000Z",
+            "room_name": "2114-BL2-FF",
+            "facultyName": "Dr. Mounika. B"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 531,
+            "unique_id": "5D97D00F-1979-431F-81E6-324CD37DF0A6",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Problem Solving using Python",
+            "batch": "25ECEBT00B03",
+            "faculty": "2549",
+            "room": "137",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Tut",
+            "rec_num": null,
+            "modify_date": "21-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T21:25:49.000000Z",
+            "updated_at": "2026-07-21T09:36:47.000000Z",
+            "room_name": "2114-BL2-FF",
+            "facultyName": "Dr. N Ramkumar"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 327,
+            "unique_id": "AEBD9CE4-EE09-4563-8987-FD831390922C",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Control Systems",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2543",
+            "room": "31",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T23:52:28.000000Z",
+            "updated_at": "2026-07-14T23:52:28.000000Z",
+            "room_name": "2103-BL2-FF",
+            "facultyName": "Dr. Kallepelli Sagar"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 280,
+            "unique_id": "B5724AC6-C21A-49F3-BC5F-CE0100E33DF4",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Analog Circuits Analysis",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2555",
+            "room": "29",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T23:18:07.000000Z",
+            "updated_at": "2026-07-14T23:18:07.000000Z",
+            "room_name": "2101-BL2-FF",
+            "facultyName": "Dr. Mounika. B"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 541,
+            "unique_id": "27DF7068-018B-4B64-88AE-3294820A13CF",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Control Systems",
+            "batch": "25ECEBT00B03",
+            "faculty": "2605C400X2",
+            "room": "44",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Tut",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-15T23:39:28.000000Z",
+            "updated_at": "2026-08-17T12:06:32.000000Z",
+            "room_name": "2015-BL2-GF",
+            "facultyName": "Mrs Undadi Rajitha"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 5036,
+            "unique_id": "E87CBBFB-0BB0-45E3-A4F0-6335366846F1",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Signals and Systems",
+            "batch": "25ECEBT00B03,25ECEBT00B04",
+            "faculty": "2510",
+            "room": "29",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-30T00:38:34.000000Z",
+            "updated_at": "2026-07-30T00:38:34.000000Z",
+            "room_name": "2101-BL2-FF",
+            "facultyName": "Dr. Sreedhar Kollem"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2023 @@
+{
+  "degree": "BTECH-CSE",
+  "year": "Fourth",
+  "batch": "23CSBTB22",
+  "lastUpdated": "2026-10-04T06:13:06.014893",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 6281,
+            "unique_id": "C6C84160-AE30-43E2-A395-CE82EE046198",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "PE3-DEVOPS AND FULL STACK",
+            "batch": "23CSBTB16,23CSBTB17,23CSBTB19,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30",
+            "faculty": "714",
+            "room": "89",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "13-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T09:22:22.000000Z",
+            "updated_at": "2026-09-13T17:24:12.000000Z",
+            "room_name": "8006-BL8-GF",
+            "facultyName": "Mr. G Kranthi"
+          },
+          {
+            "id": 6230,
+            "unique_id": "FD8F927D-6964-4988-B1DD-1375999F3956",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "PE3-AUGMENTED AND VIRTUAL REALITY",
+            "batch": "23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30,23CSBTB31,23CSBTB32,23CSBTB33",
+            "faculty": "3133",
+            "room": "129",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T08:25:27.000000Z",
+            "updated_at": "2026-08-17T17:46:20.000000Z",
+            "room_name": "11209-BL11-SF",
+            "facultyName": "Dr. Amit Kumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 6282,
+            "unique_id": "05EEB985-00B5-42D0-A8B1-C628553F235A",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "PE3-DEVOPS AND FULL STACK",
+            "batch": "23CSBTB16,23CSBTB17,23CSBTB19,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30",
+            "faculty": "714",
+            "room": "89",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "13-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T09:22:22.000000Z",
+            "updated_at": "2026-09-13T17:24:24.000000Z",
+            "room_name": "8006-BL8-GF",
+            "facultyName": "Mr. G Kranthi"
+          },
+          {
+            "id": 6264,
+            "unique_id": "FFF5772E-3CD3-4970-8AD6-2EF037B66AA9",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "PE3-GAME MECHANICS, DESIGN AND DEVELOPMENT",
+            "batch": "23CSBTB11,23CSBTB12,23CSBTB14,23CSBTB15,23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28",
+            "faculty": "3142",
+            "room": "126",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T08:56:10.000000Z",
+            "updated_at": "2026-08-17T17:33:45.000000Z",
+            "room_name": "11201-BL11-SF",
+            "facultyName": "Dr. Vijaya Chandra Jadala"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 6442,
+            "unique_id": "3395EDAE-94AD-4FDA-94C1-4D225649B320",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "SE2-REINFORCEMENT LEARNING",
+            "batch": "23CSBTB13,23CSBTB14,23CSBTB15,23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22",
+            "faculty": "1513",
+            "room": "59",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T22:16:18.000000Z",
+            "updated_at": "2026-08-15T22:16:18.000000Z",
+            "room_name": "3207-BL3-SF",
+            "facultyName": "Dr. Venkataramana V"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 6271,
+            "unique_id": "19FF8A22-582C-4A4B-A1BF-1A2D777FD242",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "PE3-COMPILER DESIGN",
+            "batch": "23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25",
+            "faculty": "3018",
+            "room": "126",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "16-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T09:06:45.000000Z",
+            "updated_at": "2026-09-16T04:10:03.000000Z",
+            "room_name": "11201-BL11-SF",
+            "facultyName": "Mr. Sallauddin Mohmmad"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 6174,
+            "unique_id": "168B3BC4-B815-4554-B8D2-1FF0E31E09DF",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "PE2 - BLOCKCHAIN ENGINEERING",
+            "batch": "23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30",
+            "faculty": "3177",
+            "room": "60",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T07:53:28.000000Z",
+            "updated_at": "2026-08-15T07:53:28.000000Z",
+            "room_name": "3208-BL3-SF",
+            "facultyName": "Dr. Jagjit Singh Dhaterwal"
+          },
+          {
+            "id": 6204,
+            "unique_id": "4D7CA80A-FC2B-422C-A9A2-32D25F0DD554",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "PE2-AUGMENTED AND VIRTUAL REALITY",
+            "batch": "23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24",
+            "faculty": "3239",
+            "room": "64",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T08:11:30.000000Z",
+            "updated_at": "2026-08-15T08:11:30.000000Z",
+            "room_name": "3217-BL3-SF",
+            "facultyName": "Dr. Chopparra Prashanth"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 6420,
+            "unique_id": "B309BEC3-68F4-47AA-8A9D-7628DFE8FB01",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "PE4-DATA CENTER OPERATIONS AND INFRASTRUCTURE",
+            "batch": "23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30",
+            "faculty": "3009",
+            "room": "58",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T20:46:53.000000Z",
+            "updated_at": "2026-08-15T20:46:53.000000Z",
+            "room_name": "3206-BL3-SF",
+            "facultyName": "Dr. Bhavana Jamalpur"
+          },
+          {
+            "id": 6366,
+            "unique_id": "E41A2E33-28B1-4987-97F5-5CBC66EB3E17",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "PE4-AUGMENTED AND VIRTUAL REALITY",
+            "batch": "23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26",
+            "faculty": "3208",
+            "room": "101",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "21-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T18:51:34.000000Z",
+            "updated_at": "2026-09-21T04:59:23.000000Z",
+            "room_name": "8209-BL8-SF",
+            "facultyName": "Dr. Rahul Mishra"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 6392,
+            "unique_id": "FD158D68-962E-4B88-8418-48E34B9E6EB0",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "16:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "PE4-SECURITY ETHICS AND REGULATIONS IN AI",
+            "batch": "23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30",
+            "faculty": "3013",
+            "room": "59",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T19:58:06.000000Z",
+            "updated_at": "2026-08-15T19:58:06.000000Z",
+            "room_name": "3207-BL3-SF",
+            "facultyName": "Mr. Nagendar Yamsani"
+          },
+          {
+            "id": 6431,
+            "unique_id": "1D556F43-6E3C-49BE-A578-5A211E437709",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "16:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "PE4-DEVOPS AND FULL STACK",
+            "batch": "23CSBTB01,23CSBTB03,23CSBTB04,23CSBTB06,23CSBTB07,23CSBTB08,23CSBTB09,23CSBTB11,23CSBTB12,23CSBTB13,23CSBTB14,23CSBTB15,,23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB29,23CSBTB31,23CSBTB32,23CSBTB33,23CSBTB34,23CSBTB35,23CSBTB36,23CSBTB37,23CSBTB38,23CSBTB39,23CSBTB40,23CSBTB41,23CSBTB42,23CSBTB43,23CSBTB44,23CSBTB45,23CSBTB46,23CSBTB47_A,23CSBTB50,23CSBTB51,23CSBTB52",
+            "faculty": "3057",
+            "room": "126",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "07-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T21:13:49.000000Z",
+            "updated_at": "2026-09-07T05:17:05.000000Z",
+            "room_name": "11201-BL11-SF",
+            "facultyName": "Dr. Venkatesh  Naramula"
+          },
+          {
+            "id": 6367,
+            "unique_id": "CF64AC87-88AE-4D36-B37D-53C2FD797191",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "16:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "PE4-AUGMENTED AND VIRTUAL REALITY",
+            "batch": "23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26",
+            "faculty": "3208",
+            "room": "101",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "21-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T18:51:34.000000Z",
+            "updated_at": "2026-09-21T05:00:18.000000Z",
+            "room_name": "8209-BL8-SF",
+            "facultyName": "Dr. Rahul Mishra"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 6198,
+            "unique_id": "9B6D2CCB-FF8A-4398-BDE4-A3D61D343652",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "PE2-DEVOPS AND FULL STACK",
+            "batch": "23CSBTB14,23CSBTB16,23CSBTB17,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25",
+            "faculty": "714",
+            "room": "193",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "10-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T08:08:41.000000Z",
+            "updated_at": "2026-09-10T16:58:01.000000Z",
+            "room_name": "8102-B_BL8-FF",
+            "facultyName": "Mr. G Kranthi"
+          },
+          {
+            "id": 6157,
+            "unique_id": "BA42ECCF-C7C9-446C-9FE6-5E8246083E2D",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "PE2-QUANTUM COMPUTING",
+            "batch": "23CSBTB15,23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22",
+            "faculty": "2503C50261",
+            "room": "184",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "31-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-15T07:40:15.000000Z",
+            "updated_at": "2026-08-31T09:59:15.000000Z",
+            "room_name": "10103-B_BL10-FF",
+            "facultyName": "Ms. Junuguri Sandhya"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 6199,
+            "unique_id": "01E3F257-6DDB-4070-8EA9-38628FCBA6E0",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "PE2-DEVOPS AND FULL STACK",
+            "batch": "23CSBTB14,23CSBTB16,23CSBTB17,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25",
+            "faculty": "714",
+            "room": "193",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "10-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T08:08:41.000000Z",
+            "updated_at": "2026-09-10T16:58:25.000000Z",
+            "room_name": "8102-B_BL8-FF",
+            "facultyName": "Mr. G Kranthi"
+          },
+          {
+            "id": 6175,
+            "unique_id": "BECCDF19-A433-4C7F-8491-7EDCC3D3E106",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "PE2 - BLOCKCHAIN ENGINEERING",
+            "batch": "23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30",
+            "faculty": "3177",
+            "room": "60",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T07:53:28.000000Z",
+            "updated_at": "2026-08-15T07:53:28.000000Z",
+            "room_name": "3208-BL3-SF",
+            "facultyName": "Dr. Jagjit Singh Dhaterwal"
+          },
+          {
+            "id": 6158,
+            "unique_id": "4DB1346E-6C36-4940-9961-600506F6AFBA",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "PE2-QUANTUM COMPUTING",
+            "batch": "23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22",
+            "faculty": "2503C50261",
+            "room": "184",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "28-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-15T07:40:15.000000Z",
+            "updated_at": "2026-09-28T09:48:04.000000Z",
+            "room_name": "10103-B_BL10-FF",
+            "facultyName": "Ms. Junuguri Sandhya"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 6272,
+            "unique_id": "ABD9FA8D-DAFD-4C58-82E3-7FE56D07BEA3",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "PE3-COMPILER DESIGN",
+            "batch": "23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25",
+            "faculty": "3018",
+            "room": "126",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "16-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T09:06:45.000000Z",
+            "updated_at": "2026-09-16T04:09:11.000000Z",
+            "room_name": "11201-BL11-SF",
+            "facultyName": "Mr. Sallauddin Mohmmad"
+          },
+          {
+            "id": 6231,
+            "unique_id": "30884A17-7FFA-4581-B72D-DF6F0516C103",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "PE3-AUGMENTED AND VIRTUAL REALITY",
+            "batch": "23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30,23CSBTB31,23CSBTB32,23CSBTB33",
+            "faculty": "3133",
+            "room": "129",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T08:25:27.000000Z",
+            "updated_at": "2026-08-17T17:46:20.000000Z",
+            "room_name": "11209-BL11-SF",
+            "facultyName": "Dr. Amit Kumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 6462,
+            "unique_id": "B30017EA-7937-4A59-896B-25F3F8468B1B",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "SE2-NATURAL LANGUAGE PROCESSING",
+            "batch": "23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30,23CSBTB51,23CSBTB52",
+            "faculty": "3123",
+            "room": "64",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T22:56:39.000000Z",
+            "updated_at": "2026-08-15T22:56:39.000000Z",
+            "room_name": "3217-BL3-SF",
+            "facultyName": "Dr. Rupesh Mishra"
+          },
+          {
+            "id": 6480,
+            "unique_id": "8B9C6F08-2FEF-4622-85C8-F1C54FFBBB12",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "SE2-PYTHON FOR DATASCIENCE",
+            "batch": "23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25",
+            "faculty": "2403c50112",
+            "room": "61",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-16T00:05:40.000000Z",
+            "updated_at": "2026-08-16T00:05:40.000000Z",
+            "room_name": "3209-BL3-SF",
+            "facultyName": "Mr. Srinivas Komakula"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 6463,
+            "unique_id": "58C94FF8-C609-4EDA-980A-30AA200683AA",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "SE2-NATURAL LANGUAGE PROCESSING",
+            "batch": "23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30,23CSBTB51,23CSBTB52",
+            "faculty": "3123",
+            "room": "64",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T22:56:39.000000Z",
+            "updated_at": "2026-08-15T22:56:39.000000Z",
+            "room_name": "3217-BL3-SF",
+            "facultyName": "Dr. Rupesh Mishra"
+          },
+          {
+            "id": 6481,
+            "unique_id": "3BF62A90-523A-4313-BB63-CB557EDF8D20",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "SE2-PYTHON FOR DATASCIENCE",
+            "batch": "23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25",
+            "faculty": "2403c50112",
+            "room": "61",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-16T00:05:40.000000Z",
+            "updated_at": "2026-08-16T00:05:40.000000Z",
+            "room_name": "3209-BL3-SF",
+            "facultyName": "Mr. Srinivas Komakula"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 6432,
+            "unique_id": "710CBC93-5BD9-4ADC-8100-E10398608272",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "PE4-DEVOPS AND FULL STACK",
+            "batch": "23CSBTB01,23CSBTB03,23CSBTB04,23CSBTB06,23CSBTB07,23CSBTB08,23CSBTB09,23CSBTB11,23CSBTB12,23CSBTB13,23CSBTB14,23CSBTB15,23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB24,23CSBTB25,23CSBTB26",
+            "faculty": "3057",
+            "room": "90",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T21:19:10.000000Z",
+            "updated_at": "2026-09-07T05:14:30.000000Z",
+            "room_name": "8008-BL8-GF",
+            "facultyName": "Dr. Venkatesh  Naramula"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 6433,
+            "unique_id": "AF755BC5-FF08-4070-A553-607AF8FA0E5A",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "16:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "PE4-DEVOPS AND FULL STACK",
+            "batch": "23CSBTB01,23CSBTB03,23CSBTB04,23CSBTB06,23CSBTB07,23CSBTB08,23CSBTB09,23CSBTB11,23CSBTB12,23CSBTB13,23CSBTB14,23CSBTB15,23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB24,23CSBTB25,23CSBTB26",
+            "faculty": "3057",
+            "room": "90",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T21:19:10.000000Z",
+            "updated_at": "2026-09-07T05:13:25.000000Z",
+            "room_name": "8008-BL8-GF",
+            "facultyName": "Dr. Venkatesh  Naramula"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 6428,
+            "unique_id": "E5050913-69D2-48EB-90D8-85D683847217",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "PE4-DATA CENTER OPERATIONS AND INFRASTRUCTURE",
+            "batch": "23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30",
+            "faculty": "3009",
+            "room": "58",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T21:04:01.000000Z",
+            "updated_at": "2026-08-15T21:04:01.000000Z",
+            "room_name": "3206-BL3-SF",
+            "facultyName": "Dr. Bhavana Jamalpur"
+          },
+          {
+            "id": 6400,
+            "unique_id": "02D8DE61-A206-4911-ABCE-7E244AAE0774",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "PE4-SECURITY ETHICS AND REGULATIONS IN AI",
+            "batch": "23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26",
+            "faculty": "3013",
+            "room": "84",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T20:21:20.000000Z",
+            "updated_at": "2026-09-03T11:09:39.000000Z",
+            "room_name": "8001-BL8-GF",
+            "facultyName": "Mr. Nagendar Yamsani"
+          },
+          {
+            "id": 6436,
+            "unique_id": "76D2985D-E317-417B-9079-875ABE508C20",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "PE4-DEVOPS AND FULL STACK",
+            "batch": "23CSBTB01,23CSBTB03,23CSBTB04,23CSBTB06,23CSBTB07,23CSBTB08,23CSBTB09,23CSBTB11,23CSBTB12,23CSBTB13,23CSBTB14,23CSBTB15,23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB24,23CSBTB25,23CSBTB26",
+            "faculty": "3057",
+            "room": "129",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T21:22:16.000000Z",
+            "updated_at": "2026-09-07T05:12:09.000000Z",
+            "room_name": "11209-BL11-SF",
+            "facultyName": "Dr. Venkatesh  Naramula"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 6401,
+            "unique_id": "B149A0CF-27F0-4A63-A163-E6CD7ACAEEBE",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "PE4-SECURITY ETHICS AND REGULATIONS IN AI",
+            "batch": "23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26",
+            "faculty": "3013",
+            "room": "84",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T20:21:20.000000Z",
+            "updated_at": "2026-09-03T11:09:52.000000Z",
+            "room_name": "8001-BL8-GF",
+            "facultyName": "Mr. Nagendar Yamsani"
+          },
+          {
+            "id": 6437,
+            "unique_id": "37A371FA-D5AB-40FB-B70E-2E27847055C6",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "PE4-DEVOPS AND FULL STACK",
+            "batch": "23CSBTB01,23CSBTB03,23CSBTB04,23CSBTB06,23CSBTB07,23CSBTB08,23CSBTB09,23CSBTB11,23CSBTB12,23CSBTB13,23CSBTB14,23CSBTB15,23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB24,23CSBTB25,23CSBTB26",
+            "faculty": "3057",
+            "room": "129",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T21:22:16.000000Z",
+            "updated_at": "2026-09-07T05:10:56.000000Z",
+            "room_name": "11209-BL11-SF",
+            "facultyName": "Dr. Venkatesh  Naramula"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 6452,
+            "unique_id": "2AD36E46-7306-4048-82A8-682EDCD3CE50",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "SE2-REINFORCEMENT LEARNING",
+            "batch": "23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22",
+            "faculty": "2603C50021",
+            "room": "60",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "02-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T22:33:59.000000Z",
+            "updated_at": "2026-09-02T11:12:42.000000Z",
+            "room_name": "3208-BL3-SF",
+            "facultyName": "Ms.Achanta Tejaswini"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 6496,
+            "unique_id": "7567BA8C-F49E-4CA8-BDEB-2E66DD6DCDAA",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "SE2-PYTHON FOR DATASCIENCE",
+            "batch": "23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25",
+            "faculty": "3200",
+            "room": "49",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-16T00:44:45.000000Z",
+            "updated_at": "2026-08-16T00:44:45.000000Z",
+            "room_name": "3105-BL3-FF",
+            "facultyName": "Dr. S Vairachilai"
+          },
+          {
+            "id": 6453,
+            "unique_id": "8BEA1E13-CD64-4E81-9493-0ED96D0E4184",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "SE2-REINFORCEMENT LEARNING",
+            "batch": "23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22",
+            "faculty": "2603C50021",
+            "room": "60",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "02-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T22:33:59.000000Z",
+            "updated_at": "2026-09-02T11:12:42.000000Z",
+            "room_name": "3208-BL3-SF",
+            "facultyName": "Ms.Achanta Tejaswini"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 6283,
+            "unique_id": "71839A13-C3B7-4E82-BEE4-FBD89CECDDCC",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "PE3-DEVOPS AND FULL STACK",
+            "batch": "23CSBTB16,23CSBTB17,23CSBTB19,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30",
+            "faculty": "714",
+            "room": "122",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "19-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T09:22:22.000000Z",
+            "updated_at": "2026-08-19T06:55:13.000000Z",
+            "room_name": "11101-BL11-FF",
+            "facultyName": "Mr. G Kranthi"
+          },
+          {
+            "id": 6522,
+            "unique_id": "43853254-A5AB-4308-A3A2-1FDFFBBA03D5",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "PE3-GAME MECHANICS, DESIGN AND DEVELOPMENT",
+            "batch": "23CSBTB11,23CSBTB12,23CSBTB14,23CSBTB15,23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB27,23CSBTB28",
+            "faculty": "3142",
+            "room": "126",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-16T07:39:53.000000Z",
+            "updated_at": "2026-08-21T06:46:26.000000Z",
+            "room_name": "11201-BL11-SF",
+            "facultyName": "Dr. Vijaya Chandra Jadala"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 6284,
+            "unique_id": "35886184-66DA-4DC7-9D7E-F2F79153A827",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "PE3-DEVOPS AND FULL STACK",
+            "batch": "23CSBTB16,23CSBTB17,23CSBTB19,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30",
+            "faculty": "714",
+            "room": "122",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "19-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T09:22:22.000000Z",
+            "updated_at": "2026-08-19T06:55:41.000000Z",
+            "room_name": "11101-BL11-FF",
+            "facultyName": "Mr. G Kranthi"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 6472,
+            "unique_id": "6D4ACF55-D843-4C9D-931A-AE8C61BEBB55",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "SE2-NATURAL LANGUAGE PROCESSING",
+            "batch": "23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25",
+            "faculty": "3123",
+            "room": "64",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T23:29:04.000000Z",
+            "updated_at": "2026-08-15T23:29:04.000000Z",
+            "room_name": "3217-BL3-SF",
+            "facultyName": "Dr. Rupesh Mishra"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 6473,
+            "unique_id": "8ED604A5-40A8-4794-AD15-336702A52B02",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "SE2-NATURAL LANGUAGE PROCESSING",
+            "batch": "23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25",
+            "faculty": "3123",
+            "room": "64",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T23:29:04.000000Z",
+            "updated_at": "2026-08-15T23:29:04.000000Z",
+            "room_name": "3217-BL3-SF",
+            "facultyName": "Dr. Rupesh Mishra"
+          },
+          {
+            "id": 6497,
+            "unique_id": "B2AC925E-035C-4715-A7E6-3E6E68DB94A5",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "SE2-PYTHON FOR DATASCIENCE",
+            "batch": "23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25",
+            "faculty": "3200",
+            "room": "49",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-16T00:44:45.000000Z",
+            "updated_at": "2026-08-16T00:44:45.000000Z",
+            "room_name": "3105-BL3-FF",
+            "facultyName": "Dr. S Vairachilai"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 6182,
+            "unique_id": "1F19D744-56FB-4CC6-AD70-4BE2E9F865F9",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "PE2-DEVOPS AND FULL STACK",
+            "batch": "23CSBTB01,23CSBTB04,23CSBTB05,23CSBTB06,23CSBTB07,23CSBTB08,23CSBTB09,23CSBTB10,23CSBTB11,23CSBTB12,23CSBTB13,23CSBTB14,23CSBTB16,23CSBTB17,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25",
+            "faculty": "3029",
+            "room": "116",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "10-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T07:57:41.000000Z",
+            "updated_at": "2026-09-10T11:47:53.000000Z",
+            "room_name": "10206-BL10-SF",
+            "facultyName": "Dr. Mohammed Ali Shaik"
+          },
+          {
+            "id": 6270,
+            "unique_id": "7C18CA0B-4CEF-40F2-9577-10462B30B353",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "PE3-DEVOPS AND FULL STACK",
+            "batch": "23CSBTB01,23CSBTB03,23CSBTB04,23CSBTB05,23CSBTB06,23CSBTB07,23CSBTB08,23CSBTB09,23CSBTB10,23CSBTB11,23CSBTB12,23CSBTB13,23CSBTB14,23CSBTB15,23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30,23CSBTB32,23CSBTB33,23CSBTB35,23CSBTB36,23CSBTB38,23CSBTB39,23CSBTB41,23CSBTB42,23CSBTB43,23CSBTB44,23CSBTB45,23CSBTB48,23CSBTB51,23CSBTB52",
+            "faculty": "3057",
+            "room": "126",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "24-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T09:04:52.000000Z",
+            "updated_at": "2026-08-24T07:38:35.000000Z",
+            "room_name": "11201-BL11-SF",
+            "facultyName": "Dr. Venkatesh  Naramula"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 6354,
+            "unique_id": "6BCA83B8-5CE3-4FC3-B49B-2F48C1789298",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "PE4-AUGMENTED AND VIRTUAL REALITY",
+            "batch": "23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30,23CSBTB32,23CSBTB33,23CSBTB34",
+            "faculty": "3208",
+            "room": "126",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T18:30:36.000000Z",
+            "updated_at": "2026-08-17T17:33:45.000000Z",
+            "room_name": "11201-BL11-SF",
+            "facultyName": "Dr. Rahul Mishra"
+          },
+          {
+            "id": 6205,
+            "unique_id": "81D260A5-7237-4BAC-869C-462BC8D4D25F",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "PE2-AUGMENTED AND VIRTUAL REALITY",
+            "batch": "23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24",
+            "faculty": "3239",
+            "room": "129",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "04-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T08:11:30.000000Z",
+            "updated_at": "2026-09-04T08:06:27.000000Z",
+            "room_name": "11209-BL11-SF",
+            "facultyName": "Dr. Chopparra Prashanth"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 6184,
+            "unique_id": "F218F95E-83AB-41FC-B5D2-8B91FF8F53B1",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "15:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "PE2 - BLOCKCHAIN ENGINEERING",
+            "batch": "23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB21,23CSBTB22,23CSBTB23",
+            "faculty": "3177",
+            "room": "60",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T08:00:19.000000Z",
+            "updated_at": "2026-08-15T08:00:19.000000Z",
+            "room_name": "3208-BL3-SF",
+            "facultyName": "Dr. Jagjit Singh Dhaterwal"
+          },
+          {
+            "id": 6236,
+            "unique_id": "56326B7C-2724-4F15-8D10-2B2A9A61E137",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "15:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "PE2-AUGMENTED AND VIRTUAL REALITY",
+            "batch": "23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24",
+            "faculty": "2403c50001",
+            "room": "183",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "04-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T08:28:09.000000Z",
+            "updated_at": "2026-09-04T08:03:38.000000Z",
+            "room_name": "10102-B_BL10-FF",
+            "facultyName": "Ms. Kalavala Swetha"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 6185,
+            "unique_id": "8CB52CBE-3D90-4B1B-8D8A-21A1C5F112FD",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "16:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "PE2 - BLOCKCHAIN ENGINEERING",
+            "batch": "23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB21,23CSBTB22,23CSBTB23",
+            "faculty": "3177",
+            "room": "60",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T08:00:19.000000Z",
+            "updated_at": "2026-08-15T08:00:19.000000Z",
+            "room_name": "3208-BL3-SF",
+            "facultyName": "Dr. Jagjit Singh Dhaterwal"
+          },
+          {
+            "id": 6237,
+            "unique_id": "D1751BFF-DFB5-40F9-B326-B61E704BE7B7",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "16:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "PE2-AUGMENTED AND VIRTUAL REALITY",
+            "batch": "23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24",
+            "faculty": "2403c50001",
+            "room": "183",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "04-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T08:28:09.000000Z",
+            "updated_at": "2026-09-04T08:03:38.000000Z",
+            "room_name": "10102-B_BL10-FF",
+            "facultyName": "Ms. Kalavala Swetha"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 6421,
+            "unique_id": "7EF181B1-1FB5-4566-90CC-9452A01B37A2",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "PE4-DATA CENTER OPERATIONS AND INFRASTRUCTURE",
+            "batch": "23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30",
+            "faculty": "3009",
+            "room": "58",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T20:46:53.000000Z",
+            "updated_at": "2026-08-15T20:46:53.000000Z",
+            "room_name": "3206-BL3-SF",
+            "facultyName": "Dr. Bhavana Jamalpur"
+          },
+          {
+            "id": 6393,
+            "unique_id": "0C185904-C66E-44A4-81C6-4542E9F14C77",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "PE4-SECURITY ETHICS AND REGULATIONS IN AI",
+            "batch": "23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30",
+            "faculty": "3013",
+            "room": "59",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T19:58:06.000000Z",
+            "updated_at": "2026-08-15T19:58:06.000000Z",
+            "room_name": "3207-BL3-SF",
+            "facultyName": "Mr. Nagendar Yamsani"
+          },
+          {
+            "id": 6355,
+            "unique_id": "F1461FCB-F652-4B95-9778-B49B142924C6",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "PE4-AUGMENTED AND VIRTUAL REALITY",
+            "batch": "23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26,23CSBTB27,23CSBTB28,23CSBTB29,23CSBTB30,23CSBTB32,23CSBTB33,23CSBTB34",
+            "faculty": "3208",
+            "room": "126",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T18:30:36.000000Z",
+            "updated_at": "2026-08-17T17:33:45.000000Z",
+            "room_name": "11201-BL11-SF",
+            "facultyName": "Dr. Rahul Mishra"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 6443,
+            "unique_id": "B6988F39-E1B6-4D55-9EAC-5304249CACBF",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "SE2-REINFORCEMENT LEARNING",
+            "batch": "23CSBTB13,23CSBTB14,23CSBTB15,23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22",
+            "faculty": "1513",
+            "room": "59",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T22:16:18.000000Z",
+            "updated_at": "2026-08-15T22:16:18.000000Z",
+            "room_name": "3207-BL3-SF",
+            "facultyName": "Dr. Venkataramana V"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 6326,
+            "unique_id": "665B0C65-30DA-48D1-B264-A82E82D64B09",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "12:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "PE3-GAME MECHANICS, DESIGN AND DEVELOPMENT",
+            "batch": "23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23",
+            "faculty": "2403c50169",
+            "room": "100",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T17:48:13.000000Z",
+            "updated_at": "2026-08-15T17:48:13.000000Z",
+            "room_name": "8208-BL8-SF",
+            "facultyName": "Mr. Devender Rondla"
+          },
+          {
+            "id": 6254,
+            "unique_id": "9A6C4FD8-E5F9-4305-A064-83F35D88DB9F",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "12:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "PE3-AUGMENTED AND VIRTUAL REALITY",
+            "batch": "23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26",
+            "faculty": "3133",
+            "room": "129",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T08:47:43.000000Z",
+            "updated_at": "2026-08-17T17:46:20.000000Z",
+            "room_name": "11209-BL11-SF",
+            "facultyName": "Dr. Amit Kumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 6312,
+            "unique_id": "0D44E227-2510-4D75-8650-4D503622C0C2",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "13:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "PE3-COMPILER DESIGN",
+            "batch": "23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22",
+            "faculty": "3018",
+            "room": "114",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "10-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T17:20:46.000000Z",
+            "updated_at": "2026-09-10T17:16:39.000000Z",
+            "room_name": "10103-BL10-FF",
+            "facultyName": "Mr. Sallauddin Mohmmad"
+          },
+          {
+            "id": 6327,
+            "unique_id": "E8838745-169A-4EA4-BED6-62A6A2E0A230",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "13:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "PE3-GAME MECHANICS, DESIGN AND DEVELOPMENT",
+            "batch": "23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23",
+            "faculty": "2403c50169",
+            "room": "100",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T17:48:13.000000Z",
+            "updated_at": "2026-08-15T17:48:13.000000Z",
+            "room_name": "8208-BL8-SF",
+            "facultyName": "Mr. Devender Rondla"
+          },
+          {
+            "id": 6255,
+            "unique_id": "CA370537-CBA4-4CCE-AC73-F400C7EF7195",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "13:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "PE3-AUGMENTED AND VIRTUAL REALITY",
+            "batch": "23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25,23CSBTB26",
+            "faculty": "3133",
+            "room": "129",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T08:47:43.000000Z",
+            "updated_at": "2026-08-17T17:46:20.000000Z",
+            "room_name": "11209-BL11-SF",
+            "facultyName": "Dr. Amit Kumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 6313,
+            "unique_id": "2A3631EB-A498-4B53-A17A-64C42D800A79",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "PE3-COMPILER DESIGN",
+            "batch": "23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22",
+            "faculty": "3018",
+            "room": "114",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "10-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T17:20:46.000000Z",
+            "updated_at": "2026-09-10T17:16:51.000000Z",
+            "room_name": "10103-BL10-FF",
+            "facultyName": "Mr. Sallauddin Mohmmad"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 6200,
+            "unique_id": "12F42307-23A1-4548-8556-24139C524C9E",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "PE2-DEVOPS AND FULL STACK",
+            "batch": "23CSBTB14,23CSBTB16,23CSBTB17,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25",
+            "faculty": "714",
+            "room": "184",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "10-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T08:08:41.000000Z",
+            "updated_at": "2026-09-10T17:03:54.000000Z",
+            "room_name": "10103-B_BL10-FF",
+            "facultyName": "Mr. G Kranthi"
+          },
+          {
+            "id": 6159,
+            "unique_id": "5450233C-2182-4C54-A1C7-E4F3B8F9F8B0",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "PE2-QUANTUM COMPUTING",
+            "batch": "23CSBTB02,23CSBTB03,23CSBTB04,23CSBTB06,23CSBTB07,23CSBTB08,23CSBTB09,23CSBTB10,23CSBTB13,23CSBTB14,23CSBTB15,23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22",
+            "faculty": "3138",
+            "room": "96",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "16-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T07:40:27.000000Z",
+            "updated_at": "2026-09-16T11:50:56.000000Z",
+            "room_name": "8106-BL8-FF",
+            "facultyName": "Dr. Durgesh Nandan"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 6201,
+            "unique_id": "87BE36BA-6240-4733-8AD0-143A77E342AC",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "PE2-DEVOPS AND FULL STACK",
+            "batch": "23CSBTB14,23CSBTB16,23CSBTB17,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22,23CSBTB23,23CSBTB24,23CSBTB25",
+            "faculty": "714",
+            "room": "184",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "10-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T08:08:41.000000Z",
+            "updated_at": "2026-09-10T17:04:11.000000Z",
+            "room_name": "10103-B_BL10-FF",
+            "facultyName": "Mr. G Kranthi"
+          },
+          {
+            "id": 6154,
+            "unique_id": "DDE10E21-021E-4528-A518-6966849EB467",
+            "semester": "VII",
+            "year": "Fourth",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "PE2-QUANTUM COMPUTING",
+            "batch": "23CSBTB02,23CSBTB03,23CSBTB04,23CSBTB06,23CSBTB07,23CSBTB08,23CSBTB09,23CSBTB10,23CSBTB11,23CSBTB13,23CSBTB14,23CSBTB15,23CSBTB16,23CSBTB17,23CSBTB18,23CSBTB19,23CSBTB20,23CSBTB21,23CSBTB22",
+            "faculty": "3138",
+            "room": "96",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "16-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-15T07:37:10.000000Z",
+            "updated_at": "2026-09-16T11:51:54.000000Z",
+            "room_name": "8106-BL8-FF",
+            "facultyName": "Dr. Durgesh Nandan"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

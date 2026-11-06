@@ -1,0 +1,1212 @@
+{
+  "degree": "BTECH-CSE",
+  "year": "Second",
+  "batch": "25CAIBTAIB69",
+  "lastUpdated": "2026-10-04T06:13:16.645279",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3077,
+            "unique_id": "AD0BDC5E-B7F3-4BD3-A45C-519276307B2E",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Operating Systems and Computer Networks",
+            "batch": "25CAIBTAIB67,25CAIBTAIB69,25CAIBTCSB66,25CAIBTCSB68,25CAIBTCSB70",
+            "faculty": "2596",
+            "room": "116",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "14-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-22T21:13:02.000000Z",
+            "updated_at": "2026-08-14T12:02:32.000000Z",
+            "room_name": "10206-BL10-SF",
+            "facultyName": "Dr. Smruti Ranjan Sahoo"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 1423,
+            "unique_id": "C5E2BFD0-A4FC-45FD-9A30-AEB0FD5A49A3",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Web Technologies and Mobile Programming",
+            "batch": "25CAIBTAIB67,25CAIBTAIB69,25CAIBTCSB66,25CAIBTCSB68,25CAIBTCSB70",
+            "faculty": "3109",
+            "room": "234",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-20T22:28:33.000000Z",
+            "updated_at": "2026-09-03T14:37:49.000000Z",
+            "room_name": "11108-BL11-FF",
+            "facultyName": "Mr. Khaja Mannanuddin"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 1893,
+            "unique_id": "63BEDF3C-36CE-4F69-A1EB-A32BDCC47742",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Information Management System",
+            "batch": "25CAIBTAIB69,25CAIBTCSB70",
+            "faculty": "cti039",
+            "room": "201",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-21T00:38:13.000000Z",
+            "updated_at": "2026-09-07T07:07:40.000000Z",
+            "room_name": "3103-B_BL3-FF",
+            "facultyName": "Ms. Patil Sonali Sardar"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 1894,
+            "unique_id": "4CB78A48-1E9A-4EB2-B721-8CA23A4BECE9",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Information Management System",
+            "batch": "25CAIBTAIB69,25CAIBTCSB70",
+            "faculty": "cti039",
+            "room": "201",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-21T00:38:13.000000Z",
+            "updated_at": "2026-09-07T07:08:18.000000Z",
+            "room_name": "3103-B_BL3-FF",
+            "facultyName": "Ms. Patil Sonali Sardar"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 2787,
+            "unique_id": "F3607E0A-34CB-4AB6-A8D6-2BB9F2E4A58E",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "AI Assisted Coding",
+            "batch": "25CAIBTAIB69,25CAIBTCSB70",
+            "faculty": "cti029",
+            "room": "203",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "15-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-22T00:10:55.000000Z",
+            "updated_at": "2026-08-15T05:23:36.000000Z",
+            "room_name": "3111-B_BL3-FF",
+            "facultyName": "Ms. Kakade Payal Valmik"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 2788,
+            "unique_id": "7F7B9658-FAEF-460D-8830-2E33E9A9BE63",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "AI Assisted Coding",
+            "batch": "25CAIBTAIB69,25CAIBTCSB70",
+            "faculty": "cti029",
+            "room": "203",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "15-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-22T00:10:55.000000Z",
+            "updated_at": "2026-08-15T05:23:16.000000Z",
+            "room_name": "3111-B_BL3-FF",
+            "facultyName": "Ms. Kakade Payal Valmik"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 1424,
+            "unique_id": "A9E8F695-2BAC-4144-BB36-7285AD842F35",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Web Technologies and Mobile Programming",
+            "batch": "25CAIBTAIB67,25CAIBTAIB69,25CAIBTCSB66,25CAIBTCSB68,25CAIBTCSB70",
+            "faculty": "3109",
+            "room": "234",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-20T22:28:33.000000Z",
+            "updated_at": "2026-09-03T14:38:10.000000Z",
+            "room_name": "11108-BL11-FF",
+            "facultyName": "Mr. Khaja Mannanuddin"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 2822,
+            "unique_id": "89242253-27C8-4D0E-B9A9-5F37F3B2B40F",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Cloud Computing",
+            "batch": "25CAIBTAIB67,25CAIBTAIB69,25CAIBTCSB66,25CAIBTCSB68,25CAIBTCSB70",
+            "faculty": "3223",
+            "room": "115",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "14-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-22T01:49:37.000000Z",
+            "updated_at": "2026-08-14T11:58:52.000000Z",
+            "room_name": "10104-BL10-FF",
+            "facultyName": "Dr. Adyasha Sahu"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3078,
+            "unique_id": "4F19C76A-0D7F-4908-8611-24DBD6A3FC10",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Operating Systems and Computer Networks",
+            "batch": "25CAIBTAIB67,25CAIBTAIB69,25CAIBTCSB66,25CAIBTCSB68,25CAIBTCSB70",
+            "faculty": "2596",
+            "room": "231",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "15-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-22T21:13:02.000000Z",
+            "updated_at": "2026-08-15T05:39:57.000000Z",
+            "room_name": "11010-BL11-GF",
+            "facultyName": "Dr. Smruti Ranjan Sahoo"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 2409,
+            "unique_id": "AC606B5F-662F-4598-81A1-C160C991355D",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Data Analytics and Visualization",
+            "batch": "25CAIBTAIB69,25CAIBTCSB70",
+            "faculty": "3192",
+            "room": "180",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "15-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-21T19:15:59.000000Z",
+            "updated_at": "2026-08-15T05:24:56.000000Z",
+            "room_name": "10002-B_BL10-GF",
+            "facultyName": "Dr. Swarup Ghosh"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 2410,
+            "unique_id": "C71C2121-49D9-4ED8-B43E-684E0442D5A0",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Data Analytics and Visualization",
+            "batch": "25CAIBTAIB69,25CAIBTCSB70",
+            "faculty": "3192",
+            "room": "180",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "15-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-21T19:15:59.000000Z",
+            "updated_at": "2026-08-15T05:25:01.000000Z",
+            "room_name": "10002-B_BL10-GF",
+            "facultyName": "Dr. Swarup Ghosh"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 1425,
+            "unique_id": "5884F9D9-4AFF-42B4-82E8-02069B79A6B6",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Information Management System",
+            "batch": "25CAIBTAIB67,25CAIBTAIB69,25CAIBTCSB66,25CAIBTCSB68,25CAIBTCSB70",
+            "faculty": "3237",
+            "room": "234",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "14-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-20T22:29:12.000000Z",
+            "updated_at": "2026-08-14T12:03:44.000000Z",
+            "room_name": "11108-BL11-FF",
+            "facultyName": "Dr. Nakka Shekhar"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 2214,
+            "unique_id": "DAF541BE-1E57-4DF8-91F1-68ABCF6C0C14",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Data Analytics and Visualization",
+            "batch": "25CAIBTAIB67,25CAIBTAIB69,25CAIBTCSB66,25CAIBTCSB68,25CAIBTCSB70",
+            "faculty": "3224",
+            "room": "234",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "14-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-21T07:35:12.000000Z",
+            "updated_at": "2026-08-14T12:00:32.000000Z",
+            "room_name": "11108-BL11-FF",
+            "facultyName": "Dr. Soutrick Das"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 6050,
+            "unique_id": "51416763-0E11-4FED-89B0-7F63FBA251EC",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Web Technologies and Mobile Programming",
+            "batch": "25CAIBTAIB69,25CAIBTCSB70",
+            "faculty": "3109",
+            "room": "197",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-10T02:01:06.000000Z",
+            "updated_at": "2026-08-17T10:19:08.000000Z",
+            "room_name": "3001-B_BL3-GF",
+            "facultyName": "Mr. Khaja Mannanuddin"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 6051,
+            "unique_id": "9EBCB28E-FB0B-442D-B8E0-FC2A03139567",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Web Technologies and Mobile Programming",
+            "batch": "25CAIBTAIB69,25CAIBTCSB70",
+            "faculty": "3109",
+            "room": "197",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-10T02:01:06.000000Z",
+            "updated_at": "2026-08-17T10:19:52.000000Z",
+            "room_name": "3001-B_BL3-GF",
+            "facultyName": "Mr. Khaja Mannanuddin"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 3079,
+            "unique_id": "33719C7F-1DEA-48AD-A7FB-98284A1C7A46",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Operating Systems and Computer Networks",
+            "batch": "25CAIBTAIB67,25CAIBTAIB69,25CAIBTCSB66,25CAIBTCSB68,25CAIBTCSB70",
+            "faculty": "2596",
+            "room": "97",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "15-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-22T21:13:44.000000Z",
+            "updated_at": "2026-08-15T05:20:19.000000Z",
+            "room_name": "8108-BL8-FF",
+            "facultyName": "Dr. Smruti Ranjan Sahoo"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 1917,
+            "unique_id": "289B6616-2A0A-4C7D-99FE-2B7AF7EA1E66",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Cloud Computing",
+            "batch": "25CAIBTAIB69,25CAIBTCSB70",
+            "faculty": "705",
+            "room": "206",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "15-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-21T00:55:58.000000Z",
+            "updated_at": "2026-08-15T05:24:15.000000Z",
+            "room_name": "3212-B_BL3-SF",
+            "facultyName": "Mr. Ankushavali Md"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 1918,
+            "unique_id": "740D690E-65B6-4075-9D58-FA2CA0C5C69F",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Cloud Computing",
+            "batch": "25CAIBTAIB69,25CAIBTCSB70",
+            "faculty": "705",
+            "room": "206",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "15-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-21T00:55:58.000000Z",
+            "updated_at": "2026-08-15T05:23:59.000000Z",
+            "room_name": "3212-B_BL3-SF",
+            "facultyName": "Mr. Ankushavali Md"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 2795,
+            "unique_id": "7029C4C2-5C26-4B3A-A0CD-B466B012231B",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "AI Assisted Coding",
+            "batch": "25CAIBTAIB69,25CAIBTCSB70",
+            "faculty": "cti029",
+            "room": "203",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "15-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-22T00:14:01.000000Z",
+            "updated_at": "2026-08-15T05:22:57.000000Z",
+            "room_name": "3111-B_BL3-FF",
+            "facultyName": "Ms. Kakade Payal Valmik"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 2796,
+            "unique_id": "B09B86FE-22DC-4D03-B314-1779AF219F9E",
+            "semester": "III",
+            "year": "Second",
+            "time": "12:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "AI Assisted Coding",
+            "batch": "25CAIBTAIB69,25CAIBTCSB70",
+            "faculty": "cti029",
+            "room": "203",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "15-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-22T00:14:01.000000Z",
+            "updated_at": "2026-08-15T05:22:18.000000Z",
+            "room_name": "3111-B_BL3-FF",
+            "facultyName": "Ms. Kakade Payal Valmik"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 2215,
+            "unique_id": "C4F4CF93-42A5-4241-A4B8-D661F9949DA1",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Data Analytics and Visualization",
+            "batch": "25CAIBTAIB67,25CAIBTAIB69,25CAIBTCSB66,25CAIBTCSB68,25CAIBTCSB70",
+            "faculty": "3224",
+            "room": "115",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "14-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-21T07:35:57.000000Z",
+            "updated_at": "2026-08-14T11:59:51.000000Z",
+            "room_name": "10104-BL10-FF",
+            "facultyName": "Dr. Soutrick Das"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 1427,
+            "unique_id": "6D2C77AA-12A6-4CA0-98C2-88407AF74CC2",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Information Management System",
+            "batch": "25CAIBTAIB67,25CAIBTAIB69,25CAIBTCSB66,25CAIBTCSB68,25CAIBTCSB70",
+            "faculty": "3237",
+            "room": "128",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-20T22:30:55.000000Z",
+            "updated_at": "2026-08-21T06:52:11.000000Z",
+            "room_name": "11206-BL11-SF",
+            "facultyName": "Dr. Nakka Shekhar"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 1426,
+            "unique_id": "028C33A1-DEC3-4984-B6A9-9257C64048F7",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Information Management System",
+            "batch": "25CAIBTAIB67,25CAIBTAIB69,25CAIBTCSB66,25CAIBTCSB68,25CAIBTCSB70",
+            "faculty": "3237",
+            "room": "234",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "14-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-20T22:29:12.000000Z",
+            "updated_at": "2026-08-14T12:03:51.000000Z",
+            "room_name": "11108-BL11-FF",
+            "facultyName": "Dr. Nakka Shekhar"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 2173,
+            "unique_id": "7A8B1F82-8568-4CF3-A7A8-049894C694C7",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Web Technologies and Mobile Programming",
+            "batch": "25CAIBTAIB69,25CAIBTCSB70",
+            "faculty": "cti225",
+            "room": "184",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-21T05:54:53.000000Z",
+            "updated_at": "2026-09-03T14:57:05.000000Z",
+            "room_name": "10103-B_BL10-FF",
+            "facultyName": "Mr. Vipin Madheshiya"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 2174,
+            "unique_id": "35DC8ADB-FD9F-40B5-97BC-6F2BA4DCF9E3",
+            "semester": "III",
+            "year": "Second",
+            "time": "12:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Web Technologies and Mobile Programming",
+            "batch": "25CAIBTAIB69,25CAIBTCSB70",
+            "faculty": "cti225",
+            "room": "184",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-21T05:54:53.000000Z",
+            "updated_at": "2026-09-03T14:57:26.000000Z",
+            "room_name": "10103-B_BL10-FF",
+            "facultyName": "Mr. Vipin Madheshiya"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3080,
+            "unique_id": "8DDEF7C0-067C-4976-AF42-5BBFD9AB130B",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Operating Systems and Computer Networks",
+            "batch": "25CAIBTAIB67,25CAIBTAIB69,25CAIBTCSB66,25CAIBTCSB68,25CAIBTCSB70",
+            "faculty": "2596",
+            "room": "116",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "19-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-22T21:13:44.000000Z",
+            "updated_at": "2026-09-19T03:52:28.000000Z",
+            "room_name": "10206-BL10-SF",
+            "facultyName": "Dr. Smruti Ranjan Sahoo"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 3276,
+            "unique_id": "E515144F-CAB4-4DD9-80C1-F0BA423D497F",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Operating Systems and Computer Networks",
+            "batch": "25CAIBTAIB69,25CAIBTCSB70",
+            "faculty": "2605C400X3",
+            "room": "75",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "15-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-22T23:32:23.000000Z",
+            "updated_at": "2026-08-15T05:26:42.000000Z",
+            "room_name": "3213-BL3-SF",
+            "facultyName": "Ms Humma Nowsheen"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 3277,
+            "unique_id": "086B4776-E5F6-4E6C-A8A5-A5ABE9A193A3",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Operating Systems and Computer Networks",
+            "batch": "25CAIBTAIB69,25CAIBTCSB70",
+            "faculty": "2605C400X3",
+            "room": "75",
+            "program": "BTECH",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "15-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-22T23:32:23.000000Z",
+            "updated_at": "2026-08-15T05:26:46.000000Z",
+            "room_name": "3213-BL3-SF",
+            "facultyName": "Ms Humma Nowsheen"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

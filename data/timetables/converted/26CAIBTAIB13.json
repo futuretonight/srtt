@@ -1,0 +1,314 @@
+{
+  "mon": [
+    {
+      "start": "08:30",
+      "end": "09:30",
+      "category": "class",
+      "subject": "Technical and Professional Communication for Engineers",
+      "kind": "Lecture",
+      "room": "10206-BL10-SF",
+      "faculty": "Dr. Anish K",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Foundation of Engineering",
+      "kind": "Lecture",
+      "room": "8106-BL8-FF",
+      "faculty": "Dr. Sujoy Saha",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Dr. Sundheep R",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Dr. Dipesh",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Tutorial",
+      "room": "10206-BL10-SF",
+      "faculty": "Dr. Dipesh",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "08:30",
+      "end": "09:30",
+      "category": "class",
+      "subject": "Foundation of Engineering",
+      "kind": "Lecture",
+      "room": "8106-BL8-FF",
+      "faculty": "Dr. Sujoy Saha",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Computational Chemistry",
+      "kind": "Lecture",
+      "room": "8104-BL8-FF",
+      "faculty": "Dr. Dasari Sathish",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lab",
+      "room": "8207-BL8-SF",
+      "faculty": "Dr. Sundheep R",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lab",
+      "room": "8207-BL8-SF",
+      "faculty": "Dr. Sundheep R",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Dr. Dipesh",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "08:30",
+      "end": "09:30",
+      "category": "class",
+      "subject": "Computational Chemistry",
+      "kind": "Lecture",
+      "room": "8104-BL8-FF",
+      "faculty": "Dr. Dasari Sathish",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Foundation of Engineering",
+      "kind": "Lecture",
+      "room": "8106-BL8-FF",
+      "faculty": "Dr. Sujoy Saha",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Technical and Professional Communication for Engineers",
+      "kind": "Lecture",
+      "room": "10206-BL10-SF",
+      "faculty": "Dr. Anish K",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Dr. Sundheep R",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Dr. Dipesh",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "08:30",
+      "end": "09:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lab",
+      "room": "8207-BL8-SF",
+      "faculty": "Dr Arun Kumar Pal",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lab",
+      "room": "8207-BL8-SF",
+      "faculty": "Dr Arun Kumar Pal",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Technical and Professional Communication for Engineers",
+      "kind": "Lecture",
+      "room": "10206-BL10-SF",
+      "faculty": "Dr. Anish K",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Computational Chemistry",
+      "kind": "Lab",
+      "room": "8001-BL8-GF",
+      "faculty": "Dr. Dasari Sathish",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Computational Chemistry",
+      "kind": "Lab",
+      "room": "8001-BL8-GF",
+      "faculty": "Dr. Dasari Sathish",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "08:30",
+      "end": "09:30",
+      "category": "class",
+      "subject": "Foundation of Engineering",
+      "kind": "Lab",
+      "room": "1001-BL1-GF",
+      "faculty": "Dr Abin Philip",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Foundation of Engineering",
+      "kind": "Lab",
+      "room": "1001-BL1-GF",
+      "faculty": "Dr Abin Philip",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Computational Chemistry",
+      "kind": "Lecture",
+      "room": "8104-BL8-FF",
+      "faculty": "Dr. Dasari Sathish",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Technical and Professional Communication for Engineers",
+      "kind": "Lecture",
+      "room": "11206-BL11-SF",
+      "faculty": "Dr. Anish K",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "11206-BL11-SF",
+      "faculty": "Dr. Dipesh",
+      "batches": [
+        "26CAIBTAIB13"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

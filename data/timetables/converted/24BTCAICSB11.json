@@ -1,0 +1,374 @@
+{
+  "mon": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Statistics for Computer Science",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Santosh Kumar Yadav",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. M Suresh Kumar",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Ramesh D",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lab",
+      "room": "1209-BL1-SF",
+      "faculty": "Dr. Ramesh D",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lab",
+      "room": "1209-BL1-SF",
+      "faculty": "Dr. Ramesh D",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lab",
+      "room": "1201-BL1-SF",
+      "faculty": "Dr. Shanker Chandre",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lab",
+      "room": "1201-BL1-SF",
+      "faculty": "Dr. Shanker Chandre",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Prabhudutta Samal",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Tutorial",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Ramesh D",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Tutorial",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. M Suresh Kumar",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Prabhudutta Samal",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Prabhudutta Samal",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Shanker Chandre",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lab",
+      "room": "1201-BL1-SF",
+      "faculty": "Ms. Velpula Sumalatha",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lab",
+      "room": "1201-BL1-SF",
+      "faculty": "Ms. Velpula Sumalatha",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Ramesh D",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Statistics for Computer Science",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Santosh Kumar Yadav",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lab",
+      "room": "1209-BL1-SF",
+      "faculty": "Dr. Ramesh D",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lab",
+      "room": "1209-BL1-SF",
+      "faculty": "Dr. Ramesh D",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. M Suresh Kumar",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lecture",
+      "room": "1109-BL1-FF",
+      "faculty": "Dr. Shanker Chandre",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Statistics for Computer Science",
+      "kind": "Lecture",
+      "room": "1107-BL1-FF",
+      "faculty": "Dr. Santosh Kumar Yadav",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Prabhudutta Samal",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Critical Thinking and Interpersonal Skills",
+      "kind": "Lab",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Prabhudutta Samal",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lab",
+      "room": "1114-BL1-FF",
+      "faculty": "Dr. M Suresh Kumar",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lab",
+      "room": "1114-BL1-FF",
+      "faculty": "Dr. M Suresh Kumar",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Artificial Intelligence and Deep Learning",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Ramesh D",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Algorithms",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. M Suresh Kumar",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Software Engineering and System Design",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Shanker Chandre",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Statistics for Computer Science",
+      "kind": "Tut",
+      "room": "1108-BL1-FF",
+      "faculty": "Dr. Santosh Kumar Yadav",
+      "batches": [
+        "24BTCAICSB11"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

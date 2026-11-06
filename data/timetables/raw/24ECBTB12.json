@@ -1,0 +1,1429 @@
+{
+  "degree": "BTECH-ECE",
+  "year": "Third",
+  "batch": "24ECBTB12",
+  "lastUpdated": "2026-10-04T06:13:37.433925",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 185,
+            "unique_id": "D29A3852-2657-439B-9934-9B18B67322AC",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Antenna and Wave Propagation",
+            "batch": "24ECBTB12",
+            "faculty": "2605C400X5",
+            "room": "47",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T00:22:46.000000Z",
+            "updated_at": "2026-08-03T04:41:41.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Ms. Chikkudu Blessy"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 186,
+            "unique_id": "5EC623A3-662A-4F04-9CCA-6E7CF9D18F42",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Antenna and Wave Propagation",
+            "batch": "24ECBTB12",
+            "faculty": "2605C400X5",
+            "room": "47",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-14T00:22:46.000000Z",
+            "updated_at": "2026-08-03T04:41:41.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Ms. Chikkudu Blessy"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4906,
+            "unique_id": "ADD79116-4BF0-4D7C-B8DD-8E645939BAA2",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Generative AI",
+            "batch": "24ECBTB01,24ECBTB02,24ECBTB03,24ECBTB04,24ECBTB05,24ECBTB06,24ECBTB07,24ECBTB08,24ECBTB09,24ECBTB10,24ECBTB11,24ECBTB12",
+            "faculty": "2514",
+            "room": "136",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-28T23:59:48.000000Z",
+            "updated_at": "2026-07-28T23:59:48.000000Z",
+            "room_name": "2113-BL2-FF",
+            "facultyName": "Dr. Maria Irudaya Leo Joseph L"
+          },
+          {
+            "id": 4919,
+            "unique_id": "CFD3DC78-08C2-4D35-A620-32F5F4A60E33",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Hardware Modeling using Verilog",
+            "batch": "24ECBTB01,24ECBTB02,24ECBTB03,24ECBTB04,24ECBTB05,24ECBTB06,24ECBTB07,24ECBTB08,24ECBTB09,24ECBTB10,24ECBTB11,24ECBTB12",
+            "faculty": "2546",
+            "room": "135",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-29T00:07:20.000000Z",
+            "updated_at": "2026-07-29T00:07:20.000000Z",
+            "room_name": "2108-BL2-FF",
+            "facultyName": "Dr. Arun Sekar R"
+          },
+          {
+            "id": 41,
+            "unique_id": "D08E0CCC-4966-4469-B9AD-809DC165712E",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Quantum Mechanics for Materials Engineering",
+            "batch": "24ECBTB11,24ECBTB12",
+            "faculty": "2562",
+            "room": "44",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "27-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T20:57:24.000000Z",
+            "updated_at": "2026-07-27T05:18:44.000000Z",
+            "room_name": "2015-BL2-GF",
+            "facultyName": "Dr. Gyanendra Kumar Maurya"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 83,
+            "unique_id": "A93F94B3-EA5B-48CF-8AE0-C93F20340A1C",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "AI for Electronics Engineering",
+            "batch": "24ECBTB11,24ECBTB12",
+            "faculty": "2519",
+            "room": "224",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T21:36:42.000000Z",
+            "updated_at": "2026-08-21T11:50:20.000000Z",
+            "room_name": "3011-BL3-GF",
+            "facultyName": "Dr. V Malathy"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 77,
+            "unique_id": "7A0BF845-C86E-450A-822B-499A7AF776FA",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Antenna and Wave Propagation",
+            "batch": "24ECBTB11,24ECBTB12",
+            "faculty": "2578",
+            "room": "224",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T21:34:30.000000Z",
+            "updated_at": "2026-08-21T11:50:20.000000Z",
+            "room_name": "3011-BL3-GF",
+            "facultyName": "Dr. Shaik Imamvali"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 1370,
+            "unique_id": "5E1AA284-B834-4C97-9675-07BC769CDC50",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Sustainability and Ethical Innovation",
+            "batch": "24ECBTB11,24ECBTB12",
+            "faculty": "1038",
+            "room": "49",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "20-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-20T21:30:32.000000Z",
+            "updated_at": "2026-09-20T16:25:40.000000Z",
+            "room_name": "3105-BL3-FF",
+            "facultyName": "Dr. Gomasa Ramesh"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 80,
+            "unique_id": "D2C13286-54CB-4FF1-833C-D7F1C7CB4067",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Microelectronics for Semiconductor IC Design",
+            "batch": "24ECBTB11,24ECBTB12",
+            "faculty": "3680",
+            "room": "31",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "20-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-13T21:35:15.000000Z",
+            "updated_at": "2026-09-20T16:26:59.000000Z",
+            "room_name": "2103-BL2-FF",
+            "facultyName": "Dr. SOORYA G NATH"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 79,
+            "unique_id": "C9D698A9-99BB-419E-B8A5-8FEBF343EB28",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Antenna and Wave Propagation",
+            "batch": "24ECBTB11,24ECBTB12",
+            "faculty": "2578",
+            "room": "49",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T21:34:30.000000Z",
+            "updated_at": "2026-07-13T21:34:30.000000Z",
+            "room_name": "3105-BL3-FF",
+            "facultyName": "Dr. Shaik Imamvali"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 85,
+            "unique_id": "2A33FA4A-BEE3-4F6F-9C22-FBDB0C779812",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "AI for Electronics Engineering",
+            "batch": "24ECBTB11,24ECBTB12",
+            "faculty": "2519",
+            "room": "40",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T21:37:10.000000Z",
+            "updated_at": "2026-08-03T04:52:54.000000Z",
+            "room_name": "2208-BL2-SF",
+            "facultyName": "Dr. V Malathy"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4907,
+            "unique_id": "7FA06A45-A933-4F51-AEE6-62938E7A9DA3",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Generative AI",
+            "batch": "24ECBTB01,24ECBTB02,24ECBTB03,24ECBTB04,24ECBTB05,24ECBTB06,24ECBTB07,24ECBTB08,24ECBTB09,24ECBTB10,24ECBTB11,24ECBTB12",
+            "faculty": "2514",
+            "room": "136",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-28T23:59:48.000000Z",
+            "updated_at": "2026-07-28T23:59:48.000000Z",
+            "room_name": "2113-BL2-FF",
+            "facultyName": "Dr. Maria Irudaya Leo Joseph L"
+          },
+          {
+            "id": 4920,
+            "unique_id": "65D18995-6F01-416F-A32E-20FFD3098D5F",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Hardware Modeling using Verilog",
+            "batch": "24ECBTB01,24ECBTB02,24ECBTB03,24ECBTB04,24ECBTB05,24ECBTB06,24ECBTB07,24ECBTB08,24ECBTB09,24ECBTB10,24ECBTB11,24ECBTB12",
+            "faculty": "2546",
+            "room": "135",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-29T00:07:20.000000Z",
+            "updated_at": "2026-07-29T00:07:20.000000Z",
+            "room_name": "2108-BL2-FF",
+            "facultyName": "Dr. Arun Sekar R"
+          },
+          {
+            "id": 42,
+            "unique_id": "0DEB3E7F-84F0-4B25-95B5-2C70BC7FFB80",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Quantum Mechanics for Materials Engineering",
+            "batch": "24ECBTB11,24ECBTB12",
+            "faculty": "2562",
+            "room": "44",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "27-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T20:57:24.000000Z",
+            "updated_at": "2026-07-27T05:18:44.000000Z",
+            "room_name": "2015-BL2-GF",
+            "facultyName": "Dr. Gyanendra Kumar Maurya"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 4617,
+            "unique_id": "20D2FF3C-7A26-4AF8-8AD2-489ECC75F60E",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude And Logical Reasoning",
+            "batch": "24ECBTB12",
+            "faculty": "430",
+            "room": "51",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "28-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-27T22:41:05.000000Z",
+            "updated_at": "2026-07-28T08:15:43.000000Z",
+            "room_name": "3113-BL3-FF",
+            "facultyName": "Mr. Sepuri Kranthi Kumar"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 4618,
+            "unique_id": "81DA35D4-F311-41E2-952B-6EF4F211B855",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude And Logical Reasoning",
+            "batch": "24ECBTB12",
+            "faculty": "430",
+            "room": "51",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "28-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-27T22:41:05.000000Z",
+            "updated_at": "2026-07-28T08:15:06.000000Z",
+            "room_name": "3113-BL3-FF",
+            "facultyName": "Mr. Sepuri Kranthi Kumar"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 117,
+            "unique_id": "85AC734C-B73E-461B-A99F-BF3E46A31C80",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Microelectronics for Semiconductor IC Design",
+            "batch": "24ECBTB12",
+            "faculty": "3680",
+            "room": "133",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T22:08:47.000000Z",
+            "updated_at": "2026-08-17T07:44:35.000000Z",
+            "room_name": "2106-BL2-FF",
+            "facultyName": "Dr. SOORYA G NATH"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 118,
+            "unique_id": "AA661216-62AB-4304-8557-B03448395AEB",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Microelectronics for Semiconductor IC Design",
+            "batch": "24ECBTB12",
+            "faculty": "3680",
+            "room": "133",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "17-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T22:08:47.000000Z",
+            "updated_at": "2026-08-17T07:44:35.000000Z",
+            "room_name": "2106-BL2-FF",
+            "facultyName": "Dr. SOORYA G NATH"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 4627,
+            "unique_id": "193237DC-DBEB-43C6-9BCB-2A3B9C35A07E",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude and Logical Reasoning",
+            "batch": "24ECBTB12",
+            "faculty": "3555",
+            "room": "54",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-27T22:49:43.000000Z",
+            "updated_at": "2026-07-27T22:49:43.000000Z",
+            "room_name": "3202-BL3-SF",
+            "facultyName": "Mr. Paruchuri Rajendra Bhanu Teja"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 4628,
+            "unique_id": "CF47C456-9083-48AF-A361-29F6CBA2D94A",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude and Logical Reasoning",
+            "batch": "24ECBTB12",
+            "faculty": "3555",
+            "room": "54",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-27T22:49:43.000000Z",
+            "updated_at": "2026-07-27T22:49:43.000000Z",
+            "room_name": "3202-BL3-SF",
+            "facultyName": "Mr. Paruchuri Rajendra Bhanu Teja"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4908,
+            "unique_id": "B3037112-AD5E-4CE1-B2CB-44CB2D1AC38C",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Generative AI",
+            "batch": "24ECBTB01,24ECBTB02,24ECBTB03,24ECBTB04,24ECBTB05,24ECBTB06,24ECBTB07,24ECBTB08,24ECBTB09,24ECBTB10,24ECBTB11,24ECBTB12",
+            "faculty": "2514",
+            "room": "136",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-28T23:59:48.000000Z",
+            "updated_at": "2026-07-28T23:59:48.000000Z",
+            "room_name": "2113-BL2-FF",
+            "facultyName": "Dr. Maria Irudaya Leo Joseph L"
+          },
+          {
+            "id": 4921,
+            "unique_id": "A524E04D-A9ED-406E-9E65-2E5C0BAE2FCA",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Hardware Modeling using Verilog",
+            "batch": "24ECBTB01,24ECBTB02,24ECBTB03,24ECBTB04,24ECBTB05,24ECBTB06,24ECBTB07,24ECBTB08,24ECBTB09,24ECBTB10,24ECBTB11,24ECBTB12",
+            "faculty": "2546",
+            "room": "135",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-29T00:07:20.000000Z",
+            "updated_at": "2026-07-29T00:07:20.000000Z",
+            "room_name": "2108-BL2-FF",
+            "facultyName": "Dr. Arun Sekar R"
+          },
+          {
+            "id": 43,
+            "unique_id": "D901ADC8-3425-45A5-B368-5EED5AD98F0D",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Quantum Mechanics for Materials Engineering",
+            "batch": "24ECBTB11,24ECBTB12",
+            "faculty": "2562",
+            "room": "44",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "27-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T20:57:24.000000Z",
+            "updated_at": "2026-07-27T05:18:44.000000Z",
+            "room_name": "2015-BL2-GF",
+            "facultyName": "Dr. Gyanendra Kumar Maurya"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 167,
+            "unique_id": "DD102E3B-0B3F-485F-A44C-57DA162834B0",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "AI for Electronics Engineering",
+            "batch": "24ECBTB12",
+            "faculty": "2561",
+            "room": "51",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "23-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T23:38:40.000000Z",
+            "updated_at": "2026-08-23T10:53:56.000000Z",
+            "room_name": "3113-BL3-FF",
+            "facultyName": "Dr. Joydev Ghosh"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 168,
+            "unique_id": "9700FD43-9DCF-4FCD-8E47-A3B2DAB0EF27",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "AI for Electronics Engineering",
+            "batch": "24ECBTB12",
+            "faculty": "2561",
+            "room": "51",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "23-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T23:38:40.000000Z",
+            "updated_at": "2026-08-23T10:53:11.000000Z",
+            "room_name": "3113-BL3-FF",
+            "facultyName": "Dr. Joydev Ghosh"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 1369,
+            "unique_id": "F527DD9D-0D77-4EE6-BBE2-5870222D9791",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Sustainability and Ethical Innovation",
+            "batch": "24ECBTB11,24ECBTB12",
+            "faculty": "1038",
+            "room": "54",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-20T21:30:32.000000Z",
+            "updated_at": "2026-07-20T21:30:32.000000Z",
+            "room_name": "3202-BL3-SF",
+            "facultyName": "Dr. Gomasa Ramesh"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 755,
+            "unique_id": "ACD8C95D-2F76-4D32-A754-3D1EE80A0005",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude And Logical Reasoning",
+            "batch": "24ECBTB11,24ECBTB12",
+            "faculty": "431",
+            "room": "40",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-16T20:51:59.000000Z",
+            "updated_at": "2026-07-29T06:33:04.000000Z",
+            "room_name": "2208-BL2-SF",
+            "facultyName": "Mr. Soma Amaresh"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 82,
+            "unique_id": "785509CC-EB1D-4641-A623-6745441F6A51",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Microelectronics for Semiconductor IC Design",
+            "batch": "24ECBTB11,24ECBTB12",
+            "faculty": "3680",
+            "room": "25",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "19-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-13T21:35:48.000000Z",
+            "updated_at": "2026-09-19T06:10:45.000000Z",
+            "room_name": "2003-BL2-GF",
+            "facultyName": "Dr. SOORYA G NATH"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 78,
+            "unique_id": "9F9B90C5-025A-4771-B3D7-4973AA75E91E",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Antenna and Wave Propagation",
+            "batch": "24ECBTB11,24ECBTB12",
+            "faculty": "2578",
+            "room": "54",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T21:34:30.000000Z",
+            "updated_at": "2026-07-29T06:10:09.000000Z",
+            "room_name": "3202-BL3-SF",
+            "facultyName": "Dr. Shaik Imamvali"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 4911,
+            "unique_id": "0781E527-D124-4069-AAB9-129A0C475F40",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Generative AI",
+            "batch": "24ECBTB01,24ECBTB02,24ECBTB03,24ECBTB04,24ECBTB05,24ECBTB06,24ECBTB07,24ECBTB08,24ECBTB09,24ECBTB10,24ECBTB11,24ECBTB12",
+            "faculty": "2514",
+            "room": "39",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-29T00:02:24.000000Z",
+            "updated_at": "2026-07-29T00:02:24.000000Z",
+            "room_name": "2207-BL2-SF",
+            "facultyName": "Dr. Maria Irudaya Leo Joseph L"
+          },
+          {
+            "id": 4924,
+            "unique_id": "283050EB-2E85-4536-A4D2-2C1063902DD6",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Hardware Modeling using Verilog",
+            "batch": "24ECBTB01,24ECBTB02,24ECBTB03,24ECBTB04,24ECBTB05,24ECBTB06,24ECBTB07,24ECBTB08,24ECBTB09,24ECBTB10,24ECBTB11,24ECBTB12",
+            "faculty": "2546",
+            "room": "30",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-29T00:16:47.000000Z",
+            "updated_at": "2026-07-29T10:47:50.000000Z",
+            "room_name": "2102-BL2-FF",
+            "facultyName": "Dr. Arun Sekar R"
+          },
+          {
+            "id": 137,
+            "unique_id": "821AB895-D6F7-45A2-801D-4B08A9C50722",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Quantum Mechanics for Materials Engineering",
+            "batch": "24ECBTB12",
+            "faculty": "3680",
+            "room": "47",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "15-09-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T23:17:16.000000Z",
+            "updated_at": "2026-09-15T16:21:19.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Dr. SOORYA G NATH"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 4912,
+            "unique_id": "0A73380F-7521-4B98-9A08-71E2837A78FE",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Generative AI",
+            "batch": "24ECBTB01,24ECBTB02,24ECBTB03,24ECBTB04,24ECBTB05,24ECBTB06,24ECBTB07,24ECBTB08,24ECBTB09,24ECBTB10,24ECBTB11,24ECBTB12",
+            "faculty": "2514",
+            "room": "39",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-29T00:02:24.000000Z",
+            "updated_at": "2026-07-29T00:02:24.000000Z",
+            "room_name": "2207-BL2-SF",
+            "facultyName": "Dr. Maria Irudaya Leo Joseph L"
+          },
+          {
+            "id": 4925,
+            "unique_id": "CBC8D142-922D-49DF-A892-B534BC7168FA",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Hardware Modeling using Verilog",
+            "batch": "24ECBTB01,24ECBTB02,24ECBTB03,24ECBTB04,24ECBTB05,24ECBTB06,24ECBTB07,24ECBTB08,24ECBTB09,24ECBTB10,24ECBTB11,24ECBTB12",
+            "faculty": "2546",
+            "room": "30",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-29T00:16:47.000000Z",
+            "updated_at": "2026-07-29T10:48:32.000000Z",
+            "room_name": "2102-BL2-FF",
+            "facultyName": "Dr. Arun Sekar R"
+          },
+          {
+            "id": 138,
+            "unique_id": "2176230A-DDB8-4697-A51D-14656CDED36F",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Quantum Mechanics for Materials Engineering",
+            "batch": "24ECBTB12",
+            "faculty": "3680",
+            "room": "47",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "15-09-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T23:17:16.000000Z",
+            "updated_at": "2026-09-15T16:20:39.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Dr. SOORYA G NATH"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 84,
+            "unique_id": "FE3830E6-D047-4FB8-A787-1A9136CC66D9",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "AI for Electronics Engineering",
+            "batch": "24ECBTB11,24ECBTB12",
+            "faculty": "2519",
+            "room": "224",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T21:36:42.000000Z",
+            "updated_at": "2026-08-21T11:50:20.000000Z",
+            "room_name": "3011-BL3-GF",
+            "facultyName": "Dr. V Malathy"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 81,
+            "unique_id": "D1CDD2B6-6F73-46C5-A2CE-6303C0170058",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Microelectronics for Semiconductor IC Design",
+            "batch": "24ECBTB11,24ECBTB12",
+            "faculty": "3680",
+            "room": "224",
+            "program": "BTECH",
+            "offeredfrom": "ECE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-13T21:35:15.000000Z",
+            "updated_at": "2026-08-21T11:50:20.000000Z",
+            "room_name": "3011-BL3-GF",
+            "facultyName": "Dr. SOORYA G NATH"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

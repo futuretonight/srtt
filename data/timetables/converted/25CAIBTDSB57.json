@@ -1,0 +1,350 @@
+{
+  "mon": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lab",
+      "room": "3201-B_BL3-SF",
+      "faculty": "Mr. Bediga Sharan",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lab",
+      "room": "3201-B_BL3-SF",
+      "faculty": "Mr. Bediga Sharan",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "11206-BL11-SF",
+      "faculty": "Dr. S. Jamalaiah",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Barun Dhara",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "8001-BL8-GF",
+      "faculty": "Mr. Atul Kumar Singh",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "8001-BL8-GF",
+      "faculty": "Mr. Atul Kumar Singh",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Sumit  Kumar Singh",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "8206-BL8-SF",
+      "faculty": "Dr. Barun Dhara",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "11102-A_BL11-FF",
+      "faculty": "Mr. Vipin Madheshiya",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "11102-A_BL11-FF",
+      "faculty": "Mr. Vipin Madheshiya",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "11206-BL11-SF",
+      "faculty": "Dr. S. Jamalaiah",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "8206-BL8-SF",
+      "faculty": "Dr. Barun Dhara",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lecture",
+      "room": "8209-BL8-SF",
+      "faculty": "Mr. Vishal Shukla",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lab",
+      "room": "3102-BL3-FF",
+      "faculty": "Dr. S. Jamalaiah",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lab",
+      "room": "3102-BL3-FF",
+      "faculty": "Dr. S. Jamalaiah",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lecture",
+      "room": "11206-BL11-SF",
+      "faculty": "Dr. Sumit  Kumar Singh",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Mr. Vishal Shukla",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Mr. Bediga Sharan",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lab",
+      "room": "10001-BL10-GF",
+      "faculty": "Ms. Parvathi Sindhuja",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lab",
+      "room": "10001-BL10-GF",
+      "faculty": "Ms. Parvathi Sindhuja",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "11102-A_BL11-FF",
+      "faculty": "Mr. Vishal Shukla",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "11102-A_BL11-FF",
+      "faculty": "Mr. Vishal Shukla",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3102-BL3-FF",
+      "faculty": "Dr. Mathivanan D",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3102-BL3-FF",
+      "faculty": "Dr. Mathivanan D",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "8104-BL8-FF",
+      "faculty": "Dr. S. Jamalaiah",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lab",
+      "room": "10001-BL10-GF",
+      "faculty": "Dr. Sumit  Kumar Singh",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lab",
+      "room": "10001-BL10-GF",
+      "faculty": "Dr. Sumit  Kumar Singh",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Barun Dhara",
+      "batches": [
+        "25CAIBTDSB57"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

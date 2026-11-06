@@ -1,0 +1,1401 @@
+{
+  "degree": "BTECH-ME",
+  "year": "Third",
+  "batch": "24MEBTB04",
+  "lastUpdated": "2026-10-04T06:13:45.197803",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3412,
+            "unique_id": "478248EB-2EA2-4FF9-A132-08785136386D",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Robotic System Design",
+            "batch": "on,24MEBTB01,24MEBTB02, 24MEBTB03,24MEBTB04",
+            "faculty": "2030",
+            "room": "55",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-23T01:58:37.000000Z",
+            "updated_at": "2026-07-29T04:10:29.000000Z",
+            "room_name": "3203-BL3-SF",
+            "facultyName": "Dr. Rohit Singh"
+          },
+          {
+            "id": 3410,
+            "unique_id": "60ABFC6F-F94A-409B-9670-E86E4AF13A39",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Digital Manufacturing System Design",
+            "batch": "24MEBTB01,24MEBTB02,24MEBTB03,24MEBTB04",
+            "faculty": "7509",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-23T01:58:37.000000Z",
+            "updated_at": "2026-07-29T04:08:29.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr. Santhosh Kumar Kamarapu"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4730,
+            "unique_id": "326342E7-617E-4FCB-88DC-12064C43CE3B",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Machine Tools and Metrology",
+            "batch": "24MEBTB03,24MEBTB04",
+            "faculty": "2036",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-28T01:17:07.000000Z",
+            "updated_at": "2026-07-28T01:17:07.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr. Shravan Kumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 4662,
+            "unique_id": "8D6BC86D-8242-4E37-93AE-71495E5B4FD5",
+            "semester": "V",
+            "year": "Third",
+            "time": "12:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Sustainability and Ethical Innovation",
+            "batch": "24MEBTB03,24MEBTB04",
+            "faculty": "1039",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "02-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-27T23:39:02.000000Z",
+            "updated_at": "2026-09-02T07:09:44.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Buddhadev Nandi"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 4696,
+            "unique_id": "09134A17-1A4D-4FB2-90A4-B6FC44925C7D",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Machine Design",
+            "batch": "24MEBTB03,24MEBTB04",
+            "faculty": "2029",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "28-07-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-28T00:10:27.000000Z",
+            "updated_at": "2026-07-28T09:49:41.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr. Shitendu Some"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 5766,
+            "unique_id": "EE5353C7-602A-4589-9307-C57ECB54B5DB",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "AI for Mechanical Engineering",
+            "batch": "24MEBTB04",
+            "faculty": "2048",
+            "room": "215",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-08-03T22:55:05.000000Z",
+            "updated_at": "2026-10-03T12:33:50.000000Z",
+            "room_name": "2213-B_BL2-SF",
+            "facultyName": "Dr. Ramkumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 5767,
+            "unique_id": "D0514B9B-18C3-4B45-AC36-42E5CB4241A4",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "AI for Mechanical Engineering",
+            "batch": "24MEBTB04",
+            "faculty": "2048",
+            "room": "215",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-08-03T22:55:05.000000Z",
+            "updated_at": "2026-10-03T12:34:43.000000Z",
+            "room_name": "2213-B_BL2-SF",
+            "facultyName": "Dr. Ramkumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 4648,
+            "unique_id": "55DE5657-5441-413D-9B78-C3757764F832",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Machine Tools and Metrology",
+            "batch": "24MEBTB04",
+            "faculty": "2036",
+            "room": "148",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-27T23:22:24.000000Z",
+            "updated_at": "2026-07-29T03:58:35.000000Z",
+            "room_name": "4101-BL4-GF",
+            "facultyName": "Dr. Shravan Kumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 4647,
+            "unique_id": "3DD97C48-16F5-4D3E-8DA0-1EF6D64DDC4E",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Machine Tools and Metrology",
+            "batch": "24MEBTB04",
+            "faculty": "2036",
+            "room": "148",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "28-07-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-27T23:22:24.000000Z",
+            "updated_at": "2026-07-28T09:32:49.000000Z",
+            "room_name": "4101-BL4-GF",
+            "facultyName": "Dr. Shravan Kumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4842,
+            "unique_id": "6E1F9BE4-D754-4CF4-9E84-3E3C4BB691A6",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Robotic System Design",
+            "batch": "on,24MEBTB01,24MEBTB02,24MEBTB03,24MEBTB04",
+            "faculty": "2030",
+            "room": "55",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "08-09-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-28T18:31:28.000000Z",
+            "updated_at": "2026-09-08T07:12:10.000000Z",
+            "room_name": "3203-BL3-SF",
+            "facultyName": "Dr. Rohit Singh"
+          },
+          {
+            "id": 4841,
+            "unique_id": "CAAC98D2-D02D-4D75-8A40-D0A9BFF02697",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Digital Manufacturing System Design",
+            "batch": "24MEBTB01,24MEBTB02,24MEBTB03,24MEBTB04",
+            "faculty": "7509",
+            "room": "59",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "08-09-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-28T18:31:28.000000Z",
+            "updated_at": "2026-09-08T07:14:16.000000Z",
+            "room_name": "3207-BL3-SF",
+            "facultyName": "Dr. Santhosh Kumar Kamarapu"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 4695,
+            "unique_id": "6947F63B-98E6-4773-BFBF-B14109983D02",
+            "semester": "V",
+            "year": "Third",
+            "time": "12:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Machine Design",
+            "batch": "24MEBTB03,24MEBTB04",
+            "faculty": "2029",
+            "room": "55",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-28T00:10:27.000000Z",
+            "updated_at": "2026-07-28T00:10:27.000000Z",
+            "room_name": "3203-BL3-SF",
+            "facultyName": "Dr. Shitendu Some"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 3330,
+            "unique_id": "334784D6-50C0-4DD0-8D47-5F726BB40EB7",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "AI for Mechanical Engineering",
+            "batch": "24MEBTB03,24MEBTB04",
+            "faculty": "2045",
+            "room": "42",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "02-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-23T00:15:16.000000Z",
+            "updated_at": "2026-08-02T15:55:14.000000Z",
+            "room_name": "2217-BL2-SF",
+            "facultyName": "Dr. Vijay Reddy"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 4248,
+            "unique_id": "5F69D16E-1B7C-452D-A0FD-66B597D15055",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Machine Tools and Metrology",
+            "batch": "24MEBTB03,24MEBTB04",
+            "faculty": "2036",
+            "room": "42",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-27T04:39:57.000000Z",
+            "updated_at": "2026-07-27T04:39:57.000000Z",
+            "room_name": "2217-BL2-SF",
+            "facultyName": "Dr. Shravan Kumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 5810,
+            "unique_id": "FED5929F-169F-47F3-A6C7-8547C23018E6",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude and Logical Reasoning",
+            "batch": "24MEBTB04",
+            "faculty": "3219",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-08-04T18:39:31.000000Z",
+            "updated_at": "2026-08-04T18:39:31.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr. Debasish Gorai"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 5811,
+            "unique_id": "A34E481F-E2B0-4002-A86D-EFF21DAA3742",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude and Logical Reasoning",
+            "batch": "24MEBTB04",
+            "faculty": "3219",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-08-04T18:39:31.000000Z",
+            "updated_at": "2026-08-04T18:39:31.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr. Debasish Gorai"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 4962,
+            "unique_id": "633C0C6A-E2FC-4F49-B551-8E6DC5CAE1DE",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Robotic System Design",
+            "batch": "24MEBTB03,24MEBTB04",
+            "faculty": "2027",
+            "room": "46",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "05-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-29T01:41:32.000000Z",
+            "updated_at": "2026-08-05T06:57:04.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Dr. Kumar Sourav"
+          },
+          {
+            "id": 4956,
+            "unique_id": "EA050A46-8C8D-4D57-8C70-09A7EEFA1F0C",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Digital Manufacturing System Design",
+            "batch": "24MEBTB03,24MEBTB04",
+            "faculty": "2044",
+            "room": "47",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "05-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-29T01:41:32.000000Z",
+            "updated_at": "2026-08-05T06:59:17.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Dr. Anupam Chaudhary"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 4963,
+            "unique_id": "680A3E3D-7FE6-4A1E-98B0-D096F63533B5",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Robotic System Design",
+            "batch": "24MEBTB03,24MEBTB04",
+            "faculty": "2027",
+            "room": "46",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "05-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-29T01:41:32.000000Z",
+            "updated_at": "2026-08-05T06:56:33.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Dr. Kumar Sourav"
+          },
+          {
+            "id": 4957,
+            "unique_id": "E71EB8A8-C05E-41FC-A313-06587933D2EC",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Digital Manufacturing System Design",
+            "batch": "24MEBTB03,24MEBTB04",
+            "faculty": "2044",
+            "room": "47",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "05-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-29T01:41:32.000000Z",
+            "updated_at": "2026-08-05T06:58:50.000000Z",
+            "room_name": "2214-BL2-SF",
+            "facultyName": "Dr. Anupam Chaudhary"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 3333,
+            "unique_id": "1F28F1DE-2E3B-4FFC-A70A-A43FF7A01A52",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Machine Tools and Metrology",
+            "batch": "24MEBTB03,24MEBTB04",
+            "faculty": "2036",
+            "room": "42",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-23T00:22:47.000000Z",
+            "updated_at": "2026-07-23T00:22:47.000000Z",
+            "room_name": "2217-BL2-SF",
+            "facultyName": "Dr. Shravan Kumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 3334,
+            "unique_id": "326BBC93-530C-4FEB-963F-7A59EDE75EA2",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "AI for Mechanical Engineering",
+            "batch": "24MEBTB03,24MEBTB04",
+            "faculty": "2045",
+            "room": "42",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "02-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-23T00:23:24.000000Z",
+            "updated_at": "2026-08-02T15:54:32.000000Z",
+            "room_name": "2217-BL2-SF",
+            "facultyName": "Dr. Vijay Reddy"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 4697,
+            "unique_id": "014045DA-C827-4DA0-9067-08DAF1B43B09",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Machine Design",
+            "batch": "24MEBTB03,24MEBTB04",
+            "faculty": "2029",
+            "room": "40",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "29-07-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-28T00:13:01.000000Z",
+            "updated_at": "2026-07-29T11:10:22.000000Z",
+            "room_name": "2208-BL2-SF",
+            "facultyName": "Dr. Shitendu Some"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3413,
+            "unique_id": "45F43A0F-F886-4FB6-9481-034FB9C1E3AD",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Robotic System Design",
+            "batch": "on,24MEBTB01,24MEBTB02,24MEBTB03,24MEBTB04",
+            "faculty": "2030",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "07-09-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-23T01:58:37.000000Z",
+            "updated_at": "2026-09-07T17:24:05.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr. Rohit Singh"
+          },
+          {
+            "id": 3411,
+            "unique_id": "9B76071E-E231-4AC5-B091-2E34034A027C",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Digital Manufacturing System Design",
+            "batch": "24MEBTB01,24MEBTB02,24MEBTB03,24MEBTB04",
+            "faculty": "7509",
+            "room": "55",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "07-09-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-23T01:58:37.000000Z",
+            "updated_at": "2026-09-07T17:25:49.000000Z",
+            "room_name": "3203-BL3-SF",
+            "facultyName": "Dr. Santhosh Kumar Kamarapu"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 3527,
+            "unique_id": "ACC5CA8B-D4D8-4B16-BD0A-F4468F0AD05F",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude And Logical Reasoning",
+            "batch": "24MEBTB04",
+            "faculty": "3219",
+            "room": "55",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "04-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-24T01:35:56.000000Z",
+            "updated_at": "2026-08-04T10:26:05.000000Z",
+            "room_name": "3203-BL3-SF",
+            "facultyName": "Dr. Debasish Gorai"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 5750,
+            "unique_id": "67441944-AE9E-4992-A02B-99C2CDC07A2D",
+            "semester": "V",
+            "year": "Third",
+            "time": "12:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude And Logical Reasoning",
+            "batch": "24MEBTB04",
+            "faculty": "3219",
+            "room": "55",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "04-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-08-03T07:02:49.000000Z",
+            "updated_at": "2026-08-04T10:21:34.000000Z",
+            "room_name": "3203-BL3-SF",
+            "facultyName": "Dr. Debasish Gorai"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 4635,
+            "unique_id": "4679E503-A065-407F-B4AC-8D434CD896DA",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Training Classes",
+            "batch": "24MEBTB01,24MEBTB02,24MEBTB03,24MEBTB04",
+            "faculty": "2043",
+            "room": "46",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-27T23:12:38.000000Z",
+            "updated_at": "2026-08-07T06:47:37.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Dr. Golak Kunti"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 4636,
+            "unique_id": "42C773EC-1BEF-4A01-8061-05D16F3FBAA5",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Training Classes",
+            "batch": "24MEBTB01,24MEBTB02,24MEBTB03,24MEBTB04",
+            "faculty": "2043",
+            "room": "46",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-27T23:12:38.000000Z",
+            "updated_at": "2026-08-07T06:47:08.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Dr. Golak Kunti"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 4637,
+            "unique_id": "BB674C05-760F-4661-90BF-E70C60E99406",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Training Classes",
+            "batch": "24MEBTB01,24MEBTB02,24MEBTB03,24MEBTB04",
+            "faculty": "2043",
+            "room": "46",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-27T23:12:38.000000Z",
+            "updated_at": "2026-08-07T06:46:46.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Dr. Golak Kunti"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 4638,
+            "unique_id": "0E7DB7D1-4CBB-4FC9-AB2D-72DF40ACAC6F",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Training Classes",
+            "batch": "24MEBTB01,24MEBTB02,24MEBTB03,24MEBTB04",
+            "faculty": "2043",
+            "room": "46",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-27T23:13:14.000000Z",
+            "updated_at": "2026-07-27T23:13:14.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Dr. Golak Kunti"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 4639,
+            "unique_id": "CCDD65B4-E4A3-4F3A-848B-E1CCAB70520C",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Training Classes",
+            "batch": "24MEBTB01,24MEBTB02,24MEBTB03,24MEBTB04",
+            "faculty": "2043",
+            "room": "46",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-27T23:13:14.000000Z",
+            "updated_at": "2026-07-27T23:13:14.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Dr. Golak Kunti"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4640,
+            "unique_id": "ECB84F16-9590-47B2-8FB2-C560FACAC864",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Training Classes",
+            "batch": "24MEBTB01,24MEBTB02,24MEBTB03,24MEBTB04",
+            "faculty": "2043",
+            "room": "46",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-27T23:13:14.000000Z",
+            "updated_at": "2026-07-27T23:13:14.000000Z",
+            "room_name": "2213-BL2-SF",
+            "facultyName": "Dr. Golak Kunti"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 4653,
+            "unique_id": "DAC30AFD-DEBA-429E-9FD3-3D49D3C7EDDD",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Machine Design",
+            "batch": "24MEBTB04",
+            "faculty": "2029",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Tutorial",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-27T23:27:14.000000Z",
+            "updated_at": "2026-07-27T23:27:14.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr. Shitendu Some"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 3335,
+            "unique_id": "A84C733D-045B-4242-B8E4-26A820CDA083",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "AI for Mechanical Engineering",
+            "batch": "24MEBTB03,24MEBTB04",
+            "faculty": "2045",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "02-08-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-07-23T00:24:15.000000Z",
+            "updated_at": "2026-08-02T15:53:55.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Vijay Reddy"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 4658,
+            "unique_id": "F13A84E8-60E4-4903-B22F-20FE9BE77182",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Sustainability and Ethical Innovation",
+            "batch": "24MEBTB03,24MEBTB04",
+            "faculty": "1039",
+            "room": "43",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "02-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-27T23:37:07.000000Z",
+            "updated_at": "2026-09-02T07:11:08.000000Z",
+            "room_name": "2218-BL2-SF",
+            "facultyName": "Dr. Buddhadev Nandi"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

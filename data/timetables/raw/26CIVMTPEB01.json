@@ -1,0 +1,936 @@
+{
+  "degree": "MTECH-CE",
+  "year": "First",
+  "batch": "26CIVMTPEB01",
+  "lastUpdated": "2026-10-04T06:13:51.254836",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 7154,
+            "unique_id": "0AADE32A-C6C3-46E5-93DA-C69FCFCA9188",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Technical Writing and Professional Communication",
+            "batch": "26CIVMTPEB01",
+            "faculty": "3581",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-09-18T11:20:38.000000Z",
+            "updated_at": "2026-09-22T03:25:21.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. R.Pranesh Kumar"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 7155,
+            "unique_id": "AA06ACB1-4F68-4462-850E-F69A3A982DC7",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Technical Writing and Professional Communication",
+            "batch": "26CIVMTPEB01",
+            "faculty": "3581",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-09-18T11:20:38.000000Z",
+            "updated_at": "2026-09-22T03:27:55.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. R.Pranesh Kumar"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 7126,
+            "unique_id": "922C8968-CB93-4D4A-9FB8-B46844953719",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26CIVMTPEB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T10:20:23.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 7127,
+            "unique_id": "F7CC3397-4393-472F-BDA0-23E74E69A017",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26CIVMTPEB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T10:20:23.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 7128,
+            "unique_id": "3D2CF649-111B-4165-9B4C-026C06233926",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26CIVMTPEB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T10:20:23.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 7129,
+            "unique_id": "D2E1D184-BEBD-4D4C-8F3F-FB6B7E0C0023",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26CIVMTPEB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T10:20:23.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 7222,
+            "unique_id": "DA89ED0E-D505-4D2D-87FC-A49AB02FABEF",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Sustainability, Critical Thinking, Research Methodology and IPR",
+            "batch": "26CIVMTPEB01",
+            "faculty": "4013",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": null,
+            "created_at": "2026-09-20T11:41:02.000000Z",
+            "updated_at": "2026-09-20T11:41:02.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. Geetha M"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 7223,
+            "unique_id": "670038B2-C739-4276-9F83-EEBB9C5F34CB",
+            "semester": "I",
+            "year": "First",
+            "time": "16:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Sustainability, Critical Thinking, Research Methodology and IPR",
+            "batch": "26CIVMTPEB01",
+            "faculty": "4013",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": null,
+            "created_at": "2026-09-20T11:41:02.000000Z",
+            "updated_at": "2026-09-20T11:41:02.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. Geetha M"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 7168,
+            "unique_id": "BF15AC90-94A9-4AA0-B501-AC18930FF0AC",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Technical Writing and Professional Communication",
+            "batch": "26CIVMTPEB01",
+            "faculty": "3581",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-09-18T11:20:38.000000Z",
+            "updated_at": "2026-09-22T03:24:26.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. R.Pranesh Kumar"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 7169,
+            "unique_id": "373B5BBD-0894-4A2F-8A6D-9BA01CF78BDB",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Technical Writing and Professional Communication",
+            "batch": "26CIVMTPEB01",
+            "faculty": "3581",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-09-18T11:20:38.000000Z",
+            "updated_at": "2026-09-22T03:24:15.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. R.Pranesh Kumar"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 7146,
+            "unique_id": "7BB08408-4DFD-49EC-AE17-A6DBD8EAF47E",
+            "semester": "I",
+            "year": "First",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26CIVMTPEB01",
+            "faculty": "3088",
+            "room": "98",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T10:37:17.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "8206-BL8-SF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 7220,
+            "unique_id": "25C6E2B5-C86B-4640-B043-5F66598BE629",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Sustainability, Critical Thinking, Research Methodology and IPR",
+            "batch": "26CIVMTPEB01",
+            "faculty": "4013",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": null,
+            "created_at": "2026-09-20T11:41:01.000000Z",
+            "updated_at": "2026-09-20T11:41:01.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. Geetha M"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 7221,
+            "unique_id": "50BEFB28-B6E8-4E68-A0CE-71619A83A29E",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Sustainability, Critical Thinking, Research Methodology and IPR",
+            "batch": "26CIVMTPEB01",
+            "faculty": "4013",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": null,
+            "created_at": "2026-09-20T11:41:02.000000Z",
+            "updated_at": "2026-09-20T11:41:02.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. Geetha M"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 7147,
+            "unique_id": "D37645FA-AF10-4047-8203-7A8E9F53FE05",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26CIVMTPEB01",
+            "faculty": "3088",
+            "room": "98",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T10:37:17.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "8206-BL8-SF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 7132,
+            "unique_id": "31786BB5-8BAA-4B6C-B903-0353AD7F0532",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26CIVMTPEB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T10:20:23.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 7133,
+            "unique_id": "69A33A92-01FD-4737-B786-970D6DDE2862",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26CIVMTPEB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T10:20:23.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

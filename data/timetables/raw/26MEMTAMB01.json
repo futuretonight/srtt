@@ -1,0 +1,1235 @@
+{
+  "degree": "MTECH-ME",
+  "year": "First",
+  "batch": "26MEMTAMB01",
+  "lastUpdated": "2026-10-04T06:13:54.825569",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 7156,
+            "unique_id": "2907EC0E-9C82-4D08-904E-15258C5B6C5C",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Technical Writing and Professional Communication",
+            "batch": "26MEMTAMB01",
+            "faculty": "3581",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-09-18T11:20:38.000000Z",
+            "updated_at": "2026-09-22T03:28:12.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. R.Pranesh Kumar"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 7157,
+            "unique_id": "4A733F76-762E-4B24-BD42-5789C6C3FF02",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Technical Writing and Professional Communication",
+            "batch": "26MEMTAMB01",
+            "faculty": "3581",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-09-18T11:20:38.000000Z",
+            "updated_at": "2026-09-22T03:28:58.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. R.Pranesh Kumar"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 7134,
+            "unique_id": "0778503F-867A-48CE-B583-C4E536ECCC5F",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26MEMTAMB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T10:20:23.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 7135,
+            "unique_id": "7CB8178A-539A-4C5D-8837-991DB8E4EB23",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26MEMTAMB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T10:20:23.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 6098,
+            "unique_id": "C76734AC-9B0E-497A-A762-A1DAC3F1F8B0",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Materials and Energy Sources for Additive Manufacturing",
+            "batch": "26MEMTAMB01",
+            "faculty": "2030",
+            "room": "146",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "22-09-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-08-13T19:51:07.000000Z",
+            "updated_at": "2026-09-22T05:09:57.000000Z",
+            "room_name": "4814-BL4-GF",
+            "facultyName": "Dr. Rohit Singh"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 6099,
+            "unique_id": "D8A8285A-15E8-42AB-B2B9-452EBBC2EADC",
+            "semester": "I",
+            "year": "First",
+            "time": "16:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Materials and Energy Sources for Additive Manufacturing",
+            "batch": "26MEMTAMB01",
+            "faculty": "2030",
+            "room": "146",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "22-09-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-08-13T19:51:07.000000Z",
+            "updated_at": "2026-09-22T05:10:58.000000Z",
+            "room_name": "4814-BL4-GF",
+            "facultyName": "Dr. Rohit Singh"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 5909,
+            "unique_id": "A3887DB5-F292-4430-9EF6-8DA1342FA8AF",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Additive Manufacturing Processes",
+            "batch": "26MEMTAMB01",
+            "faculty": "2048",
+            "room": "147",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-08-06T21:36:47.000000Z",
+            "updated_at": "2026-10-03T12:16:04.000000Z",
+            "room_name": "4813-BL4-GF",
+            "facultyName": "Dr. Ramkumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 5908,
+            "unique_id": "CB5CE6F4-6DFC-4706-9FCA-0EF338AEE012",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Additive Manufacturing Processes",
+            "batch": "26MEMTAMB01",
+            "faculty": "2048",
+            "room": "147",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-08-06T21:36:47.000000Z",
+            "updated_at": "2026-10-03T12:16:57.000000Z",
+            "room_name": "4813-BL4-GF",
+            "facultyName": "Dr. Ramkumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 7136,
+            "unique_id": "C8C9EF20-955D-4904-A4B7-7F8C137046F6",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26MEMTAMB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T10:20:23.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 7137,
+            "unique_id": "C11129D7-4229-4996-9150-1533162850FE",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26MEMTAMB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T10:20:23.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 7218,
+            "unique_id": "77477597-7775-4438-9CA2-6C5B350C8564",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Sustainability, Critical Thinking, Research Methodology and IPR",
+            "batch": "26MEMTAMB01",
+            "faculty": "4013",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": null,
+            "created_at": "2026-09-20T11:41:01.000000Z",
+            "updated_at": "2026-09-20T11:41:01.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. Geetha M"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 7219,
+            "unique_id": "78B34D18-B4F0-48B4-A1D2-B0FED2A45201",
+            "semester": "I",
+            "year": "First",
+            "time": "16:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Sustainability, Critical Thinking, Research Methodology and IPR",
+            "batch": "26MEMTAMB01",
+            "faculty": "4013",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": null,
+            "created_at": "2026-09-20T11:41:01.000000Z",
+            "updated_at": "2026-09-20T11:41:01.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. Geetha M"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 7170,
+            "unique_id": "D249B231-3792-4B4C-B39C-1C52ADB51E26",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Technical Writing and Professional Communication",
+            "batch": "26MEMTAMB01",
+            "faculty": "3581",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-09-18T11:20:38.000000Z",
+            "updated_at": "2026-09-22T03:24:49.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. R.Pranesh Kumar"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 7171,
+            "unique_id": "C8A2291A-10F2-4DB6-A22E-242865064520",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Technical Writing and Professional Communication",
+            "batch": "26MEMTAMB01",
+            "faculty": "3581",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "22-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-09-18T11:20:38.000000Z",
+            "updated_at": "2026-09-22T03:24:05.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. R.Pranesh Kumar"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 6097,
+            "unique_id": "EA772F79-1165-4FB0-B3BA-E0C1AB69668C",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Materials and Energy Sources for Additive Manufacturing",
+            "batch": "26MEMTAMB01",
+            "faculty": "2040",
+            "room": "147",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "19-09-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-08-13T19:38:49.000000Z",
+            "updated_at": "2026-09-19T11:22:42.000000Z",
+            "room_name": "4813-BL4-GF",
+            "facultyName": "Dr. Dipankar Saha"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 6096,
+            "unique_id": "88359091-2F99-4E57-968B-1169B67891F1",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Materials and Energy Sources for Additive Manufacturing",
+            "batch": "26MEMTAMB01",
+            "faculty": "2040",
+            "room": "147",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "19-09-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-08-13T19:38:49.000000Z",
+            "updated_at": "2026-09-19T11:24:12.000000Z",
+            "room_name": "4813-BL4-GF",
+            "facultyName": "Dr. Dipankar Saha"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 7148,
+            "unique_id": "BE51FDCF-F9AA-4FD9-BA71-F815A3622530",
+            "semester": "I",
+            "year": "First",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26MEMTAMB01",
+            "faculty": "3088",
+            "room": "98",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T10:37:17.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "8206-BL8-SF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 7216,
+            "unique_id": "4F78E1E4-4675-4450-9187-5D87E458C0F5",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Sustainability, Critical Thinking, Research Methodology and IPR",
+            "batch": "26MEMTAMB01",
+            "faculty": "4013",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": null,
+            "created_at": "2026-09-20T11:41:01.000000Z",
+            "updated_at": "2026-09-20T11:41:01.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. Geetha M"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 7217,
+            "unique_id": "BDF7C333-0407-4AD9-9D23-5481B014A57E",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Sustainability, Critical Thinking, Research Methodology and IPR",
+            "batch": "26MEMTAMB01",
+            "faculty": "4013",
+            "room": "62",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": null,
+            "created_at": "2026-09-20T11:41:01.000000Z",
+            "updated_at": "2026-09-20T11:41:01.000000Z",
+            "room_name": "3215-BL3-SF",
+            "facultyName": "Dr. Geetha M"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 7024,
+            "unique_id": "A83E81A7-2E03-4361-AD5B-76BB227CCEB3",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Computer Aided Design Modeling",
+            "batch": "26MEMTAMB01",
+            "faculty": "2047",
+            "room": "146",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "23-09-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-09-17T05:56:58.000000Z",
+            "updated_at": "2026-09-23T07:59:24.000000Z",
+            "room_name": "4814-BL4-GF",
+            "facultyName": "Dr. Reji Kumar Rajamony"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 6095,
+            "unique_id": "F58D389D-32C2-4925-A8B2-22D6D4E8CF1B",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Materials and Energy Sources for Additive Manufacturing",
+            "batch": "26MEMTAMB01",
+            "faculty": "2040",
+            "room": "147",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "19-09-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-08-13T19:38:49.000000Z",
+            "updated_at": "2026-09-19T11:14:28.000000Z",
+            "room_name": "4813-BL4-GF",
+            "facultyName": "Dr. Dipankar Saha"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 7149,
+            "unique_id": "3E1160E1-5B82-4EAD-BF5F-F72E0A714276",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26MEMTAMB01",
+            "faculty": "3088",
+            "room": "98",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T10:37:17.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "8206-BL8-SF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 5906,
+            "unique_id": "B01632BE-DE72-4590-8F3A-9E903050B773",
+            "semester": "I",
+            "year": "First",
+            "time": "16:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Additive Manufacturing Processes",
+            "batch": "26MEMTAMB01",
+            "faculty": "2048",
+            "room": "146",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-08-06T21:34:11.000000Z",
+            "updated_at": "2026-10-03T12:31:14.000000Z",
+            "room_name": "4814-BL4-GF",
+            "facultyName": "Dr. Ramkumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 7023,
+            "unique_id": "CCA05A7A-CCF0-4328-B971-EEC9B7CB400D",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Computer Aided Design Modeling",
+            "batch": "26MEMTAMB01",
+            "faculty": "2047",
+            "room": "147",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "19-09-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-09-17T05:56:58.000000Z",
+            "updated_at": "2026-09-19T11:09:43.000000Z",
+            "room_name": "4813-BL4-GF",
+            "facultyName": "Dr. Reji Kumar Rajamony"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 5907,
+            "unique_id": "F54B8682-BDF8-42EF-8AE9-8F51EB4FD59C",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Additive Manufacturing Processes",
+            "batch": "26MEMTAMB01",
+            "faculty": "2048",
+            "room": "146",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-08-06T21:34:11.000000Z",
+            "updated_at": "2026-10-03T12:18:17.000000Z",
+            "room_name": "4814-BL4-GF",
+            "facultyName": "Dr. Ramkumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 7140,
+            "unique_id": "7F1D19F3-8A08-4B83-BF1F-3A7C2CD60943",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26MEMTAMB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T10:20:23.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 7141,
+            "unique_id": "CA2FBDFF-41B8-44F1-B0EB-667E2560BE70",
+            "semester": "I",
+            "year": "First",
+            "time": "12:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "AI Assisted Problem Solving Using Python",
+            "batch": "26MEMTAMB01",
+            "faculty": "3088",
+            "room": "66",
+            "program": "BTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-09-18T10:20:23.000000Z",
+            "updated_at": "2026-10-03T14:52:49.000000Z",
+            "room_name": "3001-BL3-GF",
+            "facultyName": "Mr. Lade Gunakar Rao"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 7025,
+            "unique_id": "FC1FC441-B96B-4E39-8BF9-BC4E80F8D396",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Computer Aided Design Modeling",
+            "batch": "26MEMTAMB01",
+            "faculty": "2047",
+            "room": "146",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "23-09-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-09-17T06:02:16.000000Z",
+            "updated_at": "2026-09-23T08:02:52.000000Z",
+            "room_name": "4814-BL4-GF",
+            "facultyName": "Dr. Reji Kumar Rajamony"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 7026,
+            "unique_id": "BC2B3CCD-5D56-49C0-B02B-2DB54FC75149",
+            "semester": "I",
+            "year": "First",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Computer Aided Design Modeling",
+            "batch": "26MEMTAMB01",
+            "faculty": "2047",
+            "room": "146",
+            "program": "MTECH",
+            "offeredfrom": "ME",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "23-09-2026",
+            "status": 1,
+            "updated_by": "m.subbarao@sru.edu.in",
+            "created_at": "2026-09-17T06:02:16.000000Z",
+            "updated_at": "2026-09-23T08:03:24.000000Z",
+            "room_name": "4814-BL4-GF",
+            "facultyName": "Dr. Reji Kumar Rajamony"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

@@ -72,8 +72,78 @@ COMMAND_REGISTRY = {
         "permissions": "Everyone",
         "example": "/week batch:2",
     },
+    "freerooms": {
+        "category": "Timetable",
+        "syntax": "/freerooms [day] [time] [block]",
+        "aliases": ["emptyrooms", "freeroomsnow"],
+        "description": "Scans all university classrooms to find empty, available rooms by day, hour, or block.",
+        "arguments": [
+            ("day", "Optional", "Day of the week (e.g. today, Friday). Defaults to today."),
+            ("time", "Optional", "Time slot (e.g. 11:30, 2:30 PM). Defaults to current hour."),
+            ("block", "Optional", "Filter by specific block (e.g. 7, 8, 10, 11, BL8)."),
+        ],
+        "permissions": "Everyone",
+        "example": "/freerooms day:Friday time:11:30 block:BL8",
+    },
+    "findbatch": {
+        "category": "Timetable",
+        "syntax": "/findbatch <query>",
+        "aliases": ["searchbatch", "batches"],
+        "description": "Searches all 428 university batches by department, degree, branch, or section number.",
+        "arguments": [
+            ("query", "Required", "Search term, e.g. CSE, AI, 16, BTech, ECE."),
+        ],
+        "permissions": "Everyone",
+        "example": "/findbatch query:CSE",
+    },
+    "batchinfo": {
+        "category": "Timetable",
+        "syntax": "/batchinfo <batch>",
+        "aliases": [],
+        "description": "Displays subjects, faculties, and weekly classes for any batch section.",
+        "arguments": [
+            ("batch", "Required", "Exact batch identifier (e.g. 26CAIBTAIB16)."),
+        ],
+        "permissions": "Everyone",
+        "example": "/batchinfo batch:26CAIBTAIB16",
+    },
+    "faculty": {
+        "category": "Timetable",
+        "syntax": "/faculty <name>",
+        "aliases": ["lecturer", "findfaculty", "prof"],
+        "description": "Searches for faculty members across all batches to view where and what they teach.",
+        "arguments": [
+            ("name", "Required", "Faculty name or keyword (e.g. Ashim, Dasari)."),
+        ],
+        "permissions": "Everyone",
+        "example": "/faculty name:Ashim",
+    },
+    "degrees": {
+        "category": "Timetable",
+        "syntax": "/degrees",
+        "aliases": [],
+        "description": "Lists all 30 university degrees and programs currently supported in the system.",
+        "arguments": [],
+        "permissions": "Everyone",
+        "example": "/degrees",
+    },
 
     # Category 2: Student Profile & Linking
+    "register": {
+        "category": "Linking",
+        "syntax": "/register [degree] [year] [batch] [name] [roll_no]",
+        "aliases": ["setup", "onboard"],
+        "description": "Onboarding wizard that registers your department, year, and batch to unlock your timetable.",
+        "arguments": [
+            ("degree", "Optional", "Your department / degree (e.g. CSE, ECE, BTech, BCA)."),
+            ("year", "Optional", "Academic year (1, 2, 3, or 4)."),
+            ("batch", "Optional", "Section number or batch code (e.g. 16, 26CAIBTAIB16)."),
+            ("name", "Optional", "Your full student name."),
+            ("roll_no", "Optional", "Your university roll number."),
+        ],
+        "permissions": "Everyone",
+        "example": "/register degree:CSE year:1 batch:16",
+    },
     "link": {
         "category": "Linking",
         "syntax": "/link [batch] [name] [roll_no]",
@@ -208,6 +278,59 @@ COMMAND_REGISTRY = {
         "permissions": "Server Admin or Bot Owner",
         "example": "/delclass day:monday start:09:00 batch:1",
     },
+    "reschedule": {
+        "category": "Admin",
+        "syntax": "/reschedule <date> <time_slot> <subject> [batch] [room] [faculty] [note]",
+        "aliases": ["override", "setoverride"],
+        "description": "Reschedules or substitutes a class for a specific calendar date and hour (one-time override).",
+        "arguments": [
+            ("date", "Required", "Target date ('today', 'tomorrow', or 'YYYY-MM-DD')."),
+            ("time_slot", "Required", "Time slot (e.g. 10:30-11:30 or 10:30)."),
+            ("subject", "Required", "Course name, or FREE / CANCELLED."),
+            ("batch", "Optional", "Batch code (e.g. 26CAIBTAIB16 or ALL). Defaults to ALL."),
+            ("room", "Optional", "Assigned lecture hall or room."),
+            ("faculty", "Optional", "Instructor name."),
+            ("note", "Optional", "Reason or explanation (e.g. 'Makeup lecture')."),
+        ],
+        "permissions": "Server Admin or Bot Owner",
+        "example": "/reschedule date:today time_slot:10:30-11:30 subject:Data Structures batch:26CAIBTAIB16 room:7004 faculty:Dr. Sundheep note:Makeup lab",
+    },
+    "cancelclass": {
+        "category": "Admin",
+        "syntax": "/cancelclass <date> <time_slot> [batch] [reason]",
+        "aliases": [],
+        "description": "Marks a class as cancelled for a specific calendar date and hour.",
+        "arguments": [
+            ("date", "Required", "Target date ('today', 'tomorrow', or 'YYYY-MM-DD')."),
+            ("time_slot", "Required", "Start time or span (e.g. 09:30 or 09:30-10:30)."),
+            ("batch", "Optional", "Batch code (e.g. 26CAIBTAIB16 or ALL). Defaults to ALL."),
+            ("reason", "Optional", "Cancellation reason shown to students."),
+        ],
+        "permissions": "Server Admin or Bot Owner",
+        "example": "/cancelclass date:today time_slot:09:30 batch:26CAIBTAIB16 reason:Faculty on leave",
+    },
+    "deloverride": {
+        "category": "Admin",
+        "syntax": "/deloverride <date> <start> [batch]",
+        "aliases": [],
+        "description": "Removes a date-specific override and restores the original recurring weekly timetable.",
+        "arguments": [
+            ("date", "Required", "Target date ('today', 'tomorrow', or 'YYYY-MM-DD')."),
+            ("start", "Required", "Start time in HH:MM format (e.g. 09:30)."),
+            ("batch", "Optional", "Batch code or ALL."),
+        ],
+        "permissions": "Server Admin or Bot Owner",
+        "example": "/deloverride date:today start:09:30 batch:26CAIBTAIB16",
+    },
+    "overrides": {
+        "category": "Admin",
+        "syntax": "/overrides",
+        "aliases": [],
+        "description": "Displays all active date-specific timetable overrides and substitutions.",
+        "arguments": [],
+        "permissions": "Everyone",
+        "example": "/overrides",
+    },
     "linkuser": {
         "category": "Admin",
         "syntax": "/linkuser <member> <batch> [name] [roll_no]",
@@ -275,6 +398,17 @@ COMMAND_REGISTRY = {
         "permissions": "Bot Owner",
         "example": "!reload cog_path:cogs.attendance",
     },
+    "loadbatch": {
+        "category": "Admin",
+        "syntax": "/loadbatch <batch>",
+        "aliases": ["setbatch", "switchbatch"],
+        "description": "Owner command to activate any SRUX batch schedule as the server's default timetable.",
+        "arguments": [
+            ("batch", "Required", "Batch code to load (e.g. 26CAIBTAIB16)."),
+        ],
+        "permissions": "Bot Owner",
+        "example": "!loadbatch batch:26CAIBTAIB16",
+    },
 
     # Category 5: General & Utilities
     "help": {
@@ -307,13 +441,13 @@ CATEGORIES = [
 def build_overview_embed(prefix: str, user: Optional[discord.User | discord.Member] = None) -> discord.Embed:
     """Builds the primary emoji-free help desk overview embed."""
     embed = discord.Embed(
-        title="Bot Documentation & Command Reference",
+        title="Bot Documentation and Command Reference",
         description=(
-            "Welcome to the Academic Timetable and Attendance Management System.\n"
+            "Academic Timetable, Room Directory, and Attendance Management System.\n"
             "This bot provides batch-aware schedule routing, interactive faculty attendance marking, "
-            "and student attendance threshold tracking.\n\n"
-            "Use the dropdown selector below to browse documentation by category, "
-            f"or type `{prefix}help <command>` for in-depth parameter specifications."
+            "campus-wide room availability discovery, and student threshold tracking.\n\n"
+            "Select a category from the dropdown menu below or type `"
+            f"{prefix}help <command>` for technical parameter specifications."
         ),
         color=COLOR_ACCENT,
     )
@@ -321,14 +455,14 @@ def build_overview_embed(prefix: str, user: Optional[discord.User | discord.Memb
     embed.add_field(
         name="Category Index",
         value=(
-            "• **Timetable & Classes** (3 commands)\n"
-            "  Routines, upcoming lecture alerts, weekly overviews.\n\n"
-            "• **Student Profile & Linking** (4 commands)\n"
-            "  Personal batch assignment, student IDs, roster profiles.\n\n"
-            "• **Attendance & Faculty** (5 commands)\n"
-            "  Interactive marking, threshold tracking, safe-bunk math, CSV export.\n\n"
-            "• **Administration & Setup** (8 commands)\n"
-            "  Class management, roster edits, prefix and slash command sync.\n\n"
+            "• **Timetable and Campus Rooms** (8 commands)\n"
+            "  Routines, upcoming lectures, weekly overviews, room availability, batch and faculty lookup.\n\n"
+            "• **Student Profile and Registration** (5 commands)\n"
+            "  Interactive registration wizard, batch assignment, student IDs, roster profiles.\n\n"
+            "• **Attendance and Faculty** (5 commands)\n"
+            "  Interactive marking, threshold tracking, safe-miss calculation, CSV export.\n\n"
+            "• **Administration and Schedule Management** (13 commands)\n"
+            "  Recurring class setup, date-specific overrides, rescheduling, cancellations, student roster controls.\n\n"
             "• **General Utilities** (1 command)\n"
             "  Command lookup and system manual."
         ),
@@ -336,12 +470,24 @@ def build_overview_embed(prefix: str, user: Optional[discord.User | discord.Memb
     )
 
     embed.add_field(
-        name="Quick Start Guide",
+        name="Quick Start for New Students",
         value=(
-            "1. Link your profile: `/link batch:1 name:YourName roll_no:CS01`\n"
-            "2. Check today's routine: `/timetable`\n"
-            "3. View your next lecture: `/next`\n"
-            "4. Track attendance status: `/myattendance`"
+            f"1. Register your batch: `{prefix}register` (3-step prompt) or `{prefix}register CSE 1 16`\n"
+            f"2. View today's classes: `{prefix}timetable` (or `{prefix}today`)\n"
+            f"3. Check your ongoing/next class: `{prefix}next`\n"
+            f"4. View full week routine: `{prefix}week`\n"
+            f"5. Find empty study rooms during breaks: `{prefix}freerooms`"
+        ),
+        inline=False,
+    )
+
+    embed.add_field(
+        name="Quick Start for Faculty",
+        value=(
+            f"1. Reschedule class for a specific date: `{prefix}reschedule date:today time_slot:10:30-11:30 subject:Math`\n"
+            f"2. Cancel class for a date: `{prefix}cancelclass date:today time_slot:09:30 reason:Leave`\n"
+            f"3. Mark student attendance: `{prefix}attendance take <batch> <subject>`\n"
+            f"4. View active date overrides: `{prefix}overrides`"
         ),
         inline=False,
     )
@@ -349,23 +495,24 @@ def build_overview_embed(prefix: str, user: Optional[discord.User | discord.Memb
     embed.add_field(
         name="Execution Methods",
         value=(
-            f"• **Slash Commands:** Type `/` and select any command from the Discord UI.\n"
-            f"• **Message Commands:** Type `{prefix}<command>` directly in server chat channels."
+            f"• **Slash Commands:** Type `/` and pick from the command list.\n"
+            f"• **Text Commands:** Type `{prefix}<command>` directly in the chat channel."
         ),
         inline=False,
     )
 
-    embed.set_footer(text=f"Total: 21 Commands | Active Prefix: {prefix} | Page: Overview")
+    embed.set_footer(text=f"Total: 32 Commands | Active Prefix: {prefix} | Page: Overview")
     return embed
 
 
 def build_timetable_embed(prefix: str) -> discord.Embed:
     """Builds the timetable category help embed."""
     embed = discord.Embed(
-        title="Documentation: Timetable & Classes",
+        title="Documentation: Timetable and Campus Rooms",
         description=(
-            "Commands for viewing daily routines, upcoming classes, and full week schedules.\n"
-            "All commands automatically tailor responses to your linked batch unless explicitly overridden."
+            "Commands for inspecting daily routines, upcoming lectures, weekly overviews, "
+            "batch directories, faculty lookup, and campus-wide room availability.\n"
+            "All commands automatically tailor responses to your registered batch."
         ),
         color=COLOR_DEFAULT,
     )
@@ -374,8 +521,8 @@ def build_timetable_embed(prefix: str) -> discord.Embed:
         name=f"`{prefix}timetable` [day] [batch]",
         value=(
             "Displays the schedule for a specific day or today by default.\n"
-            "• Aliases: `tt`\n"
-            "• Examples: `/timetable`, `/timetable day:monday`, `/timetable day:fri batch:2`"
+            "• Aliases: `tt`, `day`, `today`\n"
+            "• Examples: `/timetable`, `/timetable day:monday`, `/timetable day:fri batch:26CAIBTAIB16`"
         ),
         inline=False,
     )
@@ -383,8 +530,8 @@ def build_timetable_embed(prefix: str) -> discord.Embed:
     embed.add_field(
         name=f"`{prefix}next` [batch]",
         value=(
-            "Shows the next class taking place today with a live countdown and room location.\n"
-            "• Aliases: `upcoming`\n"
+            "Shows the ongoing class or the next upcoming class with countdown, room, and instructor.\n"
+            "• Aliases: `now`, `upnext`, `upcoming`\n"
             "• Example: `/next`"
         ),
         inline=False,
@@ -394,33 +541,92 @@ def build_timetable_embed(prefix: str) -> discord.Embed:
         name=f"`{prefix}week` [batch]",
         value=(
             "Displays the consolidated Monday through Saturday timetable for the specified batch.\n"
-            "• Aliases: `fullweek`, `weekly`\n"
-            "• Examples: `/week`, `/week batch:1`"
+            "• Aliases: `weekly`, `schedule`\n"
+            "• Examples: `/week`, `/week batch:26CAIBTAIB16`"
         ),
         inline=False,
     )
 
-    embed.set_footer(text=f"Category: Timetable (3 commands) | Prefix: {prefix}")
+    embed.add_field(
+        name=f"`{prefix}freerooms` [day] [time] [block]",
+        value=(
+            "Scans all university classrooms to find empty, available study rooms by day, hour, or block.\n"
+            "• Aliases: `emptyrooms`, `freeroomsnow`\n"
+            "• Examples: `/freerooms`, `/freerooms day:today time:11:30 block:BL8`"
+        ),
+        inline=False,
+    )
+
+    embed.add_field(
+        name=f"`{prefix}findbatch` <query>",
+        value=(
+            "Searches all university batches by department, degree, branch, or section number.\n"
+            "• Aliases: `searchbatch`, `batches`\n"
+            "• Examples: `/findbatch query:CSE`, `/findbatch query:AI 16`"
+        ),
+        inline=False,
+    )
+
+    embed.add_field(
+        name=f"`{prefix}batchinfo` <batch>",
+        value=(
+            "Displays subjects, instructors, rooms, and weekly class count for any batch.\n"
+            "• Example: `/batchinfo batch:26CAIBTAIB16`"
+        ),
+        inline=False,
+    )
+
+    embed.add_field(
+        name=f"`{prefix}faculty` <name>",
+        value=(
+            "Searches for instructors across all university timetables to view assigned courses.\n"
+            "• Aliases: `lecturer`, `findfaculty`, `prof`\n"
+            "• Example: `/faculty name:Ashim`"
+        ),
+        inline=False,
+    )
+
+    embed.add_field(
+        name=f"`{prefix}degrees`",
+        value=(
+            "Lists all university degree programs currently registered in the database.\n"
+            "• Example: `/degrees`"
+        ),
+        inline=False,
+    )
+
+    embed.set_footer(text=f"Category: Timetable (8 commands) | Prefix: {prefix}")
     return embed
 
 
 def build_linking_embed(prefix: str) -> discord.Embed:
     """Builds the student profile and account linking category help embed."""
     embed = discord.Embed(
-        title="Documentation: Student Profile & Linking",
+        title="Documentation: Student Profile and Registration",
         description=(
-            "Commands to associate your Discord identity with your university batch and roll number.\n"
-            "Linking unlocks personalized schedules and enables attendance participation."
+            "Commands to configure your academic profile, degree, year, and section.\n"
+            "Registration takes only a few seconds and personalizes all timetable queries."
         ),
         color=COLOR_DEFAULT,
     )
 
     embed.add_field(
+        name=f"`{prefix}register` [degree] [year] [batch] [name] [roll_no]",
+        value=(
+            "Recommended setup method for all new students.\n"
+            "• Interactive Wizard: Type `/register` and reply to the 3 prompts.\n"
+            "• Direct Setup: `/register degree:CSE year:1 batch:16`\n"
+            "• Aliases: `setup`, `onboard`"
+        ),
+        inline=False,
+    )
+
+    embed.add_field(
         name=f"`{prefix}link` [batch] [name] [roll_no]",
         value=(
-            "Links your Discord account to your batch, name, and university roll number.\n"
-            "• Aliases: `linkme`, `register`\n"
-            "• Example: `/link batch:1 name:Alex Smith roll_no:21CS042`"
+            "Directly links your Discord account to a batch code, full name, and roll number.\n"
+            "• Aliases: `linkme`\n"
+            "• Example: `/link batch:26CAIBTAIB16 name:Alex Smith roll_no:26CS042`"
         ),
         inline=False,
     )
@@ -428,7 +634,7 @@ def build_linking_embed(prefix: str) -> discord.Embed:
     embed.add_field(
         name=f"`{prefix}profile` [member]",
         value=(
-            "Inspects the linked student profile and attendance statistics for yourself or a classmate.\n"
+            "Inspects the linked student profile, roll number, and attendance statistics.\n"
             "• Aliases: `me`, `whois`\n"
             "• Examples: `/profile`, `/profile member:@Student`"
         ),
@@ -438,9 +644,9 @@ def build_linking_embed(prefix: str) -> discord.Embed:
     embed.add_field(
         name=f"`{prefix}mybatch` [batch]",
         value=(
-            "Checks or updates your current active batch without resetting your registered name and roll number.\n"
+            "Checks or updates your current active batch without resetting your saved name.\n"
             "• Aliases: `setbatch`, `switchbatch`\n"
-            "• Examples: `/mybatch`, `/mybatch batch:2`"
+            "• Examples: `/mybatch`, `/mybatch batch:26CAIBTAIB16`"
         ),
         inline=False,
     )
@@ -449,20 +655,20 @@ def build_linking_embed(prefix: str) -> discord.Embed:
         name=f"`{prefix}unlink`",
         value=(
             "Removes your student identity and batch association from the database.\n"
-            "• Aliases: `unlinkme`\n"
+            "• Aliases: `unlinkme`, `clearbatch`\n"
             "• Example: `/unlink`"
         ),
         inline=False,
     )
 
-    embed.set_footer(text=f"Category: Linking (4 commands) | Prefix: {prefix}")
+    embed.set_footer(text=f"Category: Registration and Profile (5 commands) | Prefix: {prefix}")
     return embed
 
 
 def build_attendance_embed(prefix: str) -> discord.Embed:
     """Builds the attendance and faculty management category help embed."""
     embed = discord.Embed(
-        title="Documentation: Attendance & Faculty Management",
+        title="Documentation: Attendance and Faculty Management",
         description=(
             "Complete attendance tracking system with faculty authorization, schedule locking, "
             "interactive roll-call rosters, and student threshold calculation (default 75%)."
@@ -532,21 +738,58 @@ def build_attendance_embed(prefix: str) -> discord.Embed:
 def build_admin_embed(prefix: str) -> discord.Embed:
     """Builds the administration and setup category help embed."""
     embed = discord.Embed(
-        title="Documentation: Administration & Bot Setup",
+        title="Documentation: Administration and Schedule Management",
         description=(
-            "Commands for server administrators and bot owners to manage timetable slots, "
-            "manage student rosters, change prefixes, and sync slash commands."
+            "Controls for faculty and administrators to manage master schedules, "
+            "issue date-specific overrides, reschedule lectures, and manage student rosters."
         ),
         color=COLOR_ADMIN,
     )
 
     embed.add_field(
+        name=f"`{prefix}reschedule` <date> <time_slot> <subject> [batch] [room] [faculty] [note]",
+        value=(
+            "Reschedules or substitutes a class for a specific calendar date and hour (one-time override).\n"
+            "• `date`: `today`, `tomorrow`, `2026-11-06`, or `06-11-2026`.\n"
+            "• `time_slot`: `HH:MM-HH:MM` or `HH:MM` (e.g. `10:30-11:30`).\n"
+            "• Aliases: `override`, `setoverride`\n"
+            "• Example: `/reschedule date:today time_slot:10:30-11:30 subject:Algorithms batch:26CAIBTAIB16 note:Makeup Lab`"
+        ),
+        inline=False,
+    )
+
+    embed.add_field(
+        name=f"`{prefix}cancelclass` <date> <time_slot> [batch] [reason]",
+        value=(
+            "Marks a lecture slot as cancelled for a specific calendar date and hour.\n"
+            "• Example: `/cancelclass date:today time_slot:09:30 batch:26CAIBTAIB16 reason:Faculty on leave`"
+        ),
+        inline=False,
+    )
+
+    embed.add_field(
+        name=f"`{prefix}overrides`",
+        value=(
+            "Lists all active date-specific timetable overrides and temporary class adjustments.\n"
+            "• Example: `/overrides`"
+        ),
+        inline=False,
+    )
+
+    embed.add_field(
+        name=f"`{prefix}deloverride` <date> <start> [batch]",
+        value=(
+            "Deletes an active date override and restores the original weekly timetable.\n"
+            "• Example: `/deloverride date:today start:10:30 batch:26CAIBTAIB16`"
+        ),
+        inline=False,
+    )
+
+    embed.add_field(
         name=f"`{prefix}setclass` <day> <time_slot> <subject> [batch] [room] [faculty]",
         value=(
-            "Adds or updates a class entry in `timetable.json`.\n"
-            "• `time_slot`: 24-hour format `HH:MM-HH:MM` (e.g. `09:00-10:00`)\n"
-            "• `batch`: Batch ID or `all` for joint lectures.\n"
-            "• Example: `/setclass day:monday time_slot:11:00-12:00 subject:OS batch:1 room:LH-201 faculty:Dr. Alan`"
+            "Adds or updates a recurring slot in the weekly timetable, or creates an override if day is a date.\n"
+            "• Example: `/setclass day:Friday time_slot:10:30-11:30 subject:Calculus batch:26CAIBTAIB16 room:11206`"
         ),
         inline=False,
     )
@@ -554,26 +797,8 @@ def build_admin_embed(prefix: str) -> discord.Embed:
     embed.add_field(
         name=f"`{prefix}delclass` <day> <start> [batch]",
         value=(
-            "Deletes a scheduled class matching the specified day, start time, and batch.\n"
-            "• Example: `/delclass day:monday start:11:00 batch:1`"
-        ),
-        inline=False,
-    )
-
-    embed.add_field(
-        name=f"`{prefix}linkuser` <member> <batch> [name] [roll_no]",
-        value=(
-            "Manually links or updates another user's student credentials.\n"
-            "• Example: `/linkuser member:@Student batch:2 name:Sarah roll_no:21CS088`"
-        ),
-        inline=False,
-    )
-
-    embed.add_field(
-        name=f"`{prefix}unlinkuser` <member>",
-        value=(
-            "Unlinks another member's profile from the database.\n"
-            "• Example: `/unlinkuser member:@Student`"
+            "Permanently removes a recurring class slot from the weekly schedule.\n"
+            "• Example: `/delclass day:Friday start:10:30 batch:26CAIBTAIB16`"
         ),
         inline=False,
     )
@@ -583,41 +808,39 @@ def build_admin_embed(prefix: str) -> discord.Embed:
         value=(
             "Displays the registered student directory with names, roll numbers, and batches.\n"
             "• Aliases: `batchlist`, `roster`\n"
-            "• Example: `/students batch:1`"
+            "• Example: `/students batch:26CAIBTAIB16`"
         ),
         inline=False,
     )
 
     embed.add_field(
-        name=f"`{prefix}setprefix` <prefix>",
+        name=f"`{prefix}linkuser` / `{prefix}unlinkuser`",
         value=(
-            "Configures the bot command prefix string for prefix-based messages.\n"
-            "• Example: `/setprefix prefix:!`"
+            "Administrative commands to manually link or unlink student accounts.\n"
+            "• Example: `/linkuser member:@Student batch:26CAIBTAIB16 name:Jane roll_no:26CS088`"
         ),
         inline=False,
     )
 
     embed.add_field(
-        name=f"`{prefix}sync`",
+        name=f"`{prefix}loadbatch` <batch>",
         value=(
-            "Forces immediate synchronization of all slash commands with the Discord API.\n"
-            "• Requires: Bot Owner\n"
-            "• Example: `!sync`"
+            "Loads any scraped university batch into the default master schedule.\n"
+            "• Example: `/loadbatch batch:26CAIBTAIB16`"
         ),
         inline=False,
     )
 
     embed.add_field(
-        name=f"`{prefix}reload` [cog_path]",
+        name=f"`{prefix}setprefix` / `{prefix}sync` / `{prefix}reload`",
         value=(
-            "Hot-reloads code modules without terminating the Python bot runtime.\n"
-            "• Requires: Bot Owner\n"
-            "• Example: `!reload cog_path:cogs.attendance`"
+            "System configuration commands to update prefix, sync slash commands, or hot-reload cogs.\n"
+            "• Example: `!sync`, `!reload`"
         ),
         inline=False,
     )
 
-    embed.set_footer(text=f"Category: Administration (8 commands) | Prefix: {prefix}")
+    embed.set_footer(text=f"Category: Administration (13 commands) | Prefix: {prefix}")
     return embed
 
 

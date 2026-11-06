@@ -1,0 +1,1120 @@
+{
+  "degree": "BCA-CSAI",
+  "year": "First",
+  "batch": "26CAIBC00B01",
+  "lastUpdated": "2026-10-04T06:12:48.182504",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          {
+            "id": 5804,
+            "unique_id": "24AD850D-4B86-481D-AF57-12AAE18B0B6C",
+            "semester": "I",
+            "year": "First",
+            "time": "08:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Applied Calculus and Differential Equations / Applied Calculus and Differential Equations",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3634",
+            "room": "96",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-04T08:48:29.000000Z",
+            "updated_at": "2026-08-04T08:48:29.000000Z",
+            "room_name": "8106-BL8-FF",
+            "facultyName": "Dr. Mohd Vasiulla"
+          }
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 5786,
+            "unique_id": "2296E6EC-A5F3-4115-A9BC-032BEE6134A5",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Python Programming /Python Programming",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "7504",
+            "room": "84",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-04T08:11:44.000000Z",
+            "updated_at": "2026-08-04T08:11:44.000000Z",
+            "room_name": "8001-BL8-GF",
+            "facultyName": "Mr. Gaddam Ashok"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 5787,
+            "unique_id": "C7C52D97-353E-4CE9-A108-4168F3792DDD",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Python Programming /Python Programming",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "7504",
+            "room": "84",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-04T08:11:44.000000Z",
+            "updated_at": "2026-08-04T08:11:44.000000Z",
+            "room_name": "8001-BL8-GF",
+            "facultyName": "Mr. Gaddam Ashok"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 5793,
+            "unique_id": "E7E9F4F4-DFDF-4ABF-B7B6-D1E6690F3494",
+            "semester": "I",
+            "year": "First",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Computational Life Sciences / Computational Life Sciences",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3574",
+            "room": "110",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-04T08:19:15.000000Z",
+            "updated_at": "2026-08-04T08:19:15.000000Z",
+            "room_name": "10003-BL10-GF",
+            "facultyName": "Dr. Radhakrishnan S"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 5794,
+            "unique_id": "239F5D6A-7B64-4CDB-AA3E-15A202931B2E",
+            "semester": "I",
+            "year": "First",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Computational Life Sciences / Computational Life Sciences",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3574",
+            "room": "110",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-04T08:19:15.000000Z",
+            "updated_at": "2026-08-04T08:19:15.000000Z",
+            "room_name": "10003-BL10-GF",
+            "facultyName": "Dr. Radhakrishnan S"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 5910,
+            "unique_id": "E2DECB8F-257A-49A1-BF34-7E4ED0A0BBDE",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Mathematical Foundations of Computing",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3114",
+            "room": "97",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-06T22:17:14.000000Z",
+            "updated_at": "2026-08-06T22:17:14.000000Z",
+            "room_name": "8108-BL8-FF",
+            "facultyName": "Dr. Santosh Kumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 5911,
+            "unique_id": "675DD667-73DF-41F0-9347-EF22A72D41DC",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Mathematical Foundations of Computing",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3114",
+            "room": "97",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-06T22:17:14.000000Z",
+            "updated_at": "2026-08-07T11:49:13.000000Z",
+            "room_name": "8108-BL8-FF",
+            "facultyName": "Dr. Santosh Kumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 5779,
+            "unique_id": "56738D7B-AFDD-4BA1-8325-319FEEBD3978",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Applied Calculus and Differential Equations / Applied Calculus and Differential Equations",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3634",
+            "room": "97",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-04T07:41:52.000000Z",
+            "updated_at": "2026-08-04T07:41:52.000000Z",
+            "room_name": "8108-BL8-FF",
+            "facultyName": "Dr. Mohd Vasiulla"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 5760,
+            "unique_id": "66CE9C58-3EA5-4993-A30C-B350D724CDFA",
+            "semester": "I",
+            "year": "First",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Computational Life Sciences / Computational Life Sciences",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3574",
+            "room": "87",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-03T15:24:58.000000Z",
+            "updated_at": "2026-08-07T11:51:00.000000Z",
+            "room_name": "8004-BL8-GF",
+            "facultyName": "Dr. Radhakrishnan S"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 5759,
+            "unique_id": "425711B7-1098-4F8F-A7E5-2B16CD8CB0D1",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Professional and Personal Development / Professional and Personal Development",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3580",
+            "room": "98",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-10-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-03T15:21:56.000000Z",
+            "updated_at": "2026-10-03T17:53:23.000000Z",
+            "room_name": "8206-BL8-SF",
+            "facultyName": "Dr. Jintu Alias"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 5762,
+            "unique_id": "3927CEE9-06C0-4E31-8FC9-775D5670C280",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Professional and Personal Development / Professional and Personal Development",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3580",
+            "room": "97",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "20-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-03T15:30:23.000000Z",
+            "updated_at": "2026-08-20T16:44:06.000000Z",
+            "room_name": "8108-BL8-FF",
+            "facultyName": "Dr. Jintu Alias"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 5805,
+            "unique_id": "233A8720-E554-4A4F-ABAC-7277A345E901",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Applied Calculus and Differential Equations / Applied Calculus and Differential Equations",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3634",
+            "room": "97",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-04T08:50:26.000000Z",
+            "updated_at": "2026-08-04T08:50:26.000000Z",
+            "room_name": "8108-BL8-FF",
+            "facultyName": "Dr. Mohd Vasiulla"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 5777,
+            "unique_id": "7152E8BB-241E-46D6-872F-682A958FB5AB",
+            "semester": "I",
+            "year": "First",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Design and Innovation Practices / Design and Innovation Practices",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3522",
+            "room": "163",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "18-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-04T07:40:42.000000Z",
+            "updated_at": "2026-08-18T06:56:24.000000Z",
+            "room_name": "7004-BL7-GF",
+            "facultyName": "Mr. Sai Shashank D"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 5778,
+            "unique_id": "F3B3A705-6C27-42A8-A473-E1C532DF6565",
+            "semester": "I",
+            "year": "First",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Design and Innovation Practices / Design and Innovation Practices",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3522",
+            "room": "163",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "18-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-04T07:40:42.000000Z",
+            "updated_at": "2026-08-18T06:56:58.000000Z",
+            "room_name": "7004-BL7-GF",
+            "facultyName": "Mr. Sai Shashank D"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 5912,
+            "unique_id": "0382ADCA-90DB-446C-BBAC-2C80BDA9C57F",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Mathematical Foundations of Computing",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3114",
+            "room": "95",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-06T22:17:57.000000Z",
+            "updated_at": "2026-08-06T22:17:57.000000Z",
+            "room_name": "8105-BL8-FF",
+            "facultyName": "Dr. Santosh Kumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          {
+            "id": 5783,
+            "unique_id": "D1AFC59C-F253-4B64-8C9D-72352A5909C5",
+            "semester": "I",
+            "year": "First",
+            "time": "08:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Applied Calculus and Differential Equations / Applied Calculus and Differential Equations",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3634",
+            "room": "96",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-04T07:55:52.000000Z",
+            "updated_at": "2026-08-04T07:55:52.000000Z",
+            "room_name": "8106-BL8-FF",
+            "facultyName": "Dr. Mohd Vasiulla"
+          }
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 5799,
+            "unique_id": "3A8C9869-FFEA-4545-9128-2788A6B3DF53",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Python Programming /Python Programming",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "7504",
+            "room": "84",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "04-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-04T08:33:26.000000Z",
+            "updated_at": "2026-08-04T18:07:04.000000Z",
+            "room_name": "8001-BL8-GF",
+            "facultyName": "Mr. Gaddam Ashok"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 5800,
+            "unique_id": "46D4BF03-FB25-472E-9755-F975043B4FD9",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Python Programming /Python Programming",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "7504",
+            "room": "84",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "04-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-04T08:33:26.000000Z",
+            "updated_at": "2026-08-04T18:07:39.000000Z",
+            "room_name": "8001-BL8-GF",
+            "facultyName": "Mr. Gaddam Ashok"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 5785,
+            "unique_id": "89DCA0A4-985E-40C2-A7A4-92A5938DA88E",
+            "semester": "I",
+            "year": "First",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Computational Life Sciences / Computational Life Sciences",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3574",
+            "room": "96",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-04T08:02:10.000000Z",
+            "updated_at": "2026-08-04T08:02:10.000000Z",
+            "room_name": "8106-BL8-FF",
+            "facultyName": "Dr. Radhakrishnan S"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 5763,
+            "unique_id": "6E737E1D-2309-45D4-B128-02BC7B4BABBB",
+            "semester": "I",
+            "year": "First",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Professional and Personal Development / Professional and Personal Development",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3578",
+            "room": "97",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "09-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-03T15:30:23.000000Z",
+            "updated_at": "2026-08-09T16:00:51.000000Z",
+            "room_name": "8108-BL8-FF",
+            "facultyName": "Dr. Ajeesh A K"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 5796,
+            "unique_id": "5DBA64BD-7E73-4217-931A-0B1F8695C4C8",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Python Programming /Python Programming",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "7504",
+            "room": "87",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "04-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-04T08:24:27.000000Z",
+            "updated_at": "2026-08-04T17:55:40.000000Z",
+            "room_name": "8004-BL8-GF",
+            "facultyName": "Mr. Gaddam Ashok"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 5802,
+            "unique_id": "A8E17143-C792-449F-999E-B5EF06947526",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Python Programming /Python Programming",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "7504",
+            "room": "163",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "21-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-04T08:43:49.000000Z",
+            "updated_at": "2026-08-21T09:23:01.000000Z",
+            "room_name": "7004-BL7-GF",
+            "facultyName": "Mr. Gaddam Ashok"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 5764,
+            "unique_id": "5B8DBADC-52D1-4319-86BE-6F8E1DE47675",
+            "semester": "I",
+            "year": "First",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Professional and Personal Development / Professional and Personal Development",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3580",
+            "room": "97",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "20-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-03T15:30:23.000000Z",
+            "updated_at": "2026-08-20T16:41:19.000000Z",
+            "room_name": "8108-BL8-FF",
+            "facultyName": "Dr. Jintu Alias"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 5913,
+            "unique_id": "5A332B30-15F3-47DB-9050-3C8DAA8FC57B",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Mathematical Foundations of Computing",
+            "batch": "26CAIBC00B01,26CAIBC00B02",
+            "faculty": "3114",
+            "room": "97",
+            "program": "BCA",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-06T22:18:48.000000Z",
+            "updated_at": "2026-08-07T07:56:08.000000Z",
+            "room_name": "8108-BL8-FF",
+            "facultyName": "Dr. Santosh Kumar Yadav"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

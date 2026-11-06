@@ -1,0 +1,278 @@
+{
+  "mon": [
+    {
+      "start": "08:30",
+      "end": "09:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "2002-BL2-GF",
+      "faculty": "Dr. Ankit Kumar",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    },
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Foundation of Engineering",
+      "kind": "Lecture",
+      "room": "2117-BL2-FF",
+      "faculty": "Dr. Toton Haldar",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Heritage, Democracy, and Ecology",
+      "kind": "Lecture",
+      "room": "2117-BL2-FF",
+      "faculty": "Dr. RINI SHARMA",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Foundation of Engineering",
+      "kind": "Lab",
+      "room": "2112-BL2-FF",
+      "faculty": "Dr. Toton Haldar",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Foundation of Engineering",
+      "kind": "Lab",
+      "room": "2112-BL2-FF",
+      "faculty": "Dr. Toton Haldar",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Foundation of Engineering",
+      "kind": "Lecture",
+      "room": "2117-BL2-FF",
+      "faculty": "Dr. Toton Haldar",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "2117-BL2-FF",
+      "faculty": "Dr. Ankit Kumar",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Computational Chemistry",
+      "kind": "Lecture",
+      "room": "2117-BL2-FF",
+      "faculty": "Dr. Manoranjan Ojha",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Technical and Professional Communication for Engineers",
+      "kind": "Lecture",
+      "room": "2117-BL2-FF",
+      "faculty": "Dr. Gowri Devi B",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Foundation of Engineering",
+      "kind": "Lecture",
+      "room": "2117-BL2-FF",
+      "faculty": "Dr. Toton Haldar",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Technical and Professional Communication for Engineers",
+      "kind": "Lecture",
+      "room": "2117-BL2-FF",
+      "faculty": "Dr. Gowri Devi B",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Tutorial",
+      "room": "2003-BL2-GF",
+      "faculty": "Dr. Ankit Kumar",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Computational Chemistry",
+      "kind": "Lecture",
+      "room": "2117-BL2-FF",
+      "faculty": "Dr. Manoranjan Ojha",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "08:30",
+      "end": "09:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "2117-BL2-FF",
+      "faculty": "Dr. Ankit Kumar",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    },
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Computational Chemistry",
+      "kind": "Lab",
+      "room": "2111-BL2-FF",
+      "faculty": "Dr. Manoranjan Ojha",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Computational Chemistry",
+      "kind": "Lab",
+      "room": "2111-BL2-FF",
+      "faculty": "Dr. Manoranjan Ojha",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Heritage, Democracy, and Ecology",
+      "kind": "Lecture",
+      "room": "2117-BL2-FF",
+      "faculty": "Dr. RINI SHARMA",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Technical and Professional Communication for Engineers",
+      "kind": "Lecture",
+      "room": "2117-BL2-FF",
+      "faculty": "Dr. Gowri Devi B",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "08:30",
+      "end": "09:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "2117-BL2-FF",
+      "faculty": "Dr. Ankit Kumar",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    },
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Technical and Professional Communication for Engineers",
+      "kind": "Lecture",
+      "room": "2008-BL2-GF",
+      "faculty": "Dr. Gowri Devi B",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Computational Chemistry",
+      "kind": "Lecture",
+      "room": "2117-BL2-FF",
+      "faculty": "Dr. Manoranjan Ojha",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Heritage, Democracy, and Ecology",
+      "kind": "Lecture",
+      "room": "2117-BL2-FF",
+      "faculty": "Dr. RINI SHARMA",
+      "batches": [
+        "26ECEBT00B07"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

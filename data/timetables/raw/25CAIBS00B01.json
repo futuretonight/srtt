@@ -1,0 +1,1166 @@
+{
+  "degree": "B.Sc(Comp.)-CSAI",
+  "year": "Second",
+  "batch": "25CAIBS00B01",
+  "lastUpdated": "2026-10-04T06:12:42.376724",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 5109,
+            "unique_id": "EDA15261-D0D6-438F-858B-8EF34423A0B4",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Cloud Infrastructure and Services / Cloud Architecture and Deployment",
+            "batch": "25CAIBS00B01",
+            "faculty": "706",
+            "room": "88",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "09-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-30T21:04:22.000000Z",
+            "updated_at": "2026-09-09T15:08:37.000000Z",
+            "room_name": "8005-BL8-GF",
+            "facultyName": "Mr. Bingi Raju"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 5153,
+            "unique_id": "863E03EA-B9FC-4A4E-9D4E-63AC9557CB17",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Operating Systems and Computer Networks",
+            "batch": "25CAIBS00B01",
+            "faculty": "2603",
+            "room": "234",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "09-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-30T22:38:47.000000Z",
+            "updated_at": "2026-08-09T12:44:07.000000Z",
+            "room_name": "11108-BL11-FF",
+            "facultyName": "Dr. Pritam Bhattacharyya"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 5148,
+            "unique_id": "F2D025C7-0E0B-4421-A334-C1805BC28AD6",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Information Security and Cryptography",
+            "batch": "25CAIBS00B01",
+            "faculty": "3010",
+            "room": "4",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "24-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-30T21:57:04.000000Z",
+            "updated_at": "2026-08-24T03:16:59.000000Z",
+            "room_name": "1107-BL1-FF",
+            "facultyName": "Dr. Srinivas Aluvala"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 5119,
+            "unique_id": "5EB060A3-06DD-4883-9937-93820F25A8CC",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Foundations of Data Structures / Data Structures and Problem Solving",
+            "batch": "25CAIBS00B01",
+            "faculty": "3069",
+            "room": "88",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-30T21:12:22.000000Z",
+            "updated_at": "2026-08-03T11:11:05.000000Z",
+            "room_name": "8005-BL8-GF",
+            "facultyName": "Mr. Radhakrishnan P"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 5120,
+            "unique_id": "132E5753-C9A7-49FF-9F7E-10D3CC3629EC",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Foundations of Data Structures / Data Structures and Problem Solving",
+            "batch": "25CAIBS00B01",
+            "faculty": "3069",
+            "room": "88",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-30T21:12:22.000000Z",
+            "updated_at": "2026-08-03T11:11:05.000000Z",
+            "room_name": "8005-BL8-GF",
+            "facultyName": "Mr. Radhakrishnan P"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 6541,
+            "unique_id": "2222B15B-1F7C-4FFB-B900-32C89425EEE7",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "AI Assisted Coding",
+            "batch": "25CAIBS00B01",
+            "faculty": "2516",
+            "room": "88",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "23-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-18T00:18:02.000000Z",
+            "updated_at": "2026-08-23T04:00:37.000000Z",
+            "room_name": "8005-BL8-GF",
+            "facultyName": "Mr. Srikanth Y"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 6542,
+            "unique_id": "206DAF37-6B65-46D3-8828-89C10BF355BC",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "AI Assisted Coding",
+            "batch": "25CAIBS00B01",
+            "faculty": "2516",
+            "room": "88",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "23-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-18T00:18:02.000000Z",
+            "updated_at": "2026-08-23T04:01:10.000000Z",
+            "room_name": "8005-BL8-GF",
+            "facultyName": "Mr. Srikanth Y"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 5121,
+            "unique_id": "FB5C0BAC-51AD-4662-AF93-B742EB1A0CD7",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Foundations of Data Structures / Data Structures and Problem Solving",
+            "batch": "25CAIBS00B01",
+            "faculty": "3069",
+            "room": "88",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-30T21:14:37.000000Z",
+            "updated_at": "2026-08-03T11:11:05.000000Z",
+            "room_name": "8005-BL8-GF",
+            "facultyName": "Mr. Radhakrishnan P"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 5149,
+            "unique_id": "0A8D7ED3-79C3-4140-AB85-EED976969B06",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Information Security and Cryptography",
+            "batch": "25CAIBS00B01",
+            "faculty": "3010",
+            "room": "10",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "24-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-30T21:57:50.000000Z",
+            "updated_at": "2026-08-24T03:16:59.000000Z",
+            "room_name": "1205-BL1-SF",
+            "facultyName": "Dr. Srinivas Aluvala"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 5156,
+            "unique_id": "8B1F7B32-458F-4C8F-A4AE-BF06543CAAE0",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Operating Systems and Computer Networks",
+            "batch": "25CAIBS00B01",
+            "faculty": "2603",
+            "room": "70",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "31-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-30T22:41:52.000000Z",
+            "updated_at": "2026-07-31T09:21:54.000000Z",
+            "room_name": "3103-BL3-FF",
+            "facultyName": "Dr. Pritam Bhattacharyya"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 5157,
+            "unique_id": "37812D22-BB7C-4AA0-AAD9-EE80B7C71E39",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Operating Systems and Computer Networks",
+            "batch": "25CAIBS00B01",
+            "faculty": "2603",
+            "room": "70",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "31-07-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-30T22:41:52.000000Z",
+            "updated_at": "2026-07-31T09:21:54.000000Z",
+            "room_name": "3103-BL3-FF",
+            "facultyName": "Dr. Pritam Bhattacharyya"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 5122,
+            "unique_id": "728977E7-753E-44CD-81BD-D9489C435212",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Foundations of Data Structures / Data Structures and Problem Solving",
+            "batch": "25CAIBS00B01",
+            "faculty": "3069",
+            "room": "88",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-30T21:14:37.000000Z",
+            "updated_at": "2026-08-03T11:11:05.000000Z",
+            "room_name": "8005-BL8-GF",
+            "facultyName": "Mr. Radhakrishnan P"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 5154,
+            "unique_id": "F66C7C04-AC29-4121-8C20-10099C7E5687",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Operating Systems and Computer Networks",
+            "batch": "25CAIBS00B01",
+            "faculty": "2603",
+            "room": "110",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "31-08-2026",
+            "status": 1,
+            "updated_by": "raushan.kumar@sru.edu.in",
+            "created_at": "2026-07-30T22:40:39.000000Z",
+            "updated_at": "2026-08-31T04:27:51.000000Z",
+            "room_name": "10003-BL10-GF",
+            "facultyName": "Dr. Pritam Bhattacharyya"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 5111,
+            "unique_id": "EA97E922-DC26-4B8A-9DF2-4C024CD4BD59",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Cloud Infrastructure and Services / Cloud Architecture and Deployment",
+            "batch": "25CAIBS00B01",
+            "faculty": "706",
+            "room": "88",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "09-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-30T21:06:04.000000Z",
+            "updated_at": "2026-09-09T15:08:37.000000Z",
+            "room_name": "8005-BL8-GF",
+            "facultyName": "Mr. Bingi Raju"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          {
+            "id": 5112,
+            "unique_id": "262152EA-5AF3-4840-BDB3-DC6B6EE532EA",
+            "semester": "III",
+            "year": "Second",
+            "time": "12:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Cloud Infrastructure and Services / Cloud Architecture and Deployment",
+            "batch": "25CAIBS00B01",
+            "faculty": "706",
+            "room": "88",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "09-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-30T21:06:04.000000Z",
+            "updated_at": "2026-09-09T15:08:37.000000Z",
+            "room_name": "8005-BL8-GF",
+            "facultyName": "Mr. Bingi Raju"
+          }
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 5150,
+            "unique_id": "D7286EB5-DE7E-46B3-A6CE-C915CA139B11",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Information Security and Cryptography",
+            "batch": "25CAIBS00B01",
+            "faculty": "3010",
+            "room": "125",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "24-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-30T21:58:30.000000Z",
+            "updated_at": "2026-08-24T03:16:59.000000Z",
+            "room_name": "11106-BL11-FF",
+            "facultyName": "Dr. Srinivas Aluvala"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 5124,
+            "unique_id": "E8EE4855-6177-44D4-998C-AE485186FD0C",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Foundations of Data Structures / Data Structures and Problem Solving",
+            "batch": "25CAIBS00B01",
+            "faculty": "3069",
+            "room": "14",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Tut",
+            "rec_num": null,
+            "modify_date": "16-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-30T21:14:37.000000Z",
+            "updated_at": "2026-09-16T05:11:04.000000Z",
+            "room_name": "1215-BL1-SF",
+            "facultyName": "Mr. Radhakrishnan P"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 5123,
+            "unique_id": "A9DA19E2-84F1-4FFC-840B-5D2A615A2E40",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Foundations of Data Structures / Data Structures and Problem Solving",
+            "batch": "25CAIBS00B01",
+            "faculty": "3069",
+            "room": "88",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-30T21:14:37.000000Z",
+            "updated_at": "2026-08-03T11:11:06.000000Z",
+            "room_name": "8005-BL8-GF",
+            "facultyName": "Mr. Radhakrishnan P"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 5155,
+            "unique_id": "78442DFB-236E-42F4-BD75-E11C8CBD4BDB",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Operating Systems and Computer Networks",
+            "batch": "25CAIBS00B01",
+            "faculty": "2603",
+            "room": "125",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "09-08-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-07-30T22:41:15.000000Z",
+            "updated_at": "2026-08-09T12:41:46.000000Z",
+            "room_name": "11106-BL11-FF",
+            "facultyName": "Dr. Pritam Bhattacharyya"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 6643,
+            "unique_id": "B7BE4CDA-7228-4BA4-A7C8-18AE0BBC8570",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "AI Assisted Coding",
+            "batch": "25CAIBS00B01",
+            "faculty": "2516",
+            "room": "88",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "23-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-20T11:50:59.000000Z",
+            "updated_at": "2026-08-23T03:29:57.000000Z",
+            "room_name": "8005-BL8-GF",
+            "facultyName": "Mr. Srikanth Y"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 6644,
+            "unique_id": "01D21B1C-C39A-4CCB-B52B-3C454163C6E0",
+            "semester": "III",
+            "year": "Second",
+            "time": "16:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "AI Assisted Coding",
+            "batch": "25CAIBS00B01",
+            "faculty": "2516",
+            "room": "88",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "23-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-20T11:50:59.000000Z",
+            "updated_at": "2026-08-23T03:30:52.000000Z",
+            "room_name": "8005-BL8-GF",
+            "facultyName": "Mr. Srikanth Y"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 5115,
+            "unique_id": "BAB51D99-C34A-4304-AE51-7D51A0F36372",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Foundations of Data Structures / Data Structures and Problem Solving",
+            "batch": "25CAIBS00B01",
+            "faculty": "3069",
+            "room": "88",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-30T21:08:36.000000Z",
+            "updated_at": "2026-08-03T11:11:04.000000Z",
+            "room_name": "8005-BL8-GF",
+            "facultyName": "Mr. Radhakrishnan P"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 5116,
+            "unique_id": "DD350DD1-FB9C-488C-A478-EE5E8D83B917",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Foundations of Data Structures / Data Structures and Problem Solving",
+            "batch": "25CAIBS00B01",
+            "faculty": "3069",
+            "room": "88",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-30T21:08:36.000000Z",
+            "updated_at": "2026-08-03T11:11:04.000000Z",
+            "room_name": "8005-BL8-GF",
+            "facultyName": "Mr. Radhakrishnan P"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 5151,
+            "unique_id": "473D3077-4AEC-46C5-86F4-65337BC0946D",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Information Security and Cryptography",
+            "batch": "25CAIBS00B01",
+            "faculty": "3010",
+            "room": "69",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "24-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-30T21:59:01.000000Z",
+            "updated_at": "2026-08-24T03:16:59.000000Z",
+            "room_name": "3102-BL3-FF",
+            "facultyName": "Dr. Srinivas Aluvala"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 5152,
+            "unique_id": "9B88337C-56CE-4D50-95EE-C03EC09C813C",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Information Security and Cryptography",
+            "batch": "25CAIBS00B01",
+            "faculty": "3010",
+            "room": "69",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "24-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-30T21:59:01.000000Z",
+            "updated_at": "2026-08-24T03:16:59.000000Z",
+            "room_name": "3102-BL3-FF",
+            "facultyName": "Dr. Srinivas Aluvala"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 6648,
+            "unique_id": "C2073CC7-DF83-4D44-8A63-E8B2FBFB2737",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Operating Systems and Computer Networks",
+            "batch": "25CAIBS00B01",
+            "faculty": "2603",
+            "room": "115",
+            "program": "B.Sc(Comp.)",
+            "offeredfrom": "CSAI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "17-09-2026",
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-21T01:50:09.000000Z",
+            "updated_at": "2026-09-17T07:27:31.000000Z",
+            "room_name": "10104-BL10-FF",
+            "facultyName": "Dr. Pritam Bhattacharyya"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

@@ -37,7 +37,7 @@ if not hasattr(commands, "hybrid_command"):
 if not hasattr(commands, "hybrid_group"):
     commands.hybrid_group = commands.group  # type: ignore[attr-defined]
 
-from cogs.timetable import DAY_NAMES, resolve_day, parse_batches
+from cogs.timetable import DAY_NAMES, resolve_day, parse_batches, send_component_v2, parse_date_input
 
 log = logging.getLogger("timetable_bot.admin")
 
@@ -80,21 +80,21 @@ class AdminCog(commands.Cog):
     async def _reload_one(self, ext: str) -> tuple[bool, str]:
         try:
             await self.bot.reload_extension(ext)
-            return True, f"✅ `{ext}` reloaded"
+            return True, f"`{ext}` reloaded"
         except commands.ExtensionNotLoaded:
             try:  # not loaded yet? load it instead
                 await self.bot.load_extension(ext)
-                return True, f"✅ `{ext}` loaded"
+                return True, f"`{ext}` loaded"
             except commands.ExtensionNotFound:
-                return False, f"❌ `{ext}` — no such module"
+                return False, f"`{ext}` — no such module"
             except commands.ExtensionError as exc:
                 log.exception("Failed to load %s", ext)
-                return False, f"❌ `{ext}` — {type(exc).__name__}: {getattr(exc, 'original', exc)}"
+                return False, f"`{ext}` — {type(exc).__name__}: {getattr(exc, 'original', exc)}"
         except commands.ExtensionNotFound:
-            return False, f"❌ `{ext}` — no such module"
+            return False, f"`{ext}` — no such module"
         except commands.ExtensionError as exc:
             log.exception("Failed to reload %s", ext)
-            return False, f"❌ `{ext}` — {type(exc).__name__}: {getattr(exc, 'original', exc)}"
+            return False, f"`{ext}` — {type(exc).__name__}: {getattr(exc, 'original', exc)}"
 
     # ----- reload ---------------------------------------------------------- #
     @commands.hybrid_command(
@@ -112,7 +112,7 @@ class AdminCog(commands.Cog):
         results = [await self._reload_one(ext) for ext in targets]
         ok = all(success for success, _ in results)
         embed = discord.Embed(
-            title="🔄 Reload complete" if ok else "🔄 Reload finished with errors",
+            title="Reload complete" if ok else "Reload finished with errors",
             description="\n".join(line for _, line in results)[:4000] or "Nothing to reload.",
             color=COLOR_SUCCESS if ok else COLOR_WARN,
         )
@@ -148,7 +148,7 @@ class AdminCog(commands.Cog):
         if tt is None:
             await ctx.send(
                 embed=discord.Embed(
-                    title="⚠️ Extension Error",
+                    title="Extension Error",
                     description="The `cogs.timetable` module is not currently loaded.\nRun `reload cogs.timetable` to load it.",
                     color=COLOR_ERROR,
                 ),
@@ -156,35 +156,130 @@ class AdminCog(commands.Cog):
             )
             return
 
-        action, slot = await tt.set_slot(day, time_slot, subject, batch, room, faculty)
+        actual_batch = tt.resolve_batch_input(batch) if batch else "ALL"
+
+        # Check if day is an explicit calendar date / today / tomorrow for single-date override
+        now = tt._now()
+        target_date = parse_date_input(day, now)
+        is_explicit_date = (
+            day.lower() in ("today", "tomorrow", "tmr", "tmrw", "yesterday")
+            or any(sep in day for sep in ("-", "/", "."))
+        )
+        if target_date is not None and is_explicit_date:
+            action, slot = await tt.set_override(
+                target_date=target_date,
+                time_slot=time_slot,
+                subject=subject,
+                batch=actual_batch,
+                room=room,
+                faculty=faculty,
+            )
+            batch_info = f"Batch {slot.batch_str}" if not slot.is_all_batches else "All Batches"
+            kind_str = f" `[{slot.kind}]`" if getattr(slot, "kind", "") else ""
+            details_lines = [
+                f"**Date:** `{target_date:%A, %d %B %Y}`  •  **Time:** `{slot.span}`",
+                f"**Batch:** **{batch_info}**",
+            ]
+            if slot.is_free:
+                details_lines.append(f"**Status:** *{slot.title}*")
+            else:
+                details_lines.append(f"**Subject:** **{slot.subject}**{kind_str}")
+                room_fac = []
+                if getattr(slot, "room", ""):
+                    room_fac.append(f"**Room:** `{slot.room}`")
+                if getattr(slot, "faculty", ""):
+                    room_fac.append(f"**Faculty:** **{slot.faculty}**")
+                if room_fac:
+                    details_lines.append("  •  ".join(room_fac))
+
+            embed = discord.Embed(
+                title=f"Single-Date Override {action.capitalize()}",
+                description=f"Class schedule for **{target_date:%A, %d %B %Y}** has been updated for `{slot.span}`.",
+                color=COLOR_SUCCESS,
+            )
+            c_v2 = {
+                "type": 17,
+                "spoiler": False,
+                "accent_color": COLOR_SUCCESS,
+                "components": [
+                    {
+                        "type": 10,
+                        "content": f"## Single-Date Override {action.capitalize()}\nThe schedule for **{target_date:%A, %d %B %Y}** has been updated for `{slot.span}`.",
+                    },
+                    {"type": 14, "divider": True, "spacing": 1},
+                    {"type": 10, "content": "\n".join(details_lines)},
+                    {"type": 14, "divider": True, "spacing": 1},
+                    {"type": 10, "content": "-# Stored in data/overrides.json • Affects only this date"},
+                ],
+            }
+            await send_component_v2(ctx, c_v2, fallback_embed=embed)
+            return
+
+        action, slot = await tt.set_slot(day, time_slot, subject, actual_batch, room, faculty)
         key = resolve_day(day) or day
         day_display = DAY_NAMES.get(key, day.title())
 
+        batch_target = f"data/timetables/converted/{actual_batch.upper()}.json" if actual_batch != "ALL" else "data/schedule.json"
         embed = discord.Embed(
-            title=f"✅ Class Slot {action.capitalize()}",
+            title=f"Class Slot {action.capitalize()}",
             description=f"The schedule for **{day_display}** has been updated.",
             color=COLOR_SUCCESS,
         )
         embed.set_author(name="Timetable Admin")
-        embed.add_field(name="📅 Day", value=f"**{day_display}**", inline=True)
-        embed.add_field(name="⏰ Time", value=f"`{slot.span}`", inline=True)
+        embed.add_field(name="Day", value=f"**{day_display}**", inline=True)
+        embed.add_field(name="Time", value=f"`{slot.span}`", inline=True)
         embed.add_field(
-            name="👥 Batch",
+            name="Batch",
             value=f"**Batch {slot.batch_str}**" if not slot.is_all_batches else "*All Batches*",
             inline=True,
         )
         if slot.is_free:
-            embed.add_field(name="☕ Type", value=f"*{slot.title}*", inline=True)
+            embed.add_field(name="Type", value=f"*{slot.title}*", inline=True)
         else:
             kind_str = f" `[{slot.kind}]`" if slot.kind else ""
-            embed.add_field(name="📚 Subject", value=f"**{slot.subject}**{kind_str}", inline=True)
+            embed.add_field(name="Subject", value=f"**{slot.subject}**{kind_str}", inline=True)
             if slot.room:
-                embed.add_field(name="📍 Room", value=f"`{slot.room}`", inline=True)
+                embed.add_field(name="Room", value=f"`{slot.room}`", inline=True)
             if slot.faculty:
-                embed.add_field(name="👨‍🏫 Faculty", value=f"**{slot.faculty}**", inline=True)
+                embed.add_field(name="Faculty", value=f"**{slot.faculty}**", inline=True)
 
-        embed.set_footer(text="Saved to data/schedule.json • Live immediately")
-        await ctx.send(embed=embed)
+        embed.set_footer(text=f"Saved to {batch_target} • Live immediately")
+
+        # Components V2 Container
+        batch_info = f"Batch {slot.batch_str}" if not slot.is_all_batches else "All Batches"
+        kind_str = f" `[{slot.kind}]`" if getattr(slot, "kind", "") else ""
+        details_lines = [
+            f"**Day:** {day_display}  •  **Time:** `{slot.span}`",
+            f"**Batch:** **{batch_info}**",
+        ]
+        if slot.is_free:
+            details_lines.append(f"**Type:** *{slot.title}*")
+        else:
+            details_lines.append(f"**Subject:** **{slot.subject}**{kind_str}")
+            room_fac = []
+            if getattr(slot, "room", ""):
+                room_fac.append(f"**Room:** `{slot.room}`")
+            if getattr(slot, "faculty", ""):
+                room_fac.append(f"**Faculty:** **{slot.faculty}**")
+            if room_fac:
+                details_lines.append("  •  ".join(room_fac))
+
+        c_v2 = {
+            "type": 17,
+            "spoiler": False,
+            "accent_color": COLOR_SUCCESS,
+            "components": [
+                {
+                    "type": 10,
+                    "content": f"## Class Slot {action.capitalize()}\nThe schedule for **{day_display}** has been updated successfully.",
+                },
+                {"type": 14, "divider": True, "spacing": 1},
+                {"type": 10, "content": "\n".join(details_lines)},
+                {"type": 14, "divider": True, "spacing": 1},
+                {"type": 10, "content": f"-# Saved to {batch_target} • Live immediately"},
+            ],
+        }
+        await send_component_v2(ctx, c_v2, fallback_embed=embed)
 
     @commands.hybrid_command(
         name="delclass", description="Remove a slot by start time and optional batch. Owner only."
@@ -203,23 +298,306 @@ class AdminCog(commands.Cog):
         if tt is None:
             await ctx.send("The timetable cog isn't loaded.", ephemeral=True)
             return
-        slot = await tt.delete_slot(day, start, batch)
+        actual_batch = tt.resolve_batch_input(batch) if batch else None
+        slot = await tt.delete_slot(day, start, actual_batch)
         key = resolve_day(day) or day
         day_display = DAY_NAMES.get(key, day.title())
 
         embed = discord.Embed(
-            title="🗑️ Class Slot Removed",
+            title="Class Slot Removed",
             description=f"Slot removed from **{day_display}**'s timetable.",
             color=COLOR_WARN,
         )
         embed.set_author(name="Timetable Admin")
-        embed.add_field(name="📅 Day", value=f"**{day_display}**", inline=True)
-        embed.add_field(name="⏰ Time", value=f"`{slot.span}`", inline=True)
-        embed.add_field(name="📚 Subject", value=f"**{slot.title}**", inline=True)
+        embed.add_field(name="Day", value=f"**{day_display}**", inline=True)
+        embed.add_field(name="Time", value=f"`{slot.span}`", inline=True)
+        embed.add_field(name="Subject", value=f"**{slot.title}**", inline=True)
         if not slot.is_all_batches:
-            embed.add_field(name="👥 Batch", value=f"**Batch {slot.batch_str}**", inline=True)
-        embed.set_footer(text="Updated data/schedule.json")
-        await ctx.send(embed=embed)
+            embed.add_field(name="Batch", value=f"**Batch {slot.batch_str}**", inline=True)
+        embed.set_footer(text="Updated timetable")
+
+        del_lines = [
+            f"**Day:** {day_display}  •  **Time:** `{slot.span}`",
+            f"**Subject:** **{slot.title}**",
+        ]
+        if not slot.is_all_batches:
+            del_lines.append(f"**Batch:** **Batch {slot.batch_str}**")
+
+        del_v2 = {
+            "type": 17,
+            "spoiler": False,
+            "accent_color": COLOR_WARN,
+            "components": [
+                {
+                    "type": 10,
+                    "content": f"## Class Slot Removed\nSlot removed from **{day_display}**'s timetable.",
+                },
+                {"type": 14, "divider": True, "spacing": 1},
+                {"type": 10, "content": "\n".join(del_lines)},
+                {"type": 14, "divider": True, "spacing": 1},
+                {"type": 10, "content": "-# Timetable file updated • Live immediately"},
+            ],
+        }
+        await send_component_v2(ctx, del_v2, fallback_embed=embed)
+
+    @commands.hybrid_command(
+        name="reschedule",
+        aliases=["override", "setoverride"],
+        description="Reschedule or substitute a class for a specific date and hour. Owner only.",
+    )
+    @commands.is_owner()
+    @app_commands.describe(
+        date="Date (e.g. today, tomorrow, 2026-11-06, 06-11-2026)",
+        time_slot="Time slot, e.g. 10:30-11:30 or 10:30",
+        subject="New subject name, or FREE / CANCELLED",
+        batch="Batch code (e.g. 26CAIBTAIB16 or ALL)",
+        room="Room code (optional)",
+        faculty="Faculty name (optional)",
+        note="Note or reason (optional)",
+    )
+    async def reschedule(
+        self,
+        ctx: commands.Context,
+        date: str,
+        time_slot: str,
+        subject: str,
+        batch: str = "ALL",
+        room: str = "",
+        faculty: str = "",
+        note: str = "",
+    ) -> None:
+        tt = self._timetable()
+        if tt is None:
+            await ctx.send("The timetable cog isn't loaded.", ephemeral=True)
+            return
+
+        actual_batch = tt.resolve_batch_input(batch) if batch else "ALL"
+        actual_batch = tt.resolve_batch_input(batch) if batch else "ALL"
+        actual_batch = tt.resolve_batch_input(batch) if batch else "ALL"
+        target_date = parse_date_input(date, tt._now())
+        if target_date is None:
+            await ctx.send(f"Could not parse date `{date}`. Try `today`, `tomorrow`, or `YYYY-MM-DD`.", ephemeral=True)
+            return
+
+        action, slot = await tt.set_override(
+            target_date=target_date,
+            time_slot=time_slot,
+            subject=subject,
+            batch=actual_batch,
+            room=room,
+            faculty=faculty,
+            note=note,
+            status="rescheduled",
+        )
+        batch_info = f"Batch {slot.batch_str}" if not slot.is_all_batches else "All Batches"
+        kind_str = f" `[{slot.kind}]`" if getattr(slot, "kind", "") else ""
+        details_lines = [
+            f"**Date:** `{target_date:%A, %d %B %Y}`  •  **Time:** `{slot.span}`",
+            f"**Batch:** **{batch_info}**",
+        ]
+        if slot.is_free:
+            details_lines.append(f"**Status:** *{slot.title}*")
+        else:
+            details_lines.append(f"**Subject:** **{slot.subject}**{kind_str}")
+            room_fac = []
+            if getattr(slot, "room", ""):
+                room_fac.append(f"**Room:** `{slot.room}`")
+            if getattr(slot, "faculty", ""):
+                room_fac.append(f"**Faculty:** **{slot.faculty}**")
+            if room_fac:
+                details_lines.append("  •  ".join(room_fac))
+        if note:
+            details_lines.append(f"**Note:** *{note}*")
+
+        c_v2 = {
+            "type": 17,
+            "spoiler": False,
+            "accent_color": COLOR_SUCCESS if not slot.is_free else COLOR_WARN,
+            "components": [
+                {
+                    "type": 10,
+                    "content": f"## Class Rescheduled for {target_date:%d %b %Y}\nSingle-date timetable override active for `{slot.span}`.",
+                },
+                {"type": 14, "divider": True, "spacing": 1},
+                {"type": 10, "content": "\n".join(details_lines)},
+                {"type": 14, "divider": True, "spacing": 1},
+                {"type": 10, "content": "-# Stored in data/overrides.json • Affects only this date"},
+            ],
+        }
+        embed = discord.Embed(
+            title="Class Rescheduled",
+            description=f"Class on **{target_date:%A, %d %B %Y}** at `{slot.span}` has been rescheduled.",
+            color=COLOR_SUCCESS,
+        )
+        await send_component_v2(ctx, c_v2, fallback_embed=embed)
+
+    @commands.hybrid_command(
+        name="cancelclass",
+        description="Cancel a class slot for a specific date and hour. Owner only.",
+    )
+    @commands.is_owner()
+    @app_commands.describe(
+        date="Date of cancellation (e.g. today, tomorrow, 2026-11-06)",
+        time_slot="Start time or span, e.g. 09:30 or 09:30-10:30",
+        batch="Batch filter (e.g. 26CAIBTAIB16 or ALL)",
+        reason="Reason for cancellation (optional)",
+    )
+    async def cancelclass(
+        self,
+        ctx: commands.Context,
+        date: str,
+        time_slot: str,
+        batch: str = "ALL",
+        reason: str = "Class cancelled",
+    ) -> None:
+        tt = self._timetable()
+        if tt is None:
+            await ctx.send("The timetable cog isn't loaded.", ephemeral=True)
+            return
+
+        target_date = parse_date_input(date, tt._now())
+        if target_date is None:
+            await ctx.send(f"Could not parse date `{date}`. Try `today`, `tomorrow`, or `YYYY-MM-DD`.", ephemeral=True)
+            return
+
+        action, slot = await tt.set_override(
+            target_date=target_date,
+            time_slot=time_slot,
+            subject="CANCELLED",
+            batch=actual_batch,
+            note=reason,
+            status="cancelled",
+        )
+        batch_info = f"Batch {slot.batch_str}" if not slot.is_all_batches else "All Batches"
+        details_lines = [
+            f"**Date:** `{target_date:%A, %d %B %Y}`  •  **Time:** `{slot.span}`",
+            f"**Batch:** **{batch_info}**",
+            f"**Status:** **CANCELLED**",
+        ]
+        if reason:
+            details_lines.append(f"**Reason:** *{reason}*")
+
+        embed = discord.Embed(
+            title="Class Cancelled",
+            description=f"Class on **{target_date:%d %B %Y}** at `{slot.span}` has been cancelled.",
+            color=COLOR_WARN,
+        )
+        c_v2 = {
+            "type": 17,
+            "spoiler": False,
+            "accent_color": COLOR_WARN,
+            "components": [
+                {
+                    "type": 10,
+                    "content": f"## Class Slot Cancelled\nClass on **{target_date:%A, %d %B %Y}** at `{slot.span}` is marked cancelled.",
+                },
+                {"type": 14, "divider": True, "spacing": 1},
+                {"type": 10, "content": "\n".join(details_lines)},
+                {"type": 14, "divider": True, "spacing": 1},
+                {"type": 10, "content": "-# Stored in data/overrides.json • Affects only this date"},
+            ],
+        }
+        await send_component_v2(ctx, c_v2, fallback_embed=embed)
+
+    @commands.hybrid_command(
+        name="deloverride",
+        description="Remove a date-specific override and restore original schedule. Owner only.",
+    )
+    @commands.is_owner()
+    @app_commands.describe(
+        date="Date of override (e.g. today, tomorrow, YYYY-MM-DD)",
+        start="Start time, e.g. 09:30",
+        batch="Batch code or ALL",
+    )
+    async def deloverride(
+        self, ctx: commands.Context, date: str, start: str, batch: Optional[str] = None
+    ) -> None:
+        tt = self._timetable()
+        if tt is None:
+            await ctx.send("The timetable cog isn't loaded.", ephemeral=True)
+            return
+
+        target_date = parse_date_input(date, tt._now())
+        if target_date is None:
+            await ctx.send(f"Could not parse date `{date}`.", ephemeral=True)
+            return
+
+        removed = await tt.delete_override(target_date, start, batch)
+        if not removed:
+            await ctx.send(f"No override found on **{target_date:%d %B %Y}** at `{start}`.", ephemeral=True)
+            return
+
+        details = f"**Date:** `{target_date:%A, %d %B %Y}` • **Time:** `{removed.span}`\n**Subject:** **{removed.title}**"
+        c_v2 = {
+            "type": 17,
+            "spoiler": False,
+            "accent_color": COLOR_WARN,
+            "components": [
+                {
+                    "type": 10,
+                    "content": f"## Override Removed\nOriginal timetable schedule restored for **{target_date:%A, %d %B %Y}**.",
+                },
+                {"type": 14, "divider": True, "spacing": 1},
+                {"type": 10, "content": details},
+                {"type": 14, "divider": True, "spacing": 1},
+                {"type": 10, "content": "-# Removed from data/overrides.json"},
+            ],
+        }
+        embed = discord.Embed(
+            title="Override Removed",
+            description=f"Original timetable restored for **{target_date:%d %B %Y}** at `{removed.span}`.",
+            color=COLOR_WARN,
+        )
+        await send_component_v2(ctx, c_v2, fallback_embed=embed)
+
+    @commands.hybrid_command(
+        name="overrides",
+        description="View all active date-specific timetable overrides.",
+    )
+    async def view_overrides(self, ctx: commands.Context) -> None:
+        tt = self._timetable()
+        if tt is None:
+            await ctx.send("The timetable cog isn't loaded.", ephemeral=True)
+            return
+        all_ovs = tt.read_overrides()
+        if not all_ovs:
+            await ctx.send("No date-specific timetable overrides are currently scheduled.")
+            return
+
+        lines = []
+        for d_str, raw_list in sorted(all_ovs.items()):
+            lines.append(f"### {d_str}")
+            for r in raw_list:
+                span = f"`{r.get('start', '')} - {r.get('end', '')}`"
+                b_str = ", ".join(r.get("batches", ["ALL"]))
+                if r.get("category") == "free" or r.get("status") == "cancelled":
+                    lbl = r.get("label", "Free / Cancelled")
+                    lines.append(f"- {span} · **{lbl}** · `Batch {b_str}`")
+                else:
+                    sub = r.get("subject", "Class")
+                    rm = f" ({r.get('room')})" if r.get("room") else ""
+                    lines.append(f"- {span} · **{sub}**{rm} · `Batch {b_str}`")
+                if r.get("note"):
+                    lines.append(f"  > *{r.get('note')}*")
+
+        c_v2 = {
+            "type": 17,
+            "spoiler": False,
+            "accent_color": COLOR_PRIMARY,
+            "components": [
+                {"type": 10, "content": "## Active Date-Specific Overrides\nHere are all custom date modifications on file:"},
+                {"type": 14, "divider": True, "spacing": 1},
+                {"type": 10, "content": "\n".join(lines)},
+                {"type": 14, "divider": True, "spacing": 1},
+                {"type": 10, "content": "-# Use /reschedule to add overrides or /deloverride to remove them"},
+            ],
+        }
+        embed = discord.Embed(
+            title="Active Date Overrides",
+            description="\n".join(lines),
+            color=COLOR_PRIMARY,
+        )
+        await send_component_v2(ctx, c_v2, fallback_embed=embed)
 
     # ----- prefix & slash sync --------------------------------------------- #
     @commands.hybrid_command(
@@ -232,18 +610,18 @@ class AdminCog(commands.Cog):
             await self.bot.change_prefix(prefix)  # type: ignore[attr-defined]
         except ValueError as exc:
             await ctx.send(
-                embed=discord.Embed(title="⚠️ Invalid Prefix", description=str(exc), color=COLOR_ERROR),
+                embed=discord.Embed(title="Invalid Prefix", description=str(exc), color=COLOR_ERROR),
                 ephemeral=True,
             )
             return
         embed = discord.Embed(
-            title="⚙️ Prefix Updated",
+            title="Prefix Updated",
             description=f"Bot command prefix is now set to `{prefix}`",
             color=COLOR_SUCCESS,
         )
         embed.set_author(name="Timetable Admin")
         embed.add_field(
-            name="💡 Try It Out",
+            name="Try It Out",
             value=f"`{prefix}timetable` — Today's timetable\n`{prefix}next` — What's on right now\n`{prefix}week` — Full weekly schedule",
             inline=False,
         )
@@ -262,7 +640,7 @@ class AdminCog(commands.Cog):
             log.exception("Slash sync failed")
             await ctx.send(
                 embed=discord.Embed(
-                    title="❌ Slash Sync Failed",
+                    title="Slash Sync Failed",
                     description=f"`HTTP {exc.status}`: {exc.text[:300]}",
                     color=COLOR_ERROR,
                 ),
@@ -270,7 +648,7 @@ class AdminCog(commands.Cog):
             )
             return
         embed = discord.Embed(
-            title="⚡ Slash Commands Synced",
+            title="Slash Commands Synced",
             description=f"Successfully registered **{len(synced)}** slash command(s) globally with Discord.",
             color=COLOR_PRIMARY,
         )
@@ -314,17 +692,17 @@ class AdminCog(commands.Cog):
         )
 
         embed = discord.Embed(
-            title="✅ Student Account Linked",
+            title="Student Account Linked",
             description=f"Successfully linked {member.mention} to **Batch {prof.batch}**.",
             color=COLOR_SUCCESS,
         )
         embed.set_author(name="Timetable Admin")
-        embed.add_field(name="👤 Student", value=member.mention, inline=True)
-        embed.add_field(name="👥 Batch", value=f"**Batch {prof.batch}**", inline=True)
+        embed.add_field(name="Student", value=member.mention, inline=True)
+        embed.add_field(name="Batch", value=f"**Batch {prof.batch}**", inline=True)
         if prof.name:
-            embed.add_field(name="📝 Name", value=prof.name, inline=True)
+            embed.add_field(name="Name", value=prof.name, inline=True)
         if prof.roll_no:
-            embed.add_field(name="🆔 Roll / ID", value=f"`{prof.roll_no}`", inline=True)
+            embed.add_field(name="Roll / ID", value=f"`{prof.roll_no}`", inline=True)
         embed.set_footer(text="Saved to data/users.json • User's /timetable commands will now reflect their batch")
         await ctx.send(embed=embed, ephemeral=True)
 
@@ -342,7 +720,7 @@ class AdminCog(commands.Cog):
         removed = tt.delete_user_profile(member.id)
         if removed:
             embed = discord.Embed(
-                title="🗑️ Student Account Unlinked",
+                title="Student Account Unlinked",
                 description=f"Unlinked {member.mention} from their batch.",
                 color=COLOR_WARN,
             )
@@ -371,7 +749,7 @@ class AdminCog(commands.Cog):
         profiles = tt.read_profiles()
         if not profiles:
             embed = discord.Embed(
-                title="👥 Registered Students",
+                title="Registered Students",
                 description="No students are currently linked to any batch.\nUsers can link their accounts using `/link <batch>`.",
                 color=COLOR_MUTED,
             )
@@ -389,7 +767,7 @@ class AdminCog(commands.Cog):
 
         if not grouped:
             embed = discord.Embed(
-                title="👥 Registered Students",
+                title="Registered Students",
                 description=f"No students found linked to **Batch {target_batch}**.",
                 color=COLOR_MUTED,
             )
@@ -400,8 +778,8 @@ class AdminCog(commands.Cog):
         total_count = sum(len(lst) for lst in grouped.values())
         b_info = f" in Batch {target_batch}" if target_batch else ""
         embed = discord.Embed(
-            title="👥 Registered Students",
-            description=f"> 📋 **{total_count} student{'s' if total_count != 1 else ''} linked**{b_info}",
+            title="Registered Students",
+            description=f"> **{total_count} student{'s' if total_count != 1 else ''} linked**{b_info}",
             color=COLOR_PRIMARY,
         )
         embed.set_author(name="Timetable Admin")
@@ -422,13 +800,66 @@ class AdminCog(commands.Cog):
             if len(field_content) > 1024:
                 field_content = field_content[:1015] + "\n…"
             embed.add_field(
-                name=f"👥 Batch {b_name} ({len(s_list)} student{'s' if len(s_list) != 1 else ''})",
+                name=f"Batch {b_name} ({len(s_list)} student{'s' if len(s_list) != 1 else ''})",
                 value=field_content,
                 inline=False,
             )
 
         embed.set_footer(text=f"Total: {total_count} linked accounts • Saved in data/users.json")
         await ctx.send(embed=embed, ephemeral=True)
+
+    @commands.hybrid_command(
+        name="loadbatch",
+        aliases=["setbatch", "switchbatch"],
+        description="Load an SRUX batch schedule into data/schedule.json. Owner only.",
+    )
+    @commands.is_owner()
+    @app_commands.describe(batch="Batch code, e.g. 26CAIBTAIB01")
+    async def loadbatch(self, ctx: commands.Context, batch: str) -> None:
+        tt = self._timetable()
+        if tt is None:
+            await ctx.send("The timetable cog isn't loaded.", ephemeral=True)
+            return
+
+        b_code = tt.resolve_batch_input(batch)
+        data_dir = Path(__file__).resolve().parent.parent / "data"
+        conv_file = data_dir / "timetables" / "converted" / f"{b_code}.json"
+        sched_file = data_dir / "schedule.json"
+
+        if not conv_file.is_file():
+            await ctx.send(
+                embed=discord.Embed(
+                    title="Batch Not Found",
+                    description=f"Could not find converted timetable for `{b_code}`.\nMake sure the batch code exists in SRUX.",
+                    color=COLOR_ERROR,
+                ),
+                ephemeral=True,
+            )
+            return
+
+        try:
+            import shutil
+            shutil.copyfile(conv_file, sched_file)
+        except Exception as exc:
+            await ctx.send(
+                embed=discord.Embed(
+                    title="Copy Failed",
+                    description=f"Error copying batch schedule: {exc}",
+                    color=COLOR_ERROR,
+                ),
+                ephemeral=True,
+            )
+            return
+
+        embed = discord.Embed(
+            title="Batch Schedule Loaded",
+            description=f"Primary timetable updated to **Batch {b_code}**.",
+            color=COLOR_SUCCESS,
+        )
+        embed.set_author(name="Timetable Admin")
+        embed.add_field(name="Active Batch", value=f"`{b_code}`", inline=True)
+        embed.set_footer(text="Saved to data/schedule.json • Live immediately")
+        await ctx.send(embed=embed)
 
 
 async def setup(bot: commands.Bot) -> None:

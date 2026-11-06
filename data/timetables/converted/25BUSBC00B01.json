@@ -1,0 +1,278 @@
+{
+  "mon": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Company Law",
+      "kind": "Lecture",
+      "room": "8002-BL8-GF",
+      "faculty": "Mr. Veginati Koteswara Rao",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Financial Management",
+      "kind": "Lecture",
+      "room": "9103-BL9-FF",
+      "faculty": "Mr. Shravan M",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Marketing Management",
+      "kind": "Lecture",
+      "room": "8003-BL8-GF",
+      "faculty": "Mr. V Laxmi Prasad Rao",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Human Resource Management",
+      "kind": "Lecture",
+      "room": "8003-BL8-GF",
+      "faculty": "Ms. Peddi Sarita",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Problem Solving with C++",
+      "kind": "Lecture",
+      "room": "8001-BL8-GF",
+      "faculty": "Dr. Vikrant Yadav",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Macro Economics",
+      "kind": "Lecture",
+      "room": "8002-BL8-GF",
+      "faculty": "Dr. Laxmikanta Gual",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Company Law",
+      "kind": "Lecture",
+      "room": "8002-BL8-GF",
+      "faculty": "Mr. Veginati Koteswara Rao",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Financial Management",
+      "kind": "Lecture",
+      "room": "9103-BL9-FF",
+      "faculty": "Mr. Shravan M",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Human Resource Management",
+      "kind": "Lecture",
+      "room": "2206-BL2-SF",
+      "faculty": "Ms. Peddi Sarita",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Financial Management",
+      "kind": "Lab",
+      "room": "9103-BL9-FF",
+      "faculty": "Mr. Shravan M",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Financial Management",
+      "kind": "Lab",
+      "room": "9103-BL9-FF",
+      "faculty": "Mr. Shravan M",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Marketing Management",
+      "kind": "Lecture",
+      "room": "8003-BL8-GF",
+      "faculty": "Mr. V Laxmi Prasad Rao",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Macro Economics",
+      "kind": "Lecture",
+      "room": "8003-BL8-GF",
+      "faculty": "Dr. Laxmikanta Gual",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Company Law",
+      "kind": "Lecture",
+      "room": "8003-BL8-GF",
+      "faculty": "Mr. Veginati Koteswara Rao",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Macro Economics",
+      "kind": "Lecture",
+      "room": "8101-BL8-FF",
+      "faculty": "Dr. Laxmikanta Gual",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Marketing Management",
+      "kind": "Lecture",
+      "room": "8002-BL8-GF",
+      "faculty": "Mr. V Laxmi Prasad Rao",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Human Resource Management",
+      "kind": "Lecture",
+      "room": "8002-BL8-GF",
+      "faculty": "Ms. Peddi Sarita",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Problem Solving with C++",
+      "kind": "Lecture",
+      "room": "8001-BL8-GF",
+      "faculty": "Dr. Vikrant Yadav",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Financial Management",
+      "kind": "Lecture",
+      "room": "9103-BL9-FF",
+      "faculty": "Mr. Shravan M",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Problem Solving with C++",
+      "kind": "Lecture",
+      "room": "8003-BL8-GF",
+      "faculty": "Dr. Vikrant Yadav",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Problem Solving with C++",
+      "kind": "Lab",
+      "room": "2213-BL2-SF",
+      "faculty": "Dr. Vikrant Yadav",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Problem Solving with C++",
+      "kind": "Lab",
+      "room": "2213-BL2-SF",
+      "faculty": "Dr. Vikrant Yadav",
+      "batches": [
+        "25BUSBC00B01"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

@@ -1,0 +1,1097 @@
+{
+  "degree": "BTECH-IEP-CSE",
+  "year": "Second",
+  "batch": "25CAIBTIEB65",
+  "lastUpdated": "2026-10-04T16:49:52.327423",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3442,
+            "unique_id": "0658CB87-4E26-4242-846F-8EF5612B0CA6",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Microprocessors and Microcontrollers",
+            "batch": "25CAIBTIEB65",
+            "faculty": "2516",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:44:14.000000Z",
+            "updated_at": "2026-07-23T07:44:14.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Mr. Srikanth Y"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3432,
+            "unique_id": "EFF3EBE0-B69D-4D0D-85D1-273B599C919D",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Discrete Mathematical Structures - I",
+            "batch": "25CAIBTIEB65",
+            "faculty": "3670",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:21:38.000000Z",
+            "updated_at": "2026-07-23T07:21:38.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Dr. Selim Reja"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 3426,
+            "unique_id": "2650FDA4-85D6-4EB4-861C-6177CDC1B342",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Data Structures",
+            "batch": "25CAIBTIEB65",
+            "faculty": "3069",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:17:59.000000Z",
+            "updated_at": "2026-07-23T07:17:59.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Mr. Radhakrishnan P"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3446,
+            "unique_id": "FCAC3AF7-D5F9-419D-9B58-F8E789D4991A",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Microprocessors and Microcontrollers Lab",
+            "batch": "25CAIBTIEB65",
+            "faculty": "2516",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:45:12.000000Z",
+            "updated_at": "2026-07-23T07:45:12.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Mr. Srikanth Y"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3447,
+            "unique_id": "80D00514-051E-4DD0-A005-37AC55B3CA76",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Microprocessors and Microcontrollers Lab",
+            "batch": "25CAIBTIEB65",
+            "faculty": "2516",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:45:12.000000Z",
+            "updated_at": "2026-07-23T07:45:12.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Mr. Srikanth Y"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3427,
+            "unique_id": "E8A2080E-5273-4807-935E-FC95A1FCFFC4",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Data Structures",
+            "batch": "25CAIBTIEB65",
+            "faculty": "3069",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:17:59.000000Z",
+            "updated_at": "2026-07-23T07:17:59.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Mr. Radhakrishnan P"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 6521,
+            "unique_id": "CD07F26F-48E1-447F-A07E-73E284CA72C7",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Digital Logic Design",
+            "batch": "25CAIBTIEB65",
+            "faculty": "3217",
+            "room": "5",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Tut",
+            "rec_num": null,
+            "modify_date": "26-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-08-16T07:21:17.000000Z",
+            "updated_at": "2026-08-26T15:37:22.000000Z",
+            "room_name": "1108-BL1-FF",
+            "facultyName": "Dr. Madarapu Sandeep"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3443,
+            "unique_id": "5CED00D5-43A3-41D0-8807-B2517AE7EF65",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Microprocessors and Microcontrollers",
+            "batch": "25CAIBTIEB65",
+            "faculty": "2516",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "26-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:44:14.000000Z",
+            "updated_at": "2026-08-26T12:54:39.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Mr. Srikanth Y"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3440,
+            "unique_id": "1F51ADB3-C5B8-42BA-ADB1-19DBD92B0F83",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Smart System Design",
+            "batch": "25CAIBTIEB65",
+            "faculty": "3522",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:38:31.000000Z",
+            "updated_at": "2026-07-23T07:38:31.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Mr. Sai Shashank D"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3445,
+            "unique_id": "DC0F77DA-70BA-4ECD-BFB1-899D61573D35",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Microprocessors and Microcontrollers",
+            "batch": "25CAIBTIEB65",
+            "faculty": "2516",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Tutorial",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:44:43.000000Z",
+            "updated_at": "2026-07-23T07:44:43.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Mr. Srikanth Y"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3433,
+            "unique_id": "E401D055-E8D7-4E01-9DE3-F2A1E9A65EDE",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Discrete Mathematical Structures - I",
+            "batch": "25CAIBTIEB65",
+            "faculty": "3670",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "26-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:21:38.000000Z",
+            "updated_at": "2026-08-26T15:25:03.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Dr. Selim Reja"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 3437,
+            "unique_id": "6ED528AC-DE8E-44B1-BA1F-8C0B98C39AFD",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Digital Logic Design",
+            "batch": "25CAIBTIEB65",
+            "faculty": "3217",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:26:38.000000Z",
+            "updated_at": "2026-07-23T07:26:38.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Dr. Madarapu Sandeep"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3435,
+            "unique_id": "B809387C-1723-4CAC-BB30-93FF8C1AF395",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Discrete Mathematical Structures - I",
+            "batch": "25CAIBTIEB65",
+            "faculty": "3670",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Tutorial",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:25:22.000000Z",
+            "updated_at": "2026-07-23T07:25:22.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Dr. Selim Reja"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3430,
+            "unique_id": "9549CFE3-A2B9-429B-BD39-2E306036B527",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Data Structures",
+            "batch": "25CAIBTIEB65",
+            "faculty": "3069",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "04-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:19:17.000000Z",
+            "updated_at": "2026-10-04T13:31:23.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Mr. Radhakrishnan P"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 3431,
+            "unique_id": "18B566BA-D2F2-497A-B03B-39BA3381D66E",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Data Structures",
+            "batch": "25CAIBTIEB65",
+            "faculty": "3069",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "04-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:19:17.000000Z",
+            "updated_at": "2026-10-04T13:31:47.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Mr. Radhakrishnan P"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3439,
+            "unique_id": "C967FAF9-076B-4CB5-A928-7D4BBAB59D01",
+            "semester": "III",
+            "year": "Second",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Smart System Design",
+            "batch": "25CAIBTIEB65",
+            "faculty": "3522",
+            "room": "163",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "08-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:38:31.000000Z",
+            "updated_at": "2026-09-08T04:41:27.000000Z",
+            "room_name": "7004-BL7-GF",
+            "facultyName": "Mr. Sai Shashank D"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3441,
+            "unique_id": "99CB5558-AE4A-47B1-A2DD-68B6A3417F64",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Smart System Design",
+            "batch": "25CAIBTIEB65",
+            "faculty": "3522",
+            "room": "163",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "08-09-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:38:31.000000Z",
+            "updated_at": "2026-09-08T04:42:16.000000Z",
+            "room_name": "7004-BL7-GF",
+            "facultyName": "Mr. Sai Shashank D"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 3436,
+            "unique_id": "12537A57-DBD6-4CA3-9E27-7D81F4386C88",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Digital Logic Design",
+            "batch": "25CAIBTIEB65",
+            "faculty": "3217",
+            "room": "113",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "26-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:26:38.000000Z",
+            "updated_at": "2026-08-26T15:35:44.000000Z",
+            "room_name": "10102-BL10-FF",
+            "facultyName": "Dr. Madarapu Sandeep"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3428,
+            "unique_id": "650E630D-CA1A-4584-8DC0-B7647D49D315",
+            "semester": "III",
+            "year": "Second",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Data Structures",
+            "batch": "25CAIBTIEB65",
+            "faculty": "3069",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:17:59.000000Z",
+            "updated_at": "2026-07-23T07:17:59.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Mr. Radhakrishnan P"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3444,
+            "unique_id": "2B5277DF-7C16-4A7E-B71F-D6A5FE0F1B66",
+            "semester": "III",
+            "year": "Second",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Microprocessors and Microcontrollers",
+            "batch": "25CAIBTIEB65",
+            "faculty": "2516",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "26-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:44:14.000000Z",
+            "updated_at": "2026-08-26T14:49:22.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Mr. Srikanth Y"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3434,
+            "unique_id": "8160BA9E-C05A-4A13-AC2B-809082A6183D",
+            "semester": "III",
+            "year": "Second",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Discrete Mathematical Structures - I",
+            "batch": "25CAIBTIEB65",
+            "faculty": "3670",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:21:38.000000Z",
+            "updated_at": "2026-07-23T07:21:38.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Dr. Selim Reja"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 3429,
+            "unique_id": "01B35756-9678-48A0-9F24-027CAD4EEE8B",
+            "semester": "III",
+            "year": "Second",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Data Structures",
+            "batch": "25CAIBTIEB65",
+            "faculty": "3069",
+            "room": "167",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Tut",
+            "rec_num": null,
+            "modify_date": "04-10-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:18:33.000000Z",
+            "updated_at": "2026-10-04T13:30:06.000000Z",
+            "room_name": "7204-BL7-SF",
+            "facultyName": "Mr. Radhakrishnan P"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 3438,
+            "unique_id": "B04EEC2D-5ED6-4F3C-AFD5-7A3465B422EA",
+            "semester": "III",
+            "year": "Second",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Digital Logic Design",
+            "batch": "25CAIBTIEB65",
+            "faculty": "3217",
+            "room": "87",
+            "program": "BTECH-IEP",
+            "offeredfrom": "CSE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "26-08-2026",
+            "status": 1,
+            "updated_by": "nagurla.mahender@sru.edu.in",
+            "created_at": "2026-07-23T07:26:38.000000Z",
+            "updated_at": "2026-08-26T15:28:55.000000Z",
+            "room_name": "8004-BL8-GF",
+            "facultyName": "Dr. Madarapu Sandeep"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

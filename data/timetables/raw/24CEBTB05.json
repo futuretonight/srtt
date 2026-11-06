@@ -1,0 +1,1400 @@
+{
+  "degree": "BTECH-CE",
+  "year": "Third",
+  "batch": "24CEBTB05",
+  "lastUpdated": "2026-10-04T06:12:52.854803",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 2808,
+            "unique_id": "B0F80C09-AD45-40B5-8509-3C00433A649A",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Design of Steel Structures",
+            "batch": "24CEBTB05",
+            "faculty": "1028",
+            "room": "37",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-22T01:23:54.000000Z",
+            "updated_at": "2026-07-22T01:23:54.000000Z",
+            "room_name": "2203-BL2-SF",
+            "facultyName": "Dr. Swamy Naga Ratna Giri"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 2809,
+            "unique_id": "AB485808-9A06-4605-9B56-DA6B831988D4",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Design of Steel Structures",
+            "batch": "24CEBTB05",
+            "faculty": "1028",
+            "room": "37",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-22T01:23:54.000000Z",
+            "updated_at": "2026-07-22T01:23:54.000000Z",
+            "room_name": "2203-BL2-SF",
+            "facultyName": "Dr. Swamy Naga Ratna Giri"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3581,
+            "unique_id": "11722852-D2CB-4097-9708-97CB40C2E05F",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Building Information Modeling / PLAXIS",
+            "batch": "24CEBTB05",
+            "faculty": "1031",
+            "room": "38",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "11-09-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-24T02:03:57.000000Z",
+            "updated_at": "2026-09-11T05:29:14.000000Z",
+            "room_name": "2206-BL2-SF",
+            "facultyName": "Dr. Nagalapuram Muni Pradeep"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 6062,
+            "unique_id": "02A5CFDC-4245-45D6-8CA2-88F9CFA7625F",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Highway Engineering - Lab",
+            "batch": "24CEBTB05",
+            "faculty": "1036",
+            "room": "149",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "01-09-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-08-12T02:20:45.000000Z",
+            "updated_at": "2026-09-01T05:28:54.000000Z",
+            "room_name": "4102-BL4-GF",
+            "facultyName": "Dr. Guntakala Venkatanaga Chandra"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 5883,
+            "unique_id": "53891A02-B321-4B87-9F86-6E7FD259342E",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Highway Engineering - Lab",
+            "batch": "24CEBTB05",
+            "faculty": "1036",
+            "room": "149",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "22-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-08-06T00:26:18.000000Z",
+            "updated_at": "2026-08-22T04:06:08.000000Z",
+            "room_name": "4102-BL4-GF",
+            "facultyName": "Dr. Guntakala Venkatanaga Chandra"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 4973,
+            "unique_id": "6DB2D4D7-F03C-4C75-B9EB-B17067791ACC",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Under Graduate Research in Civil Engineering",
+            "batch": "24CEBTB05",
+            "faculty": "1030",
+            "room": "37",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "05-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-29T06:08:19.000000Z",
+            "updated_at": "2026-08-05T11:03:27.000000Z",
+            "room_name": "2203-BL2-SF",
+            "facultyName": "Dr. Vishnupriyan M"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3327,
+            "unique_id": "00918E97-3B77-4120-9FE0-455C3DC8476A",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Highway Engineering",
+            "batch": "24CEBTB05",
+            "faculty": "1009",
+            "room": "38",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "28-07-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-23T00:06:42.000000Z",
+            "updated_at": "2026-07-28T11:10:07.000000Z",
+            "room_name": "2206-BL2-SF",
+            "facultyName": "Dr. Poongodi K"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3328,
+            "unique_id": "9091A170-8CC3-4550-B361-0E864A297978",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Highway Engineering",
+            "batch": "24CEBTB05",
+            "faculty": "1009",
+            "room": "38",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "28-07-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-23T00:06:42.000000Z",
+            "updated_at": "2026-07-28T11:09:25.000000Z",
+            "room_name": "2206-BL2-SF",
+            "facultyName": "Dr. Poongodi K"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 5007,
+            "unique_id": "A9301FEE-B608-4C5D-A733-FB7ACF2E526F",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Geotechnical Engineering",
+            "batch": "24CEBTB05",
+            "faculty": "1031",
+            "room": "38",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-29T22:11:21.000000Z",
+            "updated_at": "2026-08-03T10:14:20.000000Z",
+            "room_name": "2206-BL2-SF",
+            "facultyName": "Dr. Nagalapuram Muni Pradeep"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3582,
+            "unique_id": "AE02031B-AFAF-454A-A7C2-C829F64FE9A6",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Building Information Modeling / PLAXIS",
+            "batch": "24CEBTB05",
+            "faculty": "1031",
+            "room": "37",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-24T02:06:20.000000Z",
+            "updated_at": "2026-07-24T02:06:20.000000Z",
+            "room_name": "2203-BL2-SF",
+            "facultyName": "Dr. Nagalapuram Muni Pradeep"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3153,
+            "unique_id": "A17B1B6B-1095-4DA2-BA5F-3EF2B4DF471F",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Building Information Modeling / PLAXIS",
+            "batch": "24CEBTB05",
+            "faculty": "1031",
+            "room": "37",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "06-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-22T22:42:36.000000Z",
+            "updated_at": "2026-08-06T04:47:15.000000Z",
+            "room_name": "2203-BL2-SF",
+            "facultyName": "Dr. Nagalapuram Muni Pradeep"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 4977,
+            "unique_id": "DECEBCFE-F314-4C26-9EB5-93809802F74B",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude And Logical Reasoning",
+            "batch": "24CEBTB05",
+            "faculty": "3625",
+            "room": "35",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "08-09-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-29T06:35:53.000000Z",
+            "updated_at": "2026-09-08T10:56:12.000000Z",
+            "room_name": "2201-BL2-SF",
+            "facultyName": "Dr. Dipesh Barman"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 5083,
+            "unique_id": "6C20ED73-B660-4494-8926-052722FEE673",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude and Logical Reasoning",
+            "batch": "24CEBTB05",
+            "faculty": "3625",
+            "room": "52",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-30T19:44:11.000000Z",
+            "updated_at": "2026-07-30T19:44:11.000000Z",
+            "room_name": "3114-BL3-FF",
+            "facultyName": "Dr. Dipesh Barman"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 5084,
+            "unique_id": "4AE45429-C064-4104-BEF1-E004699B23A9",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude and Logical Reasoning",
+            "batch": "24CEBTB05",
+            "faculty": "3625",
+            "room": "52",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-30T19:44:11.000000Z",
+            "updated_at": "2026-07-30T19:44:11.000000Z",
+            "room_name": "3114-BL3-FF",
+            "facultyName": "Dr. Dipesh Barman"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 3151,
+            "unique_id": "55CD4BAC-D83E-4FD8-8654-A3B644C654DE",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Solid Waste Management",
+            "batch": "24CEBTB05",
+            "faculty": "1036",
+            "room": "38",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-22T22:40:47.000000Z",
+            "updated_at": "2026-07-22T22:40:47.000000Z",
+            "room_name": "2206-BL2-SF",
+            "facultyName": "Dr. Guntakala Venkatanaga Chandra"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 5009,
+            "unique_id": "E49BEA51-F3D1-45DC-86F9-4DA4D2950286",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Geotechnical Engineering",
+            "batch": "24CEBTB05",
+            "faculty": "1031",
+            "room": "35",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-29T22:13:49.000000Z",
+            "updated_at": "2026-07-29T22:13:49.000000Z",
+            "room_name": "2201-BL2-SF",
+            "facultyName": "Dr. Nagalapuram Muni Pradeep"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 3197,
+            "unique_id": "4F05D665-5901-4899-ADAC-6C2D5E11C18E",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Solid Waste Management",
+            "batch": "24CEBTB05",
+            "faculty": "1036",
+            "room": "37",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "09-09-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-22T23:11:18.000000Z",
+            "updated_at": "2026-09-09T11:04:16.000000Z",
+            "room_name": "2203-BL2-SF",
+            "facultyName": "Dr. Guntakala Venkatanaga Chandra"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 4872,
+            "unique_id": "DC3D00A4-FAFC-4AD9-B4AD-8F9647853CF5",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Design of Steel Structures",
+            "batch": "24CEBTB05",
+            "faculty": "1038",
+            "room": "53",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Tut",
+            "rec_num": null,
+            "modify_date": "20-09-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-28T20:58:43.000000Z",
+            "updated_at": "2026-09-20T03:43:29.000000Z",
+            "room_name": "3115-BL3-FF",
+            "facultyName": "Dr. Gomasa Ramesh"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 5586,
+            "unique_id": "E6942338-4237-4063-907F-40DB73E84CDB",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "3D Printing",
+            "batch": "24CEBTB01,24CEBTB02,24CEBTB03,24CEBTB04,24CEBTB05",
+            "faculty": "2007",
+            "room": "50",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-01T18:38:23.000000Z",
+            "updated_at": "2026-08-01T18:38:23.000000Z",
+            "room_name": "3106-BL3-FF",
+            "facultyName": "Dr. Pankaj Kumar"
+          },
+          {
+            "id": 5583,
+            "unique_id": "DD12BA22-2486-4710-9721-64321046D1F1",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Operations Research",
+            "batch": "24CEBTB01,24CEBTB02,24CEBTB03,24CEBTB04,24CEBTB05",
+            "faculty": "2027",
+            "room": "49",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-01T18:36:09.000000Z",
+            "updated_at": "2026-08-01T18:36:09.000000Z",
+            "room_name": "3105-BL3-FF",
+            "facultyName": "Dr. Kumar Sourav"
+          },
+          {
+            "id": 5589,
+            "unique_id": "738FBAB3-84B5-4B24-9CFE-94D26496796B",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Renewable Energy Resources",
+            "batch": "24CEBTB01,24CEBTB02,24CEBTB03,24CEBTB04,24CEBTB05",
+            "faculty": "2038",
+            "room": "54",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-01T18:41:30.000000Z",
+            "updated_at": "2026-08-01T18:41:30.000000Z",
+            "room_name": "3202-BL3-SF",
+            "facultyName": "Dr. Prasun Dutta"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 5862,
+            "unique_id": "0288D4D3-FDA7-4368-BC0C-5F73CC08BF5C",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Geotechnical Engineering - Lab",
+            "batch": "24CEBTB05",
+            "faculty": "1032",
+            "room": "144",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "06-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-08-05T19:22:33.000000Z",
+            "updated_at": "2026-08-06T05:00:06.000000Z",
+            "room_name": "4711-BL4-GF",
+            "facultyName": "Dr. Sujay Vipulbhai Teli"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 5863,
+            "unique_id": "67A9F1B7-D32B-4DE2-91F2-4CFA85D78409",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Geotechnical Engineering - Lab",
+            "batch": "24CEBTB05",
+            "faculty": "1032",
+            "room": "144",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "06-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-08-05T19:22:33.000000Z",
+            "updated_at": "2026-08-06T04:59:38.000000Z",
+            "room_name": "4711-BL4-GF",
+            "facultyName": "Dr. Sujay Vipulbhai Teli"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 5081,
+            "unique_id": "883712E6-EE86-43DA-813A-73A3377A4D64",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude and Logical Reasoning",
+            "batch": "24CEBTB05",
+            "faculty": "3625",
+            "room": "52",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-30T19:38:38.000000Z",
+            "updated_at": "2026-07-30T19:38:38.000000Z",
+            "room_name": "3114-BL3-FF",
+            "facultyName": "Dr. Dipesh Barman"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 5082,
+            "unique_id": "011AB132-CB8A-422D-AB53-BF604EC7F44F",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Quantitative Aptitude and Logical Reasoning",
+            "batch": "24CEBTB05",
+            "faculty": "3625",
+            "room": "52",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-30T19:38:38.000000Z",
+            "updated_at": "2026-07-30T19:38:38.000000Z",
+            "room_name": "3114-BL3-FF",
+            "facultyName": "Dr. Dipesh Barman"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 3154,
+            "unique_id": "4BE586E7-9535-4EF0-80E1-A296BB72215B",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Building Information Modeling / PLAXIS",
+            "batch": "24CEBTB05",
+            "faculty": "1031",
+            "room": "38",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-22T22:43:42.000000Z",
+            "updated_at": "2026-07-22T22:43:42.000000Z",
+            "room_name": "2206-BL2-SF",
+            "facultyName": "Dr. Nagalapuram Muni Pradeep"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 3155,
+            "unique_id": "BB330F92-CCC8-413C-B64E-A35E1F04287F",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Building Information Modeling / PLAXIS",
+            "batch": "24CEBTB05",
+            "faculty": "1031",
+            "room": "38",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "08-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-22T22:44:32.000000Z",
+            "updated_at": "2026-08-08T04:00:58.000000Z",
+            "room_name": "2206-BL2-SF",
+            "facultyName": "Dr. Nagalapuram Muni Pradeep"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 3152,
+            "unique_id": "82E22A78-55E8-4E33-8056-0E6E1A906428",
+            "semester": "V",
+            "year": "Third",
+            "time": "09:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Design of Steel Structures",
+            "batch": "24CEBTB05",
+            "faculty": "1028",
+            "room": "38",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "05-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-22T22:41:28.000000Z",
+            "updated_at": "2026-08-05T11:53:44.000000Z",
+            "room_name": "2206-BL2-SF",
+            "facultyName": "Dr. Swamy Naga Ratna Giri"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 3196,
+            "unique_id": "977E34F1-58E6-4D53-9C5C-79A56713BF9C",
+            "semester": "V",
+            "year": "Third",
+            "time": "10:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Solid Waste Management",
+            "batch": "24CEBTB05",
+            "faculty": "1036",
+            "room": "33",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "11-09-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-22T23:09:07.000000Z",
+            "updated_at": "2026-09-11T10:53:16.000000Z",
+            "room_name": "2117-BL2-FF",
+            "facultyName": "Dr. Guntakala Venkatanaga Chandra"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 4974,
+            "unique_id": "DC332753-D650-47FD-A490-6CAC5C5D9FA8",
+            "semester": "V",
+            "year": "Third",
+            "time": "11:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Under Graduate Research in Civil Engineering",
+            "batch": "24CEBTB05",
+            "faculty": "1030",
+            "room": "41",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": "07-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-29T06:09:41.000000Z",
+            "updated_at": "2026-08-07T06:14:02.000000Z",
+            "room_name": "2216-BL2-SF",
+            "facultyName": "Dr. Vishnupriyan M"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 3329,
+            "unique_id": "25E69132-4D06-49E0-9A65-AC649E47E0E9",
+            "semester": "V",
+            "year": "Third",
+            "time": "13:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Highway Engineering",
+            "batch": "24CEBTB05",
+            "faculty": "1009",
+            "room": "38",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "03-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-23T00:11:02.000000Z",
+            "updated_at": "2026-08-03T06:17:40.000000Z",
+            "room_name": "2206-BL2-SF",
+            "facultyName": "Dr. Poongodi K"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 5008,
+            "unique_id": "FCE5EC2E-D151-4C49-8EBA-4BDB22B4D962",
+            "semester": "V",
+            "year": "Third",
+            "time": "14:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Geotechnical Engineering",
+            "batch": "24CEBTB05",
+            "faculty": "1031",
+            "room": "36",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "04-08-2026",
+            "status": 1,
+            "updated_by": "ramesh.g@sru.edu.in",
+            "created_at": "2026-07-29T22:11:21.000000Z",
+            "updated_at": "2026-08-04T10:52:22.000000Z",
+            "room_name": "2202-BL2-SF",
+            "facultyName": "Dr. Nagalapuram Muni Pradeep"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 5584,
+            "unique_id": "CBB6FA7A-EE4B-4001-AADB-6C2AA3C5F6DA",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Operations Research",
+            "batch": "24CEBTB01,24CEBTB02,24CEBTB03,24CEBTB04,24CEBTB05",
+            "faculty": "2027",
+            "room": "49",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-01T18:36:09.000000Z",
+            "updated_at": "2026-08-01T18:36:09.000000Z",
+            "room_name": "3105-BL3-FF",
+            "facultyName": "Dr. Kumar Sourav"
+          },
+          {
+            "id": 5590,
+            "unique_id": "9FE2F24E-35FA-45E7-A4CB-33117273D776",
+            "semester": "V",
+            "year": "Third",
+            "time": "15:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Renewable Energy Resources",
+            "batch": "24CEBTB01,24CEBTB02,24CEBTB03,24CEBTB04,24CEBTB05",
+            "faculty": "2038",
+            "room": "54",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-01T18:41:30.000000Z",
+            "updated_at": "2026-08-01T18:41:30.000000Z",
+            "room_name": "3202-BL3-SF",
+            "facultyName": "Dr. Prasun Dutta"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 5585,
+            "unique_id": "787A52E0-5686-482B-ADF7-2A83A440D54F",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Operations Research",
+            "batch": "24CEBTB01,24CEBTB02,24CEBTB03,24CEBTB04,24CEBTB05",
+            "faculty": "2027",
+            "room": "49",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-01T18:36:09.000000Z",
+            "updated_at": "2026-08-01T18:36:09.000000Z",
+            "room_name": "3105-BL3-FF",
+            "facultyName": "Dr. Kumar Sourav"
+          },
+          {
+            "id": 5591,
+            "unique_id": "641B145C-9F92-4762-85C4-2BC602709053",
+            "semester": "V",
+            "year": "Third",
+            "time": "16:30",
+            "day": "Friday",
+            "coursecode": null,
+            "subject": "Renewable Energy Resources",
+            "batch": "24CEBTB01,24CEBTB02,24CEBTB03,24CEBTB04,24CEBTB05",
+            "faculty": "2038",
+            "room": "54",
+            "program": "BTECH",
+            "offeredfrom": "CE",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "p.vijaykumar@sru.edu.in",
+            "created_at": "2026-08-01T18:41:30.000000Z",
+            "updated_at": "2026-08-01T18:41:30.000000Z",
+            "room_name": "3202-BL3-SF",
+            "facultyName": "Dr. Prasun Dutta"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

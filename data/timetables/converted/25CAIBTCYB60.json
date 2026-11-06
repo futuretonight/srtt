@@ -1,0 +1,350 @@
+{
+  "mon": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lab",
+      "room": "3212-B_BL3-SF",
+      "faculty": "Mr. Ankushavali Md",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lab",
+      "room": "3212-B_BL3-SF",
+      "faculty": "Mr. Ankushavali Md",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "11206-BL11-SF",
+      "faculty": "Dr. S. Jamalaiah",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Barun Dhara",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3102-B_BL3-FF",
+      "faculty": "Dr. Anil Kumar",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3102-B_BL3-FF",
+      "faculty": "Dr. Anil Kumar",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Sumit  Kumar Singh",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "8206-BL8-SF",
+      "faculty": "Dr. Barun Dhara",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "3101-B_BL3-FF",
+      "faculty": "Sonu Kumar",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "3101-B_BL3-FF",
+      "faculty": "Sonu Kumar",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "11206-BL11-SF",
+      "faculty": "Dr. S. Jamalaiah",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "8206-BL8-SF",
+      "faculty": "Dr. Barun Dhara",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lecture",
+      "room": "8209-BL8-SF",
+      "faculty": "Mr. Vishal Shukla",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lab",
+      "room": "3103-B_BL3-FF",
+      "faculty": "Mr. Priyanshu Solon",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lab",
+      "room": "3103-B_BL3-FF",
+      "faculty": "Mr. Priyanshu Solon",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lecture",
+      "room": "11206-BL11-SF",
+      "faculty": "Dr. Sumit  Kumar Singh",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Mr. Vishal Shukla",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Mr. Bediga Sharan",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lab",
+      "room": "10002-BL10-GF",
+      "faculty": "Dr. Susamay Samanta",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lab",
+      "room": "10002-BL10-GF",
+      "faculty": "Dr. Susamay Samanta",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "3001-B_BL3-GF",
+      "faculty": "Sonu Kumar",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "3001-B_BL3-GF",
+      "faculty": "Sonu Kumar",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3103-B_BL3-FF",
+      "faculty": "Dr. Rajnish Kumar",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3103-B_BL3-FF",
+      "faculty": "Dr. Rajnish Kumar",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "8104-BL8-FF",
+      "faculty": "Dr. S. Jamalaiah",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lab",
+      "room": "10002-B_BL10-GF",
+      "faculty": "Mr. Soumyojit Saha",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lab",
+      "room": "10002-B_BL10-GF",
+      "faculty": "Mr. Soumyojit Saha",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Barun Dhara",
+      "batches": [
+        "25CAIBTCYB60"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

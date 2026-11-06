@@ -1,0 +1,144 @@
+{
+  "mon": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Operations Research",
+      "kind": "Lecture",
+      "room": "2005-BL2-GF",
+      "faculty": "Dr. Kumar Sourav",
+      "batches": [
+        "25CAIMCAB01"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Operations Research",
+      "kind": "Lecture",
+      "room": "2005-BL2-GF",
+      "faculty": "Dr. Kumar Sourav",
+      "batches": [
+        "25CAIMCAB01"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Network security and cryptography",
+      "kind": "Lecture",
+      "room": "1111-BL1-FF",
+      "faculty": "Dr. Chopparra Prashanth",
+      "batches": [
+        "25CAIMCAB01"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Deep Reinforcement Learning and Applications",
+      "kind": "Lab",
+      "room": "10103-BL10-FF",
+      "faculty": "Dr. Sumit  Kumar Singh",
+      "batches": [
+        "25CAIMCAB01"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Deep Reinforcement Learning and Applications",
+      "kind": "Lab",
+      "room": "10103-BL10-FF",
+      "faculty": "Dr. Sumit  Kumar Singh",
+      "batches": [
+        "25CAIMCAB01"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Operations Research",
+      "kind": "Lecture",
+      "room": "2005-BL2-GF",
+      "faculty": "Dr. Kumar Sourav",
+      "batches": [
+        "25CAIMCAB01"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Deep Reinforcement Learning and Applications",
+      "kind": "Lecture",
+      "room": "1216-BL1-SF",
+      "faculty": "Dr. Sumit  Kumar Singh",
+      "batches": [
+        "25CAIMCAB01"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Deep Reinforcement Learning and Applications",
+      "kind": "Lecture",
+      "room": "1216-BL1-SF",
+      "faculty": "Dr. Sumit  Kumar Singh",
+      "batches": [
+        "25CAIMCAB01"
+      ]
+    }
+  ],
+  "wed": [],
+  "thu": [],
+  "fri": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Network security and cryptography",
+      "kind": "Lecture",
+      "room": "1215-BL1-SF",
+      "faculty": "Dr. Chopparra Prashanth",
+      "batches": [
+        "25CAIMCAB01"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Network security and cryptography",
+      "kind": "Lab",
+      "room": "1210-BL1-SF",
+      "faculty": "Dr. Chopparra Prashanth",
+      "batches": [
+        "25CAIMCAB01"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Network security and cryptography",
+      "kind": "Lab",
+      "room": "1210-BL1-SF",
+      "faculty": "Dr. Chopparra Prashanth",
+      "batches": [
+        "25CAIMCAB01"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

@@ -1,0 +1,230 @@
+{
+  "mon": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Operations Management",
+      "kind": "Lecture",
+      "room": "9102-BL9-FF",
+      "faculty": "Dr. Salla Nithyanth Kumar",
+      "batches": [
+        "24BBAB04"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Strategic Management",
+      "kind": "Lecture",
+      "room": "9102-BL9-FF",
+      "faculty": "Dr. Karra Aruna",
+      "batches": [
+        "24BBAB04"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Generative AI Applications",
+      "kind": "Lecture",
+      "room": "9102-BL9-FF",
+      "faculty": "Dr. Girirajan B",
+      "batches": [
+        "24BBAB04"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Business Ethcs",
+      "kind": "Lecture",
+      "room": "9102-BL9-FF",
+      "faculty": "Dr. Ramesh R",
+      "batches": [
+        "24BBAB04"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Strategic Management",
+      "kind": "Lecture",
+      "room": "9102-BL9-FF",
+      "faculty": "Dr. Karra Aruna",
+      "batches": [
+        "24BBAB04"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Business Ethcs",
+      "kind": "Lecture",
+      "room": "9102-BL9-FF",
+      "faculty": "Dr. Ramesh R",
+      "batches": [
+        "24BBAB04"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Generative AI Applications",
+      "kind": "Lecture",
+      "room": "9102-BL9-FF",
+      "faculty": "Dr. Girirajan B",
+      "batches": [
+        "24BBAB04"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Management Consulting",
+      "kind": "Lab",
+      "room": "9102-BL9-FF",
+      "faculty": "Ms. Sunitha Purushottam Ashtikar",
+      "batches": [
+        "24BBAB04"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Management Consulting",
+      "kind": "Lab",
+      "room": "9102-BL9-FF",
+      "faculty": "Ms. Sunitha Purushottam Ashtikar",
+      "batches": [
+        "24BBAB04"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Generative AI Applications",
+      "kind": "Lecture",
+      "room": "9102-BL9-FF",
+      "faculty": "Dr. Girirajan B",
+      "batches": [
+        "24BBAB04"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Management Consulting",
+      "kind": "Lecture",
+      "room": "9102-BL9-FF",
+      "faculty": "Ms. Sunitha Purushottam Ashtikar",
+      "batches": [
+        "24BBAB04"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Business Ethcs",
+      "kind": "Lecture",
+      "room": "9102-BL9-FF",
+      "faculty": "Dr. Ramesh R",
+      "batches": [
+        "24BBAB04"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Strategic Management",
+      "kind": "Lecture",
+      "room": "9102-BL9-FF",
+      "faculty": "Dr. Karra Aruna",
+      "batches": [
+        "24BBAB04"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Strategic Management",
+      "kind": "Lab",
+      "room": "9102-BL9-FF",
+      "faculty": "Dr. Karra Aruna",
+      "batches": [
+        "24BBAB04"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Business Ethcs",
+      "kind": "Lecture",
+      "room": "9102-BL9-FF",
+      "faculty": "Dr. Ramesh R",
+      "batches": [
+        "24BBAB04"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Management Consulting",
+      "kind": "Lecture",
+      "room": "9102-BL9-FF",
+      "faculty": "Ms. Sunitha Purushottam Ashtikar",
+      "batches": [
+        "24BBAB04"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Generative AI Applications",
+      "kind": "Lecture",
+      "room": "9102-BL9-FF",
+      "faculty": "Dr. Girirajan B",
+      "batches": [
+        "24BBAB04"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Operations Management",
+      "kind": "Lecture",
+      "room": "9102-BL9-FF",
+      "faculty": "Dr. Salla Nithyanth Kumar",
+      "batches": [
+        "24BBAB04"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

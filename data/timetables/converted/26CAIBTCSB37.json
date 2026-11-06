@@ -1,0 +1,302 @@
+{
+  "mon": [
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Computational Biology",
+      "kind": "Lecture",
+      "room": "8209-BL8-SF",
+      "faculty": "Dr. A Giridhar Babu",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "8209-BL8-SF",
+      "faculty": "Dr. Manoj Kumar",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lecture",
+      "room": "8209-BL8-SF",
+      "faculty": "Dr. Sundheep R",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Applied Physics",
+      "kind": "Lecture",
+      "room": "8209-BL8-SF",
+      "faculty": "Dr. Purushotham E",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Heritage, Democracy and Ecology",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Dr. ASHOK KUMAR K",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Heritage, Democracy and Ecology",
+      "kind": "Lecture",
+      "room": "8106-BL8-FF",
+      "faculty": "Dr. ASHOK KUMAR K",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Applied Physics",
+      "kind": "Lecture",
+      "room": "8209-BL8-SF",
+      "faculty": "Dr. Purushotham E",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Computational Biology",
+      "kind": "Lab",
+      "room": "8001-BL8-GF",
+      "faculty": "Dr. Anirban Mukherjee",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Computational Biology",
+      "kind": "Lab",
+      "room": "8001-BL8-GF",
+      "faculty": "Dr. Anirban Mukherjee",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Tutorial",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Manoj Kumar",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "08:30",
+      "end": "09:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lab",
+      "room": "8207-BL8-SF",
+      "faculty": "Dr. Sundheep R",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lab",
+      "room": "8207-BL8-SF",
+      "faculty": "Dr. Sundheep R",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Applied Physics",
+      "kind": "Lab",
+      "room": "3117-BL3-FF",
+      "faculty": "Dr. Purushotham E",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Applied Physics",
+      "kind": "Lab",
+      "room": "3117-BL3-FF",
+      "faculty": "Dr. Purushotham E",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Computational Biology",
+      "kind": "Lecture",
+      "room": "8209-BL8-SF",
+      "faculty": "Dr. A Giridhar Babu",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "8209-BL8-SF",
+      "faculty": "Dr. Manoj Kumar",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "08:30",
+      "end": "09:30",
+      "category": "class",
+      "subject": "Heritage, Democracy and Ecology",
+      "kind": "Lecture",
+      "room": "10104-BL10-FF",
+      "faculty": "Dr. ASHOK KUMAR K",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Computational Biology",
+      "kind": "Lecture",
+      "room": "8209-BL8-SF",
+      "faculty": "Dr. A Giridhar Babu",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Applied Physics",
+      "kind": "Lecture",
+      "room": "8209-BL8-SF",
+      "faculty": "Dr. Purushotham E",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lecture",
+      "room": "8209-BL8-SF",
+      "faculty": "Dr. Sundheep R",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Manoj Kumar",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lab",
+      "room": "8207-BL8-SF",
+      "faculty": "Dr. Srinivas Pattipaka",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "AI assisted Python Programming",
+      "kind": "Lab",
+      "room": "8207-BL8-SF",
+      "faculty": "Dr. Srinivas Pattipaka",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Calculus and Differential Equations",
+      "kind": "Lecture",
+      "room": "8209-BL8-SF",
+      "faculty": "Dr. Manoj Kumar",
+      "batches": [
+        "26CAIBTCSB37"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

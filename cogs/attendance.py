@@ -52,7 +52,7 @@ if not hasattr(commands, "hybrid_command"):
 if not hasattr(commands, "hybrid_group"):
     commands.hybrid_group = commands.group  # type: ignore[attr-defined]
 
-from cogs.timetable import DAY_KEYS, DAY_NAMES, slot_matches_batch
+from cogs.timetable import DAY_KEYS, DAY_NAMES, slot_matches_batch, natural_sort_key
 
 _HAS_UI = False
 try:
@@ -250,7 +250,7 @@ if _HAS_UI:
             if interaction.user.id != self.att_view.lecturer_id:
                 if hasattr(interaction, "response"):
                     await interaction.response.send_message(
-                        "❌ This attendance session is restricted to the authorized lecturer.",
+                        "This attendance session is restricted to the authorized lecturer.",
                         ephemeral=True,
                     )
                 return
@@ -305,7 +305,7 @@ if _HAS_UI:
             btn_all_present = discord.ui.Button(
                 label="Mark All Present",
                 style=discord.ButtonStyle.success,
-                emoji="🟢",
+                emoji="",
                 custom_id="att_btn_all_present",
                 row=0,
             )
@@ -315,7 +315,7 @@ if _HAS_UI:
             btn_all_absent = discord.ui.Button(
                 label="Mark All Absent",
                 style=discord.ButtonStyle.danger,
-                emoji="🔴",
+                emoji="",
                 custom_id="att_btn_all_absent",
                 row=0,
             )
@@ -326,7 +326,7 @@ if _HAS_UI:
             btn_toggle_mode = discord.ui.Button(
                 label=mode_label,
                 style=discord.ButtonStyle.secondary,
-                emoji="🔄",
+                emoji="",
                 custom_id="att_btn_toggle_mode",
                 row=0,
             )
@@ -347,20 +347,22 @@ if _HAS_UI:
                     curr_status = self.status_map.get(uid, "present")
                     roll = s.get("roll_no") or "?"
                     name = s.get("name") or f"Student {uid[:5]}"
+                    is_linked = s.get("is_linked", False)
                     # Default selection state depending on mode
                     is_selected = (curr_status == "absent") if self.selection_mode == "absentees" else (curr_status == "present")
-                    icon = "🔴" if curr_status == "absent" else "🟢"
+                    icon = "" if curr_status == "absent" else ""
+                    link_desc = "Linked" if is_linked else "Unlinked"
                     options.append(
                         discord.SelectOption(
                             label=f"Roll {roll}: {name}"[:100],
                             value=uid,
-                            description=f"Status: {curr_status.upper()}",
+                            description=f"Status: {curr_status.upper()} • {link_desc}",
                             emoji=icon,
                             default=is_selected,
                         )
                     )
 
-                placeholder = f"Select {self.selection_mode.title()} (Rolls {start + 1}–{end} of {total_students})"
+                placeholder = f"Select {self.selection_mode.title()} (Students {start + 1}–{end} of {total_students})"
                 select = StudentSelect(self, options, placeholder=placeholder, custom_id=f"att_select_{self._chunk_index}")
                 self.add_item(select)
 
@@ -391,7 +393,7 @@ if _HAS_UI:
             btn_submit = discord.ui.Button(
                 label="Submit Attendance Record",
                 style=discord.ButtonStyle.primary,
-                emoji="💾",
+                emoji="",
                 custom_id="att_btn_submit",
                 row=3,
             )
@@ -412,10 +414,10 @@ if _HAS_UI:
                     absent_rolls.append(f"`{r}` ({n})")
 
             embed = discord.Embed(
-                title=f"📋 Mark Attendance — {self.subject}",
+                title=f"Mark Attendance — {self.subject}",
                 description=(
-                    f"> 👥 **Batch {self.batch.upper()}**   •   ⏰ **`{self.slot_span}`**\n"
-                    f"> 📊 **Summary:** `{present_count}/{total}` Present (**{pct:.1f}%**)   •   "
+                    f"> **Batch {self.batch.upper()}**   •   **`{self.slot_span}`**\n"
+                    f"> **Summary:** `{present_count}/{total}` Present (**{pct:.1f}%**)   •   "
                     f"`{absent_count}` Absent\n\n"
                     f"**Current Mode:** Marking *{self.selection_mode.upper()}*.\n"
                     "Use the buttons or dropdown below, then click **Submit Attendance Record**."
@@ -429,19 +431,19 @@ if _HAS_UI:
                 if len(absent_rolls) > 15:
                     absent_str += f" … (+{len(absent_rolls) - 15} more)"
                 embed.add_field(
-                    name=f"🔴 Absentees ({absent_count})",
+                    name=f"Absentees ({absent_count})",
                     value=absent_str,
                     inline=False,
                 )
             else:
                 embed.add_field(
-                    name="🟢 Absentees (0)",
+                    name="Absentees (0)",
                     value="*All students are currently marked as Present!*",
                     inline=False,
                 )
 
             if self.approval_override:
-                embed.set_footer(text="⚠️ Marked with Admin Approval Override • Saved in data/attendance.json")
+                embed.set_footer(text="Marked with Admin Approval Override • Saved in data/attendance.json")
             else:
                 embed.set_footer(text="Scheduled Class Window Active • Saved in data/attendance.json")
             return embed
@@ -534,12 +536,12 @@ if _HAS_UI:
             pct = session.percentage
 
             embed = discord.Embed(
-                title="✅ Attendance Submitted Successfully!",
+                title="Attendance Submitted Successfully!",
                 description=(
                     f"Attendance for **{self.subject}** (Batch {self.batch.upper()}) has been permanently saved.\n\n"
-                    f"> 📅 Date: **{session.date}**   •   ⏰ Time: **`{session.slot_start} – {session.slot_end}`**\n"
-                    f"> 📊 Present: **{present}/{total}** (`{pct:.1f}%`)\n"
-                    f"> 🔴 Absent: **{absent}** student{'s' if absent != 1 else ''}"
+                    f"> Date: **{session.date}**   •   Time: **`{session.slot_start} – {session.slot_end}`**\n"
+                    f"> Present: **{present}/{total}** (`{pct:.1f}%`)\n"
+                    f"> Absent: **{absent}** student{'s' if absent != 1 else ''}"
                 ),
                 color=COLOR_SUCCESS,
                 timestamp=now,
@@ -549,7 +551,7 @@ if _HAS_UI:
             if absent > 0:
                 absent_names = [f"Roll {r.roll_no} ({r.name})" for r in session.records.values() if r.status == "absent"]
                 embed.add_field(
-                    name=f"🔴 Absentees List ({absent})",
+                    name=f"Absentees List ({absent})",
                     value=", ".join(absent_names[:20]) + (" …" if len(absent_names) > 20 else ""),
                     inline=False,
                 )
@@ -571,12 +573,12 @@ if _HAS_UI:
             self.batch = batch
             self.slot_span = slot_span
 
-        @discord.ui.button(label="Request Admin Approval", style=discord.ButtonStyle.primary, emoji="📩")
+        @discord.ui.button(label="Request Admin Approval", style=discord.ButtonStyle.primary, emoji="")
         async def request_approval(self, interaction: discord.Interaction, button: discord.ui.Button):
             if interaction.user.id != self.lecturer.id:
                 if hasattr(interaction, "response"):
                     await interaction.response.send_message(
-                        "❌ This button is for the lecturer who initiated the command.", ephemeral=True
+                        "This button is for the lecturer who initiated the command.", ephemeral=True
                     )
                 return
 
@@ -591,7 +593,7 @@ if _HAS_UI:
             # Dispatch notification to bot owner
             app_view = AdminApprovalActionView(self.cog, self.lecturer.id, self.subject, self.batch, req_key)
             owner_embed = discord.Embed(
-                title="⚠️ Attendance Late-Marking Approval Request",
+                title="Attendance Late-Marking Approval Request",
                 description=(
                     f"**Lecturer:** {self.lecturer.mention} (`{self.lecturer.display_name}`)\n"
                     f"**Subject:** **{self.subject}**\n"
@@ -620,13 +622,13 @@ if _HAS_UI:
             if not sent_to_owner:
                 # If cannot DM owner, send in the current channel for server admins
                 await interaction.channel.send(
-                    content=f"🔔 <@{owner_id}> (Admin Attendance Approval Needed)",
+                    content=f"<@{owner_id}> (Admin Attendance Approval Needed)",
                     embed=owner_embed,
                     view=app_view,
                 )
 
             await interaction.response.edit_message(
-                content="✅ **Approval Request Sent!** The admin has been notified. You will be able to take attendance as soon as they approve.",
+                content="**Approval Request Sent!** The admin has been notified. You will be able to take attendance as soon as they approve.",
                 view=self,
             )
 
@@ -639,7 +641,7 @@ if _HAS_UI:
             self.batch = batch
             self.req_key = req_key
 
-        @discord.ui.button(label="Approve (60 Min Window)", style=discord.ButtonStyle.success, emoji="✅")
+        @discord.ui.button(label="Approve (60 Min Window)", style=discord.ButtonStyle.success, emoji="")
         async def approve(self, interaction: discord.Interaction, button: discord.ui.Button):
             now = self.cog._now()
             expiry = now + timedelta(minutes=60)
@@ -649,7 +651,7 @@ if _HAS_UI:
                 setattr(child, "disabled", True)
 
             embed = discord.Embed(
-                title="✅ Attendance Request Approved",
+                title="Attendance Request Approved",
                 description=(
                     f"Approved 60-minute window for <@{self.lecturer_id}> to mark attendance "
                     f"for **{self.subject}** (Batch {self.batch.upper()}).\n"
@@ -666,18 +668,18 @@ if _HAS_UI:
                 user = await self.cog.bot.fetch_user(self.lecturer_id)
                 if user:
                     await user.send(
-                        f"🎉 **Your attendance request was approved!** You have 60 minutes to record attendance "
+                        f"**Your attendance request was approved!** You have 60 minutes to record attendance "
                         f"for **{self.subject}** (Batch {self.batch}). Run `/attendance take` to start."
                     )
 
-        @discord.ui.button(label="Deny", style=discord.ButtonStyle.danger, emoji="❌")
+        @discord.ui.button(label="Deny", style=discord.ButtonStyle.danger, emoji="")
         async def deny(self, interaction: discord.Interaction, button: discord.ui.Button):
             self.cog.active_approvals.pop(self.req_key, None)
             for child in self.children:
                 setattr(child, "disabled", True)
 
             embed = discord.Embed(
-                title="❌ Attendance Request Denied",
+                title="Attendance Request Denied",
                 description=f"Request to mark late attendance for <@{self.lecturer_id}> was denied.",
                 color=COLOR_ERROR,
             )
@@ -900,26 +902,28 @@ class AttendanceCog(commands.Cog):
         # Check if caller is registered as lecturer
         if not lecturer:
             embed = discord.Embed(
-                title="🔒 Lecturer Access Required",
+                title="Lecturer Access Required",
                 description=(
                     "You are not registered as an authorized lecturer in the bot.\n\n"
-                    "-# 💡 *Server administrators can authorize you using `/setlecturer member:@You subject:\"Subject\"`.*"
+                    "-# *Server administrators can authorize you using `/setlecturer member:@You subject:\"Subject\"`.*"
                 ),
                 color=COLOR_ERROR,
             )
             await _safe_send(ctx, embed=embed, ephemeral=True)
             return
 
+        tt = self._timetable()
+        actual_batch = tt.resolve_batch_input(batch) if (tt and batch) else batch
         now = self._now()
         slot, is_auth, reason, is_override = self.find_current_class_slot(
             lecturer=lecturer,
-            query_batch=batch,
+            query_batch=actual_batch,
             now=now,
         )
 
         if not slot:
             embed = discord.Embed(
-                title="📭 No Classes Scheduled Today",
+                title="No Classes Scheduled Today",
                 description=f"> {reason}\n\nCheck `/timetable` to view scheduled hours for your subjects.",
                 color=COLOR_WARN,
             )
@@ -933,11 +937,11 @@ class AttendanceCog(commands.Cog):
         # Check if outside permitted time window
         if not is_auth:
             embed = discord.Embed(
-                title="⛔ Class Attendance Window Closed",
+                title="Class Attendance Window Closed",
                 description=(
                     f"You cannot take attendance right now for **{effective_subject}** (Batch {effective_batch}).\n\n"
-                    f"> ⏰ Scheduled Slot: **`{slot.span}`**\n"
-                    f"> 🕒 Current Time: **`{now:%H:%M %Z}`**\n\n"
+                    f"> Scheduled Slot: **`{slot.span}`**\n"
+                    f"> Current Time: **`{now:%H:%M %Z}`**\n\n"
                     f"**Reason:** {reason}\n\n"
                     "If you missed your class window, click **Request Admin Approval** below "
                     "to notify the administrator for a 60-minute late unlock."
@@ -954,27 +958,47 @@ class AttendanceCog(commands.Cog):
             await _safe_send(ctx, embed=embed, view=view, ephemeral=True)
             return
 
-        # Fetch students for this batch from TimetableCog
+        # Fetch students for this batch from TimetableCog roster
         tt = self._timetable()
-        profiles = tt.read_profiles() if tt else {}
         batch_students = []
-        for uid, p in profiles.items():
-            if p.batch.upper() == effective_batch.upper() or effective_batch.upper() == "ALL":
-                batch_students.append({
-                    "user_id": uid,
-                    "roll_no": p.roll_no or "999",
-                    "name": p.name or f"User {uid[:5]}",
-                })
+        if tt:
+            roster_students = tt.get_batch_students(effective_batch)
+            if roster_students:
+                for s in roster_students:
+                    uid = s.user_id if s.user_id else f"roll_{s.roll_no}"
+                    s_name = s.name if s.name else f"Roll {s.roll_no}"
+                    batch_students.append({
+                        "user_id": uid,
+                        "roll_no": s.roll_no,
+                        "name": s_name,
+                        "is_linked": bool(s.user_id),
+                    })
+            else:
+                # Fallback to users.json profiles if roster not yet explicitly populated
+                profiles = tt.read_profiles()
+                for uid, p in profiles.items():
+                    if p.batch.upper() == effective_batch.upper() or effective_batch.upper() == "ALL":
+                        batch_students.append({
+                            "user_id": uid,
+                            "roll_no": p.roll_no or "999",
+                            "name": p.name or f"User {uid[:5]}",
+                            "is_linked": True,
+                        })
 
-        # Sort by roll number, then name
-        batch_students.sort(key=lambda s: (s["roll_no"], s["name"]))
+        # Sort by roll number naturally, then name
+        batch_students.sort(key=lambda s: (natural_sort_key(s["roll_no"]), s["name"]))
 
         if not batch_students:
             embed = discord.Embed(
-                title="👥 No Students Linked to Batch",
+                title="No Students in Batch Roster",
                 description=(
-                    f"No students in the server have linked their Discord account to **Batch {effective_batch}** yet!\n\n"
-                    f"Students must run `/link batch:{effective_batch}` so their roll numbers appear on your attendance sheet."
+                    f"No students or roll numbers are populated for **Batch {effective_batch}** yet!\n\n"
+                    f"**How to populate student roll numbers:**\n"
+                    f"• Generate range: `/populaterolls batch:{effective_batch} start:1 end:60`\n"
+                    f"• Bulk paste list: `/addstudents batch:{effective_batch} roster_text:<list>`\n"
+                    f"• Add individual: `/addstudent batch:{effective_batch} roll_no:01 name:Alice`\n"
+                    f"• Upload CSV: `/importroster batch:{effective_batch}`\n"
+                    f"• Or students can link: `/link batch:{effective_batch} roll_no:01`"
                 ),
                 color=COLOR_WARN,
             )
@@ -985,7 +1009,7 @@ class AttendanceCog(commands.Cog):
         if not _HAS_UI or AttendanceWorkflowView is None:
             # Fallback for environments without UI
             embed = discord.Embed(
-                title="📋 Attendance Marking (Plain Mode)",
+                title="Attendance Marking (Plain Mode)",
                 description=(
                     f"Ready to record attendance for **{effective_subject}** (Batch {effective_batch}).\n"
                     f"Found **{len(batch_students)}** registered students."
@@ -1033,7 +1057,7 @@ class AttendanceCog(commands.Cog):
 
         if not matching:
             embed = discord.Embed(
-                title="📋 No Attendance Records Found",
+                title="No Attendance Records Found",
                 description=f"No sessions recorded yet for **Batch {target_batch}**" + (f" in *{subject}*" if subject else "") + ".",
                 color=COLOR_MUTED,
             )
@@ -1045,11 +1069,11 @@ class AttendanceCog(commands.Cog):
         avg_pct = sum(s.percentage for s in matching) / total_sessions
 
         embed = discord.Embed(
-            title=f"📋 Attendance Summary — Batch {target_batch}",
+            title=f"Attendance Summary — Batch {target_batch}",
             description=(
-                f"> 📚 Total Sessions Conducted: **{total_sessions}**\n"
-                f"> 📊 Batch Average Attendance: **{avg_pct:.1f}%**\n\n"
-                "### 🗓️ Recent Sessions"
+                f"> Total Sessions Conducted: **{total_sessions}**\n"
+                f"> Batch Average Attendance: **{avg_pct:.1f}%**\n\n"
+                "### ️ Recent Sessions"
             ),
             color=COLOR_PRIMARY,
         )
@@ -1057,7 +1081,7 @@ class AttendanceCog(commands.Cog):
 
         lines = []
         for s in matching[:10]:
-            icon = "🟢" if s.percentage >= 75.0 else "🔴"
+            icon = "" if s.percentage >= 75.0 else ""
             override_tag = " `[Override]`" if s.approval_override else ""
             lines.append(
                 f"{icon} **{s.date}** (`{s.slot_start}`) — **{s.subject}**{override_tag}\n"
@@ -1094,7 +1118,7 @@ class AttendanceCog(commands.Cog):
 
         if not matching:
             embed = discord.Embed(
-                title="📭 No Attendance Data To Export",
+                title="No Attendance Data To Export",
                 description=f"No recorded attendance sessions found for **Batch {target_batch}**.",
                 color=COLOR_WARN,
             )
@@ -1107,7 +1131,7 @@ class AttendanceCog(commands.Cog):
             for uid, r in s.records.items():
                 student_map[uid] = (r.roll_no, r.name)
 
-        sorted_students = sorted(student_map.items(), key=lambda item: (item[1][0], item[1][1]))
+        sorted_students = sorted(student_map.items(), key=lambda item: (natural_sort_key(item[1][0]), item[1][1]))
 
         # Generate CSV buffer
         output = io.StringIO()
@@ -1141,11 +1165,11 @@ class AttendanceCog(commands.Cog):
         discord_file = discord.File(fp=io.BytesIO(output.getvalue().encode("utf-8")), filename=filename)
 
         embed = discord.Embed(
-            title="📊 Attendance Export Complete",
+            title="Attendance Export Complete",
             description=(
                 f"Generated spreadsheet for **Batch {target_batch}**.\n\n"
-                f"> 📅 Sessions: **{len(matching)}**\n"
-                f"> 👥 Students: **{len(sorted_students)}**"
+                f"> Sessions: **{len(matching)}**\n"
+                f"> Students: **{len(sorted_students)}**"
             ),
             color=COLOR_SUCCESS,
         )
@@ -1165,26 +1189,41 @@ class AttendanceCog(commands.Cog):
         sessions = self.read_attendance()
         threshold = self._threshold()
 
-        # Find sessions where this user was on the roster
-        user_sessions: list[AttendanceSession] = []
+        # Find sessions where this user was on the roster (by user_id or linked roll number)
+        tt = self._timetable()
+        profile = tt.get_user_profile(user_id) if tt else None
+        linked_roll = profile.roll_no if profile else None
+        linked_batch = profile.batch.upper() if profile else None
+
+        user_sessions: list[tuple[AttendanceSession, str]] = []  # (session, status)
         for s in sessions.values():
+            if subject is not None and subject.strip().lower() not in s.subject.lower():
+                continue
+
+            status = None
             if user_id in s.records:
-                if subject is None or subject.strip().lower() in s.subject.lower():
-                    user_sessions.append(s)
+                status = s.records[user_id].status
+            elif linked_roll and linked_batch and s.batch.upper() == linked_batch:
+                # Fallback to roll number matching for sessions recorded before account linking
+                for r_uid, r in s.records.items():
+                    if r.roll_no == linked_roll:
+                        status = r.status
+                        break
+
+            if status is not None:
+                user_sessions.append((s, status))
 
         if not user_sessions:
-            # Check if user is linked to a batch
-            tt = self._timetable()
-            profile = tt.get_user_profile(user_id) if tt else None
             batch_str = f"Batch {profile.batch}" if profile else "No batch"
+            roll_str = f" (Roll `{profile.roll_no}`)" if profile and profile.roll_no else ""
 
             embed = discord.Embed(
-                title="📋 No Attendance Records Found",
+                title="No Attendance Records Found",
                 description=(
                     f"No attendance records were found for your account ({ctx.author.mention}).\n\n"
-                    f"**Current Status:** {batch_str}\n"
-                    "Make sure your account is linked with `/link <batch>` and that your lecturers "
-                    "have marked attendance for your classes."
+                    f"**Current Status:** {batch_str}{roll_str}\n"
+                    "Make sure your account is linked with `/link batch:<your_batch> roll_no:<your_roll>` "
+                    "and that your lecturers have marked attendance for your classes."
                 ),
                 color=COLOR_MUTED,
             )
@@ -1193,27 +1232,27 @@ class AttendanceCog(commands.Cog):
             return
 
         total_classes = len(user_sessions)
-        attended_classes = sum(1 for s in user_sessions if s.records[user_id].status == "present")
+        attended_classes = sum(1 for _, st in user_sessions if st == "present")
         overall_pct = (attended_classes / total_classes * 100.0) if total_classes else 0.0
 
         # Group by subject
         subject_stats: dict[str, tuple[int, int]] = {}  # sub -> (attended, total)
-        for s in user_sessions:
+        for s, st in user_sessions:
             sub = s.subject
             att, tot = subject_stats.get(sub, (0, 0))
-            is_p = 1 if s.records[user_id].status == "present" else 0
+            is_p = 1 if st == "present" else 0
             subject_stats[sub] = (att + is_p, tot + 1)
 
         is_safe = overall_pct >= threshold
         color = COLOR_SUCCESS if is_safe else (COLOR_WARN if overall_pct >= 65.0 else COLOR_ERROR)
 
         embed = discord.Embed(
-            title=f"👤 Attendance Portal — {ctx.author.display_name}",
+            title=f"Attendance Portal — {ctx.author.display_name}",
             description=(
                 f"Overall Attendance: {_fmt_pct_bar(overall_pct / 100.0)}\n\n"
-                f"> 📊 Total Classes Conducted: **{total_classes}**\n"
-                f"> 🟢 Attended: **{attended_classes}**   •   🔴 Missed: **{total_classes - attended_classes}**\n"
-                f"> 🎯 Required Minimum: **{threshold:.0f}%**"
+                f"> Total Classes Conducted: **{total_classes}**\n"
+                f"> Attended: **{attended_classes}**   •   Missed: **{total_classes - attended_classes}**\n"
+                f"> Required Minimum: **{threshold:.0f}%**"
             ),
             color=color,
         )
@@ -1225,10 +1264,10 @@ class AttendanceCog(commands.Cog):
         sub_lines = []
         for sub_name, (sub_att, sub_tot) in sorted(subject_stats.items()):
             sub_pct = (sub_att / sub_tot * 100.0) if sub_tot else 0.0
-            icon = "🟢" if sub_pct >= threshold else "🔴"
+            icon = "" if sub_pct >= threshold else ""
             sub_lines.append(f"{icon} **{sub_name}**: `{sub_att}/{sub_tot}` (**{sub_pct:.1f}%**)")
 
-        embed.add_field(name="📚 Subject Breakdown", value="\n".join(sub_lines), inline=False)
+        embed.add_field(name="Subject Breakdown", value="\n".join(sub_lines), inline=False)
 
         # 75% Safe Bunk & Shortage Calculator
         if is_safe:
@@ -1237,13 +1276,13 @@ class AttendanceCog(commands.Cog):
             max_bunks = math.floor((attended_classes - req_ratio * total_classes) / req_ratio)
             if max_bunks > 0:
                 calc_text = (
-                    f"🟢 **You are in the Safe Zone!**\n"
+                    f"**You are in the Safe Zone!**\n"
                     f"You can safely skip **{max_bunks} more class{'es' if max_bunks != 1 else ''}** "
                     f"and your attendance will still stay above **{threshold:.0f}%**."
                 )
             else:
                 calc_text = (
-                    f"🟡 **On the Margin!**\n"
+                    f"**On the Margin!**\n"
                     f"Your attendance is exactly around {threshold:.0f}%. If you miss your next class, you will drop into shortage."
                 )
         else:
@@ -1251,13 +1290,13 @@ class AttendanceCog(commands.Cog):
             req_ratio = threshold / 100.0
             needed = math.ceil((req_ratio * total_classes - attended_classes) / (1.0 - req_ratio))
             calc_text = (
-                f"⚠️ **Attendance Shortage Alert!**\n"
+                f"**Attendance Shortage Alert!**\n"
                 f"You are currently below the required {threshold:.0f}% threshold.\n"
                 f"You must attend the next **{needed} consecutive class{'es' if needed != 1 else ''}** "
                 f"without missing to recover your attendance to **{threshold:.0f}%**."
             )
 
-        embed.add_field(name="🧮 75% Attendance Advisor", value=calc_text, inline=False)
+        embed.add_field(name="75% Attendance Advisor", value=calc_text, inline=False)
         embed.set_footer(text=f"Threshold: {threshold:.0f}% • Keep your attendance high to avoid exam disqualification")
         await _safe_send(ctx, embed=embed, ephemeral=True)
 
@@ -1290,14 +1329,14 @@ class AttendanceCog(commands.Cog):
         )
 
         embed = discord.Embed(
-            title="✅ Lecturer Authorized",
+            title="Lecturer Authorized",
             description=f"Successfully registered {member.mention} as an authorized lecturer.",
             color=COLOR_SUCCESS,
         )
         embed.set_author(name="Timetable Attendance Admin")
-        embed.add_field(name="👨‍🏫 Lecturer", value=member.mention, inline=True)
-        embed.add_field(name="📚 Subjects", value=", ".join(lec.subjects), inline=True)
-        embed.add_field(name="👥 Batches", value=", ".join(lec.batches), inline=True)
+        embed.add_field(name="Lecturer", value=member.mention, inline=True)
+        embed.add_field(name="Subjects", value=", ".join(lec.subjects), inline=True)
+        embed.add_field(name="Batches", value=", ".join(lec.batches), inline=True)
         embed.set_footer(text="Saved in data/lecturers.json • Lecturer can now use /attendance take")
         await _safe_send(ctx, embed=embed, ephemeral=True)
 
@@ -1311,7 +1350,7 @@ class AttendanceCog(commands.Cog):
         removed = self.delete_lecturer(member.id)
         if removed:
             embed = discord.Embed(
-                title="🗑️ Lecturer Removed",
+                title="Lecturer Removed",
                 description=f"Revoked lecturer privileges from {member.mention}.",
                 color=COLOR_WARN,
             )
@@ -1332,7 +1371,7 @@ class AttendanceCog(commands.Cog):
         lecturers = self.read_lecturers()
         if not lecturers:
             embed = discord.Embed(
-                title="👨‍🏫 Registered Lecturers",
+                title="Registered Lecturers",
                 description="No lecturers are currently registered in the system.\nAdmins can add lecturers with `/setlecturer`.",
                 color=COLOR_MUTED,
             )
@@ -1341,7 +1380,7 @@ class AttendanceCog(commands.Cog):
             return
 
         embed = discord.Embed(
-            title=f"👨‍🏫 Authorized Lecturers ({len(lecturers)})",
+            title=f"Authorized Lecturers ({len(lecturers)})",
             description="Members authorized to record attendance for their respective subjects:",
             color=COLOR_PRIMARY,
         )
@@ -1351,8 +1390,8 @@ class AttendanceCog(commands.Cog):
             sub_str = ", ".join(lec.subjects) if lec.subjects else "All"
             batch_str = ", ".join(lec.batches) if lec.batches else "ALL"
             embed.add_field(
-                name=f"👨‍🏫 {lec.name} (<@{uid}>)",
-                value=f"> 📚 Subjects: **{sub_str}**\n> 👥 Batches: **Batch {batch_str}**",
+                name=f"{lec.name} (<@{uid}>)",
+                value=f"> Subjects: **{sub_str}**\n> Batches: **Batch {batch_str}**",
                 inline=False,
             )
 

@@ -1,0 +1,350 @@
+{
+  "mon": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "11007-BL11-GF",
+      "faculty": "Dr. Anjori Sharma",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Neetu Prasad",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3007-BL3-GF",
+      "faculty": "Dr. Sajan",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3007-BL3-GF",
+      "faculty": "Dr. Sajan",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "11102-A_BL11-FF",
+      "faculty": "Mr. Kasharaju Balakrishna",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "11102-A_BL11-FF",
+      "faculty": "Mr. Kasharaju Balakrishna",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "8104-BL8-FF",
+      "faculty": "Dr. Anjori Sharma",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "8106-BL8-FF",
+      "faculty": "Dr. Sajal Mandal",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lecture",
+      "room": "8206-BL8-SF",
+      "faculty": "Dr. Rituparna Hazra",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lab",
+      "room": "10001-BL10-GF",
+      "faculty": "Dr. Neetu Prasad",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lab",
+      "room": "10001-BL10-GF",
+      "faculty": "Dr. Neetu Prasad",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lecture",
+      "room": "11106-BL11-FF",
+      "faculty": "Mr. Kasharaju Balakrishna",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lab",
+      "room": "3102-BL3-FF",
+      "faculty": "Dr. Sajal Mandal",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lab",
+      "room": "3102-BL3-FF",
+      "faculty": "Dr. Sajal Mandal",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lecture",
+      "room": "10206-BL10-SF",
+      "faculty": "Dr. Neetu Prasad",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lab",
+      "room": "10003-BL10-GF",
+      "faculty": "Mrs Undadi Rajitha",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lab",
+      "room": "10003-BL10-GF",
+      "faculty": "Mrs Undadi Rajitha",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lab",
+      "room": "3107-BL3-FF",
+      "faculty": "Dr. Rituparna Hazra",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lab",
+      "room": "3107-BL3-FF",
+      "faculty": "Dr. Rituparna Hazra",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "11003-A-BL11-GF",
+      "faculty": "Mr. Indrajit Ghosh",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "11003-A-BL11-GF",
+      "faculty": "Mr. Indrajit Ghosh",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "8206-BL8-SF",
+      "faculty": "Dr. Sajal Mandal",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "11010-BL11-GF",
+      "faculty": "Dr. Anjori Sharma",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lecture",
+      "room": "10206-BL10-SF",
+      "faculty": "Mr. Kasharaju Balakrishna",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "10206-BL10-SF",
+      "faculty": "Dr. Sajal Mandal",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "11007-BL11-GF",
+      "faculty": "Dr. Anjori Sharma",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3007-BL3-GF",
+      "faculty": "Dr. Sajan",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3007-BL3-GF",
+      "faculty": "Dr. Sajan",
+      "batches": [
+        "25CAIBTAIB21"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

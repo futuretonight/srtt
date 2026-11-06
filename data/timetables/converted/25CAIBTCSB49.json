@@ -1,0 +1,350 @@
+{
+  "mon": [
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lab",
+      "room": "10002-BL10-GF",
+      "faculty": "Dr. Siddhartha Bhattacharyya",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lab",
+      "room": "10002-BL10-GF",
+      "faculty": "Dr. Siddhartha Bhattacharyya",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lecture",
+      "room": "11209-BL11-SF",
+      "faculty": "Mr. Vishal Shukla",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lab",
+      "room": "3213-BL3-SF",
+      "faculty": "Ms. Parvathi Sindhuja",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lab",
+      "room": "3213-BL3-SF",
+      "faculty": "Ms. Parvathi Sindhuja",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "3001-BL3-GF",
+      "faculty": "Mr. Rahul Kumar",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "3001-BL3-GF",
+      "faculty": "Mr. Rahul Kumar",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3101-BL3-FF",
+      "faculty": "Mr. Priyanshu Solon",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3101-BL3-FF",
+      "faculty": "Mr. Priyanshu Solon",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Kummari Venkatesh",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "11010-BL11-GF",
+      "faculty": "Dr. Susamay Samanta",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    }
+  ],
+  "wed": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lab",
+      "room": "3111-BL3-FF",
+      "faculty": "Mr. Priyanshu Solon",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lab",
+      "room": "3111-BL3-FF",
+      "faculty": "Mr. Priyanshu Solon",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Mr. Vishal Shukla",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Susamay Samanta",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Dasore Abhishek",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    }
+  ],
+  "thu": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "8208-BL8-SF",
+      "faculty": "Dr. Susamay Samanta",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Kummari Venkatesh",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3101-BL3-FF",
+      "faculty": "Mr. Priyanshu Solon",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "AI Assisted Coding",
+      "kind": "Lab",
+      "room": "3101-BL3-FF",
+      "faculty": "Mr. Priyanshu Solon",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Swarup Ghosh",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Operating Systems and Computer Networks",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Susamay Samanta",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lab",
+      "room": "3212-BL3-SF",
+      "faculty": "Ms. R Sujitha",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Cloud Computing",
+      "kind": "Lab",
+      "room": "3212-BL3-SF",
+      "faculty": "Ms. R Sujitha",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Information Management System",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Kummari Venkatesh",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Data Analytics and Visualization",
+      "kind": "Lecture",
+      "room": "11108-BL11-FF",
+      "faculty": "Dr. Swarup Ghosh",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "3001-BL3-GF",
+      "faculty": "Mr. Vishal Shukla",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Web Technologies and Mobile Programming",
+      "kind": "Lab",
+      "room": "3001-BL3-GF",
+      "faculty": "Mr. Vishal Shukla",
+      "batches": [
+        "25CAIBTCSB49"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}

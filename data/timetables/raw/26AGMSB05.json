@@ -1,0 +1,983 @@
+{
+  "degree": "M.Sc. (Agrl. Extension)-AGRI",
+  "year": "First",
+  "batch": "26AGMSB05",
+  "lastUpdated": "2026-10-04T06:13:46.669463",
+  "timetable": {
+    "Monday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 7277,
+            "unique_id": "23CBD537-734F-48E5-96D4-AEA83CF10608",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Applied Behaviour Change",
+            "batch": "26AGMSB05",
+            "faculty": "4567",
+            "room": "160",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-22T02:22:48.000000Z",
+            "updated_at": "2026-09-22T02:22:48.000000Z",
+            "room_name": "6205-BL6-SF",
+            "facultyName": "Dr. Chitrasena Padhy"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 7365,
+            "unique_id": "AAF23595-3ABA-47A3-9E36-238C21769C04",
+            "semester": "I",
+            "year": "First",
+            "time": "14:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Organizational Behaviour And Development",
+            "batch": "26AGMSB05",
+            "faculty": "4570",
+            "room": "77",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-23T01:09:18.000000Z",
+            "updated_at": "2026-09-23T01:09:18.000000Z",
+            "room_name": "5016-BL5-GF",
+            "facultyName": "Dr. Ashokkumar"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 7370,
+            "unique_id": "A0824799-119E-4C08-B9C2-CB6B474F54B8",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Capacity Development",
+            "batch": "26AGMSB05",
+            "faculty": "4567",
+            "room": "81",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-23T01:22:18.000000Z",
+            "updated_at": "2026-09-23T01:22:18.000000Z",
+            "room_name": "5020-BL5-GF",
+            "facultyName": "Dr. Chitrasena Padhy"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 7371,
+            "unique_id": "FD2D6161-39AA-4757-B28D-59366F0E0CE2",
+            "semester": "I",
+            "year": "First",
+            "time": "16:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Capacity Development",
+            "batch": "26AGMSB05",
+            "faculty": "4567",
+            "room": "81",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-23T01:22:18.000000Z",
+            "updated_at": "2026-09-23T01:22:18.000000Z",
+            "room_name": "5020-BL5-GF",
+            "facultyName": "Dr. Chitrasena Padhy"
+          },
+          {
+            "id": 7275,
+            "unique_id": "26BF8B27-613F-4405-917B-E01F0FB01D11",
+            "semester": "I",
+            "year": "First",
+            "time": "16:30",
+            "day": "Monday",
+            "coursecode": null,
+            "subject": "Extension Landscape",
+            "batch": "26AGMSB05",
+            "faculty": "4570",
+            "room": "160",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": "01-10-2026",
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-22T02:21:46.000000Z",
+            "updated_at": "2026-10-01T09:21:46.000000Z",
+            "room_name": "6205-BL6-SF",
+            "facultyName": "Dr. Ashokkumar"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 7368,
+            "unique_id": "51282E4A-7F1E-43A1-9234-ABF658EDF2A6",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Capacity Development",
+            "batch": "26AGMSB05",
+            "faculty": "4567",
+            "room": "160",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-23T01:14:44.000000Z",
+            "updated_at": "2026-09-23T01:14:44.000000Z",
+            "room_name": "6205-BL6-SF",
+            "facultyName": "Dr. Chitrasena Padhy"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 7278,
+            "unique_id": "04F5B1AC-F7E8-464F-B711-7B74863940B5",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Applied Behaviour Change",
+            "batch": "26AGMSB05",
+            "faculty": "4567",
+            "room": "160",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-22T02:22:48.000000Z",
+            "updated_at": "2026-09-22T02:22:48.000000Z",
+            "room_name": "6205-BL6-SF",
+            "facultyName": "Dr. Chitrasena Padhy"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 7281,
+            "unique_id": "DD83C4C7-896B-46BF-A4AF-EDE1729AB5E7",
+            "semester": "I",
+            "year": "First",
+            "time": "13:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Organizational Behaviour And Development",
+            "batch": "26AGMSB05",
+            "faculty": "4570",
+            "room": "160",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-22T02:28:48.000000Z",
+            "updated_at": "2026-09-22T02:28:48.000000Z",
+            "room_name": "6205-BL6-SF",
+            "facultyName": "Dr. Ashokkumar"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 7375,
+            "unique_id": "D68768AF-D5C8-49F5-BE08-791D5C26B417",
+            "semester": "I",
+            "year": "First",
+            "time": "14:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Agriculture Finance and Project Management",
+            "batch": "26AGMSB05",
+            "faculty": "4567",
+            "room": "76",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-23T01:38:02.000000Z",
+            "updated_at": "2026-09-23T01:38:02.000000Z",
+            "room_name": "5015-BL5-GF",
+            "facultyName": "Dr. Chitrasena Padhy"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 7276,
+            "unique_id": "82FDD71E-2396-4C05-9FF5-030CDE8F3F84",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Tuesday",
+            "coursecode": null,
+            "subject": "Extension Landscape",
+            "batch": "26AGMSB05",
+            "faculty": "4570",
+            "room": "160",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-22T02:21:46.000000Z",
+            "updated_at": "2026-09-22T02:21:46.000000Z",
+            "room_name": "6205-BL6-SF",
+            "facultyName": "Dr. Ashokkumar"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 7366,
+            "unique_id": "702F2DA2-FF22-4A07-AC2C-9EB0D4056B1A",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Organizational Behaviour And Development",
+            "batch": "26AGMSB05",
+            "faculty": "4570",
+            "room": "160",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-23T01:13:27.000000Z",
+            "updated_at": "2026-09-23T01:13:27.000000Z",
+            "room_name": "6205-BL6-SF",
+            "facultyName": "Dr. Ashokkumar"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          {
+            "id": 7367,
+            "unique_id": "FA57D058-3144-49AF-A5B1-B94E60368D40",
+            "semester": "I",
+            "year": "First",
+            "time": "16:30",
+            "day": "Wednesday",
+            "coursecode": null,
+            "subject": "Organizational Behaviour And Development",
+            "batch": "26AGMSB05",
+            "faculty": "4570",
+            "room": "160",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-23T01:13:27.000000Z",
+            "updated_at": "2026-09-23T01:13:27.000000Z",
+            "room_name": "6205-BL6-SF",
+            "facultyName": "Dr. Ashokkumar"
+          }
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          {
+            "id": 7369,
+            "unique_id": "3B6E42FB-0983-4924-9E5A-76D4A22059CC",
+            "semester": "I",
+            "year": "First",
+            "time": "09:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Capacity Development",
+            "batch": "26AGMSB05",
+            "faculty": "4567",
+            "room": "160",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-23T01:14:44.000000Z",
+            "updated_at": "2026-09-23T01:14:44.000000Z",
+            "room_name": "6205-BL6-SF",
+            "facultyName": "Dr. Chitrasena Padhy"
+          }
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          {
+            "id": 7279,
+            "unique_id": "4134F3F9-E626-4EC0-A873-B416983C560E",
+            "semester": "I",
+            "year": "First",
+            "time": "10:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Applied Behaviour Change",
+            "batch": "26AGMSB05",
+            "faculty": "4567",
+            "room": "160",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-22T02:23:34.000000Z",
+            "updated_at": "2026-09-22T02:23:34.000000Z",
+            "room_name": "6205-BL6-SF",
+            "facultyName": "Dr. Chitrasena Padhy"
+          }
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          {
+            "id": 7280,
+            "unique_id": "6CE12740-4939-4C7E-9AA4-5DC748416C15",
+            "semester": "I",
+            "year": "First",
+            "time": "11:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Applied Behaviour Change",
+            "batch": "26AGMSB05",
+            "faculty": "4567",
+            "room": "160",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-22T02:23:34.000000Z",
+            "updated_at": "2026-09-22T02:23:34.000000Z",
+            "room_name": "6205-BL6-SF",
+            "facultyName": "Dr. Chitrasena Padhy"
+          }
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          {
+            "id": 7374,
+            "unique_id": "D38B6F5E-0934-493F-8FE3-24A271F54F89",
+            "semester": "I",
+            "year": "First",
+            "time": "13:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Agriculture Finance and Project Management",
+            "batch": "26AGMSB05",
+            "faculty": "4567",
+            "room": "160",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lecture",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-23T01:31:31.000000Z",
+            "updated_at": "2026-09-23T01:31:31.000000Z",
+            "room_name": "6205-BL6-SF",
+            "facultyName": "Dr. Chitrasena Padhy"
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          {
+            "id": 7372,
+            "unique_id": "3686BE30-B453-4FBB-A7ED-21FF6097CB18",
+            "semester": "I",
+            "year": "First",
+            "time": "14:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Agricultural Finance And Project Management",
+            "batch": "26AGMSB05",
+            "faculty": "4570",
+            "room": "160",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-23T01:23:35.000000Z",
+            "updated_at": "2026-09-23T01:23:35.000000Z",
+            "room_name": "6205-BL6-SF",
+            "facultyName": "Dr. Ashokkumar"
+          }
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          {
+            "id": 7373,
+            "unique_id": "86E21EB4-2913-4924-A8B5-ABFC97CADAFA",
+            "semester": "I",
+            "year": "First",
+            "time": "15:30",
+            "day": "Thursday",
+            "coursecode": null,
+            "subject": "Agricultural Finance And Project Management",
+            "batch": "26AGMSB05",
+            "faculty": "4570",
+            "room": "160",
+            "program": "M.Sc. (Agrl. Extension)",
+            "offeredfrom": "AGRI",
+            "ltp": "Lab",
+            "rec_num": null,
+            "modify_date": null,
+            "status": 1,
+            "updated_by": "v.shravani@sru.edu.in",
+            "created_at": "2026-09-23T01:23:35.000000Z",
+            "updated_at": "2026-09-23T01:23:35.000000Z",
+            "room_name": "6205-BL6-SF",
+            "facultyName": "Dr. Ashokkumar"
+          }
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "time": "08:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "09:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "10:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "11:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "12:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "13:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "14:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "15:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "16:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "17:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "18:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "19:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      },
+      {
+        "time": "20:30",
+        "subjects": [
+          "Free Slot"
+        ]
+      }
+    ]
+  }
+}

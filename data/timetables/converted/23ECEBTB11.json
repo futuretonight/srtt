@@ -1,0 +1,385 @@
+{
+  "mon": [
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Satellite Communication",
+      "kind": "Lecture",
+      "room": "3221-BL3-SF",
+      "faculty": "Dr. Suresh Kumar  C",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Data Communication",
+      "kind": "Lecture",
+      "room": "2002-BL2-GF",
+      "faculty": "Dr. Mohammad Junaid Khan",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Object Oriented Programming in JavaScript",
+      "kind": "Lecture",
+      "room": "3106-BL3-FF",
+      "faculty": "Mr. Rama Krishna B",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Smart Sensors and Intelligent Instrumentation",
+      "kind": "Lecture",
+      "room": "3205-BL3-SF",
+      "faculty": "Dr. Soumadri Samanta",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    }
+  ],
+  "tue": [
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Smart Sensors and Intelligent Instrumentation",
+      "kind": "Lecture",
+      "room": "3221-BL3-SF",
+      "faculty": "Dr. Soumadri Samanta",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "12:30",
+      "end": "13:30",
+      "category": "class",
+      "subject": "Data Communication",
+      "kind": "Lab",
+      "room": "3106-BL3-FF",
+      "faculty": "Dr. Suresh Kumar  C",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Data Communication",
+      "kind": "Lab",
+      "room": "3106-BL3-FF",
+      "faculty": "Dr. Suresh Kumar  C",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Quantum Computing",
+      "kind": "Lecture",
+      "room": "2208-BL2-SF",
+      "faculty": "Dr. Suguru Pathinti Ramadevi",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Quantum Computing",
+      "kind": "Lecture",
+      "room": "2208-BL2-SF",
+      "faculty": "Dr. Suguru Pathinti Ramadevi",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    }
+  ],
+  "wed": [],
+  "thu": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Organisation Behaviour",
+      "kind": "Lecture",
+      "room": "3203-BL3-SF",
+      "faculty": "Ms. Peddi Sarita",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Marketing Strategies And Planning",
+      "kind": "Lecture",
+      "room": "3204-BL3-SF",
+      "faculty": "Mr. Devanaboina Goutham",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Sociology",
+      "kind": "Lecture",
+      "room": "3205-BL3-SF",
+      "faculty": "Dr. Itishree Panda",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Introduction to French",
+      "kind": "Lecture",
+      "room": "3113-BL3-FF",
+      "faculty": "Ms. Suneha Enumula",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Object Oriented Programming in JavaScript",
+      "kind": "Lab",
+      "room": "3205-BL3-SF",
+      "faculty": "Mr. Rama Krishna B",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Smart Sensors and Intelligent Instrumentation",
+      "kind": "Lab",
+      "room": "3221-BL3-SF",
+      "faculty": "Dr. Soumadri Samanta",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Object Oriented Programming in JavaScript",
+      "kind": "Lab",
+      "room": "3205-BL3-SF",
+      "faculty": "Mr. Rama Krishna B",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "11:30",
+      "end": "12:30",
+      "category": "class",
+      "subject": "Smart Sensors and Intelligent Instrumentation",
+      "kind": "Lab",
+      "room": "3221-BL3-SF",
+      "faculty": "Dr. Soumadri Samanta",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Object Oriented Programming in JavaScript",
+      "kind": "Lecture",
+      "room": "3205-BL3-SF",
+      "faculty": "Mr. Rama Krishna B",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Satellite Communication",
+      "kind": "Lecture",
+      "room": "2001-BL2-GF",
+      "faculty": "Dr. Suresh Kumar  C",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    }
+  ],
+  "fri": [
+    {
+      "start": "09:30",
+      "end": "10:30",
+      "category": "class",
+      "subject": "Data Communication",
+      "kind": "Lecture",
+      "room": "3106-BL3-FF",
+      "faculty": "Dr. Mohammad Junaid Khan",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "10:30",
+      "end": "11:30",
+      "category": "class",
+      "subject": "Satellite Communication",
+      "kind": "Lecture",
+      "room": "3218-BL3-SF",
+      "faculty": "Dr. Suresh Kumar  C",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "13:30",
+      "end": "14:30",
+      "category": "class",
+      "subject": "Quantum Computing",
+      "kind": "Lab",
+      "room": "3105-BL3-FF",
+      "faculty": "Dr. Suguru Pathinti Ramadevi",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "14:30",
+      "end": "15:30",
+      "category": "class",
+      "subject": "Quantum Computing",
+      "kind": "Lab",
+      "room": "3105-BL3-FF",
+      "faculty": "Dr. Suguru Pathinti Ramadevi",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Organisation Behaviour",
+      "kind": "Lecture",
+      "room": "3203-BL3-SF",
+      "faculty": "Ms. Peddi Sarita",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Marketing Strategies And Planning",
+      "kind": "Lecture",
+      "room": "3204-BL3-SF",
+      "faculty": "Mr. Devanaboina Goutham",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Sociology",
+      "kind": "Lecture",
+      "room": "3205-BL3-SF",
+      "faculty": "Dr. Itishree Panda",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "15:30",
+      "end": "16:30",
+      "category": "class",
+      "subject": "Introduction to French",
+      "kind": "Lecture",
+      "room": "3114-BL3-FF",
+      "faculty": "Ms. Suneha Enumula",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Organisation Behaviour",
+      "kind": "Lecture",
+      "room": "3203-BL3-SF",
+      "faculty": "Ms. Peddi Sarita",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Marketing Strategies And Planning",
+      "kind": "Lecture",
+      "room": "3204-BL3-SF",
+      "faculty": "Mr. Devanaboina Goutham",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Sociology",
+      "kind": "Lecture",
+      "room": "3205-BL3-SF",
+      "faculty": "Dr. Itishree Panda",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    },
+    {
+      "start": "16:30",
+      "end": "17:30",
+      "category": "class",
+      "subject": "Introduction to French",
+      "kind": "Lecture",
+      "room": "3114-BL3-FF",
+      "faculty": "Ms. Suneha Enumula",
+      "batches": [
+        "23ECEBTB11"
+      ]
+    }
+  ],
+  "sat": [],
+  "sun": []
+}
