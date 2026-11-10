@@ -21,6 +21,20 @@ import tempfile
 from pathlib import Path
 from typing import Any
 
+# Ensure official discord.py (from _discordpy_lib) is used rather than discord.py-self,
+# preserving both libraries on disk without interfering with each other.
+_THIS_DIR = Path(__file__).resolve().parent
+_DISCORDPY_LIB = _THIS_DIR / "_discordpy_lib"
+if not _DISCORDPY_LIB.is_dir():
+    _FALLBACK = Path(r"C:\Users\yajath krushna\Documents\vscode projects\MUSIC_BOT\potato network bot\_discordpy_lib")
+    if _FALLBACK.is_dir():
+        _DISCORDPY_LIB = _FALLBACK
+
+if _DISCORDPY_LIB.is_dir() and str(_DISCORDPY_LIB) not in sys.path:
+    for _mod in [m for m in list(sys.modules.keys()) if m == "discord" or m.startswith("discord.")]:
+        del sys.modules[_mod]
+    sys.path.insert(0, str(_DISCORDPY_LIB))
+
 import discord
 from discord.ext import commands
 

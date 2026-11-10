@@ -559,6 +559,18 @@ def build_overview_embed(prefix: str, user: Optional[discord.User | discord.Memb
     )
 
     embed.add_field(
+        name="Quick Start for Class Representatives",
+        value=(
+            f"1. Check your assigned section: `{prefix}representatives` or `{prefix}mybatch`\n"
+            f"2. Add/replace class in your section: `{prefix}setclass day:Monday time_slot:09:30-10:30 subject:Math room:7004`\n"
+            f"3. Reschedule lecture for date: `{prefix}reschedule date:today time_slot:10:30-11:30 subject:Math`\n"
+            f"4. Cancel lecture for date: `{prefix}cancelclass date:today time_slot:11:30 reason:Faculty on leave`\n"
+            f"5. Audit classmates roster: `{prefix}students` or link student: `{prefix}linkuser member:@Student`"
+        ),
+        inline=False,
+    )
+
+    embed.add_field(
         name="Execution Methods",
         value=(
             f"• **Slash Commands:** Type `/` and pick from the command list.\n"
@@ -567,7 +579,7 @@ def build_overview_embed(prefix: str, user: Optional[discord.User | discord.Memb
         inline=False,
     )
 
-    embed.set_footer(text=f"Total: 32 Commands | Active Prefix: {prefix} | Page: Overview")
+    embed.set_footer(text=f"Total: 38 Commands | Active Prefix: {prefix} | Page: Overview")
     return embed
 
 
@@ -977,6 +989,16 @@ def build_faq_embed(prefix: str) -> discord.Embed:
         value=(
             "Students falling below 75% attendance are automatically flagged in red on `/myattendance` "
             "and in batch summaries. The bot calculates the exact number of consecutive sessions required to recover."
+        ),
+        inline=False,
+    )
+
+    embed.add_field(
+        name="Role Hierarchy: Admin vs Class Representative",
+        value=(
+            "• **Global Administrators:** Full authority across all 428 batch schedules, master defaults (`ALL`), and bot configuration.\n"
+            "• **Class Representatives:** Section-scoped authority. Can add, modify, reschedule, and cancel classes strictly for their assigned section.\n"
+            "• **Delegation:** Use `/setadmin <member>` to add administrators, or `/setcr <member> <batch>` to appoint a Class Representative."
         ),
         inline=False,
     )

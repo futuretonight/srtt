@@ -14,3 +14,7 @@ data/users.json
 data/roster.json
 data/attendance.json
 data/lecturers.json
+data/representatives.json
+
+# Isolated discord.py for bot-mode library swapping
+_discordpy_lib/
