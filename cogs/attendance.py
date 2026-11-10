@@ -608,21 +608,33 @@ if _HAS_UI:
             owner_embed.set_author(name="Timetable Attendance System")
             owner_embed.set_footer(text="Click Approve to unlock attendance for 60 minutes")
 
-            sent_to_owner = False
-            owner_id = getattr(self.cog.bot, "owner_id", None)
-            if owner_id:
-                try:
-                    owner_user = await self.cog.bot.fetch_user(owner_id)
-                    if owner_user:
-                        await owner_user.send(embed=owner_embed, view=app_view)
-                        sent_to_owner = True
-                except Exception as exc:
-                    log.warning("Could not DM owner for attendance approval: %s", exc)
+            sent_to_admin = False
+            target_ids = []
+            if hasattr(self.cog.bot, "get_primary_owner"):
+                p_owner = await self.cog.bot.get_primary_owner()
+                if p_owner:
+                    target_ids.append(p_owner)
+            elif getattr(self.cog.bot, "owner_id", None):
+                target_ids.append(self.cog.bot.owner_id)
 
-            if not sent_to_owner:
-                # If cannot DM owner, send in the current channel for server admins
+            if hasattr(self.cog.bot, "get_admin_ids"):
+                for aid in self.cog.bot.get_admin_ids():
+                    if aid not in target_ids:
+                        target_ids.append(aid)
+
+            for admin_id in target_ids:
+                try:
+                    admin_user = await self.cog.bot.fetch_user(admin_id)
+                    if admin_user:
+                        await admin_user.send(embed=owner_embed, view=app_view)
+                        sent_to_admin = True
+                except Exception as exc:
+                    log.warning("Could not DM admin %s for attendance approval: %s", admin_id, exc)
+
+            if not sent_to_admin and interaction.channel:
+                mentions = " ".join(f"<@{aid}>" for aid in target_ids) or "@here"
                 await interaction.channel.send(
-                    content=f"<@{owner_id}> (Admin Attendance Approval Needed)",
+                    content=f"{mentions} (Admin Attendance Approval Needed)",
                     embed=owner_embed,
                     view=app_view,
                 )
@@ -640,6 +652,18 @@ if _HAS_UI:
             self.subject = subject
             self.batch = batch
             self.req_key = req_key
+
+        async def interaction_check(self, interaction: discord.Interaction) -> bool:
+            is_adm = False
+            if hasattr(self.cog.bot, "is_owner"):
+                is_adm = await self.cog.bot.is_owner(interaction.user)
+            if is_adm:
+                return True
+            await interaction.response.send_message(
+                "🔒 Access Denied: Only Bot Administrators can approve or deny attendance requests.",
+                ephemeral=True,
+            )
+            return False
 
         @discord.ui.button(label="Approve (60 Min Window)", style=discord.ButtonStyle.success, emoji="")
         async def approve(self, interaction: discord.Interaction, button: discord.ui.Button):

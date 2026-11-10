@@ -121,7 +121,7 @@ This document provides technical syntax, argument specifications, permission tie
 
 ### `/mybatch`
 - **Description:** Inspects your current active batch or updates it without erasing your saved name or roll number.
-- **Aliases:** `/setbatch`, `/switchbatch`
+- **Aliases:** `/setbatch`
 - **Syntax:** `/mybatch [batch]`
 - **Arguments:**
   - `batch` (Optional): New batch code to switch to. Omit to view current batch.
@@ -237,9 +237,64 @@ This document provides technical syntax, argument specifications, permission tie
 - **Arguments:**
   - `date` (Required): Target date (`today`, `tomorrow`, `YYYY-MM-DD`).
   - `start` (Required): Start time (`HH:MM`).
-  - `batch` (Optional): Batch filter.
-- **Permissions:** Server Administrator or Bot Owner
+  - `batch` (Optional): Batch filter. Defaults to CR batch for Class Representatives.
+- **Permissions:** Administrator or Class Representative
 - **Example:** `/deloverride date:today start:10:30 batch:26CAIBTAIB16`
+
+### `/setadmin`
+- **Description:** Grants a server member full administrator privileges (identical powers to the bot owner).
+- **Aliases:** `/addadmin`, `/makeadmin`
+- **Syntax:** `/setadmin <member>`
+- **Arguments:**
+  - `member` (Required): Server member to promote to administrator.
+- **Permissions:** Server Administrator or Bot Owner
+- **Example:** `/setadmin member:@CoAdmin`
+
+### `/deladmin`
+- **Description:** Revokes administrator privileges from a co-administrator. (Primary bot owner cannot be removed).
+- **Aliases:** `/removeadmin`, `/rmadmin`
+- **Syntax:** `/deladmin <member>`
+- **Arguments:**
+  - `member` (Required): Administrator to demote.
+- **Permissions:** Server Administrator or Bot Owner
+- **Example:** `/deladmin member:@CoAdmin`
+
+### `/admins`
+- **Description:** Lists the primary bot owner and all authorized bot administrators.
+- **Aliases:** `/adminlist`
+- **Syntax:** `/admins`
+- **Arguments:** None
+- **Permissions:** Server Administrator or Bot Owner
+- **Example:** `/admins`
+
+### `/setcr`
+- **Description:** Authorizes a student as Class Representative for a specific section, allowing them to edit the timetable and manage student rosters for their class.
+- **Aliases:** `/addcr`, `/assigncr`
+- **Syntax:** `/setcr <member> <batch>`
+- **Arguments:**
+  - `member` (Required): Server member to appoint as Class Representative.
+  - `batch` (Required): Assigned batch code (e.g. `26CAIBTAIB16` or `1`).
+- **Permissions:** Server Administrator or Bot Owner
+- **Example:** `/setcr member:@Student batch:26CAIBTAIB16`
+
+### `/delcr`
+- **Description:** Revokes Class Representative authorization from a member.
+- **Aliases:** `/removecr`, `/rmcr`
+- **Syntax:** `/delcr <member> [batch]`
+- **Arguments:**
+  - `member` (Required): Class Representative to revoke.
+  - `batch` (Optional): Specific batch code to unassign.
+- **Permissions:** Server Administrator or Bot Owner
+- **Example:** `/delcr member:@Student`
+
+### `/representatives`
+- **Description:** Displays the full directory of all authorized Class Representatives and their assigned classes.
+- **Aliases:** `/crlist`, `/crs`
+- **Syntax:** `/representatives [batch]`
+- **Arguments:**
+  - `batch` (Optional): Filter by batch code.
+- **Permissions:** Everyone
+- **Example:** `/representatives batch:26CAIBTAIB16`
 
 ### `/setclass`
 - **Description:** Adds or overwrites a recurring slot in the weekly schedule. When given a calendar date or `today`/`tomorrow`, it automatically creates a single-date override.
@@ -249,10 +304,10 @@ This document provides technical syntax, argument specifications, permission tie
   - `day` (Required): Weekday name (`Friday`, `Monday`) or date (`today`, `YYYY-MM-DD`).
   - `time_slot` (Required): Strict 24h format `HH:MM-HH:MM` (e.g. `09:30-10:30`).
   - `subject` (Required): Course name, or `FREE` for break.
-  - `batch` (Optional): Batch code or `ALL`.
+  - `batch` (Optional): Batch code or `ALL`. (Class Representatives are restricted to their assigned batch; only Admins can set `ALL`).
   - `room` (Optional): Classroom code.
   - `faculty` (Optional): Instructor name.
-- **Permissions:** Server Administrator or Bot Owner
+- **Permissions:** Administrator or Class Representative
 - **Example:** `/setclass day:Friday time_slot:10:30-11:30 subject:Chemistry batch:26CAIBTAIB16 room:8104 faculty:Dr. Sathish`
 
 ### `/delclass`
@@ -262,8 +317,8 @@ This document provides technical syntax, argument specifications, permission tie
 - **Arguments:**
   - `day` (Required): Weekday (`Monday`, `Friday`).
   - `start` (Required): Start time `HH:MM` (e.g. `09:30`).
-  - `batch` (Optional): Batch filter.
-- **Permissions:** Server Administrator or Bot Owner
+  - `batch` (Optional): Batch filter. Defaults to CR batch for Class Representatives.
+- **Permissions:** Administrator or Class Representative
 - **Example:** `/delclass day:Friday start:10:30 batch:26CAIBTAIB16`
 
 ### `/students`
@@ -271,12 +326,12 @@ This document provides technical syntax, argument specifications, permission tie
 - **Aliases:** `/batchlist`, `/roster`
 - **Syntax:** `/students [batch]`
 - **Arguments:**
-  - `batch` (Optional): Filter by batch. Omit to list all registered students.
-- **Permissions:** Server Administrator or Bot Owner
+  - `batch` (Optional): Filter by batch. Defaults to CR section for Class Representatives, or all students for Admins.
+- **Permissions:** Administrator or Class Representative
 - **Example:** `/students batch:26CAIBTAIB16`
 
 ### `/linkuser`
-- **Description:** Administrator utility to manually associate or correct another user's student credentials.
+- **Description:** Utility to manually associate or correct another user's student credentials.
 - **Aliases:** `/adminlink`, `/setstudent`
 - **Syntax:** `/linkuser <member> <batch> [name] [roll_no]`
 - **Arguments:**
@@ -284,25 +339,25 @@ This document provides technical syntax, argument specifications, permission tie
   - `batch` (Required): Assigned batch code.
   - `name` (Optional): Real name.
   - `roll_no` (Optional): Roll number.
-- **Permissions:** Server Administrator or Bot Owner
+- **Permissions:** Administrator or Class Representative (CRs restricted to their own batch)
 - **Example:** `/linkuser member:@Student batch:26CAIBTAIB16 name:Jane Doe roll_no:26CS088`
 
 ### `/unlinkuser`
-- **Description:** Administrator utility to remove another student's account link and profile.
+- **Description:** Utility to remove another student's account link and profile.
 - **Aliases:** `/adminunlink`, `/delstudent`
 - **Syntax:** `/unlinkuser <member>`
 - **Arguments:**
   - `member` (Required): Target Discord member.
-- **Permissions:** Server Administrator or Bot Owner
+- **Permissions:** Administrator or Class Representative (CRs restricted to their own batch)
 - **Example:** `/unlinkuser member:@Student`
 
 ### `/loadbatch`
 - **Description:** Activates a precomputed university batch schedule as the server's default timetable template.
-- **Aliases:** None
+- **Aliases:** `/activatebatch`, `/importbatch`
 - **Syntax:** `/loadbatch <batch>`
 - **Arguments:**
   - `batch` (Required): Batch code (e.g. `26CAIBTAIB16`).
-- **Permissions:** Bot Owner only
+- **Permissions:** Administrator or Bot Owner
 - **Example:** `/loadbatch batch:26CAIBTAIB16`
 
 ### `/setprefix`
@@ -311,7 +366,7 @@ This document provides technical syntax, argument specifications, permission tie
 - **Syntax:** `/setprefix <prefix>`
 - **Arguments:**
   - `prefix` (Required): New prefix (1 to 5 characters, e.g. `!`, `?`, `.`).
-- **Permissions:** Server Administrator or Bot Owner
+- **Permissions:** Administrator or Bot Owner
 - **Example:** `/setprefix prefix:!`
 
 ### `/sync`
@@ -319,7 +374,7 @@ This document provides technical syntax, argument specifications, permission tie
 - **Aliases:** `/syncslash`
 - **Syntax:** `/sync` (or `!sync`)
 - **Arguments:** None
-- **Permissions:** Bot Owner only
+- **Permissions:** Administrator or Bot Owner
 - **Example:** `!sync`
 
 ### `/reload`
@@ -328,7 +383,7 @@ This document provides technical syntax, argument specifications, permission tie
 - **Syntax:** `/reload [cog_path]`
 - **Arguments:**
   - `cog_path` (Optional): Module path (e.g. `cogs.timetable`, `cogs.admin`, `cogs.attendance`, `cogs.help`). Omit to reload all.
-- **Permissions:** Bot Owner only
+- **Permissions:** Administrator or Bot Owner
 - **Example:** `!reload`
 
 ---

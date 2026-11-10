@@ -20,7 +20,8 @@ All data is maintained locally in human-readable, atomic JSON files within the `
 | `data/batches_index.json` | Fast-lookup inverted index used by the batch resolver to match natural inputs (e.g. `CSE 1 16`). |
 | `data/room_availability.json` | Precomputed campus classroom inventory across Blocks 7, 8, 10, and 11 used by `/freerooms`. |
 | `data/attendance.json` | Session logs, present/absent roll calls, and lecturer permission assignments. |
-| `data/config.json` | Server-specific configuration, command prefixes, and legacy link mappings. |
+| `data/representatives.json` | Authorized Class Representatives, assigned batch sections, and grant metadata. |
+| `data/config.json` | Server-specific configuration, command prefixes, and delegated co-administrators list. |
 
 ---
 
@@ -52,7 +53,77 @@ To view all linked students across the entire server:
 
 ---
 
-## 3. Faculty Authorization and Permissions
+## 3. Administrator Delegation & Co-Admins
+
+The bot owner can delegate full administrative authority to trusted server administrators. Delegated co-administrators have identical powers to the owner:
+- Master timetable creation and global modification (`/setclass`, `/delclass`)
+- Single-date overrides and cancellations (`/reschedule`, `/cancelclass`, `/deloverride`)
+- Class Representative appointments (`/setcr`, `/delcr`)
+- Faculty authorization and attendance request approvals (`/setlecturer`, `/dellecturer`)
+- Bot maintenance, hot-reloading, prefix configuration, and slash synchronization (`/reload`, `/setprefix`, `/sync`, `/loadbatch`)
+
+### Adding an Administrator
+```
+/setadmin member:@TrustedAdmin
+```
+*Aliases: `/addadmin`, `/makeadmin`*
+
+### Revoking Administrator Privileges
+```
+/deladmin member:@OldAdmin
+```
+*Aliases: `/removeadmin`, `/rmadmin`. The primary bot owner is permanently protected and cannot be removed.*
+
+### Auditing Bot Administrators
+```
+/admins
+```
+*Aliases: `/adminlist`. Displays the primary bot owner and all active co-administrators.*
+
+---
+
+## 4. Class Representatives & Scoped Timetable Editing
+
+To balance administrative flexibility with system safety, the bot supports **Class Representatives (CRs)**:
+- **Global Administrators** have full authority across all 428 batch schedules and can modify the master fallback timetable (`batch:ALL` in `data/schedule.json`).
+- **Class Representatives** can add, update, reschedule, and cancel class slots **strictly for their own assigned class section** (`data/timetables/converted/{BATCH}.json` and `data/overrides.json`).
+- CRs are blocked from altering the global default schedule (`ALL`) or another batch's timetable.
+
+### Authorizing a Class Representative
+Grant a student authority to manage the timetable and roster for their class:
+```
+/setcr member:@Student batch:26CAIBTAIB16
+```
+*Aliases: `/addcr`, `/assigncr`. Automatically links the student's personal profile to that batch in `data/users.json` if unlinked.*
+
+### Revoking Class Representative Authorization
+```
+/delcr member:@Student
+```
+*Aliases: `/removecr`, `/rmcr`.*
+
+### Viewing Authorized Class Representatives
+```
+/representatives
+/representatives batch:26CAIBTAIB16
+```
+*Aliases: `/crlist`, `/crs`. Open to all server members so students know who their section representative is.*
+
+---
+
+## 5. Permission Hierarchy & Operational Matrix
+
+| Role | Timetable Scope | Roster Scope | Admin Controls | Attendance Approval |
+| :--- | :--- | :--- | :--- | :--- |
+| **Bot Owner** | Global (`ALL` + any batch) | Global (all students) | Full (`/setadmin`, `/sync`, `/reload`) | Full |
+| **Administrator** | Global (`ALL` + any batch) | Global (all students) | Full (`/setadmin`, `/sync`, `/reload`) | Full |
+| **Class Representative** | Section-Only (`{BATCH}`) | Section-Only (`{BATCH}`) | Restricted (no system config) | None |
+| **Faculty / Lecturer** | Read-Only | Read-Only | None | Can mark course attendance |
+| **Student** | Read-Only | Self-Service (`/register`) | None | Student portal |
+
+---
+
+## 6. Faculty Authorization and Permissions
 
 Attendance recording requires specific authorization. Administrators can grant granular permissions by subject and batch.
 
@@ -79,10 +150,10 @@ Outputs the complete directory of authorized faculty, their assigned subjects, b
 
 ---
 
-## 4. Master Timetable Maintenance
+## 7. Master Timetable Maintenance
 
 ### Activating a Primary Default Batch
-To set a specific university batch as the server default for unlinked queries:
+To set a specific university batch as the server default for unlinked queries (Administrator only):
 ```
 /loadbatch batch:26CAIBTAIB16
 ```
@@ -92,7 +163,8 @@ To set a specific university batch as the server default for unlinked queries:
   ```
   /setclass day:Monday time_slot:09:30-10:30 subject:Algorithms batch:26CAIBTAIB16 room:7004 faculty:Dr. Smith
   ```
-  If `batch` is a specific batch identifier, the update is saved directly into `data/timetables/converted/{BATCH}.json`. If `batch:ALL` is passed, it updates `data/schedule.json`.
+  - **Global Administrators** can update `batch:ALL` (`data/schedule.json`) or target any individual batch.
+  - **Class Representatives** can add or update slots for their assigned class section (`data/timetables/converted/{BATCH}.json`).
 
 - **Remove a recurring class slot:**
   ```
@@ -101,9 +173,9 @@ To set a specific university batch as the server default for unlinked queries:
 
 ---
 
-## 5. Date Overrides and Rescheduling Operations
+## 8. Date Overrides and Rescheduling Operations
 
-Administrators have full oversight of single-date schedule changes:
+Administrators and Class Representatives have authority to create single-date adjustments:
 - View all active single-date modifications on record:
   ```
   /overrides
@@ -123,20 +195,20 @@ Administrators have full oversight of single-date schedule changes:
 
 ---
 
-## 6. Server Configuration and Runtime Controls
+## 9. Server Configuration and Runtime Controls
 
 ### Updating the Text Command Prefix
 ```
 /setprefix prefix:!
 ```
-Configures the bot to respond to a new symbol (1 to 5 characters) without altering slash command operations.
+Configures the bot to respond to a new symbol (1 to 5 characters) without altering slash command operations. *(Administrator only)*
 
 ### Synchronizing Slash Commands with Discord
 When new commands are added or updated, execute:
 ```
 !sync
 ```
-*Permission Requirement: Bot Owner only. This sends an HTTP PUT to Discord's application command endpoint.*
+*Permission Requirement: Administrator only. This registers all application commands globally with Discord.*
 
 ### Hot-Reloading Cogs Without Downtime
 To reload modified code modules without stopping the Python process:
@@ -144,16 +216,18 @@ To reload modified code modules without stopping the Python process:
   ```
   !reload cog_path:cogs.timetable
   !reload cog_path:cogs.admin
+  !reload cog_path:cogs.attendance
   !reload cog_path:cogs.help
   ```
 - Reload all active cogs:
   ```
   !reload
   ```
+*(Administrator only)*
 
 ---
 
-## 7. Data Backup Recommendations
+## 10. Data Backup Recommendations
 
 It is recommended to run a daily or weekly backup of the `data/` folder. A basic PowerShell backup command:
 ```powershell

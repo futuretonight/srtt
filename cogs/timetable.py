@@ -68,6 +68,7 @@ ROSTER_FILE = DATA_FILE.parent / "roster.json"
 INDEX_FILE = DATA_FILE.parent / "batches_index.json"
 OPTIONS_FILE = DATA_FILE.parent / "timetable_options.json"
 ROOMS_FILE = DATA_FILE.parent / "room_availability.json"
+REPRESENTATIVES_FILE = DATA_FILE.parent / "representatives.json"
 DEFAULT_TZ_NAME = "Asia/Kolkata"
 IST = timezone(timedelta(hours=5, minutes=30), "IST")  # fallback if tzdata is missing
 
@@ -648,6 +649,52 @@ class UserProfile:
             "roll_no": self.roll_no,
             "linked_at": self.linked_at,
         }
+
+
+# --------------------------------------------------------------------------- #
+# Class Representative Model
+# --------------------------------------------------------------------------- #
+@dataclass
+class ClassRepresentative:
+    user_id: int
+    name: str
+    batches: list[str]
+    assigned_by: int = 0
+    assigned_at: str = ""
+
+    @classmethod
+    def from_dict(cls, user_id: int | str, data: dict[str, Any]) -> "ClassRepresentative":
+        raw_batches = data.get("batches")
+        if not raw_batches:
+            single = data.get("batch")
+            raw_batches = [single] if single else ["ALL"]
+        if isinstance(raw_batches, str):
+            batches = [b.strip().upper() for b in raw_batches.split(",") if b.strip()]
+        elif isinstance(raw_batches, list):
+            batches = [str(b).strip().upper() for b in raw_batches if str(b).strip()]
+        else:
+            batches = ["ALL"]
+
+        return cls(
+            user_id=int(user_id),
+            name=str(data.get("name", "")).strip(),
+            batches=batches or ["ALL"],
+            assigned_by=int(data.get("assigned_by", 0)),
+            assigned_at=str(data.get("assigned_at", "")).strip(),
+        )
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "user_id": self.user_id,
+            "name": self.name,
+            "batches": self.batches,
+            "assigned_by": self.assigned_by,
+            "assigned_at": self.assigned_at,
+        }
+
+    @property
+    def batch_str(self) -> str:
+        return ", ".join(self.batches)
 
 
 # --------------------------------------------------------------------------- #
@@ -1484,6 +1531,112 @@ class TimetableCog(commands.Cog):
         else:
             self.set_user_profile(user_id, batch)
 
+    # ----- class representatives ---------------------------------------- #
+    def read_representatives(self) -> dict[int, ClassRepresentative]:
+        """Read all class representatives from representatives.json."""
+        reps: dict[int, ClassRepresentative] = {}
+        if not REPRESENTATIVES_FILE.is_file():
+            return reps
+        try:
+            raw = json.loads(REPRESENTATIVES_FILE.read_text(encoding="utf-8"))
+            if isinstance(raw, dict):
+                for uid_str, data in raw.items():
+                    if isinstance(data, dict):
+                        try:
+                            uid = int(uid_str)
+                            reps[uid] = ClassRepresentative.from_dict(uid, data)
+                        except (ValueError, TypeError):
+                            continue
+        except Exception as exc:
+            log.warning("Could not read representatives.json: %s", exc)
+        return reps
+
+    def write_representatives(self, reps: dict[int, ClassRepresentative]) -> None:
+        """Atomically persist class representatives to representatives.json."""
+        REPRESENTATIVES_FILE.parent.mkdir(parents=True, exist_ok=True)
+        raw = {str(uid): rep.to_dict() for uid, rep in reps.items()}
+        fd, tmp = tempfile.mkstemp(dir=REPRESENTATIVES_FILE.parent, prefix=".reps-", suffix=".tmp")
+        try:
+            with os.fdopen(fd, "w", encoding="utf-8") as fh:
+                json.dump(raw, fh, indent=2, ensure_ascii=False)
+                fh.write("\n")
+            os.replace(tmp, REPRESENTATIVES_FILE)
+        except Exception as exc:
+            with contextlib.suppress(OSError):
+                os.unlink(tmp)
+            raise ScheduleError(f"I couldn't save representatives ({type(exc).__name__}).") from exc
+
+    def get_representative(self, user_id: int | str) -> Optional[ClassRepresentative]:
+        """Get the ClassRepresentative object for user_id if authorized, else None."""
+        try:
+            uid = int(user_id)
+        except (ValueError, TypeError):
+            return None
+        return self.read_representatives().get(uid)
+
+    def set_representative(
+        self,
+        user_id: int | str,
+        name: str,
+        batches: list[str],
+        assigned_by: int = 0,
+    ) -> ClassRepresentative:
+        """Authorize or update a user as Class Representative for one or more batches."""
+        reps = self.read_representatives()
+        uid = int(user_id)
+        clean_batches = [b.strip().upper() for b in batches if b.strip()] or ["ALL"]
+        now_iso = self._now().isoformat()
+
+        rep = ClassRepresentative(
+            user_id=uid,
+            name=name.strip(),
+            batches=clean_batches,
+            assigned_by=assigned_by,
+            assigned_at=now_iso,
+        )
+        reps[uid] = rep
+        self.write_representatives(reps)
+        return rep
+
+    def delete_representative(self, user_id: int | str, batch: Optional[str] = None) -> bool:
+        """Revoke CR status for a user (or for a specific batch). Returns True if removed/modified."""
+        reps = self.read_representatives()
+        uid = int(user_id)
+        if uid not in reps:
+            return False
+
+        if batch:
+            target = batch.strip().upper()
+            rep = reps[uid]
+            if target in rep.batches:
+                rep.batches.remove(target)
+                if not rep.batches:
+                    del reps[uid]
+                else:
+                    reps[uid] = rep
+                self.write_representatives(reps)
+                return True
+            return False
+
+        del reps[uid]
+        self.write_representatives(reps)
+        return True
+
+    def is_representative(self, user_id: int | str) -> bool:
+        """Check if user is a registered Class Representative for any batch."""
+        return self.get_representative(user_id) is not None
+
+    def get_representative_batches(self, user_id: int | str) -> list[str]:
+        """Get the list of batches authorized for this CR, or empty list."""
+        rep = self.get_representative(user_id)
+        return list(rep.batches) if rep else []
+
+    def can_edit_batch(self, user_id: int | str, batch: str) -> bool:
+        """Check if user_id is authorized to edit the specified batch."""
+        clean = batch.strip().upper()
+        batches = self.get_representative_batches(user_id)
+        return "ALL" in batches or clean in batches
+
     def resolve_batch_input(
         self,
         raw_batch: Optional[str],
@@ -2054,7 +2207,7 @@ class TimetableCog(commands.Cog):
                 try:
                     s = Slot.from_dict(raw)
                     if s.start == start:
-                        if target_batch is None or target_batch in s.batches or "ALL" in s.batches:
+                        if target_batch is None or target_batch in s.batches or (target_batch in ("ALL", "*", "ANY") and "ALL" in s.batches):
                             found_slot = s
                             continue
                 except Exception:

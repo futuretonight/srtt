@@ -43,6 +43,7 @@ DEFAULT_CONFIG: dict[str, Any] = {
     "sync_on_start": True,
     "token": "",  # prefer the DISCORD_TOKEN environment variable
     "attendance_threshold": 75,
+    "admins": [],
 }
 
 COLOR_ERROR = 0xED4245
@@ -221,6 +222,72 @@ class TimetableBot(commands.Bot):
     def prefix(self) -> str:
         return str(self.config.get("prefix") or DEFAULT_CONFIG["prefix"])
 
+    def get_admin_ids(self) -> set[int]:
+        raw = self.config.get("admins", [])
+        if not isinstance(raw, list):
+            return set()
+        ids: set[int] = set()
+        for x in raw:
+            try:
+                ids.add(int(x))
+            except (ValueError, TypeError):
+                pass
+        return ids
+
+    def add_admin(self, user_id: int) -> bool:
+        admin_ids = self.get_admin_ids()
+        if user_id in admin_ids:
+            return False
+        admin_ids.add(user_id)
+        self.config["admins"] = sorted(list(admin_ids))
+        save_config(self.config)
+        return True
+
+    def remove_admin(self, user_id: int) -> bool:
+        admin_ids = self.get_admin_ids()
+        if user_id not in admin_ids:
+            return False
+        admin_ids.discard(user_id)
+        self.config["admins"] = sorted(list(admin_ids))
+        save_config(self.config)
+        return True
+
+    async def get_primary_owner(self) -> Optional[int]:
+        if self.owner_id:
+            return self.owner_id
+        if self.owner_ids:
+            return next(iter(self.owner_ids))
+        try:
+            app = await self.application_info()
+            if getattr(app, "team", None) and getattr(app.team, "owner_id", None):
+                return app.team.owner_id
+            elif getattr(app, "owner", None):
+                self.owner_id = app.owner.id
+                return app.owner.id
+        except Exception:
+            pass
+        return None
+
+    async def is_owner(self, user: discord.abc.User, /) -> bool:
+        """Override discord.py's is_owner to treat configured co-admins with identical powers."""
+        if user.id in self.get_admin_ids():
+            return True
+        if self.owner_id:
+            return user.id == self.owner_id
+        if self.owner_ids:
+            return user.id in self.owner_ids
+        try:
+            app = await self.application_info()
+            if getattr(app, "team", None) and getattr(app.team, "members", None):
+                self.owner_ids = {m.id for m in app.team.members}
+                return user.id in self.owner_ids
+            elif getattr(app, "owner", None):
+                self.owner_id = app.owner.id
+                return user.id == self.owner_id
+        except Exception:
+            pass
+        return False
+
     async def change_prefix(self, new_prefix: str) -> None:
         """Validate, persist and apply a new prefix. Raises ValueError if invalid."""
         self.config["prefix"] = validate_prefix(new_prefix)
@@ -276,8 +343,11 @@ class TimetableBot(commands.Bot):
         _AppCheck = getattr(getattr(discord, "app_commands", None), "CheckFailure", ())
         if user_message:
             embed = self._embed("⚠️ Notice", user_message, COLOR_WARN)
-        elif isinstance(error, (commands.CheckFailure, _AppCheck)):
-            embed = self._embed("🔒 Access Denied", "That command is restricted to the bot owner.", COLOR_ERROR)
+        elif isinstance(error, (commands.CheckFailure, _AppCheck)) or isinstance(cause, (commands.CheckFailure, _AppCheck)):
+            msg = str(cause).strip()
+            if not msg or "The check" in msg or "check functions" in msg or "CheckFailure" in msg:
+                msg = "You do not have permission to execute this command."
+            embed = self._embed("🔒 Access Denied", msg, COLOR_ERROR)
         elif isinstance(error, commands.MissingRequiredArgument) and ctx.command:
             usage = f"{ctx.clean_prefix}{ctx.command.qualified_name} {ctx.command.signature}"
             embed = self._embed(
@@ -305,11 +375,17 @@ class TimetableBot(commands.Bot):
         self, interaction: discord.Interaction, error: discord.app_commands.AppCommandError
     ) -> None:
         cause = self._unwrap(error)
-        log.error("Unhandled slash-command error", exc_info=cause)
         user_message = getattr(cause, "user_message", None)
+        _AppCheck = getattr(getattr(discord, "app_commands", None), "CheckFailure", ())
         if user_message:
             embed = self._embed("⚠️ Notice", user_message, COLOR_WARN)
+        elif isinstance(error, (commands.CheckFailure, _AppCheck)) or isinstance(cause, (commands.CheckFailure, _AppCheck)):
+            msg = str(cause).strip()
+            if not msg or "The check" in msg or "check functions" in msg or "CheckFailure" in msg:
+                msg = "You do not have permission to execute this command."
+            embed = self._embed("🔒 Access Denied", msg, COLOR_ERROR)
         else:
+            log.error("Unhandled slash-command error", exc_info=cause)
             embed = self._embed(
                 "💥 Something went wrong",
                 f"An error occurred: `{type(cause).__name__}`.\nCheck the terminal for details.",

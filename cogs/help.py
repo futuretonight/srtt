@@ -180,7 +180,7 @@ COMMAND_REGISTRY = {
     "mybatch": {
         "category": "Linking",
         "syntax": "/mybatch [batch]",
-        "aliases": ["setbatch", "switchbatch"],
+        "aliases": ["setbatch"],
         "description": "Quickly inspects or updates your active batch without resetting your saved name and roll number.",
         "arguments": [
             ("batch", "Optional", "New batch to switch to. If omitted, prints your current active batch."),
@@ -249,6 +249,72 @@ COMMAND_REGISTRY = {
     },
 
     # Category 4: Administration & Setup
+    "setadmin": {
+        "category": "Admin",
+        "syntax": "/setadmin <member>",
+        "aliases": ["addadmin", "makeadmin"],
+        "description": "Grant a user full administrator privileges with identical powers to the bot owner.",
+        "arguments": [
+            ("member", "Required", "Server member to promote to bot administrator."),
+        ],
+        "permissions": "Server Admin or Bot Owner",
+        "example": "/setadmin member:@CoAdmin",
+    },
+    "deladmin": {
+        "category": "Admin",
+        "syntax": "/deladmin <member>",
+        "aliases": ["removeadmin", "rmadmin"],
+        "description": "Revoke administrator privileges from an authorized user.",
+        "arguments": [
+            ("member", "Required", "Administrator to demote."),
+        ],
+        "permissions": "Server Admin or Bot Owner",
+        "example": "/deladmin member:@CoAdmin",
+    },
+    "admins": {
+        "category": "Admin",
+        "syntax": "/admins",
+        "aliases": ["adminlist"],
+        "description": "Lists the primary owner and all authorized bot administrators.",
+        "arguments": [],
+        "permissions": "Server Admin or Bot Owner",
+        "example": "/admins",
+    },
+    "setcr": {
+        "category": "Admin",
+        "syntax": "/setcr <member> <batch>",
+        "aliases": ["addcr", "assigncr"],
+        "description": "Authorize a member as Class Representative for a specific batch/class to manage timetable slots and student rosters.",
+        "arguments": [
+            ("member", "Required", "Server member to appoint as Class Representative."),
+            ("batch", "Required", "Batch or class code they represent (e.g. 26CAIBTAIB16 or 1)."),
+        ],
+        "permissions": "Server Admin or Bot Owner",
+        "example": "/setcr member:@Student batch:26CAIBTAIB16",
+    },
+    "delcr": {
+        "category": "Admin",
+        "syntax": "/delcr <member> [batch]",
+        "aliases": ["removecr", "rmcr"],
+        "description": "Revoke Class Representative authorization from a member.",
+        "arguments": [
+            ("member", "Required", "Class Representative to revoke."),
+            ("batch", "Optional", "Specific batch to unassign if representing multiple classes."),
+        ],
+        "permissions": "Server Admin or Bot Owner",
+        "example": "/delcr member:@Student",
+    },
+    "representatives": {
+        "category": "Admin",
+        "syntax": "/representatives [batch]",
+        "aliases": ["crlist", "crs"],
+        "description": "Displays the complete directory of authorized Class Representatives and their assigned classes.",
+        "arguments": [
+            ("batch", "Optional", "Filter by specific batch code."),
+        ],
+        "permissions": "Everyone",
+        "example": "/representatives batch:26CAIBTAIB16",
+    },
     "setclass": {
         "category": "Admin",
         "syntax": "/setclass <day> <time_slot> <subject> [batch] [room] [faculty]",
@@ -258,11 +324,11 @@ COMMAND_REGISTRY = {
             ("day", "Required", "Day of the week (e.g. Monday, wed)."),
             ("time_slot", "Required", "Time window in HH:MM-HH:MM 24h format (e.g. 09:00-10:00)."),
             ("subject", "Required", "Title or code of the course."),
-            ("batch", "Optional", "Specific batch (e.g. 1, 2) or 'all' for joint lectures. Defaults to 'all'."),
+            ("batch", "Optional", "Specific batch (e.g. 1, 2) or 'all' for joint lectures. Defaults to 'all' for Admins or CR class."),
             ("room", "Optional", "Assigned lecture hall, classroom, or lab number (e.g. Room 402, CS-Lab-A)."),
             ("faculty", "Optional", "Name or designation of the instructor in charge."),
         ],
-        "permissions": "Server Admin or Bot Owner",
+        "permissions": "Administrator or Class Representative",
         "example": "/setclass day:monday time_slot:09:00-10:00 subject:Physics batch:1 room:LH-101 faculty:Dr. Smith",
     },
     "delclass": {
@@ -275,7 +341,7 @@ COMMAND_REGISTRY = {
             ("start", "Required", "Start time of the class in HH:MM 24h format (e.g. 09:00)."),
             ("batch", "Optional", "Batch filter to target specific batch or 'all'."),
         ],
-        "permissions": "Server Admin or Bot Owner",
+        "permissions": "Administrator or Class Representative",
         "example": "/delclass day:monday start:09:00 batch:1",
     },
     "reschedule": {
@@ -287,12 +353,12 @@ COMMAND_REGISTRY = {
             ("date", "Required", "Target date ('today', 'tomorrow', or 'YYYY-MM-DD')."),
             ("time_slot", "Required", "Time slot (e.g. 10:30-11:30 or 10:30)."),
             ("subject", "Required", "Course name, or FREE / CANCELLED."),
-            ("batch", "Optional", "Batch code (e.g. 26CAIBTAIB16 or ALL). Defaults to ALL."),
+            ("batch", "Optional", "Batch code (e.g. 26CAIBTAIB16 or ALL). Defaults to ALL for Admin or CR class."),
             ("room", "Optional", "Assigned lecture hall or room."),
             ("faculty", "Optional", "Instructor name."),
             ("note", "Optional", "Reason or explanation (e.g. 'Makeup lecture')."),
         ],
-        "permissions": "Server Admin or Bot Owner",
+        "permissions": "Administrator or Class Representative",
         "example": "/reschedule date:today time_slot:10:30-11:30 subject:Data Structures batch:26CAIBTAIB16 room:7004 faculty:Dr. Sundheep note:Makeup lab",
     },
     "cancelclass": {
@@ -303,10 +369,10 @@ COMMAND_REGISTRY = {
         "arguments": [
             ("date", "Required", "Target date ('today', 'tomorrow', or 'YYYY-MM-DD')."),
             ("time_slot", "Required", "Start time or span (e.g. 09:30 or 09:30-10:30)."),
-            ("batch", "Optional", "Batch code (e.g. 26CAIBTAIB16 or ALL). Defaults to ALL."),
+            ("batch", "Optional", "Batch code (e.g. 26CAIBTAIB16 or ALL). Defaults to ALL for Admin or CR class."),
             ("reason", "Optional", "Cancellation reason shown to students."),
         ],
-        "permissions": "Server Admin or Bot Owner",
+        "permissions": "Administrator or Class Representative",
         "example": "/cancelclass date:today time_slot:09:30 batch:26CAIBTAIB16 reason:Faculty on leave",
     },
     "deloverride": {
@@ -319,7 +385,7 @@ COMMAND_REGISTRY = {
             ("start", "Required", "Start time in HH:MM format (e.g. 09:30)."),
             ("batch", "Optional", "Batch code or ALL."),
         ],
-        "permissions": "Server Admin or Bot Owner",
+        "permissions": "Administrator or Class Representative",
         "example": "/deloverride date:today start:09:30 batch:26CAIBTAIB16",
     },
     "overrides": {
@@ -335,25 +401,25 @@ COMMAND_REGISTRY = {
         "category": "Admin",
         "syntax": "/linkuser <member> <batch> [name] [roll_no]",
         "aliases": ["adminlink", "setstudent"],
-        "description": "Administrator command to manually link or correct any student's batch, name, and roll number.",
+        "description": "Administrator and Class Representative command to manually link or correct student batch, name, and roll number.",
         "arguments": [
             ("member", "Required", "Target Discord student."),
             ("batch", "Required", "Assigned batch number."),
             ("name", "Optional", "Student full real name."),
             ("roll_no", "Optional", "Student college roll number."),
         ],
-        "permissions": "Server Admin or Bot Owner",
+        "permissions": "Administrator or Class Representative",
         "example": "/linkuser member:@Student batch:1 name:Jane Doe roll_no:21CS099",
     },
     "unlinkuser": {
         "category": "Admin",
         "syntax": "/unlinkuser <member>",
         "aliases": ["adminunlink", "delstudent"],
-        "description": "Administrator command to remove another student's account link and profile information.",
+        "description": "Administrator and Class Representative command to remove a student's account link and profile information.",
         "arguments": [
             ("member", "Required", "Discord student to unlink."),
         ],
-        "permissions": "Server Admin or Bot Owner",
+        "permissions": "Administrator or Class Representative",
         "example": "/unlinkuser member:@Student",
     },
     "students": {
@@ -362,9 +428,9 @@ COMMAND_REGISTRY = {
         "aliases": ["batchlist", "roster"],
         "description": "Displays the complete directory of registered students with roll numbers and batches.",
         "arguments": [
-            ("batch", "Optional", "Filter by specific batch number. If omitted, lists all linked students across batches."),
+            ("batch", "Optional", "Filter by specific batch number. Defaults to CR class or all for Admins."),
         ],
-        "permissions": "Server Admin or Bot Owner",
+        "permissions": "Administrator or Class Representative",
         "example": "/students batch:1",
     },
     "setprefix": {
@@ -401,7 +467,7 @@ COMMAND_REGISTRY = {
     "loadbatch": {
         "category": "Admin",
         "syntax": "/loadbatch <batch>",
-        "aliases": ["setbatch", "switchbatch"],
+        "aliases": ["activatebatch", "importbatch"],
         "description": "Owner command to activate any SRUX batch schedule as the server's default timetable.",
         "arguments": [
             ("batch", "Required", "Batch code to load (e.g. 26CAIBTAIB16)."),
@@ -461,8 +527,8 @@ def build_overview_embed(prefix: str, user: Optional[discord.User | discord.Memb
             "  Interactive registration wizard, batch assignment, student IDs, roster profiles.\n\n"
             "• **Attendance and Faculty** (5 commands)\n"
             "  Interactive marking, threshold tracking, safe-miss calculation, CSV export.\n\n"
-            "• **Administration and Schedule Management** (13 commands)\n"
-            "  Recurring class setup, date-specific overrides, rescheduling, cancellations, student roster controls.\n\n"
+            "• **Administration and Schedule Management** (19 commands)\n"
+            "  Recurring class setup, date-specific overrides, co-admins, class representatives, roster controls.\n\n"
             "• **General Utilities** (1 command)\n"
             "  Command lookup and system manual."
         ),
@@ -645,7 +711,7 @@ def build_linking_embed(prefix: str) -> discord.Embed:
         name=f"`{prefix}mybatch` [batch]",
         value=(
             "Checks or updates your current active batch without resetting your saved name.\n"
-            "• Aliases: `setbatch`, `switchbatch`\n"
+            "• Aliases: `setbatch`\n"
             "• Examples: `/mybatch`, `/mybatch batch:26CAIBTAIB16`"
         ),
         inline=False,
@@ -740,10 +806,32 @@ def build_admin_embed(prefix: str) -> discord.Embed:
     embed = discord.Embed(
         title="Documentation: Administration and Schedule Management",
         description=(
-            "Controls for faculty and administrators to manage master schedules, "
-            "issue date-specific overrides, reschedule lectures, and manage student rosters."
+            "Controls for administrators and class representatives to manage master schedules, "
+            "issue date-specific overrides, assign class representatives, and manage student rosters."
         ),
         color=COLOR_ADMIN,
+    )
+
+    embed.add_field(
+        name=f"`{prefix}setadmin` / `{prefix}deladmin` / `{prefix}admins`",
+        value=(
+            "Full administrator delegation commands (same powers as owner).\n"
+            "• `/setadmin <member>`: Grant a user full administrator authority.\n"
+            "• `/deladmin <member>`: Revoke administrator status from a user.\n"
+            "• `/admins`: List all active administrators and the primary bot owner."
+        ),
+        inline=False,
+    )
+
+    embed.add_field(
+        name=f"`{prefix}setcr` / `{prefix}delcr` / `{prefix}representatives`",
+        value=(
+            "Class Representative management commands.\n"
+            "• `/setcr <member> <batch>`: Authorize a student as Class Representative for their class.\n"
+            "• `/delcr <member> [batch]`: Revoke Class Representative authorization.\n"
+            "• `/representatives [batch]`: View the directory of all appointed Class Representatives."
+        ),
+        inline=False,
     )
 
     embed.add_field(
@@ -788,7 +876,8 @@ def build_admin_embed(prefix: str) -> discord.Embed:
     embed.add_field(
         name=f"`{prefix}setclass` <day> <time_slot> <subject> [batch] [room] [faculty]",
         value=(
-            "Adds or updates a recurring slot in the weekly timetable, or creates an override if day is a date.\n"
+            "Adds or updates a recurring slot in the weekly timetable (or creates an override if day is a date).\n"
+            "• Admins configure global/any batch; Class Representatives configure their assigned section.\n"
             "• Example: `/setclass day:Friday time_slot:10:30-11:30 subject:Calculus batch:26CAIBTAIB16 room:11206`"
         ),
         inline=False,
@@ -825,7 +914,7 @@ def build_admin_embed(prefix: str) -> discord.Embed:
     embed.add_field(
         name=f"`{prefix}loadbatch` <batch>",
         value=(
-            "Loads any scraped university batch into the default master schedule.\n"
+            "Loads any scraped university batch into the default master schedule (Admin only).\n"
             "• Example: `/loadbatch batch:26CAIBTAIB16`"
         ),
         inline=False,
@@ -834,13 +923,13 @@ def build_admin_embed(prefix: str) -> discord.Embed:
     embed.add_field(
         name=f"`{prefix}setprefix` / `{prefix}sync` / `{prefix}reload`",
         value=(
-            "System configuration commands to update prefix, sync slash commands, or hot-reload cogs.\n"
+            "System configuration commands to update prefix, sync slash commands, or hot-reload cogs (Admin only).\n"
             "• Example: `!sync`, `!reload`"
         ),
         inline=False,
     )
 
-    embed.set_footer(text=f"Category: Administration (13 commands) | Prefix: {prefix}")
+    embed.set_footer(text=f"Category: Administration (19 commands) | Prefix: {prefix}")
     return embed
 
 
