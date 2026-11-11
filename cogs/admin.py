@@ -39,6 +39,8 @@ if not hasattr(commands, "hybrid_group"):
     commands.hybrid_group = commands.group  # type: ignore[attr-defined]
 
 from cogs.timetable import (
+    create_batch,
+    delete_batch,
     DAY_NAMES,
     parse_batches,
     parse_date_input,
@@ -1607,6 +1609,111 @@ class AdminCog(commands.Cog):
         embed.set_footer(text=f"Total: {total_count} linked accounts • Saved in data/users.json")
         await ctx.send(embed=embed, ephemeral=True)
 
+
+    @commands.hybrid_command(
+        name="createbatch",
+        aliases=["addbatch", "newbatch"],
+        description="Create a new batch timetable or add to directory. Owner only.",
+    )
+    @commands.is_owner()
+    @app_commands.describe(
+        batch="Batch code (e.g. 26CAIBTCSB66) or short number (e.g. 66 if year & degree given)",
+        year="Academic year: 1, 2, 3, or 4 (or First, Second, etc.)",
+        degree="Department/degree: e.g. CSE, ECE, BTECH-CSE",
+        specialization="Optional specialization: Core, AI, Cyber, DS",
+        copy_from="Optional existing batch to clone timetable schedule from (e.g. 26CAIBTCSB56)",
+    )
+    async def createbatch(
+        self,
+        ctx: commands.Context,
+        batch: str,
+        year: Optional[str] = None,
+        degree: Optional[str] = None,
+        specialization: Optional[str] = None,
+        copy_from: Optional[str] = None,
+    ) -> None:
+        tt = self._timetable()
+        if tt is None:
+            await ctx.send("The timetable cog is not loaded.", ephemeral=True)
+            return
+
+        ok, msg, meta = create_batch(
+            batch_code=batch,
+            degree=degree or "BTECH-CSE",
+            year=year or "First",
+            copy_from=copy_from,
+            specialization=specialization or "",
+        )
+
+        if not ok:
+            embed = discord.Embed(
+                title="Batch Creation Failed",
+                description=f"> {msg}",
+                color=COLOR_ERROR,
+            )
+            embed.set_author(name="Timetable Admin")
+            await ctx.send(embed=embed, ephemeral=True)
+            return
+
+        b_code = meta.get("batch", batch)
+        classes = meta.get("total_classes", 0)
+        deg_str = ", ".join(meta.get("degrees", []))
+        yr_str = ", ".join(meta.get("years", []))
+
+        embed = discord.Embed(
+            title="Batch Created Successfully",
+            description=f"Batch **`{b_code}`** has been created and registered into the system.",
+            color=COLOR_SUCCESS,
+        )
+        embed.set_author(name="Timetable Admin")
+        embed.add_field(name="Batch Code", value=f"**`{b_code}`**", inline=True)
+        embed.add_field(name="Degree", value=f"**{deg_str}**", inline=True)
+        embed.add_field(name="Year", value=f"**{yr_str}**", inline=True)
+        embed.add_field(
+            name="Classes Loaded",
+            value=f"**{classes} classes/week**"
+            + (f" (cloned from `{copy_from}`)" if copy_from else " (blank schedule)"),
+            inline=False,
+        )
+        embed.add_field(
+            name="Available Commands for Students",
+            value=(
+                f"• `/register degree:{deg_str} year:{yr_str} batch:{b_code}`\n"
+                f"• `/link {b_code}`\n"
+                f"• `/timetable batch:{b_code}`"
+            ),
+            inline=False,
+        )
+        embed.set_footer(text="Saved to data/timetables/converted/ & updated batches_index.json")
+        await ctx.send(embed=embed)
+
+    @commands.hybrid_command(
+        name="deletebatch",
+        aliases=["delbatch", "removebatch"],
+        description="Delete a batch timetable from the bot directory. Owner only.",
+    )
+    @commands.is_owner()
+    @app_commands.describe(batch="Batch code to remove (e.g. 26CAIBTCSB66)")
+    async def deletebatch(self, ctx: commands.Context, batch: str) -> None:
+        tt = self._timetable()
+        if tt is None:
+            await ctx.send("The timetable cog is not loaded.", ephemeral=True)
+            return
+
+        b_code = (
+            tt.resolve_batch_input(batch)
+            if hasattr(tt, "resolve_batch_input")
+            else batch.strip().upper()
+        )
+        ok, msg = delete_batch(b_code)
+        embed = discord.Embed(
+            title="Batch Deletion" if ok else "Batch Not Found",
+            description=msg,
+            color=COLOR_SUCCESS if ok else COLOR_ERROR,
+        )
+        embed.set_author(name="Timetable Admin")
+        embed.set_footer(text="Updated directory & schedule files")
+        await ctx.send(embed=embed, ephemeral=True)
 
 async def setup(bot: commands.Bot) -> None:
     await bot.add_cog(AdminCog(bot))

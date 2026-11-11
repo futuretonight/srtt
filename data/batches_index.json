@@ -1,8 +1,8 @@
 {
   "last_synced": "2026-11-06T10:02:19.159812",
   "total_degrees": 30,
-  "total_unique_batches": 428,
-  "available_batches": 428,
+  "total_unique_batches": 429,
+  "available_batches": 429,
   "missing_batches": 0,
   "error_batches": 0,
   "batches": {
@@ -14480,6 +14480,37 @@
       "status": "available",
       "raw_file": "data/timetables/raw/26MATPHDB01.json",
       "converted_file": "data/timetables/converted/26MATPHDB01.json"
+    },
+    "26CAIBTCSB66": {
+      "batch": "26CAIBTCSB66",
+      "degrees": [
+        "BTECH-CSE"
+      ],
+      "years": [
+        "First"
+      ],
+      "total_classes": 24,
+      "subjects": [
+        "AI assisted Python Programming",
+        "Applied Physics",
+        "Calculus and Differential Equations",
+        "Computational Biology",
+        "Heritage, Democracy and Ecology"
+      ],
+      "faculties": [
+        "Dr. Anima Ghosh",
+        "Dr. Anirban Mukherjee",
+        "Dr. Bhusankar Talluri",
+        "Dr. Inzamamul  Haque",
+        "Dr. Priya Srivastava",
+        "Dr. Umesh Kumar",
+        "Dr. Vana Rambabu",
+        "Ms. Nageswari",
+        "Ms. Saranya D"
+      ],
+      "status": "available",
+      "raw_file": "data/timetables/raw/26CAIBTCSB66.json",
+      "converted_file": "data/timetables/converted/26CAIBTCSB66.json"
     }
   }
 }

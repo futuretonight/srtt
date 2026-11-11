@@ -240,6 +240,201 @@ SPECIALIZATION_TAGS: dict[str, list[str]] = {
 }
 
 
+YEAR_TO_PREFIX: dict[str, str] = {
+    "First": "26",
+    "Second": "25",
+    "Third": "24",
+    "Fourth": "23",
+    "1": "26",
+    "first": "26",
+    "1st": "26",
+    "2": "25",
+    "second": "25",
+    "2nd": "25",
+    "3": "24",
+    "third": "24",
+    "3rd": "24",
+    "4": "23",
+    "fourth": "23",
+    "4th": "23",
+}
+
+PREFIX_TO_YEAR: dict[str, str] = {
+    "26": "First",
+    "25": "Second",
+    "24": "Third",
+    "23": "Fourth",
+}
+
+YEAR_DISPLAY_NAMES: dict[str, str] = {
+    "First": "1st Year (2026 Batch)",
+    "Second": "2nd Year (2025 Batch)",
+    "Third": "3rd Year (2024 Batch)",
+    "Fourth": "4th Year (2023 Batch)",
+}
+
+DEGREE_ALIASES: dict[str, str] = {
+    "CSE": "BTECH-CSE",
+    "CS": "BTECH-CSE",
+    "BTECHCSE": "BTECH-CSE",
+    "ECE": "BTECH-ECE",
+    "BTECHECE": "BTECH-ECE",
+    "EEE": "BTECH-EEE",
+    "BTECHEEE": "BTECH-EEE",
+    "CIVIL": "BTECH-CE",
+    "CE": "BTECH-CE",
+    "BTECHCE": "BTECH-CE",
+    "MECH": "BTECH-ME",
+    "ME": "BTECH-ME",
+    "BTECHME": "BTECH-ME",
+    "BCA": "BCA-CSAI",
+    "BCACSAI": "BCA-CSAI",
+    "BBA": "BBA-BM",
+    "BBABM": "BBA-BM",
+    "BCOM": "B.Com-BM",
+    "BCOMBM": "B.Com-BM",
+    "AGRI": "B.Sc.(Hons.)-AGRI",
+    "AGRICULTURE": "B.Sc.(Hons.)-AGRI",
+    "BSCAGRI": "B.Sc.(Hons.)-AGRI",
+    "BSCCSAI": "B.Sc(Comp.)-CSAI",
+    "MBA": "MBA-BM",
+    "MBABM": "MBA-BM",
+    "MCA": "MCA-CSE",
+    "MCACSE": "MCA-CSE",
+    "MTECHCSE": "MTECH-CSE",
+    "MTECHECE": "MTECH-ECE",
+    "MTECHEEE": "MTECH-EEE",
+    "MTECHCE": "MTECH-CE",
+    "MTECHME": "MTECH-ME",
+}
+
+SPECIALIZATION_TAGS: dict[str, list[str]] = {
+    "AI": ["AIB", "CAI", "AI"],
+    "AIML": ["AIB", "CAI", "AI"],
+    "AI/ML": ["AIB", "CAI", "AI"],
+    "CORE": ["CSB", "CSBTB", "CS"],
+    "CS": ["CSB", "CSBTB", "CS"],
+    "CSE": ["CSB", "CSBTB", "CS"],
+    "CYBER": ["CYB", "CY"],
+    "CYBERSECURITY": ["CYB", "CY"],
+    "CY": ["CYB", "CY"],
+    "DS": ["DSB", "DS"],
+    "DATASCIENCE": ["DSB", "DS"],
+    "DATA": ["DSB", "DS"],
+    "ECE": ["ECEBT", "ECE", "ECB"],
+    "EEE": ["EEEBT", "EEE", "EEB"],
+    "CIVIL": ["CIVBT", "CIV", "CEB"],
+    "CE": ["CIVBT", "CIV", "CEB"],
+    "MECH": ["MECBT", "MEC", "MEB"],
+    "ME": ["MECBT", "MEC", "MEB"],
+    "BCA": ["CAIBC"],
+    "BBA": ["BUSBB", "BBA"],
+    "BCOM": ["BUSBC"],
+    "AGRI": ["AGBS", "AGMS"],
+}
+
+
+def parse_batch_query(text: str) -> tuple[Optional[str], Optional[str], Optional[str]]:
+    """Parse user query into (year, number, keyword/remainder).
+    Examples:
+        '66' -> (None, '66', None)
+        '1 66' -> ('1', '66', None)
+        'yr 1 66' -> ('1', '66', None)
+        'CSE 1 66' -> ('1', '66', 'CSE')
+        'Core 66' -> (None, '66', 'CORE')
+        '2 16' -> ('2', '16', None)
+    """
+    raw = (text or "").strip()
+    year: Optional[str] = None
+    number: Optional[str] = None
+
+    # 1. Year indicator: 'year 1', 'yr 1', 'y1', '1st year', or standalone '1' / '2' / '3' / '4'
+    m_yr = re.search(r"\b(?:year|yr|y)?\s*([1-4])(?:st|nd|rd|th)?\s*(?:year|yr)?\b", raw, re.I)
+    if m_yr:
+        year = m_yr.group(1)
+        raw = (raw[:m_yr.start()] + " " + raw[m_yr.end():]).strip()
+
+    # 2. Batch / Section number (e.g. B66, 66, 01, B01)
+    m_num = re.search(r"\bB?(\d{1,3})\b", raw, re.I)
+    if m_num:
+        number = m_num.group(1).zfill(2)
+        raw = (raw[:m_num.start()] + " " + raw[m_num.end():]).strip()
+
+    remainder = re.sub(r"[\s\-_/]+", " ", raw).strip()
+    return year, number, (remainder if remainder else None)
+
+
+def build_batch_code(degree: str, year: str, number: str | int, specialization: str = "") -> str:
+    """Construct standard formal university batch code (e.g. 26CAIBTCSB66)."""
+    y_str = str(year).strip().lower()
+    y_norm = YEAR_MAP.get(y_str, y_str.title())
+    y_pfx = YEAR_TO_PREFIX.get(y_norm) or YEAR_TO_PREFIX.get(y_str) or "26"
+
+    d_clean = degree.strip().upper()
+    s_clean = specialization.strip().upper()
+    num_str = str(number).strip().upper()
+    if num_str.startswith("B"):
+        num_str = num_str[1:]
+    num_int = int(num_str) if num_str.isdigit() else 0
+    formatted_num = f"{num_int:02d}" if num_int > 0 else num_str
+
+    if "CSE" in d_clean or d_clean in ("CS", "BTECH-CSE"):
+        if y_pfx in ("26", "25"):
+            if s_clean in ("CYBER", "CYBERSECURITY", "CY") or num_int in (59, 60):
+                tag = "CAIBTCY"
+            elif s_clean in ("DS", "DATASCIENCE", "DATA") or num_int in (57, 58):
+                tag = "CAIBTDS"
+            elif s_clean in ("AI", "AIML") or (num_int < 33 and not s_clean):
+                tag = "CAIBTAI"
+            else:  # Core / default (33-56, 66, etc.)
+                tag = "CAIBTCS"
+            return f"{y_pfx}{tag}B{formatted_num}"
+        elif y_pfx == "24":
+            if s_clean in ("AI", "AIML"):
+                tag = "BTCAIAI"
+            elif s_clean in ("DS", "DATA"):
+                tag = "BTCAIDS"
+            elif s_clean in ("CY", "CYBER"):
+                tag = "BTCAICY"
+            else:
+                tag = "BTCAICS"
+            return f"{y_pfx}{tag}B{formatted_num}"
+        elif y_pfx == "23":
+            return f"{y_pfx}CSBTB{formatted_num}"
+
+    elif "ECE" in d_clean:
+        if y_pfx in ("26", "25"):
+            tag = "ECEBT00"
+        elif y_pfx == "24":
+            tag = "ECBT"
+        else:
+            tag = "ECEBT"
+        return f"{y_pfx}{tag}B{formatted_num}"
+
+    elif "EEE" in d_clean:
+        tag = "EEEBT00" if y_pfx in ("26", "25") else ("EEBT" if y_pfx == "24" else "EEEBT")
+        return f"{y_pfx}{tag}B{formatted_num}"
+
+    elif "CE" in d_clean or "CIVIL" in d_clean:
+        tag = "CIVBT00" if y_pfx in ("26", "25") else "CEBT"
+        return f"{y_pfx}{tag}B{formatted_num}"
+
+    elif "ME" in d_clean or "MECH" in d_clean:
+        tag = "MECBT00" if y_pfx in ("26", "25") else "MEBT"
+        return f"{y_pfx}{tag}B{formatted_num}"
+
+    elif "BCA" in d_clean:
+        return f"{y_pfx}CAIBC00B{formatted_num}"
+    elif "BBA" in d_clean:
+        return f"{y_pfx}BUSBB00B{formatted_num}"
+    elif "BCOM" in d_clean:
+        return f"{y_pfx}BUSBC00B{formatted_num}"
+    elif "AGRI" in d_clean:
+        return f"{y_pfx}AGBSB{formatted_num}"
+
+    return f"{y_pfx}{d_clean}B{formatted_num}"
+
+
 def resolve_batch_from_inputs(
     deg_input: str, yr_input: str, batch_input: str
 ) -> tuple[Optional[str], Optional[str], Optional[str], str]:
@@ -247,6 +442,13 @@ def resolve_batch_from_inputs(
     deg_in = deg_input.strip().upper() if deg_input else ""
     yr_in = YEAR_MAP.get(yr_input.strip().lower(), yr_input.strip().title()) if yr_input else ""
     b_in = batch_input.strip().upper() if batch_input else ""
+
+    # Parse compound query (e.g. '1 66', 'CSE 1 66', 'yr 1 66')
+    p_yr, p_num, p_rem = parse_batch_query(batch_input) if batch_input else (None, None, None)
+    if p_yr and not yr_in:
+        yr_in = YEAR_MAP.get(p_yr, "")
+    if p_rem and not deg_in:
+        deg_in = p_rem.upper()
 
     options: dict[str, Any] = {}
     if OPTIONS_FILE.is_file():
@@ -262,7 +464,7 @@ def resolve_batch_from_inputs(
         except Exception:
             pass
 
-    # 1. Exact match in index (e.g. "26CAIBTAIB16")
+    # 1. Exact match in index (e.g. "26CAIBTAIB16" or "26CAIBTCSB66")
     if b_in in index.get("batches", {}):
         meta = index["batches"][b_in]
         m_deg = meta["degrees"][0] if meta.get("degrees") else ""
@@ -270,10 +472,12 @@ def resolve_batch_from_inputs(
         return b_in, m_deg, m_yr, "Exact batch code matched"
 
     # Extract 2-digit number and type prefix from batch_input
-    num_m = re.search(r"(\d{1,2})$", b_in)
-    b_num = num_m.group(1).zfill(2) if num_m else ""
-    raw_type = b_in[:num_m.start()].strip() if num_m else ""
-    clean_type = re.sub(r"[\s\-_/]+", "", raw_type).upper()
+    b_num = p_num
+    if not b_num:
+        num_m = re.search(r"(\d{1,3})$", b_in)
+        b_num = num_m.group(1).zfill(2) if num_m else ""
+    raw_type = p_rem if p_rem else (b_in[:len(b_in) - len(b_num)].strip() if (b_in and b_num and b_in.endswith(b_num)) else "")
+    clean_type = re.sub(r"[\s\-_/\d]+", "", raw_type).upper()
     spec_tags = SPECIALIZATION_TAGS.get(clean_type, [clean_type]) if clean_type else []
 
     # 2. Find degree
@@ -293,63 +497,514 @@ def resolve_batch_from_inputs(
                         matched_degree = d
                         break
 
-    # If no degree given, attempt to search across all batches in the index
-    if not matched_degree:
-        if b_in:
-            candidates: list[tuple[str, str, str]] = []
-            for b, meta in index.get("batches", {}).items():
-                m_deg = meta["degrees"][0] if meta.get("degrees") else ""
-                m_yr = meta["years"][0] if meta.get("years") else ""
-                num_match = (b.endswith(f"B{b_num}") or b.endswith(b_num)) if b_num else False
-                if b == b_in or (b_in in b) or num_match:
-                    if spec_tags:
-                        if any(tag in b for tag in spec_tags):
-                            candidates.append((b, m_deg, m_yr))
-                    else:
-                        candidates.append((b, m_deg, m_yr))
+    # 3. If degree is known, find within that degree + year
+    if matched_degree:
+        deg_years = options.get(matched_degree, {})
+        matched_year = None
+        if yr_in:
+            for y in deg_years.keys():
+                if yr_in.lower() == y.lower():
+                    matched_year = y
+                    break
 
-            if candidates:
-                # Prioritize current active academic year (starts with 26)
-                candidates.sort(key=lambda c: (0 if c[0].startswith("26") else 1, c[0]))
-                b_found, d_found, y_found = candidates[0]
-                return b_found, d_found, y_found, f"Matched via type/section in {d_found} ({y_found})"
+        if not matched_year:
+            matched_year = list(deg_years.keys())[0] if len(deg_years) == 1 else "First"
 
-        return None, None, None, f"Could not find degree `{deg_input}`. Run /degrees to view all programs."
+        batches = deg_years.get(matched_year, [])
 
-    # 3. Find year in that degree
-    deg_years = options.get(matched_degree, {})
-    matched_year = None
+        # Check specialization tag + number first (e.g. AI 16, Core 35, Cyber 59, DS 57)
+        if spec_tags and b_num:
+            for b in batches:
+                if (b.endswith(f"B{b_num}") or b.endswith(b_num)) and any(tag in b for tag in spec_tags):
+                    return b, matched_degree, matched_year, f"Matched {clean_type} Batch {b_num} in {matched_degree} ({matched_year})"
+
+        # Check 2-digit number suffix (e.g. "66")
+        if b_num:
+            num_int = int(b_num) if b_num.isdigit() else 0
+            # Special heuristic for CSE Core vs AI: numbers >= 33 in 1st/2nd yr CSE belong to Core
+            if "CSE" in matched_degree and num_int >= 33:
+                for b in batches:
+                    if (b.endswith(f"B{b_num}") or b.endswith(b_num)) and ("CS" in b or "TCS" in b):
+                        return b, matched_degree, matched_year, f"Matched CSE Core Batch {b_num} in {matched_degree} ({matched_year})"
+
+            for b in batches:
+                if b.endswith(f"B{b_num}") or b.endswith(b_num):
+                    return b, matched_degree, matched_year, f"Matched Batch {b_num} in {matched_degree} ({matched_year})"
+
+        for b in batches:
+            if b_in and b_in in b:
+                return b, matched_degree, matched_year, f"Matched batch in {matched_degree} ({matched_year})"
+
+        sample_batches = ", ".join(f"`{b}`" for b in batches[:6])
+        return None, matched_degree, matched_year, f"Batch `{batch_input}` not found in **{matched_degree}** ({matched_year}). Options: {sample_batches}..."
+
+    # 4. If no degree was given, search across all batches in the index
+    prefix = YEAR_TO_PREFIX.get(yr_in) if yr_in else None
+    candidates: list[tuple[str, str, str]] = []
+    for b, meta in index.get("batches", {}).items():
+        m_deg = meta["degrees"][0] if meta.get("degrees") else ""
+        m_yr = meta["years"][0] if meta.get("years") else ""
+
+        # Filter by academic year prefix if year was specified
+        if prefix and not b.startswith(prefix) and (m_yr.lower() != yr_in.lower()):
+            continue
+
+        num_match = (b.endswith(f"B{b_num}") or b.endswith(b_num)) if b_num else False
+        if b == b_in or (b_in and b_in in b) or num_match:
+            if spec_tags:
+                if any(tag in b for tag in spec_tags):
+                    candidates.append((b, m_deg, m_yr))
+            else:
+                candidates.append((b, m_deg, m_yr))
+
+    if candidates:
+        # Prioritize CSE Core for numbers >= 33 if CSE candidates exist
+        num_int = int(b_num) if (b_num and b_num.isdigit()) else 0
+        if num_int >= 33:
+            cse_core = [c for c in candidates if "CS" in c[0] and "CSE" in c[1]]
+            if cse_core:
+                candidates = cse_core + [c for c in candidates if c not in cse_core]
+
+        # Prioritize 1st year (starts with 26) then sort
+        candidates.sort(key=lambda c: (0 if c[0].startswith("26") else 1, c[0]))
+        b_found, d_found, y_found = candidates[0]
+        desc = f"Matched Batch {b_num or b_found} in {d_found} ({y_found})"
+        if len(candidates) > 1:
+            desc += f" • {len(candidates)} batches match #{b_num or b_found}"
+        return b_found, d_found, y_found, desc
+
     if yr_in:
-        for y in deg_years.keys():
-            if yr_in.lower() == y.lower():
-                matched_year = y
-                break
+        return None, None, yr_in, f"No batch ending in `{b_num or batch_input}` found for {yr_in} Year. Try specifying degree, e.g. `CSE {yr_in} {b_num or batch_input}`."
 
-    if not matched_year:
-        matched_year = list(deg_years.keys())[0] if len(deg_years) == 1 else "First"
+    return None, None, None, f"Could not find batch `{batch_input}`. Run /listbatches or /findbatch to view available batches."
 
-    # 4. Find batch in that degree + year
-    batches = deg_years.get(matched_year, [])
 
-    # Check specialization tag + number first (e.g. AI 16, Core 35, Cyber 59, DS 57)
-    if spec_tags and b_num:
-        for b in batches:
-            if (b.endswith(f"B{b_num}") or b.endswith(b_num)) and any(tag in b for tag in spec_tags):
-                return b, matched_degree, matched_year, f"Matched {clean_type} Batch {b_num} in {matched_degree} ({matched_year})"
+def create_batch(
+    batch_code: str,
+    degree: str,
+    year: str,
+    copy_from: Optional[str] = None,
+    specialization: str = "",
+    overwrite: bool = False,
+) -> tuple[bool, str, dict[str, Any]]:
+    """Create a new batch timetable and register it across index and options."""
+    d_clean = (degree or "").strip().upper()
+    deg_norm = DEGREE_ALIASES.get(d_clean, d_clean) or "BTECH-CSE"
 
-    # Check 2-digit number suffix (e.g. "16")
-    if b_num:
-        for b in batches:
-            if b.endswith(f"B{b_num}") or b.endswith(b_num):
-                return b, matched_degree, matched_year, f"Matched Batch {b_num} in {matched_degree} ({matched_year})"
+    y_clean = (year or "").strip().lower()
+    yr_norm = YEAR_MAP.get(y_clean, y_clean.title()) or "First"
 
-    # Check substring
-    for b in batches:
-        if b_in and b_in in b:
-            return b, matched_degree, matched_year, f"Matched batch in {matched_degree} ({matched_year})"
+    # If short number or section was given, construct the standard university code
+    b_input = batch_code.strip().upper()
+    if len(b_input) <= 4 or not any(b_input.startswith(pfx) for pfx in ("26", "25", "24", "23")):
+        canonical_code = build_batch_code(deg_norm, yr_norm, b_input, specialization=specialization)
+    else:
+        canonical_code = b_input
 
-    sample_batches = ", ".join(f"`{b}`" for b in batches[:6])
-    return None, matched_degree, matched_year, f"Batch `{batch_input}` not found in **{matched_degree}** ({matched_year}). Options: {sample_batches}..."
+    converted_dir = DATA_FILE.parent / "timetables" / "converted"
+    converted_dir.mkdir(parents=True, exist_ok=True)
+    target_file = converted_dir / f"{canonical_code}.json"
+
+    if target_file.is_file() and not overwrite:
+        # Check if already indexed
+        return False, f"Batch timetable for `{canonical_code}` already exists on disk.", {"batch": canonical_code}
+
+    schedule_data: dict[str, list[dict[str, Any]]] = {
+        d: [] for d in ("mon", "tue", "wed", "thu", "fri", "sat", "sun")
+    }
+
+    if copy_from:
+        c_from = copy_from.strip().upper()
+        # Resolve copy_from code if short number
+        if len(c_from) <= 4:
+            c_resolved, _, _, _ = resolve_batch_from_inputs(deg_norm, yr_norm, c_from)
+            if c_resolved:
+                c_from = c_resolved
+        template_file = converted_dir / f"{c_from}.json"
+        if not template_file.is_file():
+            return False, f"Template batch `{c_from}` could not be found to copy from.", {}
+        try:
+            raw_sched = json.loads(template_file.read_text(encoding="utf-8"))
+            for day, slots in raw_sched.items():
+                day_k = day.lower()
+                if day_k in schedule_data and isinstance(slots, list):
+                    day_slots = []
+                    for s in slots:
+                        new_s = dict(s)
+                        if "batches" in new_s:
+                            new_s["batches"] = [
+                                canonical_code if b == c_from else b for b in new_s["batches"]
+                            ]
+                            if canonical_code not in new_s["batches"]:
+                                new_s["batches"].append(canonical_code)
+                        else:
+                            new_s["batches"] = [canonical_code]
+                        day_slots.append(new_s)
+                    schedule_data[day_k] = day_slots
+        except Exception as exc:
+            return False, f"Failed to read template schedule from `{c_from}`: {exc}", {}
+
+    # Calculate statistics
+    total_classes = sum(len(slots) for slots in schedule_data.values())
+    subjects = sorted(
+        {s.get("subject") for slots in schedule_data.values() for s in slots if s.get("subject")}
+    )
+    faculties = sorted(
+        {s.get("faculty") for slots in schedule_data.values() for s in slots if s.get("faculty")}
+    )
+
+    # 1. Save timetable JSON atomically
+    fd, tmp = tempfile.mkstemp(dir=converted_dir, prefix=f".{canonical_code}-", suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as fh:
+            json.dump(schedule_data, fh, indent=2, ensure_ascii=False)
+            fh.write("\n")
+        os.replace(tmp, target_file)
+    except Exception as exc:
+        with contextlib.suppress(OSError):
+            os.unlink(tmp)
+        return False, f"Could not save batch schedule file: {exc}", {}
+
+    # 2. Update batches_index.json
+    index_data: dict[str, Any] = {"batches": {}}
+    if INDEX_FILE.is_file():
+        try:
+            index_data = json.loads(INDEX_FILE.read_text(encoding="utf-8"))
+        except Exception:
+            index_data = {"batches": {}}
+
+    batch_meta = {
+        "batch": canonical_code,
+        "degrees": [deg_norm],
+        "years": [yr_norm],
+        "total_classes": total_classes,
+        "subjects": subjects,
+        "faculties": faculties,
+        "status": "available",
+        "raw_file": f"data/timetables/raw/{canonical_code}.json",
+        "converted_file": f"data/timetables/converted/{canonical_code}.json",
+    }
+    index_data.setdefault("batches", {})[canonical_code] = batch_meta
+    index_data["total_unique_batches"] = len(index_data["batches"])
+    index_data["available_batches"] = len(index_data["batches"])
+
+    INDEX_FILE.parent.mkdir(parents=True, exist_ok=True)
+    fd, tmp = tempfile.mkstemp(dir=INDEX_FILE.parent, prefix=".index-", suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as fh:
+            json.dump(index_data, fh, indent=2, ensure_ascii=False)
+            fh.write("\n")
+        os.replace(tmp, INDEX_FILE)
+    except Exception as exc:
+        with contextlib.suppress(OSError):
+            os.unlink(tmp)
+        log.warning("Could not update batches_index.json: %s", exc)
+
+    # 3. Update timetable_options.json
+    options_data: dict[str, Any] = {}
+    if OPTIONS_FILE.is_file():
+        try:
+            options_data = json.loads(OPTIONS_FILE.read_text(encoding="utf-8"))
+        except Exception:
+            options_data = {}
+
+    d_entry = options_data.setdefault(deg_norm, {})
+    y_entry = d_entry.setdefault(yr_norm, [])
+    if canonical_code not in y_entry:
+        y_entry.append(canonical_code)
+        y_entry.sort()
+
+    OPTIONS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    fd, tmp = tempfile.mkstemp(dir=OPTIONS_FILE.parent, prefix=".options-", suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as fh:
+            json.dump(options_data, fh, indent=2, ensure_ascii=False)
+            fh.write("\n")
+        os.replace(tmp, OPTIONS_FILE)
+    except Exception as exc:
+        with contextlib.suppress(OSError):
+            os.unlink(tmp)
+        log.warning("Could not update timetable_options.json: %s", exc)
+
+    return True, f"Batch `{canonical_code}` successfully created and registered.", batch_meta
+
+
+def delete_batch(batch_code: str) -> tuple[bool, str]:
+    """Delete a batch timetable from disk, index, and options."""
+    b_code = batch_code.strip().upper()
+    converted_dir = DATA_FILE.parent / "timetables" / "converted"
+    target_file = converted_dir / f"{b_code}.json"
+
+    deleted_file = False
+    if target_file.is_file():
+        try:
+            target_file.unlink()
+            deleted_file = True
+        except OSError as exc:
+            log.warning("Could not delete %s: %s", target_file, exc)
+
+    # Remove from index
+    removed_index = False
+    if INDEX_FILE.is_file():
+        try:
+            index_data = json.loads(INDEX_FILE.read_text(encoding="utf-8"))
+            if b_code in index_data.get("batches", {}):
+                del index_data["batches"][b_code]
+                index_data["total_unique_batches"] = len(index_data["batches"])
+                index_data["available_batches"] = len(index_data["batches"])
+                fd, tmp = tempfile.mkstemp(dir=INDEX_FILE.parent, prefix=".index-", suffix=".tmp")
+                with os.fdopen(fd, "w", encoding="utf-8") as fh:
+                    json.dump(index_data, fh, indent=2, ensure_ascii=False)
+                    fh.write("\n")
+                os.replace(tmp, INDEX_FILE)
+                removed_index = True
+        except Exception as exc:
+            log.warning("Could not update index on batch deletion: %s", exc)
+
+    # Remove from options
+    if OPTIONS_FILE.is_file():
+        try:
+            options_data = json.loads(OPTIONS_FILE.read_text(encoding="utf-8"))
+            for deg, y_dict in options_data.items():
+                for yr, b_list in y_dict.items():
+                    if b_code in b_list:
+                        b_list.remove(b_code)
+            fd, tmp = tempfile.mkstemp(dir=OPTIONS_FILE.parent, prefix=".options-", suffix=".tmp")
+            with os.fdopen(fd, "w", encoding="utf-8") as fh:
+                json.dump(options_data, fh, indent=2, ensure_ascii=False)
+                fh.write("\n")
+            os.replace(tmp, OPTIONS_FILE)
+        except Exception as exc:
+            log.warning("Could not update options on batch deletion: %s", exc)
+
+    if deleted_file or removed_index:
+        return True, f"Batch `{b_code}` was successfully removed from the system."
+    return False, f"Batch `{b_code}` was not found in the timetable database."
+
+
+def get_grouped_year_batches(
+    year_key: str,
+    degree_filter: Optional[str] = None,
+    query_filter: Optional[str] = None,
+) -> tuple[dict[str, list[tuple[str, dict[str, Any]]]], int]:
+    """Group batches for an academic year into organized stream buckets."""
+    index: dict[str, Any] = {}
+    if INDEX_FILE.is_file():
+        try:
+            index = json.loads(INDEX_FILE.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
+    y_norm = YEAR_MAP.get(str(year_key).lower(), str(year_key).title()) if year_key else "First"
+    pfx = YEAR_TO_PREFIX.get(y_norm) or YEAR_TO_PREFIX.get(str(year_key)) or "26"
+
+    groups: dict[str, list[tuple[str, dict[str, Any]]]] = {}
+    total_matches = 0
+    q = query_filter.lower().strip() if query_filter else ""
+    d_q = degree_filter.upper().strip() if degree_filter else ""
+
+    for b, meta in index.get("batches", {}).items():
+        if not b.startswith(pfx) and y_norm not in meta.get("years", []):
+            continue
+
+        deg = meta.get("degrees", ["Other"])[0]
+        if d_q and (d_q not in deg.upper() and deg.upper() not in d_q):
+            continue
+
+        if q:
+            match_q = (
+                q in b.lower()
+                or any(q in d.lower() for d in meta.get("degrees", []))
+                or any(q in s.lower() for s in meta.get("subjects", []))
+                or any(q in fac.lower() for fac in meta.get("faculties", []))
+            )
+            if not match_q:
+                continue
+
+        # Classify stream / specialization
+        if "CSE" in deg or "CS" in deg:
+            if any(k in b for k in ("TAI", "AIAI")):
+                stream = "B.Tech CSE — Artificial Intelligence & ML"
+            elif any(k in b for k in ("TCS", "AICS", "CSBT")):
+                stream = "B.Tech CSE — Core Computer Science"
+            elif any(k in b for k in ("TDS", "AIDS")):
+                stream = "B.Tech CSE — Data Science"
+            elif any(k in b for k in ("TCY", "AICY")):
+                stream = "B.Tech CSE — Cyber Security"
+            else:
+                stream = f"{deg} — General"
+        elif "ECE" in deg:
+            stream = "B.Tech ECE — Electronics & Communication"
+        elif "EEE" in deg:
+            stream = "B.Tech EEE — Electrical & Electronics"
+        elif "CE" in deg or "CIVIL" in deg:
+            stream = "B.Tech CE — Civil Engineering"
+        elif "ME" in deg or "MECH" in deg:
+            stream = "B.Tech ME — Mechanical Engineering"
+        else:
+            stream = deg
+
+        groups.setdefault(stream, []).append((b, meta))
+        total_matches += 1
+
+    return groups, total_matches
+
+
+def build_batches_overview_embed(prefix: str = "!") -> discord.Embed:
+    index: dict[str, Any] = {}
+    if INDEX_FILE.is_file():
+        try:
+            index = json.loads(INDEX_FILE.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
+    all_batches = index.get("batches", {})
+    total_count = len(all_batches)
+
+    y1_count = sum(1 for b, m in all_batches.items() if b.startswith("26") or "First" in m.get("years", []))
+    y2_count = sum(1 for b, m in all_batches.items() if b.startswith("25") or "Second" in m.get("years", []))
+    y3_count = sum(1 for b, m in all_batches.items() if b.startswith("24") or "Third" in m.get("years", []))
+    y4_count = sum(1 for b, m in all_batches.items() if b.startswith("23") or "Fourth" in m.get("years", []))
+
+    embed = discord.Embed(
+        title="University Batches Directory",
+        description=(
+            f"> **{total_count} Total Batches** active across **30 Degree Programs**\n"
+            "> Batches follow the pattern: `[Year][Department][Specialization][Batch#]`\n"
+            "> *Example:* **`26CAIBTCSB66`** = **Year 1** (`26`) **B.Tech CSE Core** (`CAIBTCS`) **Batch 66** (`B66`)"
+        ),
+        color=COLOR_PRIMARY,
+    )
+    embed.set_author(name="University Academic Registry")
+
+    embed.add_field(
+        name=f"🎓 Year 1 — 1st Year (2026 Batch) • {y1_count} Batches",
+        value=(
+            "• **CSE (AI/ML):** `Batch 01` – `36` (`26CAIBTAIB01` – `B36`)\n"
+            "• **CSE (Core):** `Batch 33` – `56`, `66` (`26CAIBTCSB33` – `B56`, `26CAIBTCSB66`)\n"
+            "• **CSE (Data Science):** `Batch 57`, `58` (`26CAIBTDSB57`, `B58`)\n"
+            "• **CSE (Cyber Security):** `Batch 59`, `60` (`26CAIBTCYB59`, `B60`)\n"
+            "• **ECE:** `Batch 01` – `14` (`26ECEBT00B01` – `B14`), VLSI, AI\n"
+            "• **Other:** EEE, Civil, Mech, BCA, BBA, B.Com, Agriculture..."
+        ),
+        inline=False,
+    )
+    embed.add_field(
+        name=f"🎓 Year 2 — 2nd Year (2025 Batch) • {y2_count} Batches",
+        value=(
+            "• **CSE (AI/ML):** `Batch 01` – `40` (`25CAIBTAIB01` – `B40`)\n"
+            "• **CSE (Core):** `Batch 35` – `68` (includes `25CAIBTCSB66`)\n"
+            "• **CSE (DS & Cyber):** `Batch 57` – `60`\n"
+            "• **ECE / EEE / CE / ME:** `Batch 01` – `14`\n"
+            "• **Other:** BCA, BBA, B.Com, MBA, Agriculture..."
+        ),
+        inline=False,
+    )
+    embed.add_field(
+        name=f"🎓 Year 3 — 3rd Year (2024 Batch) • {y3_count} Batches",
+        value=(
+            "• **CSE (AI/ML):** `Batch 01` – `16` (`24BTCAIAIB01` – `B16`)\n"
+            "• **CSE (Core):** `Batch 01` – `22` (`24BTCAICSB01` – `B22`)\n"
+            "• **CSE (DS & Cyber):** `Batch 01` – `04`\n"
+            "• **ECE / EEE / CE / ME:** `Batch 01` – `12`"
+        ),
+        inline=False,
+    )
+    embed.add_field(
+        name=f"🎓 Year 4 — 4th Year (2023 Batch) • {y4_count} Batches",
+        value=(
+            "• **B.Tech CSE:** `Batch 01` – `52` (`23CSBTB01` – `B52`)\n"
+            "• **ECE / EEE / CE / ME / Agri:** `Batch 01` – `12`"
+        ),
+        inline=False,
+    )
+    embed.add_field(
+        name="💡 Never Forget Your Batch — Fast Shortcuts",
+        value=(
+            "You only need your **Year** and your **2-digit number** (e.g. `1 66` or `2 16`):\n"
+            f"• `{prefix}register year:1 batch:66` — One-time setup\n"
+            f"• `{prefix}timetable 1 66` — Instant day schedule\n"
+            f"• `{prefix}listbatches year:1` — View all batches for a year\n"
+            f"• `{prefix}batchpicker` — Interactive 2-tap batch finder & linker"
+        ),
+        inline=False,
+    )
+    embed.set_footer(text="Click the Year buttons below to inspect all sections and batch codes!")
+    return embed
+
+
+def build_year_batches_embed(
+    year_key: str,
+    degree_filter: Optional[str] = None,
+    query_filter: Optional[str] = None,
+    page: int = 0,
+    prefix: str = "!",
+) -> tuple[discord.Embed, int]:
+    y_norm = YEAR_MAP.get(str(year_key).lower(), str(year_key).title()) if year_key else "First"
+    groups, total_count = get_grouped_year_batches(y_norm, degree_filter, query_filter)
+
+    y_display = YEAR_DISPLAY_NAMES.get(y_norm, f"{y_norm} Year")
+    filter_desc = []
+    if degree_filter:
+        filter_desc.append(f"Department: `{degree_filter.upper()}`")
+    if query_filter:
+        filter_desc.append(f"Query: `{query_filter}`")
+    sub_title = f" ({', '.join(filter_desc)})" if filter_desc else ""
+
+    embed = discord.Embed(
+        title=f"🎓 {y_display} Batches{sub_title}",
+        description=f"> Found **{total_count} matching batch{'es' if total_count != 1 else ''}** in this academic year.",
+        color=COLOR_PRIMARY,
+    )
+    embed.set_author(name="University Batch Directory")
+
+    if not groups:
+        embed.description = f"> No batches found for **{y_display}**" + (f" matching `{query_filter or degree_filter}`" if filter_desc else ".")
+        embed.set_footer(text=f"Try running {prefix}listbatches without filters to browse all years.")
+        return embed, 1
+
+    # Paginate by stream sections: max 6 streams per page
+    sorted_streams = sorted(groups.keys())
+    per_page = 6
+    total_pages = max(1, (len(sorted_streams) + per_page - 1) // per_page)
+    page = max(0, min(page, total_pages - 1))
+    page_streams = sorted_streams[page * per_page : (page + 1) * per_page]
+
+    for stream in page_streams:
+        blist = groups[stream]
+        # Extract section numbers
+        numbers = []
+        codes = []
+        for b, meta in blist:
+            m = re.search(r"B?(\d{1,3})(?:[A-Za-z_]*)$", b)
+            num = m.group(1) if m else b
+            numbers.append(num)
+            codes.append(b)
+
+        # Build clean concise list
+        if len(numbers) > 10:
+            num_preview = ", ".join(numbers[:5]) + f" … {numbers[-1]}"
+            code_preview = f"`{codes[0]}` to `{codes[-1]}`"
+        else:
+            num_preview = ", ".join(numbers)
+            code_preview = " ".join(f"`{c}`" for c in codes[:6])
+
+        classes_avg = int(sum(m.get("total_classes", 0) for _, m in blist) / len(blist)) if blist else 0
+        field_value = (
+            f"**Sections:** Batches {num_preview}\n"
+            f"**Codes:** {code_preview}\n"
+            f"**Classes:** ~{classes_avg} classes/week"
+        )
+        embed.add_field(
+            name=f"• {stream} ({len(blist)} batch{'es' if len(blist) != 1 else ''})",
+            value=field_value,
+            inline=False,
+        )
+
+    embed.set_footer(
+        text=f"Page {page + 1} of {total_pages} • Run /link 1 <number> (e.g. /link 1 66) to link your schedule"
+    )
+    return embed, total_pages
 
 
 def build_unregistered_embed(prefix: str = "!") -> discord.Embed:
@@ -3051,12 +3706,95 @@ class TimetableCog(commands.Cog):
         await _safe_send(ctx, embed=embed)
 
     @commands.hybrid_command(
-        name="findbatch",
-        aliases=["searchbatch", "batches"],
-        description="Search university batches by department, degree, or number.",
+        name="listbatches",
+        aliases=["batches", "allbatches", "showbatches"],
+        description="List all university batches, with optional filtering by year, degree, or keyword.",
     )
-    @app_commands.describe(query="Search keyword, e.g. CSE, AI, 16, BTech, ECE")
-    async def findbatch(self, ctx: commands.Context, query: str) -> None:
+    @app_commands.describe(
+        year="Optional academic year (1, 2, 3, 4, or First, Second, Third, Fourth)",
+        degree="Optional department or degree (e.g. CSE, ECE, BTech, BCA)",
+        query="Optional keyword search (e.g. Core, AI, 66)",
+    )
+    async def listbatches(
+        self,
+        ctx: commands.Context,
+        year: Optional[str] = None,
+        degree: Optional[str] = None,
+        query: Optional[str] = None,
+    ) -> None:
+        prefix = ctx.prefix if ctx.prefix and not ctx.prefix.startswith("/") else "!"
+
+        # Flexible argument handling if a single positional argument is passed
+        if year and not degree and not query:
+            clean = year.strip()
+            if clean in ("1", "2", "3", "4", "first", "second", "third", "fourth", "1st", "2nd", "3rd", "4th"):
+                year = clean
+            elif clean.upper() in DEGREE_ALIASES or clean.upper() in ("CSE", "ECE", "EEE", "CIVIL", "MECH", "BCA", "BBA"):
+                degree = clean
+                year = None
+            else:
+                query = clean
+                year = None
+
+        if not year and not degree and not query:
+            embed = build_batches_overview_embed(prefix)
+            view = YearBatchesView(self, ctx.author.id, current_year=None) if _HAS_UI else None
+            await _safe_send(ctx, embed=embed, view=view)
+            return
+
+        y_norm = YEAR_MAP.get(str(year).lower(), str(year).title()) if year else None
+        embed, _ = build_year_batches_embed(
+            y_norm or "First", degree_filter=degree, query_filter=query, page=0, prefix=prefix
+        )
+        view = (
+            YearBatchesView(
+                self, ctx.author.id, current_year=y_norm, degree_filter=degree, query_filter=query
+            )
+            if _HAS_UI
+            else None
+        )
+        await _safe_send(ctx, embed=embed, view=view)
+
+    @commands.hybrid_command(
+        name="batchpicker",
+        aliases=["findmybatch", "pickbatch", "batchguide"],
+        description="Interactive 2-tap wizard to find and link your batch without typing long codes.",
+    )
+    async def batchpicker(self, ctx: commands.Context) -> None:
+        if not _HAS_UI or BatchPickerView is None:
+            await ctx.invoke(self.listbatches)
+            return
+
+        embed = discord.Embed(
+            title="Batch Finder & Easy Linker",
+            description=(
+                "**Find and link your batch in 2 quick taps:**\n\n"
+                "**Step 1:** Select your academic year below.\n"
+                "**Step 2:** Select your department / stream from the dropdown.\n"
+                "**Step 3:** Select your batch number to link your timetable instantly!"
+            ),
+            color=COLOR_PRIMARY,
+        )
+        embed.set_author(name="Timetable Bot Setup Assistant")
+        view = BatchPickerView(self, ctx.author.id, current_year="First")
+        await _safe_send(ctx, embed=embed, view=view, ephemeral=True)
+
+    @commands.hybrid_command(
+        name="findbatch",
+        aliases=["searchbatch"],
+        description="Search university batches by department, degree, year, or section number.",
+    )
+    @app_commands.describe(
+        query="Search keyword, e.g. CSE, AI, 16, 66, BTech, ECE",
+        year="Optional academic year filter (1, 2, 3, or 4)",
+    )
+    async def findbatch(
+        self, ctx: commands.Context, query: Optional[str] = None, year: Optional[str] = None
+    ) -> None:
+        if not query and not year:
+            await ctx.invoke(self.listbatches)
+            return
+
         if not INDEX_FILE.is_file():
             await _safe_send(
                 ctx,
@@ -3072,32 +3810,65 @@ class TimetableCog(commands.Cog):
         try:
             idx = json.loads(INDEX_FILE.read_text(encoding="utf-8"))
         except Exception as exc:
-            await _safe_send(ctx, embed=discord.Embed(title="Error Loading Index", description=str(exc), color=COLOR_ERROR), ephemeral=True)
+            await _safe_send(
+                ctx,
+                embed=discord.Embed(title="Error Loading Index", description=str(exc), color=COLOR_ERROR),
+                ephemeral=True,
+            )
             return
 
-        q = query.strip().lower()
+        # Parse compound query (e.g. '1 66' or 'CSE 1 66')
+        p_yr, p_num, p_rem = parse_batch_query(query) if query else (None, None, None)
+        active_yr = year or p_yr
+        yr_norm = YEAR_MAP.get(str(active_yr).lower(), str(active_yr).title()) if active_yr else None
+        pfx = YEAR_TO_PREFIX.get(yr_norm) or YEAR_TO_PREFIX.get(str(active_yr)) if yr_norm else None
+
+        search_num = p_num
+        search_kw = (p_rem or (query if not p_num else "")).strip().lower()
+
         matches = []
         for b_code, info in idx.get("batches", {}).items():
-            if (
-                q in b_code.lower()
-                or any(q in d.lower() for d in info.get("degrees", []))
-                or any(q in y.lower() for y in info.get("years", []))
-                or any(q in s.lower() for s in info.get("subjects", []))
-            ):
-                matches.append(info)
+            if pfx and not b_code.startswith(pfx) and yr_norm not in info.get("years", []):
+                continue
+
+            if search_num:
+                num_matches = b_code.endswith(f"B{search_num}") or b_code.endswith(search_num)
+                if not num_matches:
+                    continue
+
+            if search_kw:
+                kw_matches = (
+                    search_kw in b_code.lower()
+                    or any(search_kw in d.lower() for d in info.get("degrees", []))
+                    or any(search_kw in y.lower() for y in info.get("years", []))
+                    or any(search_kw in s.lower() for s in info.get("subjects", []))
+                    or any(search_kw in f.lower() for f in info.get("faculties", []))
+                )
+                if not kw_matches:
+                    continue
+
+            matches.append(info)
 
         if not matches:
             embed = discord.Embed(
                 title="Batch Search",
-                description=f"No batches found matching `{query}`.\n\nTry searching by department like `CSE`, `ECE`, `BTech`, `MBA`, or a section number like `16`.",
+                description=(
+                    f"No batches found matching `{query or ''}`"
+                    + (f" in **{YEAR_DISPLAY_NAMES.get(yr_norm, yr_norm)}**" if yr_norm else "")
+                    + ".\n\nTry searching by section number like `66` or department like `CSE`, `ECE`, `BTech`."
+                ),
                 color=COLOR_MUTED,
             )
             await _safe_send(ctx, embed=embed)
             return
 
+        prefix = ctx.prefix if ctx.prefix and not ctx.prefix.startswith("/") else "!"
         embed = discord.Embed(
-            title=f"Batch Search Results for `{query}`",
-            description=f"> Found **{len(matches)} matching batch{'es' if len(matches) != 1 else ''}**.\nLink your account with `/link batch:<CODE>` to save your timetable.",
+            title=f"Batch Search Results for `{query or (year or '')}`",
+            description=(
+                f"> Found **{len(matches)} matching batch{'es' if len(matches) != 1 else ''}**.\n"
+                f"Link your account with `{prefix}link <CODE>` or `{prefix}register`."
+            ),
             color=COLOR_PRIMARY,
         )
         embed.set_author(name="University Batch Directory")
@@ -3108,7 +3879,10 @@ class TimetableCog(commands.Cog):
             degs = "/".join(m.get("degrees", []))
             yrs = "/".join(m.get("years", []))
             cls_count = m.get("total_classes", 0)
-            lines.append(f"• **`{m['batch']}`** — {degs} ({yrs}) • {cls_count} classes/week")
+            b_name = m["batch"]
+            num_m = re.search(r"B?(\d{1,3})(?:[A-Za-z_]*)$", b_name)
+            short_tag = f" `[#{num_m.group(1)}]`" if num_m else ""
+            lines.append(f"• **`{b_name}`**{short_tag} — {degs} ({yrs}) • {cls_count} classes/week")
 
         embed.add_field(
             name=f"Top Results (Showing {len(display_matches)} of {len(matches)})",
@@ -3116,9 +3890,9 @@ class TimetableCog(commands.Cog):
             inline=False,
         )
         if len(matches) > 15:
-            embed.set_footer(text=f"And {len(matches) - 15} more. Refine your query for more specific results.")
+            embed.set_footer(text=f"And {len(matches) - 15} more. Refine your query or specify academic year.")
         else:
-            embed.set_footer(text="Tip: Use /batchinfo <batch> to view full subjects & professors!")
+            embed.set_footer(text=f"Tip: Use {prefix}batchinfo <batch> to view full subjects & professors!")
         await _safe_send(ctx, embed=embed)
 
     @commands.hybrid_command(

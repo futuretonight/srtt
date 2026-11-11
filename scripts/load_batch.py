@@ -21,6 +21,21 @@ CONVERTED_DIR = DATA_DIR / "timetables" / "converted"
 INDEX_FILE = DATA_DIR / "batches_index.json"
 OPTIONS_FILE = DATA_DIR / "timetable_options.json"
 
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+
+
+def resolve_batch_code(code: str) -> str:
+    c = (code or "").strip().upper()
+    try:
+        from cogs.timetable import resolve_batch_from_inputs
+        resolved, _, _, _ = resolve_batch_from_inputs("", "", c)
+        if resolved:
+            return resolved
+    except Exception:
+        pass
+    return c
+
 
 def load_index() -> dict:
     if not INDEX_FILE.is_file():
@@ -53,11 +68,11 @@ def search_batches(query: str) -> None:
 
 
 def show_batch_info(batch_code: str) -> None:
-    b_code = batch_code.strip().upper()
+    b_code = resolve_batch_code(batch_code)
     index = load_index()
     info = index.get("batches", {}).get(b_code)
     if not info:
-        print(f"Batch '{b_code}' not found in index.")
+        print(f"Batch '{batch_code}' (resolved: '{b_code}') not found in index.")
         return
 
     print(f"\nBatch: {b_code}")
@@ -73,10 +88,10 @@ def show_batch_info(batch_code: str) -> None:
 
 
 def activate_batch(batch_code: str) -> None:
-    b_code = batch_code.strip().upper()
+    b_code = resolve_batch_code(batch_code)
     conv_file = CONVERTED_DIR / f"{b_code}.json"
     if not conv_file.is_file():
-        print(f"Error: Converted timetable file not found for {b_code} at {conv_file}.")
+        print(f"Error: Converted timetable file not found for {batch_code} (resolved: {b_code}) at {conv_file}.")
         return
 
     shutil.copyfile(conv_file, SCHEDULE_FILE)

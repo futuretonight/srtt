@@ -36,33 +36,45 @@ Because each department, year, and section has its own unique timetable, the bot
 2. The bot will send a private setup prompt asking for:
    - **Step 1: Department / Degree:** Type your program, such as `CSE`, `ECE`, `BTech`, `BCA`, or `BBA`.
    - **Step 2: Academic Year:** Type `1`, `2`, `3`, or `4`.
-   - **Step 3: Section / Batch Number:** Type your section. You can use your friendly specialization (e.g. `AI 16`, `Core 35`, `Cyber 59`, `DS 57`), your 2-digit number (e.g. `16`), or your full 12-character code (e.g. `26CAIBTAIB16`).
+   - **Step 3: Section / Batch Number:** Type your section. You only need your friendly 2-digit number (e.g. `66`, `16`, `35`) or stream prefix (e.g. `AI 16`, `Core 66`, `Cyber 59`).
 3. The bot will confirm your registration immediately. From that moment forward, all timetable commands work automatically for your classes.
+
+### Method B: 2-Tap Interactive Batch Picker
+If you don't want to type anything at all:
+1. Type `/batchpicker` (or `!batchpicker`).
+2. Tap your **Academic Year** (`Year 1`, `Year 2`, `Year 3`, `Year 4`).
+3. Pick your **Department / Stream** from the dropdown menu.
+4. Select your **Batch Section** to instantly link your account with 1 click!
 
 ### Friendly Batch Formats Supported
 You never need to remember or type the full 12-character university code unless you prefer to. The bot natively understands all of these formats across all commands:
 
+- **Year + Section Number (Super Simple):**
+  - `1 66` (Year 1, Batch 66 -> `26CAIBTCSB66`)
+  - `1 16` (Year 1, Batch 16 -> `26CAIBTAIB16`)
+  - `2 66` (Year 2, Batch 66 -> `25CAIBTCSB66`)
+  - `2 16` (Year 2, Batch 16 -> `25CAIBTAIB16`)
 - **Specialization + Section Number (Recommended):**
   - AI / ML: `AI 16` (also accepts `AIML 16`, `AI/ML 16`)
-  - Core CSE: `Core 35` (also accepts `CS 35`, `CSE 35`)
+  - Core CSE: `Core 66` (also accepts `Core 35`, `CS 66`, `CSE 66`)
   - Cyber Security: `Cyber 59` (also accepts `CY 59`)
   - Data Science: `DS 57` (also accepts `Data 57`)
   - ECE: `ECE 05`
   - Civil: `Civil 01` (or `CE 01`)
   - Mechanical: `Mech 01` (or `ME 01`)
 - **Section Number Only:**
-  - If your department is registered, simply typing `16`, `35`, or `01` automatically maps to your cohort.
+  - If your department/year is registered, simply typing `66`, `16`, or `35` automatically maps to your cohort.
 - **Full 12-Character Code (Fully Retained):**
-  - E.g. `26CAIBTAIB16`, `26CAIBTCSB35`, `26ECEBT00B05`.
+  - E.g. `26CAIBTCSB66`, `26CAIBTAIB16`, `25CAIBTCSB66`.
 
-### Method B: One-Line Quick Setup
+### Method C: One-Line Quick Setup
 If you know your details, register in a single command:
 ```
-/register degree:CSE year:1 batch:AI 16
+/register degree:CSE year:1 batch:66
 ```
 Or with text command:
 ```
-!register CSE 1 AI 16
+!register CSE 1 66
 ```
 
 ### What if You Do Not Know Your Exact Code?

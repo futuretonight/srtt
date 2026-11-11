@@ -45,14 +45,40 @@ This document provides technical syntax, argument specifications, permission tie
 - **Permissions:** Everyone
 - **Example:** `/freerooms day:Friday time:11:30 block:BL8`
 
-### `/findbatch`
-- **Description:** Queries the university course database to locate batch identifiers by department, degree, or section number.
-- **Aliases:** `/searchbatch`, `/batches`
-- **Syntax:** `/findbatch <query>`
+### `/listbatches`
+- **Description:** Lists all university batches with interactive year buttons (Year 1 to 4) and optional filtering by academic year, degree, or keyword.
+- **Aliases:** `/batches`, `/allbatches`, `/showbatches`
+- **Syntax:** `/listbatches [year] [degree] [query]`
 - **Arguments:**
-  - `query` (Required): Search keyword (e.g. `CSE`, `AI`, `16`, `ECE`, `BTech`).
+  - `year` (Optional): Academic year (`1`, `2`, `3`, `4`, or `First`, `Second`, etc.).
+  - `degree` (Optional): Department or degree code (`CSE`, `ECE`, `BTech`, `BCA`).
+  - `query` (Optional): Section number or search keyword (`66`, `Core`, `AI`).
 - **Permissions:** Everyone
-- **Example:** `/findbatch query:CSE 16`
+- **Examples:**
+  - Full Directory: `/listbatches`
+  - Year 1 Batches: `/listbatches year:1`
+  - Year 1 CSE Batches: `/listbatches year:1 degree:CSE`
+
+### `/batchpicker`
+- **Description:** Interactive 2-tap assistant to select your academic year, stream, and batch section, then link it to your Discord account with 1 click without memorizing codes.
+- **Aliases:** `/findmybatch`, `/pickbatch`, `/batchguide`
+- **Syntax:** `/batchpicker`
+- **Arguments:** None
+- **Permissions:** Everyone
+- **Example:** `/batchpicker`
+
+### `/findbatch`
+- **Description:** Queries the university course database to locate batch identifiers by department, degree, academic year, or 2-digit section number.
+- **Aliases:** `/searchbatch`
+- **Syntax:** `/findbatch [query] [year]`
+- **Arguments:**
+  - `query` (Optional): Search term or section number (e.g. `66`, `16`, `CSE`, `AI`, `BTech`).
+  - `year` (Optional): Academic year filter (`1`, `2`, `3`, or `4`).
+- **Permissions:** Everyone
+- **Examples:**
+  - Search by section: `/findbatch query:66`
+  - Search in Year 1: `/findbatch query:66 year:1`
+  - Compound search: `/findbatch query:1 66`
 
 ### `/batchinfo`
 - **Description:** Detailed academic summary of a section including enrolled courses, instructors, classrooms, and weekly teaching volume.
@@ -384,6 +410,69 @@ This document provides technical syntax, argument specifications, permission tie
 - **Arguments:**
   - `cog_path` (Optional): Module path (e.g. `cogs.timetable`, `cogs.admin`, `cogs.attendance`, `cogs.help`). Omit to reload all.
 - **Permissions:** Administrator or Bot Owner
+- **Example:** `!reload`
+
+---
+
+## 5. General Utilities
+
+### `/help`
+- **Description:** Interactive help menu featuring categorized dropdown navigation and command syntax inspections.
+- **Aliases:** `/commands`, `/guide`, `/h`
+- **Syntax:** `/help [command]`
+- **Arguments:**
+  - `command` (Optional): Exact command name to inspect parameters and examples for.
+- **Permissions:** Everyone
+- **Examples:**
+  - General Menu: `/help`
+  - Specific Command: `/help command:reschedule`
+
+### `/createbatch`
+- **Description:** Creates a new batch timetable schedule, registers it in the university index and options directory. Can clone an existing batch schedule template.
+- **Aliases:** `/addbatch`, `/newbatch`
+- **Syntax:** `/createbatch <batch> [year] [degree] [specialization] [copy_from]`
+- **Arguments:**
+  - `batch` (Required): Formal batch code (e.g. `26CAIBTCSB66`) or section number (e.g. `66`).
+  - `year` (Optional): Academic year (`1`, `2`, `3`, `4`). Defaults to 1 if short number provided.
+  - `degree` (Optional): Department/degree (e.g. `CSE`, `ECE`). Defaults to `BTECH-CSE`.
+  - `specialization` (Optional): Specialization stream (`Core`, `AI`, `Cyber`, `DS`).
+  - `copy_from` (Optional): Existing batch template to clone schedule from (e.g. `26CAIBTCSB56`).
+- **Permissions:** Bot Owner only
+- **Example:** `/createbatch batch:66 year:1 degree:CSE copy_from:26CAIBTCSB56`
+
+### `/deletebatch`
+- **Description:** Permanently deletes a custom batch timetable from disk, index, and registration options.
+- **Aliases:** `/delbatch`, `/removebatch`
+- **Syntax:** `/deletebatch <batch>`
+- **Arguments:**
+  - `batch` (Required): Batch code to delete (e.g. `26CAIBTCSB66`).
+- **Permissions:** Bot Owner only
+- **Example:** `/deletebatch batch:26CAIBTCSB66`
+
+### `/setprefix`
+- **Description:** Configures the bot command prefix string for prefix-based text messages.
+- **Aliases:** `/prefix`
+- **Syntax:** `/setprefix <prefix>`
+- **Arguments:**
+  - `prefix` (Required): New prefix (1 to 5 characters, e.g. `!`, `?`, `.`).
+- **Permissions:** Server Administrator or Bot Owner
+- **Example:** `/setprefix prefix:!`
+
+### `/sync`
+- **Description:** Forces immediate synchronization of slash application commands with the Discord API.
+- **Aliases:** `/syncslash`
+- **Syntax:** `/sync` (or `!sync`)
+- **Arguments:** None
+- **Permissions:** Bot Owner only
+- **Example:** `!sync`
+
+### `/reload`
+- **Description:** Hot-reloads code modules without restarting the bot process or disconnecting from the Discord gateway.
+- **Aliases:** `/refresh`
+- **Syntax:** `/reload [cog_path]`
+- **Arguments:**
+  - `cog_path` (Optional): Module path (e.g. `cogs.timetable`, `cogs.admin`, `cogs.attendance`, `cogs.help`). Omit to reload all.
+- **Permissions:** Bot Owner only
 - **Example:** `!reload`
 
 ---

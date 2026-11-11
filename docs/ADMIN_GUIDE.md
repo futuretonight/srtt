@@ -158,6 +158,24 @@ To set a specific university batch as the server default for unlinked queries (A
 /loadbatch batch:26CAIBTAIB16
 ```
 
+### Creating Custom Batches
+Administrators can create new batches or clone existing schedules:
+- **Create from an existing template:**
+  ```
+  /createbatch batch:66 year:1 degree:CSE copy_from:26CAIBTCSB56
+  ```
+- **Create a blank batch:**
+  ```
+  /createbatch batch:MYBATCH01 year:1 degree:CSE
+  ```
+  This creates the timetable file in `data/timetables/converted/`, indexes it in `data/batches_index.json`, and adds it to `data/timetable_options.json`.
+
+### Deleting Custom Batches
+To remove a custom batch from disk and directory:
+```
+/deletebatch batch:26CAIBTCSB66
+```
+
 ### Modifying Batch Schedules
 - **Add or update a recurring class slot:**
   ```

@@ -85,16 +85,30 @@ COMMAND_REGISTRY = {
         "permissions": "Everyone",
         "example": "/freerooms day:Friday time:11:30 block:BL8",
     },
-    "findbatch": {
+    "listbatches": {
         "category": "Timetable",
-        "syntax": "/findbatch <query>",
-        "aliases": ["searchbatch", "batches"],
-        "description": "Searches all 428 university batches by department, degree, branch, or section number.",
+        "syntax": "/listbatches [year] [degree] [query]",
+        "aliases": ["batches", "allbatches", "showbatches"],
+        "description": "Lists university batches with interactive year buttons (Year 1 to 4) and filtering by degree/keyword.",
         "arguments": [
-            ("query", "Required", "Search term, e.g. CSE, AI, 16, BTech, ECE."),
+            ("year", "Optional", "Academic year (1, 2, 3, 4, or First, Second, etc.)."),
+            ("degree", "Optional", "Department/degree code (e.g. CSE, ECE, BTech, BCA)."),
+            ("query", "Optional", "Search keyword or section number (e.g. Core, AI, 66)."),
         ],
         "permissions": "Everyone",
-        "example": "/findbatch query:CSE",
+        "example": "/listbatches year:1 degree:CSE",
+    },
+    "findbatch": {
+        "category": "Timetable",
+        "syntax": "/findbatch [query] [year]",
+        "aliases": ["searchbatch"],
+        "description": "Searches university batches by section number, keyword, degree, or academic year.",
+        "arguments": [
+            ("query", "Optional", "Search term or section number, e.g. 66, 16, CSE, AI, Core."),
+            ("year", "Optional", "Academic year filter (1, 2, 3, or 4)."),
+        ],
+        "permissions": "Everyone",
+        "example": "/findbatch query:66 year:1",
     },
     "batchinfo": {
         "category": "Timetable",
@@ -187,6 +201,15 @@ COMMAND_REGISTRY = {
         ],
         "permissions": "Everyone",
         "example": "/mybatch batch:2",
+    },
+    "batchpicker": {
+        "category": "Linking",
+        "syntax": "/batchpicker",
+        "aliases": ["findmybatch", "pickbatch", "batchguide"],
+        "description": "Interactive 2-tap wizard to find and link your batch without typing long codes.",
+        "arguments": [],
+        "permissions": "Everyone",
+        "example": "/batchpicker",
     },
 
     # Category 3: Attendance & Faculty
@@ -453,6 +476,32 @@ COMMAND_REGISTRY = {
         "permissions": "Bot Owner",
         "example": "!sync",
     },
+    "createbatch": {
+        "category": "Admin",
+        "syntax": "/createbatch <batch> [year] [degree] [specialization] [copy_from]",
+        "aliases": ["addbatch", "newbatch"],
+        "description": "Creates a new batch timetable and registers it across the directory. Can clone schedule from an existing batch template.",
+        "arguments": [
+            ("batch", "Required", "Full batch code (e.g. 26CAIBTCSB66) or short section number (e.g. 66)."),
+            ("year", "Optional", "Academic year (1, 2, 3, or 4). Defaults to 1 if short number given."),
+            ("degree", "Optional", "Degree / department (e.g. CSE, ECE). Defaults to BTECH-CSE."),
+            ("specialization", "Optional", "Stream: Core, AI, Cyber, DS."),
+            ("copy_from", "Optional", "Existing batch code or number to clone schedule from (e.g. 26CAIBTCSB56)."),
+        ],
+        "permissions": "Bot Owner",
+        "example": "/createbatch batch:66 year:1 degree:CSE copy_from:26CAIBTCSB56",
+    },
+    "deletebatch": {
+        "category": "Admin",
+        "syntax": "/deletebatch <batch>",
+        "aliases": ["delbatch", "removebatch"],
+        "description": "Permanently deletes a custom batch timetable from disk, index, and registration options.",
+        "arguments": [
+            ("batch", "Required", "Batch code to remove (e.g. 26CAIBTCSB66)."),
+        ],
+        "permissions": "Bot Owner",
+        "example": "/deletebatch batch:26CAIBTCSB66",
+    },
     "reload": {
         "category": "Admin",
         "syntax": "/reload [cog_path]",
@@ -579,7 +628,7 @@ def build_overview_embed(prefix: str, user: Optional[discord.User | discord.Memb
         inline=False,
     )
 
-    embed.set_footer(text=f"Total: 38 Commands | Active Prefix: {prefix} | Page: Overview")
+    embed.set_footer(text=f"Total: 42 Commands | Active Prefix: {prefix} | Page: Overview")
     return embed
 
 
@@ -636,11 +685,19 @@ def build_timetable_embed(prefix: str) -> discord.Embed:
     )
 
     embed.add_field(
-        name=f"`{prefix}findbatch` <query>",
+        name=f"`{prefix}listbatches` [year] [degree] [query]",
         value=(
-            "Searches all university batches by department, degree, branch, or section number.\n"
-            "• Aliases: `searchbatch`, `batches`\n"
-            "• Examples: `/findbatch query:CSE`, `/findbatch query:AI 16`"
+            "Lists all university batches with interactive year buttons (Year 1 to 4) and degree/keyword filtering.\n"
+            f"• Example: `{prefix}listbatches year:1 degree:CSE` or `{prefix}batches`"
+        ),
+        inline=False,
+    )
+
+    embed.add_field(
+        name=f"`{prefix}findbatch` [query] [year]",
+        value=(
+            "Quickly locate specific batch identifiers by department, section number, or academic year.\n"
+            f"• Example: `{prefix}findbatch 66`, `{prefix}findbatch CSE 1`"
         ),
         inline=False,
     )
@@ -715,6 +772,15 @@ def build_linking_embed(prefix: str) -> discord.Embed:
             "Inspects the linked student profile, roll number, and attendance statistics.\n"
             "• Aliases: `me`, `whois`\n"
             "• Examples: `/profile`, `/profile member:@Student`"
+        ),
+        inline=False,
+    )
+
+    embed.add_field(
+        name=f"`{prefix}batchpicker`",
+        value=(
+            "Interactive 2-tap assistant to select your academic year, branch, and section with 1 click.\n"
+            f"• Example: `{prefix}batchpicker` or `{prefix}pickbatch`"
         ),
         inline=False,
     )
@@ -933,6 +999,16 @@ def build_admin_embed(prefix: str) -> discord.Embed:
     )
 
     embed.add_field(
+        name=f"`{prefix}createbatch` / `{prefix}deletebatch`",
+        value=(
+            "Batch lifecycle and directory management (Owner only).\n"
+            "• `/createbatch <batch> <year> <degree>`: Create a new batch, generate its schedule, and register in directory.\n"
+            "• `/deletebatch <batch>`: Unregister and delete a batch schedule."
+        ),
+        inline=False,
+    )
+
+    embed.add_field(
         name=f"`{prefix}setprefix` / `{prefix}sync` / `{prefix}reload`",
         value=(
             "System configuration commands to update prefix, sync slash commands, or hot-reload cogs (Admin only).\n"
@@ -941,7 +1017,7 @@ def build_admin_embed(prefix: str) -> discord.Embed:
         inline=False,
     )
 
-    embed.set_footer(text=f"Category: Administration (19 commands) | Prefix: {prefix}")
+    embed.set_footer(text=f"Category: Administration (21 commands) | Prefix: {prefix}")
     return embed
 
 
